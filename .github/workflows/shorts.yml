@@ -32,33 +32,34 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install
-        run: pip install matplotlib imageio-ffmpeg
-
-      - name: Download Cricsheet data
+      - name: Download data, plan and render
+        id: work
+        continue-on-error: true
         run: |
-          mkdir -p /tmp/cs
-          curl -fsSL --retry 3 -o /tmp/cs/recent.zip https://cricsheet.org/downloads/recently_played_7_json.zip \
-            || { echo "recently-played download failed"; rm -f /tmp/cs/recent.zip; }
+          mkdir -p logs /tmp/cs
+          exec > >(tee logs/last_run.log) 2>&1
+          echo "started: $(date -u '+%F %T') UTC"
+          pip install -q matplotlib imageio-ffmpeg
+          UA="cricket-vault-media/1.0 (GitHub Actions; github.com/${GITHUB_REPOSITORY})"
+          curl -fsSL --retry 3 -A "$UA" -o /tmp/cs/recent.zip https://cricsheet.org/downloads/recently_played_7_json.zip \
+            || { echo "recently-played download failed (exit $?)"; rm -f /tmp/cs/recent.zip; }
           if python planner.py --needs-all --recent /tmp/cs/recent.zip; then
-            curl -fsSL --retry 3 -o /tmp/cs/all.zip https://cricsheet.org/downloads/all_json.zip
+            curl -fsSL --retry 3 -A "$UA" -o /tmp/cs/all.zip https://cricsheet.org/downloads/all_json.zip \
+              || { echo "all-matches download failed (exit $?)"; rm -f /tmp/cs/all.zip; }
           fi
           ls -la /tmp/cs
+          python planner.py --recent /tmp/cs/recent.zip --all /tmp/cs/all.zip
 
-      - name: Plan and render
-        run: |
-          mkdir -p logs
-          python planner.py --recent /tmp/cs/recent.zip --all /tmp/cs/all.zip 2>&1 | tee logs/last_run.log
-          exit ${PIPESTATUS[0]}
-
-      - name: Save results
+      - name: Save results and log
         if: always()
         run: |
-          echo "finished: $(date -u '+%F %T') UTC, outcome of render step: ${{ job.status }}" >> logs/last_run.log
+          mkdir -p logs
+          sleep 1
+          echo "finished: $(date -u '+%F %T') UTC; render step outcome: ${{ steps.work.outcome }}" >> logs/last_run.log
           git config user.name "cricket-vault-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A shorts manifest.json queue.json data logs
-          git diff --cached --quiet && exit 0
-          git commit -m "Automated Shorts render $(date -u +%F)"
+          git add -A
+          git diff --cached --quiet && { echo "nothing to save"; exit 0; }
+          git commit -q -m "Automated Shorts run $(date -u +%F): ${{ steps.work.outcome }}"
           git pull --rebase -q origin main
           git push origin HEAD:main
