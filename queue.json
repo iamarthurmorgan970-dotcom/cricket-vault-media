@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "compare-abhishek-vs-rohit-t20i",
+      "kind": "compare",
+      "priority": 75,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "T20",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--a",
+        "Abhishek Sharma",
+        "--b",
+        "RG Sharma",
+        "--label-a",
+        "Abhishek Sharma",
+        "--label-b",
+        "Rohit Sharma",
+        "--title",
+        "Abhishek vs Rohit after {N} T20I innings"
+      ],
+      "suggested_title": "Abhishek vs Rohit after {N} T20I innings 🔥 Who started better?",
+      "notes": "Abhishek Sharma trending after joining an elite club (late Oct 2026)."
+    },
+    {
+      "id": "compare-gill-vs-babar-odi",
+      "kind": "compare",
+      "priority": 70,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "ODI",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--a",
+        "Shubman Gill",
+        "--b",
+        "Babar Azam",
+        "--label-a",
+        "Shubman Gill",
+        "--label-b",
+        "Babar Azam",
+        "--title",
+        "Gill vs Babar after {N} ODI innings"
+      ],
+      "suggested_title": "Gill vs Babar after {N} ODI innings 🤯",
+      "notes": "India vs Pakistan rivalry; Gill ODI comparisons broke out in Oct 2026."
+    },
+    {
+      "id": "compare-bumrah-vs-shaheen-t20i",
+      "kind": "compare",
+      "priority": 70,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "T20",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--metric",
+        "wickets",
+        "--per",
+        "match",
+        "--a",
+        "JJ Bumrah",
+        "--b",
+        "Shaheen Shah Afridi",
+        "--label-a",
+        "Jasprit Bumrah",
+        "--label-b",
+        "Shaheen Afridi",
+        "--title",
+        "Bumrah vs Shaheen after {N} T20Is"
+      ],
+      "suggested_title": "Bumrah vs Shaheen after {N} T20Is 🔥 Who's deadlier?",
+      "notes": "Pace-bowler comparisons are breaking out (Bumrah/Starc/Rabada)."
+    },
+    {
+      "id": "compare-kohli-vs-root-tests",
+      "kind": "compare",
+      "priority": 65,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "Test",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--a",
+        "V Kohli",
+        "--b",
+        "JE Root",
+        "--label-a",
+        "Virat Kohli",
+        "--label-b",
+        "Joe Root",
+        "--title",
+        "Kohli vs Root after {N} Test innings"
+      ],
+      "suggested_title": "Kohli vs Root after {N} Test innings 😳",
+      "notes": "Fab Four debate; Root vs Sachin debate clips trending."
+    }
+  ]
+}

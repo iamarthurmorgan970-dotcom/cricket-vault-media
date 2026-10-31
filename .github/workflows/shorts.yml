@@ -1,0 +1,64 @@
+name: Make Shorts
+
+# Every morning (07:00 IST) download fresh Cricsheet data and render new Shorts.
+# Also runs when the idea queue or the scripts change.
+on:
+  schedule:
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "queue.json"
+      - "planner.py"
+      - "cricket_videos.py"
+      - ".github/workflows/shorts.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: make-shorts
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install matplotlib imageio-ffmpeg
+
+      - name: Download Cricsheet data
+        run: |
+          mkdir -p /tmp/cs
+          curl -fsSL --retry 3 -o /tmp/cs/recent.zip https://cricsheet.org/downloads/recently_played_7_json.zip \
+            || { echo "recently-played download failed"; rm -f /tmp/cs/recent.zip; }
+          if python planner.py --needs-all --recent /tmp/cs/recent.zip; then
+            curl -fsSL --retry 3 -o /tmp/cs/all.zip https://cricsheet.org/downloads/all_json.zip
+          fi
+          ls -la /tmp/cs
+
+      - name: Plan and render
+        run: |
+          mkdir -p logs
+          python planner.py --recent /tmp/cs/recent.zip --all /tmp/cs/all.zip 2>&1 | tee logs/last_run.log
+          exit ${PIPESTATUS[0]}
+
+      - name: Save results
+        if: always()
+        run: |
+          echo "finished: $(date -u '+%F %T') UTC, outcome of render step: ${{ job.status }}" >> logs/last_run.log
+          git config user.name "cricket-vault-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A shorts manifest.json queue.json data logs
+          git diff --cached --quiet && exit 0
+          git commit -m "Automated Shorts render $(date -u +%F)"
+          git pull --rebase -q origin main
+          git push origin HEAD:main
