@@ -107,6 +107,62 @@
       ],
       "suggested_title": "Kohli vs Root after {N} Test innings 😳",
       "notes": "Fab Four debate; Root vs Sachin debate clips trending."
+    },
+    {
+      "id": "compare-gayle-vs-abd-t20i",
+      "kind": "compare",
+      "priority": 72,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "T20",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--a",
+        "CH Gayle",
+        "--b",
+        "AB de Villiers",
+        "--label-a",
+        "Chris Gayle",
+        "--label-b",
+        "AB de Villiers",
+        "--title",
+        "Gayle vs AB de Villiers after {N} T20I innings"
+      ],
+      "suggested_title": "Universe Boss vs Mr 360 after {N} T20I innings 🤯 Who's really better?",
+      "notes": "vidIQ outliers 31 Oct: 'Universe Boss vs King' and ABD comparison Shorts breaking out (10-12x). Both retired (careers complete, no active-player check needed). Cricsheet has Gayle 79 T20Is, ABD 75 (official 78) so a few ABD matches may be missing; spot-check innings count before posting."
+    },
+    {
+      "id": "compare-malinga-vs-steyn-t20i",
+      "kind": "compare",
+      "priority": 68,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "T20",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--metric",
+        "wickets",
+        "--per",
+        "match",
+        "--a",
+        "SL Malinga",
+        "--b",
+        "DW Steyn",
+        "--label-a",
+        "Lasith Malinga",
+        "--label-b",
+        "Dale Steyn",
+        "--title",
+        "Malinga vs Steyn after {N} T20Is"
+      ],
+      "suggested_title": "Malinga vs Steyn after {N} T20Is 🔥 Who was deadlier?",
+      "notes": "vidIQ outliers 31 Oct: pacer wicket comparisons (Bumrah/Starc/Rabada 190K views, Starc vs Shami 4x) breaking out. Both retired; Cricsheet has Malinga 83 / Steyn 46 T20Is (official 84 / 47), so near-complete."
     }
   ]
 }

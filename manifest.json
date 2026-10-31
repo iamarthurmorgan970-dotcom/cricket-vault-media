@@ -111,6 +111,24 @@
       "sources": [
         "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-3rd-t20i-2026-abhishek-sharma-fastest-2000-runs-record"
       ]
+    },
+    {
+      "id": "card-arshdeep-150-t20i-wickets",
+      "kind": "card",
+      "created": "2026-10-31",
+      "priority": 85,
+      "expires": "2026-11-06",
+      "status": "ready",
+      "file": "shorts/ready/card-arshdeep-150-t20i-wickets.mp4",
+      "facts_file": "shorts/ready/card-arshdeep-150-t20i-wickets.json",
+      "suggested_title": "Arshdeep Singh: first Indian to 150 T20I wickets 🔥 Can anyone catch him?",
+      "verified": true,
+      "sources": [
+        "https://www.outlookindia.com/sports/cricket/arshdeep-singh-150-wicket-t20i-milestone-india-vs-new-zealand-4th-match-auckland-ind-vs-nz",
+        "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-4th-t20i-2026-match-report",
+        "https://www.india.com/sports/cricket/watch-arshdeep-singh-becomes-first-indian-bowler-to-claim-150-t20i-wickets-achieves-feat-in-auckland-t20i-8540762/"
+      ],
+      "notes": "Numbers from Outlook India table (30 Oct 2026); Arshdeep 150 in 103 matches also confirmed by india.com and Outlook match report. Axar Patel (rank 3 in Outlook table, 116*) omitted because his figure was marked in-progress and could not be cross-checked."
     }
   ]
 }
