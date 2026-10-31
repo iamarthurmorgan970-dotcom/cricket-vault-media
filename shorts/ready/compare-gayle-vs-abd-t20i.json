@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Gayle vs AB de Villiers after 73 T20I innings",
+  "subtitle": "First 73 T20I innings each · 2006–2021 vs 2006–2017",
+  "format": "T20I",
+  "unit": "innings",
+  "count": 73,
+  "metric": "runs",
+  "data_through": "2021-10-29",
+  "players": [
+    {
+      "cricsheet_name": "CH Gayle",
+      "label": "Chris Gayle",
+      "first": "2006-02-16",
+      "last": "2021-10-29",
+      "stats": {
+        "Runs": "1,883",
+        "Average": "28.5",
+        "Strike rate": "137.7",
+        "100s / 50s": "2 / 14"
+      }
+    },
+    {
+      "cricsheet_name": "AB de Villiers",
+      "label": "AB de Villiers",
+      "first": "2006-02-24",
+      "last": "2017-10-29",
+      "stats": {
+        "Runs": "1,591",
+        "Average": "25.7",
+        "Strike rate": "134.0",
+        "100s / 50s": "0 / 9"
+      }
+    }
+  ],
+  "leader": "Chris Gayle",
+  "margin": 292
+}

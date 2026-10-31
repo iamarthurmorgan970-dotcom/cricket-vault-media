@@ -129,6 +129,30 @@
         "https://www.india.com/sports/cricket/watch-arshdeep-singh-becomes-first-indian-bowler-to-claim-150-t20i-wickets-achieves-feat-in-auckland-t20i-8540762/"
       ],
       "notes": "Numbers from Outlook India table (30 Oct 2026); Arshdeep 150 in 103 matches also confirmed by india.com and Outlook match report. Axar Patel (rank 3 in Outlook table, 116*) omitted because his figure was marked in-progress and could not be cross-checked."
+    },
+    {
+      "id": "compare-gayle-vs-abd-t20i",
+      "kind": "compare",
+      "created": "2026-10-31",
+      "priority": 72,
+      "expires": null,
+      "suggested_title": "Universe Boss vs Mr 360 after 73 T20I innings 🤯 Who's really better?",
+      "notes": "vidIQ outliers 31 Oct: 'Universe Boss vs King' and ABD comparison Shorts breaking out (10-12x). Both retired (careers complete, no active-player check needed). Cricsheet has Gayle 79 T20Is, ABD 75 (official 78) so a few ABD matches may be missing; spot-check innings count before posting.",
+      "status": "ready",
+      "file": "shorts/ready/compare-gayle-vs-abd-t20i.mp4",
+      "facts_file": "shorts/ready/compare-gayle-vs-abd-t20i.json"
+    },
+    {
+      "id": "compare-malinga-vs-steyn-t20i",
+      "kind": "compare",
+      "created": "2026-10-31",
+      "priority": 68,
+      "expires": null,
+      "suggested_title": "Malinga vs Steyn after 46 T20Is 🔥 Who was deadlier?",
+      "notes": "vidIQ outliers 31 Oct: pacer wicket comparisons (Bumrah/Starc/Rabada 190K views, Starc vs Shami 4x) breaking out. Both retired; Cricsheet has Malinga 83 / Steyn 46 T20Is (official 84 / 47), so near-complete.",
+      "status": "ready",
+      "file": "shorts/ready/compare-malinga-vs-steyn-t20i.mp4",
+      "facts_file": "shorts/ready/compare-malinga-vs-steyn-t20i.json"
     }
   ]
 }

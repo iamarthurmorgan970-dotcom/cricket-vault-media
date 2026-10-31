@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Malinga vs Steyn after 46 T20Is",
+  "subtitle": "First 46 T20I matches each · 2006–2013 vs 2007–2020",
+  "format": "T20I",
+  "unit": "matches",
+  "count": 46,
+  "metric": "wickets",
+  "data_through": "2020-02-21",
+  "players": [
+    {
+      "cricsheet_name": "SL Malinga",
+      "label": "Lasith Malinga",
+      "first": "2006-06-15",
+      "last": "2013-11-21",
+      "stats": {
+        "Wickets": "52",
+        "Average": "22.8",
+        "Economy": "7.41",
+        "5-wkt hauls": "1"
+      }
+    },
+    {
+      "cricsheet_name": "DW Steyn",
+      "label": "Dale Steyn",
+      "first": "2007-11-23",
+      "last": "2020-02-21",
+      "stats": {
+        "Wickets": "62",
+        "Average": "18.9",
+        "Economy": "7.04",
+        "5-wkt hauls": "0"
+      }
+    }
+  ],
+  "leader": "Dale Steyn",
+  "margin": 10
+}

@@ -112,7 +112,7 @@
       "id": "compare-gayle-vs-abd-t20i",
       "kind": "compare",
       "priority": 72,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "T20",
@@ -138,7 +138,7 @@
       "id": "compare-malinga-vs-steyn-t20i",
       "kind": "compare",
       "priority": 68,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "T20",
