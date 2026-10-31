@@ -87,7 +87,7 @@ def worm_score(f):
 
 def hooks(f):
     """(on-screen headline without emoji, suggested YouTube title)."""
-    A, B = (cv.short_team(t, {}) for t in f["teams"])
+    A, B = (cv.team_code(t, {}) for t in f["teams"])
     league = LEAGUE_TAGS.get(f["event"])
     n = f.get("match_number")
     if league:
@@ -99,10 +99,13 @@ def hooks(f):
     loser = next((t for t in f["teams"] if t != w), "")
     if o.get("result") == "tie":
         return f"{A} vs {B} ended in a TIE", f"It's a TIE 😱 {tag}"
-    if ch.get("chased") and ch.get("final_over_reached") and w == f["innings"][1]["team"]:
+    if ch.get("final_over_reached"):
         need = ch["needed_in_final_over"]
-        return (f"{w} needed {need} off the final over",
-                f"{w} needed {need} off the LAST over 😳 {tag}")
+        tb = ch["target_balls"]
+        balls = tb - (-(-tb // 6) - 1) * 6
+        chaser = cv.team_code(f["innings"][1]["team"], {})
+        return (f"{chaser} need {need} off {balls}",
+                f"{need} off {balls} to win… can {chaser} do it? 😳 {A} vs {B} last over")
     if "runs" in by and by["runs"] <= 10:
         s = "s" if by["runs"] != 1 else ""
         return (f"{w} defended {ch.get('target', 0) - 1} by just {by['runs']} run{s}",
@@ -128,11 +131,11 @@ def render(kind, source, extra, item_id):
 
 
 def plan_worms(source, manifest, today, window, max_new):
-    seen = {it["id"] for it in manifest["items"]}
+    seen = {it["id"].split("-", 1)[-1] for it in manifest["items"] if it.get("kind") in ("worm", "thriller")}
     since = (today - dt.timedelta(days=window)).isoformat()
     picks = []
     for mid, m in cv.iter_matches(source, quiet=True):
-        if cv.match_date(m["info"]) < since or f"worm-{mid}" in seen:
+        if cv.match_date(m["info"]) < since or mid in seen:
             continue
         try:
             f = cv.match_facts(m)
@@ -146,9 +149,12 @@ def plan_worms(source, manifest, today, window, max_new):
     log(f"Worm candidates since {since}: {len(picks)}")
     for s, date, mid, f in picks[:max_new]:
         screen, yt = hooks(f)
-        item_id = f"worm-{mid}"
-        files, err = render("worm", source, ["--match", mid, "--title", screen], item_id)
-        entry = dict(id=item_id, kind="worm", created=today.isoformat(), match_date=date, priority=s,
+        # last-over finishes get the punchier thriller cut; everything else gets the worm
+        kind = "thriller" if (f.get("chase") or {}).get("final_over_reached") else "worm"
+        item_id = f"{kind}-{mid}"
+        args = ["--match", mid] + ([] if kind == "thriller" else ["--title", screen])
+        files, err = render(kind, source, args, item_id)
+        entry = dict(id=item_id, kind=kind, created=today.isoformat(), match_date=date, priority=s,
                      expires=(dt.date.fromisoformat(date) + dt.timedelta(days=WORM_SHELF_LIFE_DAYS)).isoformat(),
                      suggested_title=yt)
         if files:
@@ -234,7 +240,7 @@ def main():
     p.add_argument("--max-queue", type=int, default=3)
     p.add_argument("--needs-all", action="store_true", help="exit 0 if the full data download is needed")
     a = p.parse_args()
-    today = dt.date.fromisoformat(a.today) if a.today else dt.datetime.utcnow().date()
+    today = dt.date.fromisoformat(a.today) if a.today else dt.datetime.now(dt.timezone.utc).date()
 
     if a.needs_all:
         sys.exit(0 if needs_full_data(a.recent, today) else 1)
