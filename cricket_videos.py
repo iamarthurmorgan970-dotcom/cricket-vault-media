@@ -7,6 +7,7 @@ WHAT IT MAKES
   worm     Animated match "worm" for one match: live score, wickets, "need X off Y".
   race     Bar-chart race of all-time leaders: runs, wickets, sixes or fours.
   player   One player's career, innings by innings, with live stat counters.
+  thriller A last-over finish as a punchy Short: opens on "11 OFF 6", pops every ball.
   compare  Two players head to head after the same number of innings ("Kohli vs Babar
            after 137 ODI innings") - the format breaking out on cricket Shorts right now.
   helpers: matches = list match IDs, find = look up a player's exact Cricsheet name.
@@ -538,9 +539,36 @@ def make_soundtrack(total, intro, anim_end, hits, seed):
     return np.stack([mix, mix], axis=1)
 
 
+def _riser(rng, dur):
+    t = _secs(dur)
+    n = rng.standard_normal(len(t))
+    x = _filt(n, lo=600, hi=5000) * (t / dur) ** 2
+    tone = np.sin(2 * np.pi * np.cumsum(220 + 660 * (t / dur) ** 2) / SR) * (t / dur) ** 2 * 0.35
+    return (x + tone) * np.clip((dur - t) / 0.03, 0, 1)
+
+
+def _roar(rng, dur):
+    """A crowd-like swell built from filtered noise with a slow, uneven pulse."""
+    t = _secs(dur)
+    n = _filt(rng.standard_normal(len(t)), lo=350, hi=3200)
+    wobble = 1 + 0.25 * np.sin(2 * np.pi * 3.1 * t) * np.sin(2 * np.pi * 0.7 * t)
+    env = np.minimum(1, t / 0.12) * np.exp(-np.maximum(0, t - 0.6) / 0.9)
+    return n * wobble * env
+
+
+def _tick(rng):
+    t = _secs(0.18)
+    return (np.sin(2 * np.pi * 1900 * t) * np.exp(-t / 0.03) * 0.5
+            + _filt(rng.standard_normal(len(t)), lo=3000) * np.exp(-t / 0.008) * 0.4)
+
+
 def add_soundtrack(path, total, intro, anim_end, hits, seed):
+    mux_audio(path, make_soundtrack(total, intro, anim_end, hits, seed))
+
+
+def mux_audio(path, audio):
+    """Attach a stereo float array (SR Hz) to the silent MP4 at path, in place."""
     import wave
-    audio = make_soundtrack(total, intro, anim_end, hits, seed)
     root = os.path.splitext(path)[0]
     wav, tmp = root + ".audio.wav", root + ".sound.mp4"
     with wave.open(wav, "wb") as w:
@@ -1143,6 +1171,383 @@ def cmd_player(a):
     render(fig, update, a, f"player_{slug(target)}_{a.format}.mp4")
 
 
+# --------------------------------------------------------------------------- thriller
+# A Shorts-first format for chases that went to the last over: opens on the
+# equation ("11 OFF 6"), replays both innings fast, zooms into the final over and
+# pops every ball, then lands the result. Big outlined captions throughout, so it
+# works with the sound off, and the last frame mirrors the first so it loops.
+YELLOW = "#ffd23f"
+CODES = {
+    "India": "IND", "New Zealand": "NZ", "Australia": "AUS", "England": "ENG", "Pakistan": "PAK",
+    "South Africa": "SA", "Sri Lanka": "SL", "West Indies": "WI", "Bangladesh": "BAN",
+    "Afghanistan": "AFG", "Ireland": "IRE", "Zimbabwe": "ZIM", "Netherlands": "NED",
+    "Scotland": "SCO", "Nepal": "NEP", "United Arab Emirates": "UAE", "United States of America": "USA",
+    "Oman": "OMA", "Namibia": "NAM", "Canada": "CAN",
+}
+BALL_WORDS = {"0": "DOT BALL", "1": "SINGLE", "2": "TWO RUNS", "3": "THREE RUNS", "4": "FOUR!", "5": "FIVE!",
+              "6": "SIX!", "W": "WICKET!", "WD": "WIDE!", "NB": "NO BALL!"}
+
+
+def display_font():
+    """Anton (fonts/Anton-Regular.ttf, SIL Open Font License) if present, else the default sans."""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "Anton-Regular.ttf")
+    if os.path.exists(path):
+        from matplotlib import font_manager
+        font_manager.fontManager.addfont(path)
+        return font_manager.FontProperties(fname=path).get_name()
+    return None
+
+
+def team_code(team, extra):
+    return extra.get(team) or CODES.get(team) or short_team(team, extra)
+
+
+def ball_label(d):
+    ex, r = d.get("extras", {}), d.get("runs", {})
+    if d.get("wickets") and any(w.get("kind") not in NOT_OUT_KINDS for w in d["wickets"]):
+        return "W"
+    if "wides" in ex:
+        return "WD"
+    if "noballs" in ex:
+        return "NB"
+    return str(r.get("total", 0))
+
+
+def cmd_thriller(a):
+    from matplotlib import patheffects
+    from matplotlib.patches import Circle
+    from matplotlib.transforms import IdentityTransform
+    if a.format != "short":
+        sys.exit("thriller is built for Shorts (9:16); leave out --format long.")
+    mid, m = load_one_match(a)
+    info = m.get("info", {})
+    facts = match_facts(m)
+    ch = facts.get("chase")
+    if not ch or not ch["final_over_reached"]:
+        sys.exit("This match didn't go to the last over - use the 'worm' command for it instead.")
+    bpo = info.get("balls_per_over", 6)
+    inns = [i for i in m.get("innings", []) if not i.get("super_over") and i.get("overs")][:2]
+    extra, alias = parse_abbr(a.abbr), parse_abbr(a.alias)
+    codes = [team_code(i["team"], extra) for i in inns]
+    font = display_font()
+
+    def say(name):                       # on-screen player name
+        n = alias.get(name, name)
+        return (n if len(n) <= 14 else n.split()[-1]).upper()
+
+    # cumulative runs per delivery for both innings
+    series = []
+    for inn in inns:
+        xs, ys, legal, runs, wk, states = [0.0], [0], 0, 0, 0, [(0, 0, 0)]
+        for d in deliveries(inn):
+            runs += d.get("runs", {}).get("total", 0)
+            legal += is_legal(d)
+            wk += sum(1 for w in d.get("wickets", []) if w.get("kind") not in NOT_OUT_KINDS)
+            xs.append(legal / bpo)
+            ys.append(runs)
+            states.append((legal, runs, wk))
+        series.append(dict(xs=np.array(xs), ys=np.array(ys), st=states))
+    last_over = inns[1]["overs"][-1]["deliveries"]
+    first_last = len(series[1]["xs"]) - 1 - len(last_over)       # deliveries before the final over
+    legal_b, runs_b, wk_b = series[1]["st"][first_last]
+    target, tballs = ch["target"], ch["target_balls"]
+    balls = []
+    for j, d in enumerate(last_over):
+        legal, runs, wk = series[1]["st"][first_last + j + 1]
+        balls.append(dict(label=ball_label(d), need=target - runs, left=tballs - legal,
+                          boundary=d.get("runs", {}).get("batter") in (4, 6)))
+    chased = ch["chased"]
+    card1, card2 = facts["innings"][0], facts["innings"][1]
+    outs2 = {w.get("player_out") for d in deliveries(inns[1]) for w in d.get("wickets", [])}
+    star = card2["top_batters"][0]
+    # wickets the top bowler of the chase took before the final over
+    bw_name = card2["top_bowlers"][0]["name"]
+    bw_before = sum(1 for d in list(deliveries(inns[1]))[:first_last] if d.get("bowler") == bw_name
+                    for w in d.get("wickets", []) if w.get("kind") in BOWLER_WICKETS)
+
+    # ---- timeline (seconds)
+    HOOK, NZ_END, CHASE_END, ZOOM_END, BALL = 1.6, 3.4, 7.0, 7.9, 1.05
+    ball_t = [ZOOM_END + j * BALL for j in range(len(balls))]
+    WIN = ball_t[-1] + 0.6
+    END = WIN + 3.6
+    n_frames = round(END * FPS)
+
+    # ---- canvas
+    L = Layout("short")
+    fig = new_figure(L)
+    F = dict(fontfamily=font) if font else dict(weight="bold")
+    stroke = [patheffects.withStroke(linewidth=12, foreground="black")]
+    n = facts.get("match_number")
+    league = facts["event"] if facts["team_type"] != "international" else ""
+    head = f"{codes[0]} vs {codes[1]}  ·  " + (f"{ordinal(n)} {facts['format']}" if n and not league else
+                                               (league or facts["format"]))
+    fig.text(0.5, 0.935, head.upper(), size=30, color=INK2, ha="center", va="center", **F)
+    sb = []
+    for k, x in enumerate((0.28, 0.72)):
+        fig.add_artist(Rectangle((x - 0.09, 0.858), 0.18, L.px(8), transform=fig.transFigure,
+                                 color=(BLUE, ORANGE)[k], lw=0))
+        sb.append(fig.text(x, 0.885, "", size=46, color=INK, ha="center", va="center", **F))
+    cap_y = (0.795, 0.712, 0.633)
+    caps = [fig.text(0.5, y, "", ha="center", va="center", color=INK, path_effects=stroke, **F) for y in cap_y]
+    # ball tiles (pixel coordinates so circles stay round)
+    nb = len(balls)
+    gap, rad, ty = 150, 54, 0.578 * L.H
+    x0 = L.W / 2 - gap * (nb - 1) / 2
+    tiles, tile_txt = [], []
+    for j in range(nb):
+        c = Circle((x0 + j * gap, ty), rad, transform=IdentityTransform(), fc="none", ec=INK2, lw=4, visible=False)
+        fig.add_artist(c)
+        tiles.append(c)
+        tile_txt.append(fig.text(x0 + j * gap, ty, "", transform=IdentityTransform(), ha="center",
+                                 va="center", size=40, color=INK, **F))
+    ax = fig.add_axes([0.12, 0.30, 0.76, 0.225])
+    style_axes(ax, size=18)
+    full = (0, float(info.get("overs", 20)) * 1.02, 0, max(series[0]["ys"].max(), target) * 1.1)
+    zoom = (legal_b / bpo - 0.25, tballs / bpo + 0.12, runs_b - 14, max(target, series[1]["ys"].max()) + 7)
+    ax.axhline(target, color=MUTED, lw=1.6, ls=(0, (6, 4)))
+    l1, = ax.plot([], [], color=BLUE, lw=4.5, solid_capstyle="round")
+    l2, = ax.plot([], [], color=ORANGE, lw=4.5, solid_capstyle="round")
+    h2, = ax.plot([], [], "o", ms=18, mfc=INK, mec=ORANGE, mew=4, zorder=5)
+    draw_footer(fig, L, a.handle)
+    fit_cache = {}
+
+    def caption(i, text, size, color=INK, pop=0.0):
+        key = (text, size)
+        if key not in fit_cache:              # shrink to fit the width
+            caps[i].set_text(text)
+            caps[i].set_size(size)
+            w = caps[i].get_window_extent(renderer=fig.canvas.get_renderer()).width
+            fit_cache[key] = size * min(1.0, 0.9 * L.W / max(w, 1))
+        caps[i].set_text(text)
+        caps[i].set_size(fit_cache[key] * (1 + 0.16 * pop))
+        caps[i].set_color(color)
+
+    def pop_of(t, t0):
+        return max(0.0, 1 - (t - t0) / 0.16) if t >= t0 else 0.0
+
+    def ease(u):
+        u = min(max(u, 0.0), 1.0)
+        return u * u * (3 - 2 * u)
+
+    def set_view(u):
+        ax.set_xlim(full[0] + (zoom[0] - full[0]) * u, full[1] + (zoom[1] - full[1]) * u)
+        ax.set_ylim(full[2] + (zoom[2] - full[2]) * u, full[3] + (zoom[3] - full[3]) * u)
+        if u < 0.5:
+            ax.xaxis.set_major_locator(MultipleLocator(5))
+        else:                                    # fractional overs would read like 19.2 = 2 balls
+            ax.set_xticks([])
+        ax.yaxis.set_major_locator(MaxNLocator(4, integer=True))
+
+    def show(line, s, upto):
+        k = int(min(max(upto, 0), len(s["xs"]) - 1))
+        line.set_data(s["xs"][:k + 1], s["ys"][:k + 1])
+        return k
+
+    def score(s, k, overs=True):
+        legal, runs, wk = s["st"][k]
+        txt = f"{runs}" if wk >= 10 else f"{runs}/{wk}"
+        return txt + (f" ({fmt_overs(legal, bpo)})" if overs else "")
+
+    n1 = len(series[0]["xs"]) - 1
+    win_word = f"{codes[1]} WIN!" if chased else f"{codes[0]} HOLD ON!"
+    if chased:
+        spare = ch["balls_to_spare"]
+        win2 = f"{spare} BALL{'S' if spare != 1 else ''} TO SPARE"
+        win3 = f"{say(star['name'])} {star['runs']}{'' if star['name'] in outs2 else '*'} ({star['balls']})"
+    else:
+        margin = target - 1 - series[1]["ys"][-1]
+        win2 = f"BY {margin} RUN{'S' if margin != 1 else ''}"
+        b = card2["top_bowlers"][0]
+        win3 = f"{say(b['name'])} {b['wickets']}/{b['conceded']}"
+
+    def frame(t):
+        for c in caps:
+            c.set_text("")
+        for j in range(nb):
+            tiles[j].set_visible(ZOOM_END - 0.6 <= t < END)
+        h2.set_data([], [])
+        if t < HOOK:                                             # hook: the equation, over a dimmed chart
+            set_view(0)
+            show(l1, series[0], n1)
+            show(l2, series[1], first_last)
+            for ln in (l1, l2):
+                ln.set_alpha(0.35)
+            sb[0].set_text(f"{codes[0]} {score(series[0], n1, False)}")
+            sb[1].set_text(f"{codes[1]} {score(series[1], first_last)}")
+            p = 0.0                                   # first frame stays clean: it's the swipe decision
+            caption(0, f"{codes[1]} NEED", 64, INK, p)
+            caption(1, f"{ch['needed_in_final_over']} OFF {tballs - legal_b}", 168, YELLOW, p)
+            caption(2, "CAN THEY DO IT?", 58, INK, p)
+            return
+        for ln in (l1, l2):
+            ln.set_alpha(1)
+        if t < NZ_END:                                           # first innings, fast
+            set_view(0)
+            k = show(l1, series[0], n1 * ease((t - HOOK) / (NZ_END - HOOK - 0.15)))
+            l2.set_data([], [])
+            sb[0].set_text(f"{codes[0]} {score(series[0], k, False)}")
+            sb[1].set_text(f"{codes[1]} –")
+            p = pop_of(t, HOOK)
+            caption(0, f"{codes[0]} POST", 64, INK, p)
+            caption(1, score(series[0], n1, False), 150, YELLOW, p)
+            tb = card1["top_batters"][0]
+            caption(2, f"{say(tb['name'])} {tb['runs']} OFF {tb['balls']}", 54, INK, p)
+            return
+        show(l1, series[0], n1)
+        if t < CHASE_END:                                        # the chase up to the last over
+            set_view(0)
+            k = show(l2, series[1], first_last * ease((t - NZ_END) / (CHASE_END - NZ_END - 0.2)))
+            h2.set_data([series[1]["xs"][k]], [series[1]["ys"][k]])
+            sb[0].set_text(f"{codes[0]} {score(series[0], n1, False)}")
+            sb[1].set_text(f"{codes[1]} {score(series[1], k)}")
+            mid_t = (NZ_END + CHASE_END) / 2
+            if t < mid_t:
+                p = pop_of(t, NZ_END)
+                caption(0, f"{codes[1]} CHASE", 64, INK, p)
+                caption(1, str(target), 150, YELLOW, p)
+                caption(2, "TO WIN", 58, INK, p)
+            else:
+                p = pop_of(t, mid_t)
+                if bw_before >= 3:
+                    caption(0, f"{say(bw_name)} STRIKES", 64, INK, p)
+                    caption(1, f"{bw_before} WICKETS", 132, YELLOW, p)
+                else:
+                    caption(0, "PRESSURE BUILDS", 64, INK, p)
+                    caption(1, f"{runs_b}/{wk_b}", 132, YELLOW, p)
+                caption(2, f"{runs_b}/{wk_b} AFTER {fmt_overs(legal_b, bpo)}", 54, INK, p)
+            return
+        if t < ZOOM_END:                                         # zoom into the final over
+            set_view(ease((t - CHASE_END) / (ZOOM_END - CHASE_END)))
+            show(l2, series[1], first_last)
+            h2.set_data([series[1]["xs"][first_last]], [series[1]["ys"][first_last]])
+            sb[1].set_text(f"{codes[1]} {score(series[1], first_last)}")
+            sb[0].set_text(f"{codes[0]} {score(series[0], n1, False)}")
+            p = pop_of(t, CHASE_END)
+            caption(0, "LAST OVER", 132, YELLOW, p)
+            caption(1, f"NEED {ch['needed_in_final_over']} OFF {tballs - legal_b}", 84, INK, p)
+            for j in range(nb):
+                tile_txt[j].set_text("")
+                tiles[j].set_fc("none")
+                tiles[j].set_ec(INK2)
+            return
+        # ball by ball, then the result
+        j_now = max(j for j in range(nb) if t >= ball_t[j]) if t >= ball_t[0] else -1
+        zoom_u = 1 - ease((t - WIN - 0.9) / 0.8) if t > WIN + 0.9 else 1
+        set_view(zoom_u)
+        k = show(l2, series[1], first_last + j_now + 1)
+        h2.set_data([series[1]["xs"][k]], [series[1]["ys"][k]])
+        sb[0].set_text(f"{codes[0]} {score(series[0], n1, False)}")
+        sb[1].set_text(f"{codes[1]} {score(series[1], k)}")
+        for j in range(nb):
+            if j <= j_now:
+                b = balls[j]
+                big = b["label"] in ("4", "6", "W")
+                tiles[j].set_fc(YELLOW if big else ("#3a3a37" if b["label"] in ("WD", "NB") else ORANGE))
+                tiles[j].set_ec(YELLOW if big else INK2)
+                tile_txt[j].set_text(b["label"])
+                tile_txt[j].set_color("#0b0b0b" if big else INK)
+                tile_txt[j].set_size(40 * (1 + 0.35 * pop_of(t, ball_t[j])))
+            else:
+                tiles[j].set_fc("none")
+                tile_txt[j].set_text("")
+        if t < WIN:
+            b = balls[j_now]
+            p = pop_of(t, ball_t[j_now])
+            word = BALL_WORDS.get(b["label"], b["label"])
+            caption(0, word, 92 if b["boundary"] else 72, YELLOW if b["boundary"] else INK, p)
+            if b["need"] > 0:
+                caption(1, f"{b['need']} OFF {b['left']}", 150, YELLOW, p)
+                caption(2, "NEEDED", 58, INK, p)
+            else:
+                caption(1, "DONE!", 150, YELLOW, p)
+            return
+        p = pop_of(t, WIN)                                       # payoff
+        caption(0, win_word, 120, YELLOW, p)
+        caption(1, win2, 74, INK, p)
+        caption(2, win3, 58, INK, p)
+
+    out = a.out or f"thriller_{mid}.mp4"
+    write_facts(a, dict(facts, match_id=mid, kind="thriller", on_screen_title=f"{codes[1]} NEED "
+                        f"{ch['needed_in_final_over']} OFF {tballs - legal_b}",
+                        final_over=[b["label"] for b in balls], before_final_over=f"{runs_b}/{wk_b}",
+                        top_bowler_wickets_before_final_over=bw_before))
+    if a.still:
+        for tt in (0.3, 2.6, 5.9, 7.5, ball_t[1] + 0.3, END - 0.2):
+            frame(tt)
+            fig.savefig(os.path.splitext(out)[0] + f"_{tt:05.2f}s.png", dpi=100)
+        print("Saved stills")
+        return
+    v = Video(out, fig)
+    for i in range(n_frames):
+        frame(i / FPS)
+        v.frame()
+    v.close()
+    if not a.no_sound:
+        mux_audio(out, thriller_audio(END, HOOK, CHASE_END, ZOOM_END, ball_t, balls, WIN - 0.6,
+                                      zlib.crc32(os.path.basename(out).encode())))
+    print(f"Saved {out}  ({END:.1f} s, 1080x1920)")
+
+
+def thriller_audio(total, groove_start, groove_end, tension_end, ball_t, balls, win_at, seed):
+    rng = np.random.default_rng(seed)
+    roots, chords = PROGRESSIONS[seed % len(PROGRESSIONS)]
+    beat = 60 / 128
+    bar = 4 * beat
+    n = int((total + 2) * SR)
+    music, sfx = np.zeros(n), np.zeros(n)
+
+    def put(buf, x, at, gain=1.0):
+        i = int(at * SR)
+        if 0 <= i < len(buf):
+            j = min(len(buf), i + len(x))
+            buf[i:j] += x[:j - i] * gain
+
+    kick, snare, hat = _kick(rng), _snare(rng), _hat(rng)
+    pads = [_pad(c, bar + 0.3) for c in chords]
+    cache = {}
+    for b in range(int(np.ceil(total / bar)) + 1):
+        t0, k = b * bar, b % 4
+        put(music, pads[k], t0, 0.45)
+        for s in range(8):
+            ts = t0 + s * beat / 2
+            in_groove = groove_start - 0.05 <= ts < groove_end or ts >= win_at + 0.1
+            in_tension = tension_end <= ts < win_at
+            if in_tension and s % 2 == 0:                       # heartbeat under the final over
+                put(music, kick, ts, 0.75)
+            if not in_groove:
+                continue
+            key = ("b", k, s in (3, 6))
+            if key not in cache:
+                cache[key] = _bass(roots[k] * (2 if s in (3, 6) else 1), beat / 2 * 0.9)
+            put(music, cache[key], ts, 0.5)
+            put(music, hat, ts, 0.5 if s % 2 else 0.8)
+            if s in (0, 4) or (s == 7 and b % 2):
+                put(music, kick, ts, 0.9)
+            if s in (2, 6):
+                put(music, snare, ts, 0.7)
+            tone = chords[k][(0, 1, 2, 1)[s % 4]] * 2
+            if ("p", tone) not in cache:
+                cache[("p", tone)] = _pluck(tone, beat / 2)
+            put(music, cache[("p", tone)], ts, 0.18)
+    t = np.arange(n) / SR
+    music *= np.clip(t / 0.05, 0, 1) * np.clip((total - t) / 1.2, 0, 1)
+    music *= 0.12 / (np.sqrt(np.mean(music[:int(total * SR)] ** 2)) + 1e-9)
+    put(sfx, _impact(rng), 0.02, 0.45)                          # hit on the very first frame
+    put(sfx, _whoosh(rng), groove_start - 0.5, 0.35)
+    put(sfx, _riser(rng, tension_end - groove_end + 0.3), groove_end - 0.3, 0.35)
+    for bt, b in zip(ball_t, balls):
+        put(sfx, _tick(rng), bt, 0.35)
+        if b["boundary"]:
+            put(sfx, _impact(rng), bt, 0.35)
+            put(sfx, _roar(rng, 1.4), bt, 0.25)
+        if b["label"] == "W":
+            put(sfx, _wicket(rng), bt, 0.4)
+    put(sfx, _impact(rng), win_at, 0.5)
+    put(sfx, _roar(rng, 3.0), win_at, 0.35)
+    mix = np.tanh(1.4 * (music + sfx)) / np.tanh(1.4)
+    return np.stack([mix, mix], axis=1)
+
+
 # --------------------------------------------------------------------------- compare
 def collect_careers(a, names):
     """One pass over the data: a batting/bowling line per innings for each named player."""
@@ -1477,6 +1882,14 @@ def main():
     c.add_argument("--innings", type=int, help="cap the comparison at this many innings/matches")
     c.add_argument("--seconds", type=float, default=15)
     c.set_defaults(fn=cmd_compare)
+
+    th = sp.add_parser("thriller", parents=[filt, vid],
+                       help="last-over finish as a punchy Short: equation hook, ball-by-ball final over")
+    th.add_argument("--match", help="match ID (see the 'matches' command)")
+    th.add_argument("--abbr", action="append", help='team code on screen, e.g. --abbr "Sunrisers Hyderabad=SRH"')
+    th.add_argument("--alias", action="append",
+                    help='name to show for a player, e.g. --alias "GD Phillips=Glenn Phillips"')
+    th.set_defaults(fn=cmd_thriller, seconds=0)
 
     mt = sp.add_parser("matches", parents=[filt], help="list matches and their IDs, newest first")
     mt.add_argument("--last", type=int, default=20)
