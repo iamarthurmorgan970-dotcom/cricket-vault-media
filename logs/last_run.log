@@ -1,15 +1,9 @@
-started: 2026-10-31 01:16:48 UTC
-/home/runner/work/cricket-vault-media/cricket-vault-media/planner.py:237: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  today = dt.date.fromisoformat(a.today) if a.today else dt.datetime.utcnow().date()
-total 145076
-drwxr-xr-x  2 runner runner      4096 Oct 31 01:17 .
-drwxrwxrwt 14 root   root        4096 Oct 31 01:16 ..
--rw-r--r--  1 runner runner 148242196 Oct 31 01:17 all.zip
--rw-r--r--  1 runner runner    305794 Oct 31 01:16 recent.zip
-/home/runner/work/cricket-vault-media/cricket-vault-media/planner.py:237: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  today = dt.date.fromisoformat(a.today) if a.today else dt.datetime.utcnow().date()
+started: 2026-10-31 01:18:39 UTC
+total 308
+drwxr-xr-x  2 runner runner   4096 Oct 31 01:18 .
+drwxrwxrwt 15 root   root     4096 Oct 31 01:18 ..
+-rw-r--r--  1 runner runner 305794 Oct 31 01:18 recent.zip
 Today 2026-10-31; recent data: recent.zip
 Worm candidates since 2026-10-26: 0
-  rendered queued compare-kohli-vs-root-tests
 Ready to schedule: 4 ['compare-abhishek-vs-rohit-t20i', 'compare-gill-vs-babar-odi', 'compare-bumrah-vs-shaheen-t20i', 'compare-kohli-vs-root-tests']
-finished: 2026-10-31 01:18:03 UTC; render step outcome: success
+finished: 2026-10-31 01:18:49 UTC; render step outcome: success
