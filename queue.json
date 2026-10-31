@@ -86,7 +86,7 @@
       "id": "compare-kohli-vs-root-tests",
       "kind": "compare",
       "priority": 65,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "Test",

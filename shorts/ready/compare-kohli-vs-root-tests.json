@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Kohli vs Root after 210 Test innings",
+  "subtitle": "First 210 Test innings each · 2011–2025 vs 2012–2022",
+  "format": "Test",
+  "unit": "innings",
+  "count": 210,
+  "metric": "runs",
+  "data_through": "2025-01-03",
+  "players": [
+    {
+      "cricsheet_name": "V Kohli",
+      "label": "Virat Kohli",
+      "first": "2011-06-20",
+      "last": "2025-01-03",
+      "stats": {
+        "Runs": "9,230",
+        "Average": "46.9",
+        "Strike rate": "55.6",
+        "100s / 50s": "30 / 31"
+      }
+    },
+    {
+      "cricsheet_name": "JE Root",
+      "label": "Joe Root",
+      "first": "2012-12-13",
+      "last": "2022-01-14",
+      "stats": {
+        "Runs": "9,600",
+        "Average": "49.2",
+        "Strike rate": "54.8",
+        "100s / 50s": "23 / 53"
+      }
+    }
+  ],
+  "leader": "Joe Root",
+  "margin": 370
+}

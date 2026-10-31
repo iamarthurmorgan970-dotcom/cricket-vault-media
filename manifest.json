@@ -78,6 +78,18 @@
       "status": "ready",
       "file": "shorts/ready/compare-bumrah-vs-shaheen-t20i.mp4",
       "facts_file": "shorts/ready/compare-bumrah-vs-shaheen-t20i.json"
+    },
+    {
+      "id": "compare-kohli-vs-root-tests",
+      "kind": "compare",
+      "created": "2026-10-31",
+      "priority": 65,
+      "expires": null,
+      "suggested_title": "Kohli vs Root after 210 Test innings 😳",
+      "notes": "Fab Four debate; Root vs Sachin debate clips trending.",
+      "status": "ready",
+      "file": "shorts/ready/compare-kohli-vs-root-tests.mp4",
+      "facts_file": "shorts/ready/compare-kohli-vs-root-tests.json"
     }
   ]
 }
