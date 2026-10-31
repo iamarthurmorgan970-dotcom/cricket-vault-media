@@ -4,7 +4,7 @@
       "id": "compare-abhishek-vs-rohit-t20i",
       "kind": "compare",
       "priority": 75,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "T20",
@@ -30,7 +30,7 @@
       "id": "compare-gill-vs-babar-odi",
       "kind": "compare",
       "priority": 70,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "ODI",
@@ -56,7 +56,7 @@
       "id": "compare-bumrah-vs-shaheen-t20i",
       "kind": "compare",
       "priority": 70,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "T20",

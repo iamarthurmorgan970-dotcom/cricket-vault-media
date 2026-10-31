@@ -42,6 +42,42 @@
       "priority": 0,
       "status": "skipped",
       "notes": "IND vs NZ 1st T20I - too old by the time automation started"
+    },
+    {
+      "id": "compare-abhishek-vs-rohit-t20i",
+      "kind": "compare",
+      "created": "2026-10-31",
+      "priority": 75,
+      "expires": null,
+      "suggested_title": "Abhishek vs Rohit after 65 T20I innings 🔥 Who started better?",
+      "notes": "Abhishek Sharma trending after joining an elite club (late Oct 2026).",
+      "status": "ready",
+      "file": "shorts/ready/compare-abhishek-vs-rohit-t20i.mp4",
+      "facts_file": "shorts/ready/compare-abhishek-vs-rohit-t20i.json"
+    },
+    {
+      "id": "compare-gill-vs-babar-odi",
+      "kind": "compare",
+      "created": "2026-10-31",
+      "priority": 70,
+      "expires": null,
+      "suggested_title": "Gill vs Babar after 67 ODI innings 🤯",
+      "notes": "India vs Pakistan rivalry; Gill ODI comparisons broke out in Oct 2026.",
+      "status": "ready",
+      "file": "shorts/ready/compare-gill-vs-babar-odi.mp4",
+      "facts_file": "shorts/ready/compare-gill-vs-babar-odi.json"
+    },
+    {
+      "id": "compare-bumrah-vs-shaheen-t20i",
+      "kind": "compare",
+      "created": "2026-10-31",
+      "priority": 70,
+      "expires": null,
+      "suggested_title": "Bumrah vs Shaheen after 92 T20Is 🔥 Who's deadlier?",
+      "notes": "Pace-bowler comparisons are breaking out (Bumrah/Starc/Rabada).",
+      "status": "ready",
+      "file": "shorts/ready/compare-bumrah-vs-shaheen-t20i.mp4",
+      "facts_file": "shorts/ready/compare-bumrah-vs-shaheen-t20i.json"
     }
   ]
 }

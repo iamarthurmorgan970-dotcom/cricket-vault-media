@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Gill vs Babar after 67 ODI innings",
+  "subtitle": "First 67 ODI innings each · 2019–2026 vs 2015–2019",
+  "format": "ODI",
+  "unit": "innings",
+  "count": 67,
+  "metric": "runs",
+  "data_through": "2026-10-03",
+  "players": [
+    {
+      "cricsheet_name": "Shubman Gill",
+      "label": "Shubman Gill",
+      "first": "2019-01-31",
+      "last": "2026-10-03",
+      "stats": {
+        "Runs": "3,475",
+        "Average": "61.0",
+        "Strike rate": "101.7",
+        "100s / 50s": "10 / 19"
+      }
+    },
+    {
+      "cricsheet_name": "Babar Azam",
+      "label": "Babar Azam",
+      "first": "2015-05-31",
+      "last": "2019-06-26",
+      "stats": {
+        "Runs": "3,006",
+        "Average": "52.7",
+        "Strike rate": "86.3",
+        "100s / 50s": "10 / 13"
+      }
+    }
+  ],
+  "leader": "Shubman Gill",
+  "margin": 469
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Abhishek vs Rohit after 65 T20I innings",
+  "subtitle": "First 65 T20I innings each · 2024–2026 vs 2007–2018",
+  "format": "T20I",
+  "unit": "innings",
+  "count": 65,
+  "metric": "runs",
+  "data_through": "2026-10-24",
+  "players": [
+    {
+      "cricsheet_name": "Abhishek Sharma",
+      "label": "Abhishek Sharma",
+      "first": "2024-07-06",
+      "last": "2026-10-24",
+      "stats": {
+        "Runs": "1,898",
+        "Average": "30.1",
+        "Strike rate": "187.0",
+        "100s / 50s": "2 / 13"
+      }
+    },
+    {
+      "cricsheet_name": "RG Sharma",
+      "label": "Rohit Sharma",
+      "first": "2007-09-20",
+      "last": "2018-02-21",
+      "stats": {
+        "Runs": "1,667",
+        "Average": "30.9",
+        "Strike rate": "135.7",
+        "100s / 50s": "2 / 12"
+      }
+    }
+  ],
+  "leader": "Abhishek Sharma",
+  "margin": 231
+}

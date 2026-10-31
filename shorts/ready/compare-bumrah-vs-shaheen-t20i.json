@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Bumrah vs Shaheen after 92 T20Is",
+  "subtitle": "First 92 T20I matches each · 2016–2026 vs 2018–2025",
+  "format": "T20I",
+  "unit": "matches",
+  "count": 92,
+  "metric": "wickets",
+  "data_through": "2026-10-03",
+  "players": [
+    {
+      "cricsheet_name": "JJ Bumrah",
+      "label": "Jasprit Bumrah",
+      "first": "2016-01-26",
+      "last": "2026-10-03",
+      "stats": {
+        "Wickets": "119",
+        "Average": "18.5",
+        "Economy": "6.58",
+        "5-wkt hauls": "0"
+      }
+    },
+    {
+      "cricsheet_name": "Shaheen Shah Afridi",
+      "label": "Shaheen Afridi",
+      "first": "2018-04-03",
+      "last": "2025-11-29",
+      "stats": {
+        "Wickets": "122",
+        "Average": "21.3",
+        "Economy": "7.81",
+        "5-wkt hauls": "0"
+      }
+    }
+  ],
+  "leader": "Shaheen Afridi",
+  "margin": 3
+}
