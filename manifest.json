@@ -2,15 +2,16 @@
   "items": [
     {
       "id": "worm-1539433",
-      "kind": "worm",
+      "kind": "thriller",
       "created": "2026-10-31",
       "match_date": "2026-10-24",
       "priority": 130,
       "status": "scheduled",
-      "file": "shorts/2026-10-31_ind-vs-nz-2nd-t20i-worm.mp4",
-      "title": "India needed 11 off the LAST over 😳 IND vs NZ 2nd T20I",
+      "file": "shorts/2026-10-31_ind-vs-nz-2nd-t20i-thriller.mp4",
+      "title": "11 off 6 to win… can India do it? 😳 IND vs NZ last over",
       "scheduled_for": "2026-10-31T19:30:00+05:30",
-      "metricool_id": 411820117
+      "metricool_id": 411836084,
+      "notes": "Re-cut as last-over thriller (vidIQ title score 90); replaced the worm version before posting"
     },
     {
       "id": "compare-kohli-vs-babar-odi",
