@@ -1,0 +1,33 @@
+{
+  "kind": "card",
+  "on_screen_title": "FASTEST TO 2,000 T20I RUNS (BY BALLS)",
+  "hook": "ABHISHEK SHARMA BREAKS THE RECORD",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "T20I",
+  "data_through": "2026-10-11",
+  "highlight": "Abhishek Sharma",
+  "footnote": "Source: Outlook India, 11 Oct 2026",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Abhishek Sharma",
+      "display": "Abhishek Sharma",
+      "team": "India",
+      "value": "1,024",
+      "detail": "3RD T20I v WI · INDORE · OCT 2026",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Suryakumar Yadav",
+      "display": "Suryakumar Yadav",
+      "team": "India",
+      "value": "1,164",
+      "detail": "PREVIOUS RECORD",
+      "in_progress": false
+    }
+  ]
+}

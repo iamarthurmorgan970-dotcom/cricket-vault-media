@@ -166,12 +166,19 @@ def plan_worms(source, manifest, today, window, max_new):
         manifest["items"].append(entry)
 
 
+def is_spec_card(q):
+    return q.get("kind") == "card" and "--spec" in q.get("args", [])
+
+
 def plan_queue(source, queue, manifest, today, max_new):
+    """Render queued ideas. Verified card specs need no match data; everything else needs the full zip."""
     done = 0
     for q in queue["items"]:
         if q.get("status") != "queued" or done >= max_new:
             continue
-        files, err = render(q["kind"], source, q["args"], q["id"])
+        if not source and not is_spec_card(q):
+            continue
+        files, err = render(q["kind"], source or "none", q["args"], q["id"])
         done += 1
         entry = dict(id=q["id"], kind=q["kind"], created=today.isoformat(), priority=q.get("priority", 60),
                      expires=None, suggested_title=q.get("suggested_title", ""), notes=q.get("notes", ""))
@@ -224,7 +231,7 @@ def expire(manifest, today):
 def needs_full_data(recent, today):
     if not recent or not os.path.exists(recent):
         return True
-    if any(q.get("status") == "queued" for q in load(QUEUE, {"items": []})["items"]):
+    if any(q.get("status") == "queued" and not is_spec_card(q) for q in load(QUEUE, {"items": []})["items"]):
         return True
     built = load(PLAYERS, {}).get("built", "")
     return not built or built < (today - dt.timedelta(days=7)).isoformat()
@@ -256,8 +263,8 @@ def main():
     log(f"Today {today}; recent data: {os.path.basename(recent)}")
     expire(manifest, today)
     plan_worms(recent, manifest, today, a.window, a.max_worms)
+    plan_queue(a.all_zip if usable(a.all_zip) else None, queue, manifest, today, a.max_queue)
     if usable(a.all_zip):
-        plan_queue(a.all_zip, queue, manifest, today, a.max_queue)
         built = load(PLAYERS, {}).get("built", "")
         if not built or built < (today - dt.timedelta(days=7)).isoformat():
             build_players_index(a.all_zip, today)

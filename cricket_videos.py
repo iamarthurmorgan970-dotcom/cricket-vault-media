@@ -7,6 +7,7 @@ WHAT IT MAKES
   worm     Animated match "worm" for one match: live score, wickets, "need X off Y".
   race     Bar-chart race of all-time leaders: runs, wickets, sixes or fours.
   player   One player's career, innings by innings, with live stat counters.
+  card     A 6-second static leaderboard card (all-time, calendar year, fastest to a milestone).
   thriller A last-over finish as a punchy Short: opens on "11 OFF 6", pops every ball.
   compare  Two players head to head after the same number of innings ("Kohli vs Babar
            after 137 ODI innings") - the format breaking out on cricket Shorts right now.
@@ -330,14 +331,15 @@ def draw_header(fig, L, title, subtitle, width=None):
     return y
 
 
-def draw_footer(fig, L, handle):
+def draw_footer(fig, L, handle, credit="Data: cricsheet.org"):
     """Shorts: bottom-left, above YouTube's caption overlay. Long-form: top-right corner."""
     y = L.footer_y
     x, ha = (L.mx, "left") if L.fmt == "short" else (1 - L.mx, "right")
     if handle:
         fig.text(x, y, handle, size=26, weight="bold", color=INK2, va="bottom", ha=ha)
         y -= L.px(8)
-    fig.text(x, y, "Data: cricsheet.org", size=17, color=MUTED, va="top", ha=ha)
+    if credit:
+        fig.text(x, y, credit, size=17, color=MUTED, va="top", ha=ha)
 
 
 def style_axes(ax, size=20):
@@ -1198,6 +1200,16 @@ def display_font():
     return None
 
 
+def load_aliases():
+    """data/aliases.json: {"Cricsheet name": "Name to show"}, e.g. {"V Kohli": "Virat Kohli"}."""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "aliases.json")
+    try:
+        with open(path, encoding="utf-8") as fh:
+            return {k: v for k, v in json.load(fh).items() if not k.startswith("_")}
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
 def team_code(team, extra):
     return extra.get(team) or CODES.get(team) or short_team(team, extra)
 
@@ -1227,7 +1239,7 @@ def cmd_thriller(a):
         sys.exit("This match didn't go to the last over - use the 'worm' command for it instead.")
     bpo = info.get("balls_per_over", 6)
     inns = [i for i in m.get("innings", []) if not i.get("super_over") and i.get("overs")][:2]
-    extra, alias = parse_abbr(a.abbr), parse_abbr(a.alias)
+    extra, alias = parse_abbr(a.abbr), {**load_aliases(), **parse_abbr(a.alias)}
     codes = [team_code(i["team"], extra) for i in inns]
     font = display_font()
 
@@ -1548,6 +1560,311 @@ def thriller_audio(total, groove_start, groove_end, tension_end, ball_t, balls, 
     return np.stack([mix, mix], axis=1)
 
 
+# --------------------------------------------------------------------------- stat card
+# A 6-second static leaderboard card, the format behind many viral cricket Shorts:
+# headline banner, ranked rows with big numbers, the newsworthy player highlighted.
+# No photos (they're copyrighted); team colour chips and codes instead.
+TEAM_COLOURS = {
+    "India": "#3987e5", "Pakistan": "#199e70", "Australia": "#c98500", "England": "#e66767",
+    "South Africa": "#008300", "New Zealand": "#898781", "Sri Lanka": "#9085e9", "West Indies": "#d55181",
+    "Bangladesh": "#1baf7a", "Afghanistan": "#d95926",
+}
+MILESTONES = {"runs": [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 12000, 14000],
+              "wickets": [50, 100, 150, 200, 250, 300, 400, 500, 600], "sixes": [50, 100, 150, 200, 250, 300],
+              "hundreds": [5, 10, 15, 20, 25, 30, 40, 50]}
+
+
+def fmt_label(info):
+    mt = info.get("match_type", "")
+    if info.get("team_type") == "international":
+        return {"T20": "T20I"}.get(mt, mt)
+    return LEAGUE_NAMES.get(event_name(info), mt)
+
+
+LEAGUE_NAMES = {"Indian Premier League": "IPL"}
+FULL_MEMBERS = {"India", "Australia", "England", "Pakistan", "South Africa", "New Zealand", "Sri Lanka",
+                "West Indies", "Bangladesh", "Afghanistan", "Zimbabwe", "Ireland"}
+
+
+def all_careers(a):
+    """Every player's batting/bowling line per innings, for matches that pass the filters."""
+    out = defaultdict(list)
+    for mid, m in iter_matches(a.data):
+        info = m["info"]
+        if not match_ok(info, a):
+            continue
+        d, teams, fl = match_date(info), info.get("teams", []), fmt_label(info)
+        for ii, inn in enumerate(m.get("innings", [])):
+            if inn.get("super_over"):
+                continue
+            bat_t = inn.get("team", "")
+            bowl_t = next((t for t in teams if t != bat_t), "")
+            rec = {}
+
+            def get(p, team):
+                return rec.setdefault(p, dict(bat=False, runs=0, balls=0, outs=0, sixes=0, bowl=False,
+                                              wkts=0, conceded=0, legal=0, team=team))
+            for dl in deliveries(inn):
+                b, ns, bw = batter_of(dl), dl.get("non_striker"), dl.get("bowler")
+                r, ex = dl.get("runs", {}), dl.get("extras", {})
+                if b:
+                    e = get(b, bat_t)
+                    e["bat"] = True
+                    e["runs"] += r.get("batter", 0)
+                    e["balls"] += "wides" not in ex
+                    e["sixes"] += r.get("batter") == 6 and not r.get("non_boundary")
+                if ns:
+                    get(ns, bat_t)["bat"] = True
+                if bw:
+                    e = get(bw, bowl_t)
+                    e["bowl"] = True
+                    e["conceded"] += r.get("total", 0) - ex.get("byes", 0) - ex.get("legbyes", 0) - ex.get("penalty", 0)
+                    e["legal"] += "wides" not in ex and "noballs" not in ex
+                for w in dl.get("wickets", []):
+                    po = w.get("player_out")
+                    if po and w.get("kind") not in NOT_OUT_KINDS:
+                        get(po, bat_t).update(bat=True, outs=1)
+                    if bw and w.get("kind") in BOWLER_WICKETS:
+                        get(bw, bowl_t)["wkts"] += 1
+            for p, e in rec.items():
+                e.update(date=d, mid=mid, ii=ii, fmt=fl)
+                out[p].append(e)
+    for p in out:
+        out[p].sort(key=lambda e: (e["date"], e["mid"], e["ii"]))
+    return out
+
+
+def metric_series(entries, metric):
+    """[(date, value, mid)] per innings (batting metrics) or per match (wickets)."""
+    if metric == "wickets":
+        rows = {}
+        for e in entries:
+            if e["bowl"]:
+                r = rows.setdefault(e["mid"], [e["date"], 0, e["mid"]])
+                r[1] += e["wkts"]
+        return sorted((tuple(r) for r in rows.values()), key=lambda r: (r[0], r[2]))
+    key = {"runs": lambda e: e["runs"], "sixes": lambda e: e["sixes"], "hundreds": lambda e: int(e["runs"] >= 100)}[metric]
+    return [(e["date"], key(e), e["mid"]) for e in entries if e["bat"]]
+
+
+def leaderboard(careers, metric, by, milestone=None, latest=""):
+    """Rows: dict(player, team, value, sub, star) - best first."""
+    unit = "MATCHES" if metric == "wickets" else "INNINGS"
+    rows = []
+    for p, es in careers.items():
+        ser = metric_series(es, metric)
+        if not ser:
+            continue
+        team = Counter(e["team"] for e in es).most_common(1)[0][0]
+        if by == "career":
+            v = sum(x[1] for x in ser)
+            if v > 0:
+                rows.append(dict(player=p, team=team, value=v, n=len(ser),
+                                 sub=f"{len(ser)} {unit} · {ser[0][0][:4]}–{ser[-1][0][:4]}", star=False))
+        elif by == "year":
+            per = defaultdict(lambda: [0, 0])
+            for d, v, _ in ser:
+                per[d[:4]][0] += v
+                per[d[:4]][1] += 1
+            for y, (v, n) in per.items():
+                if v > 0:
+                    rows.append(dict(player=p, team=team, value=v, n=n, year=y,
+                                     sub=f"{y} · {n} {unit}", star=bool(latest) and y == latest[:4]))
+        elif by == "fastest":
+            c = 0
+            for i, (d, v, _) in enumerate(ser):
+                c += v
+                if c >= milestone:
+                    rows.append(dict(player=p, team=team, value=i + 1, n=i + 1, reached=d,
+                                     sub=f"REACHED {d[:4]}", star=False))
+                    break
+    rows.sort(key=lambda r: (r["value"], r["player"]) if by == "fastest" else (-r["value"], r["player"]))
+    for i, r in enumerate(rows):
+        r["rank"] = i + 1
+    return rows, unit
+
+
+def card_audio(total, seed):
+    """Seamless 6-second loop: groove from the first beat, a hit on frame one."""
+    rng = np.random.default_rng(seed)
+    roots, chords = PROGRESSIONS[seed % len(PROGRESSIONS)]
+    beat = total / 12                                  # 3 bars of 4 beats fill the card exactly
+    bar = 4 * beat
+    n = int(total * SR)
+    music, sfx = np.zeros(n + SR), np.zeros(n + SR)
+
+    def put(buf, x, at, gain=1.0):
+        i = int(at * SR)
+        if 0 <= i < len(buf):
+            j = min(len(buf), i + len(x))
+            buf[i:j] += x[:j - i] * gain
+
+    kick, snare, hat = _kick(rng), _snare(rng), _hat(rng)
+    for b in range(3):
+        t0, k = b * bar, b % 4
+        put(music, _pad(chords[k], bar + 0.3), t0, 0.45)
+        for s in range(8):
+            ts = t0 + s * beat / 2
+            put(music, _bass(roots[k] * (2 if s in (3, 6) else 1), beat / 2 * 0.9), ts, 0.5)
+            put(music, hat, ts, 0.5 if s % 2 else 0.8)
+            if s in (0, 4) or s == 7:
+                put(music, kick, ts, 0.9)
+            if s in (2, 6):
+                put(music, snare, ts, 0.7)
+            put(music, _pluck(chords[k][(0, 1, 2, 1)[s % 4]] * 2, beat / 2), ts, 0.18)
+    tail = music[n:]                                    # wrap the overhang to the start: seamless loop
+    music = music[:n]
+    music[:len(tail)] += tail[:n]
+    music *= 0.12 / (np.sqrt(np.mean(music ** 2)) + 1e-9)
+    put(sfx, _impact(rng), 0.0, 0.4)
+    sfx = sfx[:n]
+    mix = np.tanh(1.4 * (music + sfx)) / np.tanh(1.4)
+    edge = int(0.01 * SR)
+    mix[:edge] *= np.linspace(0, 1, edge)
+    mix[-edge:] *= np.linspace(1, 0, edge)
+    return np.stack([mix, mix], axis=1)
+
+
+def cmd_card(a):
+    from matplotlib.patches import FancyBboxPatch
+    from matplotlib.transforms import IdentityTransform
+    if a.format != "short":
+        sys.exit("card is built for Shorts (9:16); leave out --format long.")
+    alias = {**load_aliases(), **parse_abbr(a.alias)}
+    name = lambda p: alias.get(p, p).upper()
+    if a.spec:
+        # verified mode: every number comes from the spec (taken from a cited source)
+        with open(a.spec, encoding="utf-8") as fh:
+            spec = json.load(fh)
+        shown = [dict(rank=r.get("rank", i + 1), player=r["player"], team=r.get("team", ""),
+                      value=r["value"], sub=r.get("detail", ""), star=False)
+                 for i, r in enumerate(spec["rows"])]
+        hl = next((r["player"] for r in spec["rows"] if r.get("highlight")), None)
+        title, hook = spec["title"].upper(), spec.get("hook", "").upper()
+        unit_word = spec.get("unit", "").upper()
+        footnote = spec.get("footnote", "")
+        latest, fmt, word = spec.get("as_of", ""), spec.get("format", ""), unit_word
+    else:
+        if a.by == "fastest" and not a.milestone:
+            sys.exit("--by fastest needs --milestone, e.g. --milestone 2000")
+        careers = all_careers(a)
+        if a.full_members:
+            careers = {p: es for p, es in careers.items()
+                       if Counter(e["team"] for e in es).most_common(1)[0][0] in FULL_MEMBERS}
+        if not careers:
+            sys.exit("No matches found with these filters.")
+        latest = max(e["date"] for es in careers.values() for e in es)
+        # Ball-by-ball coverage starts around 2002 (Tests/ODIs): anyone already playing in the
+        # first year of the data may have earlier matches missing, so leave them out.
+        start = min(e["date"] for es in careers.values() for e in es)
+        cutoff = f"{int(start[:4]) + 1}{start[4:]}"
+        early = {p for p, es in careers.items() if es[0]["date"] < cutoff}
+        if (a.match_type or "").upper() != "T20" or a.team_type != "international":
+            careers = {p: es for p, es in careers.items() if p not in early}
+        coverage = f"careers starting after {start[:4]}" if early else ""
+        rows, unit = leaderboard(careers, a.metric, a.by, a.milestone, latest)
+        if not rows:
+            sys.exit("Nobody qualifies for this list with these filters.")
+        hl = a.highlight
+        shown = rows[:a.top]
+        hl_rows = [r for r in rows if r["player"] == hl]
+        if hl and hl_rows and hl_rows[0] not in shown:
+            shown = rows[:a.top - 1] + [hl_rows[0]]
+        if hl and not hl_rows:
+            sys.exit(f"'{hl}' isn't on this list. Check the exact Cricsheet name with the 'find' command.")
+        fmt = fmt_label({"match_type": a.match_type or "", "team_type": a.team_type or "",
+                         "event": {"name": a.event or ""}}) if a.match_type else (a.event or "")
+        word = {"runs": "RUNS", "wickets": "WICKETS", "sixes": "SIXES", "hundreds": "HUNDREDS"}[a.metric]
+        auto = {"career": f"MOST {fmt} {word} OF ALL TIME".replace("  ", " "),
+                "year": f"MOST {fmt} {word} IN A CALENDAR YEAR".replace("  ", " "),
+                "fastest": f"FASTEST TO {a.milestone or 0:,} {fmt} {word}".replace("  ", " ")}[a.by]
+        title = (a.title or auto).upper()
+        hook = (a.subtitle or (f"{name(hl)} JOINS THE LIST" if hl else "")).upper()
+        unit_word = unit if a.by == "fastest" else word
+        who = {"male": "Men's ", "female": "Women's "}.get(a.gender or "", "")
+        note = f"* {latest[:4]} still in progress · " if any(r["star"] for r in shown) else ""
+        footnote = " · ".join(x for x in [f"{note}{who}{fmt}".strip(), coverage if early and
+                                          ((a.match_type or "").upper() != "T20" or a.team_type != "international")
+                                          else "", f"data to {pretty_date(latest)}"] if x)
+
+    L = Layout("short")
+    fig = new_figure(L)
+    font = display_font()
+    F = dict(fontfamily=font) if font else dict(weight="bold")
+    I = IdentityTransform()
+    W, H = L.W, L.H
+    # headline banner
+    bx, bw, btop = 60, W - 120, H * 0.935
+    lines = [title] + ([hook] if hook else [])
+    bh = 150 if len(lines) == 1 else 230
+    fig.add_artist(FancyBboxPatch((bx, btop - bh), bw, bh, boxstyle="round,pad=0,rounding_size=28",
+                                  transform=I, fc="#f5f4f0", ec="none"))
+
+    def fitted(text, size, maxw, **kw):
+        t = fig.text(0, 0, text, size=size, transform=I, **kw)
+        w = t.get_window_extent(renderer=fig.canvas.get_renderer()).width
+        t.set_size(size * min(1.0, maxw / max(w, 1)))
+        return t
+
+    t1 = fitted(title, 58, bw - 80, color="#0b0b0b", ha="center", va="center", **F)
+    t1.set_position((W / 2, btop - (75 if len(lines) == 1 else 72)))
+    if hook:
+        t2 = fitted(hook, 46, bw - 80, color="#c4521f", ha="center", va="center", **F)
+        t2.set_position((W / 2, btop - 168))
+    # rows
+    top_y, bottom_y = btop - bh - 40, H * 0.30
+    n = len(shown)
+    gap = 22
+    rh = min(190, (top_y - bottom_y - gap * (n - 1)) / n)
+    block = n * rh + (n - 1) * gap
+    top_y -= max(0, (top_y - bottom_y - block) / 2)          # centre short lists in the space
+    for i, r in enumerate(shown):
+        y = top_y - i * (rh + gap) - rh
+        is_hl = r["player"] == hl
+        fig.add_artist(FancyBboxPatch((bx, y), bw, rh, boxstyle="round,pad=0,rounding_size=24", transform=I,
+                                      fc="#24231f" if is_hl else "#1a1a19", ec=YELLOW if is_hl else "#2c2c2a",
+                                      lw=5 if is_hl else 2))
+        cy = y + rh / 2
+        fig.text(bx + 30, cy, f"#{r['rank']}", transform=I, size=40, color=YELLOW if is_hl else MUTED,
+                 ha="left", va="center", **F)
+        chip = TEAM_COLOURS.get(r["team"], "#52514e")
+        fig.add_artist(FancyBboxPatch((bx + 150, cy - 26), 110, 52, boxstyle="round,pad=0,rounding_size=12",
+                                      transform=I, fc=chip, ec="none"))
+        fig.text(bx + 205, cy, team_code(r["team"], {})[:4], transform=I, size=26, color="#ffffff",
+                 ha="center", va="center", **F)
+        val = (f"{r['value']:,}" if isinstance(r["value"], int) else str(r["value"])) + ("*" if r["star"] else "")
+        vt = fig.text(bx + bw - 34, cy + 14, val, transform=I, size=78, color=YELLOW, ha="right", va="center", **F)
+        room = (bx + bw - 34) - vt.get_window_extent(renderer=fig.canvas.get_renderer()).width - (bx + 290) - 24
+        nm = fitted(name(r["player"]), 52, min(470, room), color=INK, ha="left", va="center", **F)
+        nm.set_position((bx + 290, cy + 22))
+        dt = fitted(r["sub"], 22, room, color=MUTED, ha="left", va="center")
+        dt.set_position((bx + 292, cy - 38))
+        fig.text(bx + bw - 36, cy - 50, unit_word, transform=I, size=20, color=MUTED,
+                 ha="right", va="center", **F)
+    fig.text(W / 2, bottom_y - 36, footnote.strip(), transform=I, size=20, color=MUTED, ha="center", va="center")
+    draw_footer(fig, L, a.handle, credit=None if a.spec else "Data: cricsheet.org")
+
+    out = a.out or f"card_{a.by}_{a.metric}.mp4"
+    write_facts(a, dict(kind="card", on_screen_title=title, hook=hook, by=None if a.spec else a.by,
+                        metric=None if a.spec else a.metric, milestone=a.milestone, format=fmt,
+                        data_through=latest, highlight=hl, footnote=footnote, verified_spec=bool(a.spec),
+                        rows=[dict(rank=r["rank"], player=r["player"], display=alias.get(r["player"], r["player"]),
+                                   team=r["team"], value=r["value"], detail=r["sub"], in_progress=r["star"])
+                              for r in shown]))
+    if a.still:
+        png = os.path.splitext(out)[0] + ".png"
+        fig.savefig(png, dpi=100)
+        print(f"Saved {png}")
+        return
+    total = a.seconds or 6.0
+    v = Video(out, fig)
+    v.frame(repeat=round(total * FPS))
+    v.close()
+    if not a.no_sound:
+        mux_audio(out, card_audio(total, zlib.crc32(os.path.basename(out).encode())))
+    print(f"Saved {out}  ({total:.0f} s, 1080x1920)")
+
+
 # --------------------------------------------------------------------------- compare
 def collect_careers(a, names):
     """One pass over the data: a batting/bowling line per innings for each named player."""
@@ -1665,7 +1982,8 @@ def cmd_compare(a):
     seqs = [s[:N] for s in seqs]
     stats = [career_stats(s, role) for s in seqs]
     totals = [np.cumsum([e["runs"] if role == "bat" else e["wkts"] for e in s]) for s in seqs]
-    labels = [a.label_a or a.a, a.label_b or a.b]
+    aliases = load_aliases()
+    labels = [a.label_a or aliases.get(a.a, a.a), a.label_b or aliases.get(a.b, a.b)]
 
     unit = "Tests" if (role == "bowl" and a.per == "match" and (a.match_type or "").lower() == "test") else \
         "matches" if (role == "bowl" and a.per == "match") else "innings"
@@ -1890,6 +2208,19 @@ def main():
     th.add_argument("--alias", action="append",
                     help='name to show for a player, e.g. --alias "GD Phillips=Glenn Phillips"')
     th.set_defaults(fn=cmd_thriller, seconds=0)
+
+    cd = sp.add_parser("card", parents=[filt, vid], help="6-second static leaderboard card (career, year, fastest-to)")
+    cd.add_argument("--metric", choices=["runs", "wickets", "sixes", "hundreds"], default="runs")
+    cd.add_argument("--by", choices=["career", "year", "fastest"], default="career",
+                    help="career = all-time totals, year = best calendar years, fastest = fewest innings to --milestone")
+    cd.add_argument("--milestone", type=int, help="for --by fastest, e.g. 2000 (runs) or 100 (wickets)")
+    cd.add_argument("--top", type=int, default=5)
+    cd.add_argument("--highlight", help="player to spotlight, exact Cricsheet name")
+    cd.add_argument("--alias", action="append", help='name to show, e.g. --alias "V Kohli=Virat Kohli"')
+    cd.add_argument("--full-members", action="store_true", help="only players from the 12 full-member nations")
+    cd.add_argument("--spec", help="JSON with verified rows (title, hook, unit, rows[], footnote) instead of the data")
+    cd.add_argument("--seconds", type=float, default=6)
+    cd.set_defaults(fn=cmd_card)
 
     mt = sp.add_parser("matches", parents=[filt], help="list matches and their IDs, newest first")
     mt.add_argument("--last", type=int, default=20)

@@ -12,6 +12,26 @@ Automated data-driven cricket Shorts for [@thecricketvault](https://www.youtube.
    the best video on YouTube through Metricool (7:30 pm IST), keeping within Metricool's free 20 posts a month.
    Posts are logged in `schedule_log.json`. Once a week Claude adds new comparison ideas to `queue.json`.
 
+**Formats**
+
+- `thriller`: a last-over finish, opening on the equation ("11 OFF 6"), ball-by-ball final over.
+- `worm`: any other notable match, run by run.
+- `compare`: two players after the same number of innings.
+- `card`: a 6-second static leaderboard card. In the pipeline, cards use **verified specs only**
+  (`cards/*.json`, numbers from a cited source), never raw Cricsheet totals.
+
+**Accuracy rules (learned 31 Oct 2026)**
+
+Cricsheet is missing some matches, especially recent ones (e.g. India v Afghanistan T20Is, Sept 2026; some
+Babar Azam ODIs), and its Test/ODI coverage starts around 2002. So:
+
+- Single-match videos (thriller, worm) are safe: if a match is in the data, it is complete.
+- Any career number for a player who has played in the last ~2 years must be checked against an official
+  source (ESPNcricinfo, Wikipedia citing it, ICC, or a news report) before posting. If it doesn't match,
+  the video is blocked (`status: blocked` in `manifest.json`).
+- Comparisons are safest when anchored to a verified milestone (e.g. "Root 10,000 runs in 218 innings").
+- Record cards are written from sources, cited on screen, with a `sources` list in the manifest.
+
 **Files**
 
 | File | What it is |
@@ -19,6 +39,9 @@ Automated data-driven cricket Shorts for [@thecricketvault](https://www.youtube.
 | `cricket_videos.py` | Renders the videos (worm, compare, race, player) with original music |
 | `planner.py` | Chooses what to render each day and updates the manifest |
 | `queue.json` | Ideas waiting to be rendered |
+| `cards/` | Verified card specs (numbers + source) |
+| `data/aliases.json` | Cricsheet name → on-screen name |
+| `fonts/` | Anton display font (SIL Open Font License) |
 | `manifest.json` | Every rendered video and its status |
 | `schedule_log.json` | What has been scheduled on YouTube |
 | `logs/last_run.log` | Output of the latest GitHub Action run |

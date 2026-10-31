@@ -18,11 +18,12 @@
       "kind": "compare",
       "created": "2026-10-31",
       "priority": 80,
-      "status": "scheduled",
+      "status": "withdrawn",
       "file": "shorts/2026-11-01_kohli-vs-babar-137-odi-innings.mp4",
       "title": "Kohli vs Babar after 137 ODI innings 🤯 Who's really better?",
       "scheduled_for": "2026-11-01T19:30:00+05:30",
-      "metricool_id": 411820166
+      "metricool_id": 411820166,
+      "notes": "Withdrawn 31 Oct before posting: Cricsheet missing several Babar ODIs (official 4000 in 82 inns vs 81 in data; 5000 date mismatch). Replaced by Kohli vs Root."
     },
     {
       "id": "compare-bumrah-vs-starc-tests",
@@ -33,7 +34,8 @@
       "file": "shorts/2026-11-02_bumrah-vs-starc-52-tests.mp4",
       "title": "Bumrah vs Starc after 52 Tests 🔥 Look at that average",
       "scheduled_for": "2026-11-02T19:30:00+05:30",
-      "metricool_id": 411820184
+      "metricool_id": 411820184,
+      "notes": "Verified 31 Oct: Bumrah 234 Test wkts (matches July 2026 report), Starc 200th wkt in 50th Test (The Leader)."
     },
     {
       "id": "worm-1539432",
@@ -51,8 +53,8 @@
       "priority": 75,
       "expires": null,
       "suggested_title": "Abhishek vs Rohit after 65 T20I innings 🔥 Who started better?",
-      "notes": "Abhishek Sharma trending after joining an elite club (late Oct 2026).",
-      "status": "ready",
+      "notes": "BLOCKED: Cricsheet is missing some recent matches for this player (checked against official totals on 31 Oct 2026). Verify every number against an official source before using.",
+      "status": "blocked",
       "file": "shorts/ready/compare-abhishek-vs-rohit-t20i.mp4",
       "facts_file": "shorts/ready/compare-abhishek-vs-rohit-t20i.json"
     },
@@ -63,8 +65,8 @@
       "priority": 70,
       "expires": null,
       "suggested_title": "Gill vs Babar after 67 ODI innings 🤯",
-      "notes": "India vs Pakistan rivalry; Gill ODI comparisons broke out in Oct 2026.",
-      "status": "ready",
+      "notes": "BLOCKED: Cricsheet is missing some recent matches for this player (checked against official totals on 31 Oct 2026). Verify every number against an official source before using.",
+      "status": "blocked",
       "file": "shorts/ready/compare-gill-vs-babar-odi.mp4",
       "facts_file": "shorts/ready/compare-gill-vs-babar-odi.json"
     },
@@ -75,8 +77,8 @@
       "priority": 70,
       "expires": null,
       "suggested_title": "Bumrah vs Shaheen after 92 T20Is 🔥 Who's deadlier?",
-      "notes": "Pace-bowler comparisons are breaking out (Bumrah/Starc/Rabada).",
-      "status": "ready",
+      "notes": "BLOCKED: Cricsheet is missing some recent matches for this player (checked against official totals on 31 Oct 2026). Verify every number against an official source before using.",
+      "status": "blocked",
       "file": "shorts/ready/compare-bumrah-vs-shaheen-t20i.mp4",
       "facts_file": "shorts/ready/compare-bumrah-vs-shaheen-t20i.json"
     },
@@ -87,10 +89,28 @@
       "priority": 65,
       "expires": null,
       "suggested_title": "Kohli vs Root after 210 Test innings 😳",
-      "notes": "Fab Four debate; Root vs Sachin debate clips trending.",
-      "status": "ready",
+      "notes": "Verified 31 Oct: Kohli 9,230 runs/30 hundreds = official career; Root 10,000 in 218 inns matches ESPNcricinfo.",
+      "status": "scheduled",
       "file": "shorts/ready/compare-kohli-vs-root-tests.mp4",
-      "facts_file": "shorts/ready/compare-kohli-vs-root-tests.json"
+      "facts_file": "shorts/ready/compare-kohli-vs-root-tests.json",
+      "title": "Kohli vs Root after 210 Test innings 😳 Who's really better?",
+      "scheduled_for": "2026-11-01T19:30:00+05:30",
+      "metricool_id": 411850140
+    },
+    {
+      "id": "card-abhishek-fastest-2000-t20i",
+      "kind": "card",
+      "created": "2026-10-31",
+      "priority": 70,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-abhishek-fastest-2000-t20i.mp4",
+      "facts_file": "shorts/ready/card-abhishek-fastest-2000-t20i.json",
+      "suggested_title": "Abhishek Sharma: fastest to 2,000 T20I runs 🔥 1,024 balls",
+      "verified": true,
+      "sources": [
+        "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-3rd-t20i-2026-abhishek-sharma-fastest-2000-runs-record"
+      ]
     }
   ]
 }
