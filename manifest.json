@@ -172,6 +172,42 @@
         "https://www.outlookindia.com/sports/cricket/south-africa-vs-australia-3rd-test-2026-kagiso-rabada-record"
       ],
       "notes": "All numbers from Outlook India (31 Oct 2026) fewest-balls list; Test counts for Steyn/Waqar/Marshall from the same article's fewest-Tests list. Starc's Test count not stated, so left blank."
+    },
+    {
+      "id": "compare-anderson-vs-broad-tests",
+      "kind": "compare",
+      "created": "2026-11-02",
+      "priority": 72,
+      "expires": null,
+      "suggested_title": "Anderson vs Broad after 166 Tests 🔥 Who was deadlier?",
+      "notes": "vidIQ outliers 2 Nov: pacer wicket comparisons still breaking out (Bumrah/Starc/Rabada/Archer 218K views). Both retired (last Tests 2023/2024). Cricsheet: Broad 167 Tests (official 167, complete), Anderson 182 (official 188) - verify Anderson count/anchor before posting.",
+      "status": "ready",
+      "file": "shorts/ready/compare-anderson-vs-broad-tests.mp4",
+      "facts_file": "shorts/ready/compare-anderson-vs-broad-tests.json"
+    },
+    {
+      "id": "compare-gayle-vs-warner-t20i",
+      "kind": "compare",
+      "created": "2026-11-02",
+      "priority": 70,
+      "expires": null,
+      "suggested_title": "Gayle vs Warner after 75 T20I innings 🤯 Who's really better?",
+      "notes": "vidIQ outliers 2 Nov: Gayle comparison Shorts 3.5-8.5x breakout. Both retired from T20Is (Warner last intl 24 Jun 2024). Cricsheet: Gayle 79 (official 79), Warner 108 (official 110) - spot-check Warner innings count before posting.",
+      "status": "ready",
+      "file": "shorts/ready/compare-gayle-vs-warner-t20i.mp4",
+      "facts_file": "shorts/ready/compare-gayle-vs-warner-t20i.json"
+    },
+    {
+      "id": "compare-yuvraj-vs-gayle-t20i",
+      "kind": "compare",
+      "created": "2026-11-02",
+      "priority": 68,
+      "expires": null,
+      "suggested_title": "Yuvraj vs Gayle after 49 T20I innings 💥 Who's the real six machine?",
+      "notes": "India-appeal angle on the Gayle comparison trend (vidIQ 2 Nov). Both retired. Cricsheet: Yuvraj 55 (official 58), Gayle 79 - verify Yuvraj innings count and career runs against ESPNcricinfo before posting.",
+      "status": "ready",
+      "file": "shorts/ready/compare-yuvraj-vs-gayle-t20i.mp4",
+      "facts_file": "shorts/ready/compare-yuvraj-vs-gayle-t20i.json"
     }
   ]
 }

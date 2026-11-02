@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Anderson vs Broad after 166 Tests",
+  "subtitle": "First 166 Tests each · 2003–2022 vs 2007–2023",
+  "format": "Test",
+  "unit": "Tests",
+  "count": 166,
+  "metric": "wickets",
+  "data_through": "2023-07-27",
+  "players": [
+    {
+      "cricsheet_name": "JM Anderson",
+      "label": "James Anderson",
+      "first": "2003-07-24",
+      "last": "2022-08-17",
+      "stats": {
+        "Wickets": "636",
+        "Average": "26.4",
+        "Economy": "2.78",
+        "5-wkt hauls": "31"
+      }
+    },
+    {
+      "cricsheet_name": "SCJ Broad",
+      "label": "Stuart Broad",
+      "first": "2007-12-09",
+      "last": "2023-07-27",
+      "stats": {
+        "Wickets": "604",
+        "Average": "27.7",
+        "Economy": "2.98",
+        "5-wkt hauls": "20"
+      }
+    }
+  ],
+  "leader": "James Anderson",
+  "margin": 32
+}

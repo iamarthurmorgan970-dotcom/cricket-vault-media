@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Gayle vs Warner after 75 T20I innings",
+  "subtitle": "First 75 T20I innings each · 2006–2021 vs 2009–2019",
+  "format": "T20I",
+  "unit": "innings",
+  "count": 75,
+  "metric": "runs",
+  "data_through": "2021-11-06",
+  "players": [
+    {
+      "cricsheet_name": "CH Gayle",
+      "label": "Chris Gayle",
+      "first": "2006-02-16",
+      "last": "2021-11-06",
+      "stats": {
+        "Runs": "1,899",
+        "Average": "27.9",
+        "Strike rate": "137.5",
+        "100s / 50s": "2 / 14"
+      }
+    },
+    {
+      "cricsheet_name": "DA Warner",
+      "label": "David Warner",
+      "first": "2009-01-11",
+      "last": "2019-11-05",
+      "stats": {
+        "Runs": "2,031",
+        "Average": "29.9",
+        "Strike rate": "140.9",
+        "100s / 50s": "1 / 15"
+      }
+    }
+  ],
+  "leader": "David Warner",
+  "margin": 132
+}

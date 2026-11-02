@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Yuvraj vs Gayle after 49 T20I innings",
+  "subtitle": "First 49 T20I innings each · 2007–2017 vs 2006–2017",
+  "format": "T20I",
+  "unit": "innings",
+  "count": 49,
+  "metric": "runs",
+  "data_through": "2017-09-16",
+  "players": [
+    {
+      "cricsheet_name": "Yuvraj Singh",
+      "label": "Yuvraj Singh",
+      "first": "2007-09-14",
+      "last": "2017-02-01",
+      "stats": {
+        "Runs": "1,136",
+        "Average": "27.7",
+        "Strike rate": "138.4",
+        "100s / 50s": "0 / 8"
+      }
+    },
+    {
+      "cricsheet_name": "CH Gayle",
+      "label": "Chris Gayle",
+      "first": "2006-02-16",
+      "last": "2017-09-16",
+      "stats": {
+        "Runs": "1,577",
+        "Average": "35.0",
+        "Strike rate": "145.3",
+        "100s / 50s": "2 / 13"
+      }
+    }
+  ],
+  "leader": "Chris Gayle",
+  "margin": 441
+}

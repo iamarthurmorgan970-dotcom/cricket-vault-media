@@ -1,9 +1,13 @@
-started: 2026-11-02 02:22:17 UTC
-total 308
-drwxr-xr-x  2 runner runner   4096 Nov  2 02:22 .
-drwxrwxrwt 14 root   root     4096 Nov  2 02:22 ..
--rw-r--r--  1 runner runner 305794 Nov  2 02:22 recent.zip
+started: 2026-11-02 03:09:33 UTC
+total 145076
+drwxr-xr-x  2 runner runner      4096 Nov  2 03:09 .
+drwxrwxrwt 15 root   root        4096 Nov  2 03:09 ..
+-rw-r--r--  1 runner runner 148242196 Nov  2 03:09 all.zip
+-rw-r--r--  1 runner runner    305794 Nov  2 03:09 recent.zip
 Today 2026-11-02; recent data: recent.zip
 Worm candidates since 2026-10-28: 0
-Ready to schedule: 4 ['card-abhishek-fastest-2000-t20i', 'card-arshdeep-150-t20i-wickets', 'compare-gayle-vs-abd-t20i', 'compare-malinga-vs-steyn-t20i']
-finished: 2026-11-02 02:22:33 UTC; render step outcome: success
+  rendered queued compare-anderson-vs-broad-tests
+  rendered queued compare-gayle-vs-warner-t20i
+  rendered queued compare-yuvraj-vs-gayle-t20i
+Ready to schedule: 7 ['card-abhishek-fastest-2000-t20i', 'compare-gayle-vs-abd-t20i', 'compare-malinga-vs-steyn-t20i', 'card-rabada-fastest-350-test-wickets', 'compare-anderson-vs-broad-tests', 'compare-gayle-vs-warner-t20i', 'compare-yuvraj-vs-gayle-t20i']
+finished: 2026-11-02 03:11:54 UTC; render step outcome: success

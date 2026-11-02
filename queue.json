@@ -168,7 +168,7 @@
       "id": "compare-anderson-vs-broad-tests",
       "kind": "compare",
       "priority": 72,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "Test",
@@ -198,7 +198,7 @@
       "id": "compare-gayle-vs-warner-t20i",
       "kind": "compare",
       "priority": 70,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "T20",
@@ -224,7 +224,7 @@
       "id": "compare-yuvraj-vs-gayle-t20i",
       "kind": "compare",
       "priority": 68,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "T20",
