@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "FEWEST BALLS TO 350 TEST WICKETS",
+  "hook": "KAGISO RABADA BREAKS THE RECORD",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "Test",
+  "data_through": "2026-10-31",
+  "highlight": "Kagiso Rabada",
+  "footnote": "Source: Outlook India, 31 Oct 2026",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Kagiso Rabada",
+      "display": "Kagiso Rabada",
+      "team": "South Africa",
+      "value": "13,808",
+      "detail": "75TH TEST · v AUS · OCT 2026",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Dale Steyn",
+      "display": "Dale Steyn",
+      "team": "South Africa",
+      "value": "14,719",
+      "detail": "69TH TEST",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Waqar Younis",
+      "display": "Waqar Younis",
+      "team": "Pakistan",
+      "value": "14,905",
+      "detail": "78TH TEST",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Malcolm Marshall",
+      "display": "Malcolm Marshall",
+      "team": "West Indies",
+      "value": "16,285",
+      "detail": "75TH TEST",
+      "in_progress": false
+    },
+    {
+      "rank": 5,
+      "player": "Mitchell Starc",
+      "display": "Mitchell Starc",
+      "team": "Australia",
+      "value": "16,908",
+      "detail": "",
+      "in_progress": false
+    }
+  ]
+}

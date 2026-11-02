@@ -118,7 +118,7 @@
       "created": "2026-10-31",
       "priority": 85,
       "expires": "2026-11-06",
-      "status": "ready",
+      "status": "scheduled",
       "file": "shorts/ready/card-arshdeep-150-t20i-wickets.mp4",
       "facts_file": "shorts/ready/card-arshdeep-150-t20i-wickets.json",
       "suggested_title": "Arshdeep Singh: first Indian to 150 T20I wickets 🔥 Can anyone catch him?",
@@ -128,7 +128,10 @@
         "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-4th-t20i-2026-match-report",
         "https://www.india.com/sports/cricket/watch-arshdeep-singh-becomes-first-indian-bowler-to-claim-150-t20i-wickets-achieves-feat-in-auckland-t20i-8540762/"
       ],
-      "notes": "Numbers from Outlook India table (30 Oct 2026); Arshdeep 150 in 103 matches also confirmed by india.com and Outlook match report. Axar Patel (rank 3 in Outlook table, 116*) omitted because his figure was marked in-progress and could not be cross-checked."
+      "notes": "Numbers from Outlook India table (30 Oct 2026); Arshdeep 150 in 103 matches also confirmed by india.com and Outlook match report. Axar Patel (rank 3 in Outlook table, 116*) omitted because his figure was marked in-progress and could not be cross-checked. Title scored 84 on vidIQ (2 Nov).",
+      "title": "Arshdeep Singh: first Indian to 150 T20I wickets 🔥 Can anyone catch him?",
+      "scheduled_for": "2026-11-03T19:30:00+05:30",
+      "metricool_id": 413500711
     },
     {
       "id": "compare-gayle-vs-abd-t20i",
@@ -153,6 +156,22 @@
       "status": "ready",
       "file": "shorts/ready/compare-malinga-vs-steyn-t20i.mp4",
       "facts_file": "shorts/ready/compare-malinga-vs-steyn-t20i.json"
+    },
+    {
+      "id": "card-rabada-fastest-350-test-wickets",
+      "kind": "card",
+      "created": "2026-11-02",
+      "priority": 75,
+      "expires": "2026-11-07",
+      "status": "ready",
+      "file": "shorts/ready/card-rabada-fastest-350-test-wickets.mp4",
+      "facts_file": "shorts/ready/card-rabada-fastest-350-test-wickets.json",
+      "suggested_title": "Rabada: fewest balls to 350 Test wickets 🔥 13,808 balls",
+      "verified": true,
+      "sources": [
+        "https://www.outlookindia.com/sports/cricket/south-africa-vs-australia-3rd-test-2026-kagiso-rabada-record"
+      ],
+      "notes": "All numbers from Outlook India (31 Oct 2026) fewest-balls list; Test counts for Steyn/Waqar/Marshall from the same article's fewest-Tests list. Starc's Test count not stated, so left blank."
     }
   ]
 }

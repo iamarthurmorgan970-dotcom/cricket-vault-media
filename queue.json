@@ -163,6 +163,88 @@
       ],
       "suggested_title": "Malinga vs Steyn after {N} T20Is 🔥 Who was deadlier?",
       "notes": "vidIQ outliers 31 Oct: pacer wicket comparisons (Bumrah/Starc/Rabada 190K views, Starc vs Shami 4x) breaking out. Both retired; Cricsheet has Malinga 83 / Steyn 46 T20Is (official 84 / 47), so near-complete."
+    },
+    {
+      "id": "compare-anderson-vs-broad-tests",
+      "kind": "compare",
+      "priority": 72,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "Test",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--metric",
+        "wickets",
+        "--per",
+        "match",
+        "--a",
+        "JM Anderson",
+        "--b",
+        "SCJ Broad",
+        "--label-a",
+        "James Anderson",
+        "--label-b",
+        "Stuart Broad",
+        "--title",
+        "Anderson vs Broad after {N} Tests"
+      ],
+      "suggested_title": "Anderson vs Broad after {N} Tests 🔥 Who was deadlier?",
+      "notes": "vidIQ outliers 2 Nov: pacer wicket comparisons still breaking out (Bumrah/Starc/Rabada/Archer 218K views). Both retired (last Tests 2023/2024). Cricsheet: Broad 167 Tests (official 167, complete), Anderson 182 (official 188) - verify Anderson count/anchor before posting."
+    },
+    {
+      "id": "compare-gayle-vs-warner-t20i",
+      "kind": "compare",
+      "priority": 70,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "T20",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--a",
+        "CH Gayle",
+        "--b",
+        "DA Warner",
+        "--label-a",
+        "Chris Gayle",
+        "--label-b",
+        "David Warner",
+        "--title",
+        "Gayle vs Warner after {N} T20I innings"
+      ],
+      "suggested_title": "Gayle vs Warner after {N} T20I innings 🤯 Who's really better?",
+      "notes": "vidIQ outliers 2 Nov: Gayle comparison Shorts 3.5-8.5x breakout. Both retired from T20Is (Warner last intl 24 Jun 2024). Cricsheet: Gayle 79 (official 79), Warner 108 (official 110) - spot-check Warner innings count before posting."
+    },
+    {
+      "id": "compare-yuvraj-vs-gayle-t20i",
+      "kind": "compare",
+      "priority": 68,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "T20",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--a",
+        "Yuvraj Singh",
+        "--b",
+        "CH Gayle",
+        "--label-a",
+        "Yuvraj Singh",
+        "--label-b",
+        "Chris Gayle",
+        "--title",
+        "Yuvraj vs Gayle after {N} T20I innings"
+      ],
+      "suggested_title": "Yuvraj vs Gayle after {N} T20I innings 💥 Who's the real six machine?",
+      "notes": "India-appeal angle on the Gayle comparison trend (vidIQ 2 Nov). Both retired. Cricsheet: Yuvraj 55 (official 58), Gayle 79 - verify Yuvraj innings count and career runs against ESPNcricinfo before posting."
     }
   ]
 }
