@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Broad vs Morkel after 86 Tests",
+  "subtitle": "First 86 Tests each · 2007–2015 vs 2006–2018",
+  "format": "Test",
+  "unit": "Tests",
+  "count": 86,
+  "metric": "wickets",
+  "data_through": "2018-03-30",
+  "players": [
+    {
+      "cricsheet_name": "SCJ Broad",
+      "label": "Stuart Broad",
+      "first": "2007-12-09",
+      "last": "2015-11-01",
+      "stats": {
+        "Wickets": "315",
+        "Average": "29.1",
+        "Economy": "3.05",
+        "5-wkt hauls": "14"
+      }
+    },
+    {
+      "cricsheet_name": "M Morkel",
+      "label": "Morne Morkel",
+      "first": "2006-12-26",
+      "last": "2018-03-30",
+      "stats": {
+        "Wickets": "309",
+        "Average": "27.7",
+        "Economy": "3.11",
+        "5-wkt hauls": "8"
+      }
+    }
+  ],
+  "leader": "Stuart Broad",
+  "margin": 6
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "compare",
+  "on_screen_title": "McCullum vs Watson after 56 T20I innings",
+  "subtitle": "First 56 T20I innings each · 2005–2012 vs 2006–2016",
+  "format": "T20I",
+  "unit": "innings",
+  "count": 56,
+  "metric": "runs",
+  "data_through": "2016-03-27",
+  "players": [
+    {
+      "cricsheet_name": "BB McCullum",
+      "label": "Brendon McCullum",
+      "first": "2005-02-17",
+      "last": "2012-12-23",
+      "stats": {
+        "Runs": "1,679",
+        "Average": "35.0",
+        "Strike rate": "133.7",
+        "100s / 50s": "2 / 9"
+      }
+    },
+    {
+      "cricsheet_name": "SR Watson",
+      "label": "Shane Watson",
+      "first": "2006-02-24",
+      "last": "2016-03-27",
+      "stats": {
+        "Runs": "1,462",
+        "Average": "29.2",
+        "Strike rate": "145.3",
+        "100s / 50s": "1 / 10"
+      }
+    }
+  ],
+  "leader": "Brendon McCullum",
+  "margin": 217
+}

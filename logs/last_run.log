@@ -1,12 +1,16 @@
-started: 2026-11-03 02:20:04 UTC
+started: 2026-11-03 03:09:29 UTC
 
 [notice] A new release of pip is available: 26.2.2 -> 26.3
 [notice] To update, run: pip install --upgrade pip
-total 308
-drwxr-xr-x  2 runner runner   4096 Nov  3 02:20 .
-drwxrwxrwt 14 root   root     4096 Nov  3 02:20 ..
--rw-r--r--  1 runner runner 305794 Nov  3 02:20 recent.zip
+total 145076
+drwxr-xr-x  2 runner runner      4096 Nov  3 03:09 .
+drwxrwxrwt 14 root   root        4096 Nov  3 03:09 ..
+-rw-r--r--  1 runner runner 148242196 Nov  3 03:09 all.zip
+-rw-r--r--  1 runner runner    305794 Nov  3 03:09 recent.zip
 Today 2026-11-03; recent data: recent.zip
 Worm candidates since 2026-10-29: 0
-Ready to schedule: 7 ['card-abhishek-fastest-2000-t20i', 'compare-gayle-vs-abd-t20i', 'compare-malinga-vs-steyn-t20i', 'card-rabada-fastest-350-test-wickets', 'compare-anderson-vs-broad-tests', 'compare-gayle-vs-warner-t20i', 'compare-yuvraj-vs-gayle-t20i']
-finished: 2026-11-03 02:20:16 UTC; render step outcome: success
+  rendered queued compare-mccullum-vs-watson-t20i
+  rendered queued compare-broad-vs-morkel-tests
+  rendered queued compare-boult-vs-wagner-tests
+Ready to schedule: 4 ['card-abhishek-fastest-2000-t20i', 'compare-mccullum-vs-watson-t20i', 'compare-broad-vs-morkel-tests', 'compare-boult-vs-wagner-tests']
+finished: 2026-11-03 03:11:43 UTC; render step outcome: success
