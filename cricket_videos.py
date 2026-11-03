@@ -534,6 +534,8 @@ def make_soundtrack(total, intro, anim_end, hits, seed):
     music *= np.clip(t / 0.3, 0, 1) * np.clip((total - t) / 1.5, 0, 1)
     music *= 0.12 / (np.sqrt(np.mean(music[:int(total * SR)] ** 2)) + 1e-9)
     put(sfx, _whoosh(rng), max(0.0, intro - 0.55), 0.35)
+    if intro < 0.1:
+        put(sfx, _impact(rng), 0.02, 0.3)                 # land the hook on frame one
     put(sfx, _impact(rng), anim_end, 0.45)
     for h in hits:
         put(sfx, _wicket(rng), h, 0.3)
@@ -587,25 +589,80 @@ def mux_audio(path, audio):
     os.replace(tmp, path)
 
 
-def render(fig, update, args, default_name, intro=1.0, outro=4.0, events=()):
-    """events: animation progress points (0-1) that get a hit sound, e.g. wickets."""
+class HookOverlay:
+    """Big hook text over a dark band, readable in the very first frame (the swipe decision),
+    while the chart animates underneath. Lines: [(text, size, colour)]. Fades out at `until` s."""
+
+    def __init__(self, fig, lines, y=0.69, until=1.9, height=0.30):
+        from matplotlib import patheffects
+        self.fig, self.until = fig, until
+        font = display_font()
+        F = dict(fontfamily=font) if font else dict(weight="bold")
+        stroke = [patheffects.withStroke(linewidth=12, foreground="black")]
+        W = fig.canvas.get_width_height()[0]
+        H = fig.canvas.get_width_height()[1]
+        text_h = sum(s * 1.25 for _, s, _ in lines) / H          # points ~ px at dpi 100
+        height = max(height, text_h + 100 / H)
+        self.band = Rectangle((0, y - height / 2), 1, height, transform=fig.transFigure,
+                              color="#0b0b0b", alpha=1.0, lw=0, zorder=50)
+        fig.add_artist(self.band)
+        self.texts, self.sizes = [], []
+        top = y + text_h / 2
+        for text, size, colour in lines:
+            hgt = size * 1.25 / H
+            t = fig.text(0.5, top - hgt / 2, text, ha="center", va="center", color=colour, size=size,
+                         path_effects=stroke, zorder=51, **F)
+            w = t.get_window_extent(renderer=fig.canvas.get_renderer()).width
+            fitted = size * min(1.0, 0.92 * W / max(w, 1))
+            t.set_size(fitted)
+            self.texts.append(t)
+            self.sizes.append(fitted)
+            top -= hgt
+
+    def at(self, t):
+        a = 1.0 if t < self.until - 0.3 else max(0.0, (self.until - t) / 0.3)
+        breathe = 1 + 0.035 * math.sin(2 * math.pi * 1.6 * t) if a > 0 else 1   # gentle motion from frame 1
+        self.band.set_alpha(a)
+        for txt, s in zip(self.texts, self.sizes):
+            txt.set_alpha(a)
+            txt.set_size(s * breathe)
+            txt.set_visible(a > 0)
+        self.band.set_visible(a > 0)
+
+
+def render(fig, update, args, default_name, intro=0.0, outro=2.5, events=(), hook=None):
+    """Animate update(0..1) from the very first frame. hook: lines for a HookOverlay shown on top
+    for the first ~2 s. events: animation progress points (0-1) that get a hit sound, e.g. wickets."""
     out = args.out or default_name
+    overlay = HookOverlay(fig, hook) if hook else None
     if args.still:
+        root = os.path.splitext(out)[0]
+        if overlay:
+            update(0.08)
+            overlay.at(0.0)
+            fig.savefig(root + "_hook.png", dpi=100)
+            overlay.at(99)
         update(1.0)
-        png = os.path.splitext(out)[0] + ".png"
-        fig.savefig(png, dpi=100)
-        print(f"Saved {png}")
+        fig.savefig(root + ".png", dpi=100)
+        print(f"Saved {root}.png" + (" and the first frame as _hook.png" if overlay else ""))
         return
     n = max(2, round(args.seconds * FPS))
     v = Video(out, fig)
-    update(0.0)
-    v.frame(repeat=round(intro * FPS))
+    if intro > 0:
+        update(0.0)
+        if overlay:
+            overlay.at(0.0)
+        v.frame(repeat=round(intro * FPS))
     step = max(1, n // 10)
     for i in range(1, n + 1):
         update(i / n)
+        if overlay:
+            overlay.at(intro + (i - 1) / FPS)
         v.frame()
         if i % step == 0:
             print(f"  rendering... {100 * i // n}%", file=sys.stderr)
+    if overlay:
+        overlay.at(99)
     v.frame(repeat=round(outro * FPS))
     v.close()
     total = (n + round(intro * FPS) + round(outro * FPS)) / FPS
@@ -614,6 +671,15 @@ def render(fig, update, args, default_name, intro=1.0, outro=4.0, events=()):
         add_soundtrack(out, total, start, start + n / FPS, [start + p * n / FPS for p in events],
                        zlib.crc32(os.path.basename(out).encode()))
     print(f"Saved {out}  ({total:.0f} s, {FORMATS[args.format][0]}x{FORMATS[args.format][1]})")
+
+
+def split_two(text, limit):
+    """Split a headline into two balanced lines when it's longer than `limit` characters."""
+    if len(text) <= limit or " " not in text:
+        return [text]
+    words = text.split()
+    best = min(range(1, len(words)), key=lambda i: abs(len(" ".join(words[:i])) - len(" ".join(words[i:]))))
+    return [" ".join(words[:best]), " ".join(words[best:])]
 
 
 def slug(s):
@@ -876,8 +942,13 @@ def cmd_worm(a):
             situation.set_text(f"{ordinal(cur + 1)} innings")
 
     hits = [(starts[i] + j) / total for i, s in enumerate(series) for j in s["wk"]]
-    write_facts(a, dict(match_facts(m), match_id=mid, on_screen_title=title))
-    render(fig, update, a, f"worm_{mid}_{a.format}.mp4", events=hits)
+    main = (a.title or result or title).upper()
+    hook_lines = [(f"{t1} vs {t2}" if t2 else t1, 60, INK)]
+    for part in split_two(main, 18):
+        hook_lines.append((part, 118, YELLOW))
+    write_facts(a, dict(match_facts(m), match_id=mid, on_screen_title=title, hook=[h[0] for h in hook_lines]))
+    render(fig, update, a, f"worm_{mid}_{a.format}.mp4", events=hits,
+           hook=hook_lines if a.format == "short" else None)
 
 
 # --------------------------------------------------------------------------- race
@@ -1278,10 +1349,10 @@ def cmd_thriller(a):
                     for w in d.get("wickets", []) if w.get("kind") in BOWLER_WICKETS)
 
     # ---- timeline (seconds)
-    HOOK, NZ_END, CHASE_END, ZOOM_END, BALL = 1.6, 3.4, 7.0, 7.9, 1.05
+    HOOK, NZ_END, CHASE_END, ZOOM_END, BALL = 1.5, 2.8, 4.8, 5.5, 1.0
     ball_t = [ZOOM_END + j * BALL for j in range(len(balls))]
     WIN = ball_t[-1] + 0.6
-    END = WIN + 3.6
+    END = WIN + 3.0
     n_frames = round(END * FPS)
 
     # ---- canvas
@@ -1376,25 +1447,37 @@ def cmd_thriller(a):
         for c in caps:
             c.set_text("")
         for j in range(nb):
-            tiles[j].set_visible(ZOOM_END - 0.6 <= t < END)
+            tiles[j].set_visible(t < END)                        # the six balls to come, from frame one
         h2.set_data([], [])
         if t < HOOK:                                             # hook: the equation, over a dimmed chart
-            set_view(0)
+            set_view(0.25 * ease(t / HOOK))                      # slow push towards the last over: motion
             show(l1, series[0], n1)
             show(l2, series[1], first_last)
             for ln in (l1, l2):
                 ln.set_alpha(0.35)
             sb[0].set_text(f"{codes[0]} {score(series[0], n1, False)}")
             sb[1].set_text(f"{codes[1]} {score(series[1], first_last)}")
-            p = 0.0                                   # first frame stays clean: it's the swipe decision
-            caption(0, f"{codes[1]} NEED", 64, INK, p)
-            caption(1, f"{ch['needed_in_final_over']} OFF {tballs - legal_b}", 168, YELLOW, p)
-            caption(2, "CAN THEY DO IT?", 58, INK, p)
+            breathe = 0.5 + 0.5 * math.sin(2 * math.pi * 1.6 * t)
+            caption(0, f"{codes[1]} NEED", 64, INK)
+            caption(1, f"{ch['needed_in_final_over']} OFF {tballs - legal_b}", 168, YELLOW, 0.22 * breathe)
+            caption(2, "CAN THEY DO IT?", 58, INK)
+            for j in range(nb):                                  # empty balls pulse, one after another
+                on = (int(t * 8) % nb) == j
+                tiles[j].set_ec(YELLOW if on else INK2)
+                tiles[j].set_linewidth(6 if on else 4)
+                tile_txt[j].set_text("?")
+                tile_txt[j].set_color(MUTED)
+                tile_txt[j].set_size(40)
             return
+        for j in range(nb):
+            tiles[j].set_linewidth(4)
         for ln in (l1, l2):
             ln.set_alpha(1)
         if t < NZ_END:                                           # first innings, fast
             set_view(0)
+            for j in range(nb):
+                tile_txt[j].set_text("")
+                tiles[j].set_ec(INK2)
             k = show(l1, series[0], n1 * ease((t - HOOK) / (NZ_END - HOOK - 0.15)))
             l2.set_data([], [])
             sb[0].set_text(f"{codes[0]} {score(series[0], k, False)}")
@@ -1412,14 +1495,8 @@ def cmd_thriller(a):
             h2.set_data([series[1]["xs"][k]], [series[1]["ys"][k]])
             sb[0].set_text(f"{codes[0]} {score(series[0], n1, False)}")
             sb[1].set_text(f"{codes[1]} {score(series[1], k)}")
-            mid_t = (NZ_END + CHASE_END) / 2
-            if t < mid_t:
+            if True:                                             # one caption for the whole chase (it's quick)
                 p = pop_of(t, NZ_END)
-                caption(0, f"{codes[1]} CHASE", 64, INK, p)
-                caption(1, str(target), 150, YELLOW, p)
-                caption(2, "TO WIN", 58, INK, p)
-            else:
-                p = pop_of(t, mid_t)
                 if bw_before >= 3:
                     caption(0, f"{say(bw_name)} STRIKES", 64, INK, p)
                     caption(1, f"{bw_before} WICKETS", 132, YELLOW, p)
@@ -1816,14 +1893,17 @@ def cmd_card(a):
     n = len(shown)
     gap = 22
     rh = min(190, (top_y - bottom_y - gap * (n - 1)) / n)
+    glow_boxes = []
     block = n * rh + (n - 1) * gap
     top_y -= max(0, (top_y - bottom_y - block) / 2)          # centre short lists in the space
     for i, r in enumerate(shown):
         y = top_y - i * (rh + gap) - rh
         is_hl = r["player"] == hl
-        fig.add_artist(FancyBboxPatch((bx, y), bw, rh, boxstyle="round,pad=0,rounding_size=24", transform=I,
-                                      fc="#24231f" if is_hl else "#1a1a19", ec=YELLOW if is_hl else "#2c2c2a",
-                                      lw=5 if is_hl else 2))
+        box_ = fig.add_artist(FancyBboxPatch((bx, y), bw, rh, boxstyle="round,pad=0,rounding_size=24", transform=I,
+                                             fc="#24231f" if is_hl else "#1a1a19", ec=YELLOW if is_hl else "#2c2c2a",
+                                             lw=5 if is_hl else 2))
+        if is_hl:
+            glow_boxes.append(box_)
         cy = y + rh / 2
         fig.text(bx + 30, cy, f"#{r['rank']}", transform=I, size=40, color=YELLOW if is_hl else MUTED,
                  ha="left", va="center", **F)
@@ -1858,7 +1938,20 @@ def cmd_card(a):
         return
     total = a.seconds or 6.0
     v = Video(out, fig)
-    v.frame(repeat=round(total * FPS))
+    if glow_boxes:
+        # the highlighted row breathes (thicker, brighter border) so the card reads as a video, not a still;
+        # 3 pulses per 6 s so the loop is seamless
+        import matplotlib.colors as mcolors
+        base = np.array(mcolors.to_rgb(YELLOW))
+        for i in range(round(total * FPS)):
+            u = 0.5 - 0.5 * math.cos(2 * math.pi * 3 * i / (total * FPS))
+            for b in glow_boxes:
+                b.set_linewidth(5 + 6 * u)
+                b.set_edgecolor(tuple(base * (0.75 + 0.25 * u)))
+                b.set_facecolor((0.14 + 0.06 * u, 0.137 + 0.05 * u, 0.12))
+            v.frame()
+    else:
+        v.frame(repeat=round(total * FPS))
     v.close()
     if not a.no_sound:
         mux_audio(out, card_audio(total, zlib.crc32(os.path.basename(out).encode())))
@@ -2099,14 +2192,49 @@ def cmd_compare(a):
 
     ta, tb = int(totals[0][-1]), int(totals[1][-1])
     word = "runs" if role == "bat" else "wickets"
+
+    # Hook for frame one: the stat with the most striking gap, e.g. "19.8 vs 28.3 / BOWLING AVERAGE"
+    def gap_rows():
+        out = []
+        for ra, rb in zip(stats[0][N]["rows"], stats[1][N]["rows"]):
+            label, va, vb = ra[0], ra[2], rb[2]
+            ta_, tb_ = ra[1], rb[1]
+            weight = 1.0
+            if label == "100s / 50s":
+                va, vb = int(ra[1].split("/")[0]), int(rb[1].split("/")[0])
+                ta_, tb_, label, weight = str(va), str(vb), "HUNDREDS", 0.8
+            elif label == "5-wkt hauls":
+                label, weight = "5-WICKET HAULS", 0.8
+            elif label == "Average":
+                label = "BATTING AVERAGE" if role == "bat" else "BOWLING AVERAGE"
+            if va is None or vb is None or max(va, vb) < 3:
+                continue
+            gap = (max(va, vb) - min(va, vb)) / max(min(va, vb), 1)
+            out.append((gap * weight, ta_, tb_, label.upper()))
+        return sorted(out, reverse=True)
+    short_lab = [lab.split()[-1].upper() for lab in labels]
+    if a.hook:
+        parts = [x.strip() for x in a.hook.split("|")]
+        hook_lines = [(parts[0], 64, INK)] + [(parts[1], 150, YELLOW)] * (len(parts) > 1) + \
+                     [(parts[2], 50, INK)] * (len(parts) > 2)
+        hook_stat = parts[1] if len(parts) > 1 else parts[0]
+    else:
+        g = gap_rows()
+        best = g[0] if g else (0, f"{ta:,}", f"{tb:,}", word.upper())
+        span_word = f"FIRST {N} {(fw + ' ') if unit != 'Tests' and fw else ''}{unit}".upper()
+        hook_lines = [(f"{short_lab[0]} vs {short_lab[1]}", 70, INK),
+                      (f"{best[1]} vs {best[2]}", 150, YELLOW),
+                      (f"{best[3]} · {span_word}", 46, INK)]
+        hook_stat = f"{best[1]} vs {best[2]} {best[3].lower()}"
     write_facts(a, dict(
         kind="compare", on_screen_title=title, subtitle=sub, format=fw, unit=unit, count=N, metric=word,
+        hook=[h[0] for h in hook_lines], hook_stat=hook_stat,
         data_through=max(seqs[0][-1]["date"], seqs[1][-1]["date"]),
         players=[dict(cricsheet_name=names[k], label=labels[k],
                       first=seqs[k][0]["date"], last=seqs[k][-1]["date"],
                       stats={r[0]: r[1] for r in stats[k][N]["rows"]}) for k in range(2)],
         leader=None if ta == tb else (labels[0] if ta > tb else labels[1]), margin=abs(ta - tb)))
-    render(fig, update, a, f"compare_{slug(a.a)}_vs_{slug(a.b)}_{a.format}.mp4", intro=1.0, outro=4.0)
+    render(fig, update, a, f"compare_{slug(a.a)}_vs_{slug(a.b)}_{a.format}.mp4", hook=hook_lines)
 
 
 # --------------------------------------------------------------------------- helpers
@@ -2173,7 +2301,7 @@ def main():
 
     w = sp.add_parser("worm", parents=[filt, vid], help="animated worm for one match")
     w.add_argument("--match", help="match ID (see the 'matches' command)")
-    w.add_argument("--seconds", type=float, default=20)
+    w.add_argument("--seconds", type=float, default=15)
     w.add_argument("--abbr", action="append", help='short team name, e.g. --abbr "Sunrisers Hyderabad=SRH"')
     w.set_defaults(fn=cmd_worm)
 
@@ -2198,6 +2326,7 @@ def main():
     c.add_argument("--per", choices=["innings", "match"], default="innings",
                    help="for wickets: count by innings bowled or by match ('after 50 Tests')")
     c.add_argument("--innings", type=int, help="cap the comparison at this many innings/matches")
+    c.add_argument("--hook", help='first-frame hook "LINE 1|BIG LINE|LINE 3" (default: the biggest stat gap)')
     c.add_argument("--seconds", type=float, default=15)
     c.set_defaults(fn=cmd_compare)
 
