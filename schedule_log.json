@@ -6,7 +6,9 @@
       "id": "worm-1539433",
       "title": "11 off 6 to win… can India do it? 😳 IND vs NZ last over",
       "metricool_id": 411836084,
-      "kind": "thriller"
+      "kind": "thriller",
+      "weekday": "Sat",
+      "youtube_id": "azuZ04hZzvU"
     },
     {
       "date": "2026-11-01",
@@ -14,7 +16,9 @@
       "id": "compare-kohli-vs-root-tests",
       "title": "Kohli vs Root after 210 Test innings 😳 Who's really better?",
       "metricool_id": 411850140,
-      "kind": "compare"
+      "kind": "compare",
+      "weekday": "Sun",
+      "youtube_id": "-7i2IZyV3V0"
     },
     {
       "date": "2026-11-02",
@@ -22,7 +26,9 @@
       "id": "compare-bumrah-vs-starc-tests",
       "title": "Bumrah vs Starc after 52 Tests 🔥 Look at that average",
       "metricool_id": 411820184,
-      "kind": "compare"
+      "kind": "compare",
+      "weekday": "Mon",
+      "youtube_id": "Aa3BMEPVNMo"
     },
     {
       "date": "2026-11-03",
@@ -30,7 +36,9 @@
       "id": "card-arshdeep-150-t20i-wickets",
       "title": "Arshdeep Singh: first Indian to 150 T20I wickets 🔥 Can anyone catch him?",
       "metricool_id": 413500711,
-      "kind": "card"
+      "kind": "card",
+      "weekday": "Tue",
+      "youtube_id": null
     },
     {
       "date": "2026-11-04",
@@ -38,7 +46,9 @@
       "id": "card-rabada-fastest-350-test-wickets",
       "title": "Fewest balls to 350 Test wickets 😳 Rabada just beat Steyn's record",
       "metricool_id": 414787334,
-      "kind": "card"
+      "kind": "card",
+      "weekday": "Wed",
+      "youtube_id": null
     }
   ]
 }
