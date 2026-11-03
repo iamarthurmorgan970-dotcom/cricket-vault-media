@@ -140,10 +140,13 @@
       "priority": 72,
       "expires": null,
       "suggested_title": "Universe Boss vs Mr 360 after 73 T20I innings 🤯 Who's really better?",
-      "notes": "vidIQ outliers 31 Oct: 'Universe Boss vs King' and ABD comparison Shorts breaking out (10-12x). Both retired (careers complete, no active-player check needed). Cricsheet has Gayle 79 T20Is, ABD 75 (official 78) so a few ABD matches may be missing; spot-check innings count before posting.",
-      "status": "ready",
+      "notes": "vidIQ outliers 31 Oct: 'Universe Boss vs King' and ABD comparison Shorts breaking out (10-12x). Both retired (careers complete, no active-player check needed). Cricsheet has Gayle 79 T20Is, ABD 75 (official 78) so a few ABD matches may be missing; spot-check innings count before posting. | 3 Nov: blocked. ABD official T20I career = 1,672 runs (CricTracker career-in-numbers, May 2018, after his last T20I). Cricsheet's 73 innings end at his final T20I (2017-10-29) but total 1,591, so ~2 innings are missing mid-career; 'first 73 innings' figure is not his real first 73.",
+      "status": "blocked",
       "file": "shorts/ready/compare-gayle-vs-abd-t20i.mp4",
-      "facts_file": "shorts/ready/compare-gayle-vs-abd-t20i.json"
+      "facts_file": "shorts/ready/compare-gayle-vs-abd-t20i.json",
+      "sources": [
+        "https://www.crictracker.com/ab-de-villiers-international-career-in-numbers/?amp=1"
+      ]
     },
     {
       "id": "compare-malinga-vs-steyn-t20i",
@@ -152,8 +155,8 @@
       "priority": 68,
       "expires": null,
       "suggested_title": "Malinga vs Steyn after 46 T20Is 🔥 Who was deadlier?",
-      "notes": "vidIQ outliers 31 Oct: pacer wicket comparisons (Bumrah/Starc/Rabada 190K views, Starc vs Shami 4x) breaking out. Both retired; Cricsheet has Malinga 83 / Steyn 46 T20Is (official 84 / 47), so near-complete.",
-      "status": "ready",
+      "notes": "vidIQ outliers 31 Oct: pacer wicket comparisons (Bumrah/Starc/Rabada 190K views, Starc vs Shami 4x) breaking out. Both retired; Cricsheet has Malinga 83 / Steyn 46 T20Is (official 84 / 47), so near-complete. | 3 Nov: blocked. Cricsheet has 46 of Steyn's 47 T20Is and the capped 46 end at his final T20I (2020-02-21), so a mid-career match is missing; 'first 46 T20Is' figure for Steyn is not his real first 46.",
+      "status": "blocked",
       "file": "shorts/ready/compare-malinga-vs-steyn-t20i.mp4",
       "facts_file": "shorts/ready/compare-malinga-vs-steyn-t20i.json"
     },
@@ -163,7 +166,7 @@
       "created": "2026-11-02",
       "priority": 75,
       "expires": "2026-11-07",
-      "status": "ready",
+      "status": "scheduled",
       "file": "shorts/ready/card-rabada-fastest-350-test-wickets.mp4",
       "facts_file": "shorts/ready/card-rabada-fastest-350-test-wickets.json",
       "suggested_title": "Rabada: fewest balls to 350 Test wickets 🔥 13,808 balls",
@@ -171,7 +174,10 @@
       "sources": [
         "https://www.outlookindia.com/sports/cricket/south-africa-vs-australia-3rd-test-2026-kagiso-rabada-record"
       ],
-      "notes": "All numbers from Outlook India (31 Oct 2026) fewest-balls list; Test counts for Steyn/Waqar/Marshall from the same article's fewest-Tests list. Starc's Test count not stated, so left blank."
+      "notes": "All numbers from Outlook India (31 Oct 2026) fewest-balls list; Test counts for Steyn/Waqar/Marshall from the same article's fewest-Tests list. Starc's Test count not stated, so left blank.",
+      "title": "Fewest balls to 350 Test wickets 😳 Rabada just beat Steyn's record",
+      "scheduled_for": "2026-11-04T19:30:00+05:30",
+      "metricool_id": 414787334
     },
     {
       "id": "compare-anderson-vs-broad-tests",
@@ -180,8 +186,8 @@
       "priority": 72,
       "expires": null,
       "suggested_title": "Anderson vs Broad after 166 Tests 🔥 Who was deadlier?",
-      "notes": "vidIQ outliers 2 Nov: pacer wicket comparisons still breaking out (Bumrah/Starc/Rabada/Archer 218K views). Both retired (last Tests 2023/2024). Cricsheet: Broad 167 Tests (official 167, complete), Anderson 182 (official 188) - verify Anderson count/anchor before posting.",
-      "status": "ready",
+      "notes": "vidIQ outliers 2 Nov: pacer wicket comparisons still breaking out (Bumrah/Starc/Rabada/Archer 218K views). Both retired (last Tests 2023/2024). Cricsheet: Broad 167 Tests (official 167, complete), Anderson 182 (official 188) - verify Anderson count/anchor before posting. | 3 Nov: blocked. Cricsheet Anderson data starts 2003-07-24 but his Test debut was May 2003 (missing early Tests), and it shows only 636 wkts by 2022-08-17 although he passed 650 Test wkts in June 2022. 'After 166 Tests' numbers are wrong.",
+      "status": "blocked",
       "file": "shorts/ready/compare-anderson-vs-broad-tests.mp4",
       "facts_file": "shorts/ready/compare-anderson-vs-broad-tests.json"
     },
@@ -192,8 +198,8 @@
       "priority": 70,
       "expires": null,
       "suggested_title": "Gayle vs Warner after 75 T20I innings 🤯 Who's really better?",
-      "notes": "vidIQ outliers 2 Nov: Gayle comparison Shorts 3.5-8.5x breakout. Both retired from T20Is (Warner last intl 24 Jun 2024). Cricsheet: Gayle 79 (official 79), Warner 108 (official 110) - spot-check Warner innings count before posting.",
-      "status": "ready",
+      "notes": "vidIQ outliers 2 Nov: Gayle comparison Shorts 3.5-8.5x breakout. Both retired from T20Is (Warner last intl 24 Jun 2024). Cricsheet: Gayle 79 (official 79), Warner 108 (official 110) - spot-check Warner innings count before posting. | 3 Nov: blocked. Cricsheet has 108 of Warner's 110 T20Is; could not confirm his runs after 75 innings from an official source, and missing matches may fall inside the first 75.",
+      "status": "blocked",
       "file": "shorts/ready/compare-gayle-vs-warner-t20i.mp4",
       "facts_file": "shorts/ready/compare-gayle-vs-warner-t20i.json"
     },
@@ -204,8 +210,8 @@
       "priority": 68,
       "expires": null,
       "suggested_title": "Yuvraj vs Gayle after 49 T20I innings 💥 Who's the real six machine?",
-      "notes": "India-appeal angle on the Gayle comparison trend (vidIQ 2 Nov). Both retired. Cricsheet: Yuvraj 55 (official 58), Gayle 79 - verify Yuvraj innings count and career runs against ESPNcricinfo before posting.",
-      "status": "ready",
+      "notes": "India-appeal angle on the Gayle comparison trend (vidIQ 2 Nov). Both retired. Cricsheet: Yuvraj 55 (official 58), Gayle 79 - verify Yuvraj innings count and career runs against ESPNcricinfo before posting. | 3 Nov: blocked. Cricsheet has 55 of Yuvraj's 58 T20Is and the 49 innings end at his final T20I (2017-02-01), so innings are missing mid-career; 'first 49 innings' figure can't be right.",
+      "status": "blocked",
       "file": "shorts/ready/compare-yuvraj-vs-gayle-t20i.mp4",
       "facts_file": "shorts/ready/compare-yuvraj-vs-gayle-t20i.json"
     }
