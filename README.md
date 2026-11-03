@@ -20,6 +20,15 @@ Automated data-driven cricket Shorts for [@thecricketvault](https://www.youtube.
 - `card`: a 6-second static leaderboard card. In the pipeline, cards use **verified specs only**
   (`cards/*.json`, numbers from a cited source), never raw Cricsheet totals.
 
+**Content standard (from 3 Nov 2026): every upload needs a "no way!" fact**
+
+The headline number must make a casual fan stop scrolling. It has to be one of:
+a record or first (fastest, fewest, most, youngest, only player ever); an extreme single-match event
+(a collapse, a huge chase, a hat-trick, a spell like 5 for 7); or a counter-intuitive twist (the less famous
+player is ahead, a gap that's enormous, a bowler who "owns" a great batter, identical numbers across eras).
+"X vs Y" with close numbers and no twist fails, and is `parked` instead of posted. If nothing passes on a
+given day, nothing is posted that day. Filler hurts a new channel more than a gap does.
+
 **Accuracy rules (learned 31 Oct 2026)**
 
 Cricsheet is missing some matches, especially recent ones (e.g. India v Afghanistan T20Is, Sept 2026; some
