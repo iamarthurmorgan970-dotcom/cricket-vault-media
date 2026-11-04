@@ -336,7 +336,7 @@
       "id": "compare-philander-vs-broad-tests",
       "kind": "compare",
       "priority": 75,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "Test",
@@ -368,7 +368,7 @@
       "id": "compare-voges-vs-kohli-tests",
       "kind": "compare",
       "priority": 72,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "Test",

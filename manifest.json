@@ -294,6 +294,30 @@
         "https://www.wisden.com/series/ranji-trophy-2025-26/cricket-news/eight-sixes-in-eight-balls-fastest-first-class-fifty-indian-quick-akash-choudhary-breaks-world-records-with-whirlwind-ranji-trophy-knock"
       ],
       "notes": "4 Nov: all numbers from Wisden (9 Nov 2025): 11-ball fifty v Arunachal Pradesh (Ranji Plate, Surat), 8 consecutive sixes (first ever > 6), 50* off 14; previous fastest list (White 12, van Vuuren 13, Eckersley 14, Bandeep Singh 15) from the article's table. Team chips use short codes (MEG/LEIC/EPB/J&K)."
+    },
+    {
+      "id": "compare-philander-vs-broad-tests",
+      "kind": "compare",
+      "created": "2026-11-04",
+      "priority": 75,
+      "expires": null,
+      "suggested_title": "Philander vs Broad after 19 Tests 🤯 Look at that gap",
+      "notes": "4 Nov: vidIQ outliers (Shorts) still favour X vs Y stat comparisons (Kohli/Gayle/Rohit 5-18x). Expected twist: Philander reached 100 Test wickets in only his 19th Test (one of the fastest ever), Broad (600+ wkts legend) should be far behind after 19 Tests - huge gap. Both retired; Cricsheet counts complete (Philander 64 = official 64; Broad 167 = official 167). Anchor before posting: Philander 100th wkt in 19th Test (Cricinfo/news).",
+      "status": "ready",
+      "file": "shorts/ready/compare-philander-vs-broad-tests.mp4",
+      "facts_file": "shorts/ready/compare-philander-vs-broad-tests.json"
+    },
+    {
+      "id": "compare-voges-vs-kohli-tests",
+      "kind": "compare",
+      "created": "2026-11-04",
+      "priority": 72,
+      "expires": null,
+      "suggested_title": "Voges vs Kohli after 31 Test innings 😳 The forgotten Aussie",
+      "notes": "4 Nov: Kohli comparisons breaking out on vidIQ outliers. Expected twist: Adam Voges (20 Tests, average 61.87, 2nd-best career average after Bradman among 20+ innings) should be well ahead of Kohli's first 31 Test innings. Voges retired 2016, complete (20 = official 20; anchor official 1,485 runs in 31 inns). Kohli Tests complete in Cricsheet (123 = official) but he played Tests until 2025: verify Kohli's figures after 31 innings against an official source before posting.",
+      "status": "ready",
+      "file": "shorts/ready/compare-voges-vs-kohli-tests.mp4",
+      "facts_file": "shorts/ready/compare-voges-vs-kohli-tests.json"
     }
   ]
 }

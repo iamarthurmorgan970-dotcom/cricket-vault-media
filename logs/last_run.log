@@ -1,14 +1,15 @@
-started: 2026-11-04 02:18:00 UTC
+started: 2026-11-04 03:09:40 UTC
 
 [notice] A new release of pip is available: 26.2.2 -> 26.3
 [notice] To update, run: pip install --upgrade pip
-total 312
-drwxr-xr-x  2 runner runner   4096 Nov  4 02:18 .
-drwxrwxrwt 14 root   root     4096 Nov  4 02:18 ..
--rw-r--r--  1 runner runner 308676 Nov  4 02:18 recent.zip
+total 145856
+drwxr-xr-x  2 runner runner      4096 Nov  4 03:09 .
+drwxrwxrwt 14 root   root        4096 Nov  4 03:09 ..
+-rw-r--r--  1 runner runner 149036509 Nov  4 03:10 all.zip
+-rw-r--r--  1 runner runner    308676 Nov  4 03:09 recent.zip
 Today 2026-11-04; recent data: recent.zip
-Worm candidates since 2026-10-30: 2
-  rendered thriller-1539435 (70): 97 off 6 to win… can IND do it? 😳 NZ vs IND last over
-  rendered worm-1539436 (70): New Zealand beat India by 7 wickets 🔥 IND vs NZ 5th T20I
-Ready to schedule: 3 ['card-abhishek-fastest-2000-t20i', 'thriller-1539435', 'worm-1539436']
-finished: 2026-11-04 02:19:01 UTC; render step outcome: success
+Worm candidates since 2026-10-30: 0
+  rendered queued compare-philander-vs-broad-tests
+  rendered queued compare-voges-vs-kohli-tests
+Ready to schedule: 4 ['card-abhishek-fastest-2000-t20i', 'card-akash-choudhary-11-ball-fifty', 'compare-philander-vs-broad-tests', 'compare-voges-vs-kohli-tests']
+finished: 2026-11-04 03:11:56 UTC; render step outcome: success

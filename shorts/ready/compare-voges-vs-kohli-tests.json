@@ -1,0 +1,44 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Voges vs Kohli after 31 Test innings",
+  "subtitle": "First 31 Test innings each · 2015–2016 vs 2011–2013",
+  "format": "Test",
+  "unit": "innings",
+  "count": 31,
+  "metric": "runs",
+  "hook": [
+    "VOGES vs KOHLI",
+    "61.9 vs 42.0",
+    "BATTING AVERAGE · FIRST 31 TEST INNINGS"
+  ],
+  "hook_stat": "61.9 vs 42.0 batting average",
+  "data_through": "2016-11-12",
+  "players": [
+    {
+      "cricsheet_name": "AC Voges",
+      "label": "Adam Voges",
+      "first": "2015-06-03",
+      "last": "2016-11-12",
+      "stats": {
+        "Runs": "1,485",
+        "Average": "61.9",
+        "Strike rate": "55.7",
+        "100s / 50s": "5 / 4"
+      }
+    },
+    {
+      "cricsheet_name": "V Kohli",
+      "label": "Virat Kohli",
+      "first": "2011-06-20",
+      "last": "2013-03-22",
+      "stats": {
+        "Runs": "1,175",
+        "Average": "42.0",
+        "Strike rate": "46.9",
+        "100s / 50s": "4 / 6"
+      }
+    }
+  ],
+  "leader": "Adam Voges",
+  "margin": 310
+}
