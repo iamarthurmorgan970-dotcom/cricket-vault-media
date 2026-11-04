@@ -250,6 +250,30 @@
       "status": "parked",
       "file": "shorts/ready/compare-boult-vs-wagner-tests.mp4",
       "facts_file": "shorts/ready/compare-boult-vs-wagner-tests.json"
+    },
+    {
+      "id": "thriller-1539435",
+      "kind": "thriller",
+      "created": "2026-11-04",
+      "match_date": "2026-10-30",
+      "priority": 70,
+      "expires": "2026-11-03",
+      "suggested_title": "97 off 6 to win… can IND do it? 😳 NZ vs IND last over",
+      "status": "ready",
+      "file": "shorts/ready/thriller-1539435.mp4",
+      "facts_file": "shorts/ready/thriller-1539435.json"
+    },
+    {
+      "id": "worm-1539436",
+      "kind": "worm",
+      "created": "2026-11-04",
+      "match_date": "2026-11-01",
+      "priority": 70,
+      "expires": "2026-11-05",
+      "suggested_title": "New Zealand beat India by 7 wickets 🔥 IND vs NZ 5th T20I",
+      "status": "ready",
+      "file": "shorts/ready/worm-1539436.mp4",
+      "facts_file": "shorts/ready/worm-1539436.json"
     }
   ]
 }

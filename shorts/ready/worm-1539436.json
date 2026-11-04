@@ -1,0 +1,108 @@
+{
+  "kind": "worm",
+  "date": "2026-11-01",
+  "event": "India tour of New Zealand",
+  "match_number": 5,
+  "format": "T20I",
+  "match_type": "T20",
+  "team_type": "international",
+  "gender": "male",
+  "venue": "Seddon Park, Hamilton",
+  "city": "Hamilton",
+  "teams": [
+    "India",
+    "New Zealand"
+  ],
+  "result": "New Zealand won by 7 wickets",
+  "outcome": {
+    "winner": "New Zealand",
+    "by": {
+      "wickets": 7
+    }
+  },
+  "player_of_match": [
+    "AF Milne"
+  ],
+  "super_over": false,
+  "innings": [
+    {
+      "team": "India",
+      "runs": 191,
+      "wickets": 8,
+      "legal_balls": 120,
+      "overs": "20",
+      "declared": false,
+      "top_batters": [
+        {
+          "name": "Ishan Kishan",
+          "runs": 61,
+          "balls": 32
+        },
+        {
+          "name": "SS Iyer",
+          "runs": 50,
+          "balls": 23
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "AF Milne",
+          "wickets": 4,
+          "conceded": 19
+        },
+        {
+          "name": "NG Smith",
+          "wickets": 2,
+          "conceded": 28
+        }
+      ]
+    },
+    {
+      "team": "New Zealand",
+      "runs": 195,
+      "wickets": 3,
+      "legal_balls": 108,
+      "overs": "18",
+      "declared": false,
+      "top_batters": [
+        {
+          "name": "TL Seifert",
+          "runs": 93,
+          "balls": 50
+        },
+        {
+          "name": "GD Phillips",
+          "runs": 65,
+          "balls": 38
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "Nithish Kumar Reddy",
+          "wickets": 1,
+          "conceded": 19
+        },
+        {
+          "name": "Arshdeep Singh",
+          "wickets": 1,
+          "conceded": 40
+        }
+      ]
+    }
+  ],
+  "chase": {
+    "target": 192,
+    "target_balls": 120,
+    "final_over_reached": false,
+    "needed_in_final_over": 7,
+    "chased": true,
+    "balls_to_spare": 12
+  },
+  "match_id": "1539436",
+  "on_screen_title": "New Zealand beat India by 7 wickets",
+  "hook": [
+    "India vs New Zealand",
+    "NEW ZEALAND BEAT",
+    "INDIA BY 7 WICKETS"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "kind": "thriller",
+  "date": "2026-10-30",
+  "event": "India tour of New Zealand",
+  "match_number": 4,
+  "format": "T20I",
+  "match_type": "T20",
+  "team_type": "international",
+  "gender": "male",
+  "venue": "Eden Park, Auckland",
+  "city": "Auckland",
+  "teams": [
+    "New Zealand",
+    "India"
+  ],
+  "result": "New Zealand won by 87 runs",
+  "outcome": {
+    "winner": "New Zealand",
+    "by": {
+      "runs": 87
+    }
+  },
+  "player_of_match": [
+    "GD Phillips"
+  ],
+  "super_over": false,
+  "innings": [
+    {
+      "team": "New Zealand",
+      "runs": 259,
+      "wickets": 7,
+      "legal_balls": 120,
+      "overs": "20",
+      "declared": false,
+      "top_batters": [
+        {
+          "name": "GD Phillips",
+          "runs": 107,
+          "balls": 49
+        },
+        {
+          "name": "MG Bracewell",
+          "runs": 65,
+          "balls": 25
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "MP Yadav",
+          "wickets": 3,
+          "conceded": 48
+        },
+        {
+          "name": "Arshdeep Singh",
+          "wickets": 1,
+          "conceded": 38
+        }
+      ]
+    },
+    {
+      "team": "India",
+      "runs": 172,
+      "wickets": 9,
+      "legal_balls": 120,
+      "overs": "20",
+      "declared": false,
+      "top_batters": [
+        {
+          "name": "Tilak Varma",
+          "runs": 35,
+          "balls": 35
+        },
+        {
+          "name": "Naman Dhir",
+          "runs": 28,
+          "balls": 13
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "JA Duffy",
+          "wickets": 4,
+          "conceded": 23
+        },
+        {
+          "name": "MJ Santner",
+          "wickets": 2,
+          "conceded": 24
+        }
+      ]
+    }
+  ],
+  "chase": {
+    "target": 260,
+    "target_balls": 120,
+    "final_over_reached": true,
+    "needed_in_final_over": 97,
+    "chased": false,
+    "balls_to_spare": null
+  },
+  "match_id": "1539435",
+  "on_screen_title": "IND NEED 97 OFF 6",
+  "final_over": [
+    "0",
+    "1",
+    "1",
+    "1",
+    "6",
+    "0"
+  ],
+  "before_final_over": "163/9",
+  "top_bowler_wickets_before_final_over": 4
+}
