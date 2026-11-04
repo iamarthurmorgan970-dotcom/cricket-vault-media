@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "FASTEST FIFTY IN FIRST-CLASS HISTORY",
+  "hook": "8 SIXES IN 8 BALLS",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "First-class",
+  "data_through": "2025-11-09",
+  "highlight": "Akash Kumar Choudhary",
+  "footnote": "Source: Wisden, 9 Nov 2025",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Akash Kumar Choudhary",
+      "display": "Akash Kumar Choudhary",
+      "team": "MEG",
+      "value": "11",
+      "detail": "v ARUNACHAL · RANJI TROPHY · 2025",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Wayne White",
+      "display": "Wayne White",
+      "team": "LEIC",
+      "value": "12",
+      "detail": "v ESSEX · 2012",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Michael van Vuuren",
+      "display": "Michael van Vuuren",
+      "team": "EPB",
+      "value": "13",
+      "detail": "v GRIQUALAND WEST · 1984/85",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Ned Eckersley",
+      "display": "Ned Eckersley",
+      "team": "LEIC",
+      "value": "14",
+      "detail": "v ESSEX · 2012",
+      "in_progress": false
+    },
+    {
+      "rank": 5,
+      "player": "Bandeep Singh",
+      "display": "Bandeep Singh",
+      "team": "J&K",
+      "value": "15",
+      "detail": "v TRIPURA · 2015/16",
+      "in_progress": false
+    }
+  ]
+}

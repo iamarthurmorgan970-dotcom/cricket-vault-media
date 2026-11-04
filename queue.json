@@ -331,6 +331,66 @@
       ],
       "suggested_title": "Boult vs Wagner after {N} Tests 😳 Who was NZ's real weapon?",
       "notes": "3 Nov: NZ pace-duo angle. Cricsheet counts match official (Boult 78, Wagner 64 Tests); both last played Tests before Nov 2024. Anchor: Wagner official 260 Test wickets in 64 Tests."
+    },
+    {
+      "id": "compare-philander-vs-broad-tests",
+      "kind": "compare",
+      "priority": 75,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "Test",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--metric",
+        "wickets",
+        "--per",
+        "match",
+        "--a",
+        "VD Philander",
+        "--b",
+        "SCJ Broad",
+        "--label-a",
+        "Vernon Philander",
+        "--label-b",
+        "Stuart Broad",
+        "--innings",
+        "19",
+        "--title",
+        "Philander vs Broad after {N} Tests"
+      ],
+      "suggested_title": "Philander vs Broad after {N} Tests 🤯 Look at that gap",
+      "notes": "4 Nov: vidIQ outliers (Shorts) still favour X vs Y stat comparisons (Kohli/Gayle/Rohit 5-18x). Expected twist: Philander reached 100 Test wickets in only his 19th Test (one of the fastest ever), Broad (600+ wkts legend) should be far behind after 19 Tests - huge gap. Both retired; Cricsheet counts complete (Philander 64 = official 64; Broad 167 = official 167). Anchor before posting: Philander 100th wkt in 19th Test (Cricinfo/news)."
+    },
+    {
+      "id": "compare-voges-vs-kohli-tests",
+      "kind": "compare",
+      "priority": 72,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "Test",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--a",
+        "AC Voges",
+        "--b",
+        "V Kohli",
+        "--label-a",
+        "Adam Voges",
+        "--label-b",
+        "Virat Kohli",
+        "--innings",
+        "31",
+        "--title",
+        "Voges vs Kohli after {N} Test innings"
+      ],
+      "suggested_title": "Voges vs Kohli after {N} Test innings 😳 The forgotten Aussie",
+      "notes": "4 Nov: Kohli comparisons breaking out on vidIQ outliers. Expected twist: Adam Voges (20 Tests, average 61.87, 2nd-best career average after Bradman among 20+ innings) should be well ahead of Kohli's first 31 Test innings. Voges retired 2016, complete (20 = official 20; anchor official 1,485 runs in 31 inns). Kohli Tests complete in Cricsheet (123 = official) but he played Tests until 2025: verify Kohli's figures after 31 innings against an official source before posting."
     }
   ]
 }

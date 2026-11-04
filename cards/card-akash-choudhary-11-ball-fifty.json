@@ -1,0 +1,46 @@
+{
+ "title": "Fastest fifty in first-class history",
+ "hook": "8 sixes in 8 balls",
+ "unit": "BALLS",
+ "format": "First-class",
+ "as_of": "2025-11-09",
+ "rows": [
+  {
+   "rank": 1,
+   "player": "Akash Kumar Choudhary",
+   "team": "MEG",
+   "value": "11",
+   "detail": "v ARUNACHAL · RANJI TROPHY · 2025",
+   "highlight": true
+  },
+  {
+   "rank": 2,
+   "player": "Wayne White",
+   "team": "LEIC",
+   "value": "12",
+   "detail": "v ESSEX · 2012"
+  },
+  {
+   "rank": 3,
+   "player": "Michael van Vuuren",
+   "team": "EPB",
+   "value": "13",
+   "detail": "v GRIQUALAND WEST · 1984/85"
+  },
+  {
+   "rank": 4,
+   "player": "Ned Eckersley",
+   "team": "LEIC",
+   "value": "14",
+   "detail": "v ESSEX · 2012"
+  },
+  {
+   "rank": 5,
+   "player": "Bandeep Singh",
+   "team": "J&K",
+   "value": "15",
+   "detail": "v TRIPURA · 2015/16"
+  }
+ ],
+ "footnote": "Source: Wisden, 9 Nov 2025"
+}

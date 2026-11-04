@@ -110,7 +110,8 @@
       "verified": true,
       "sources": [
         "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-3rd-t20i-2026-abhishek-sharma-fastest-2000-runs-record"
-      ]
+      ],
+      "wow": "Abhishek reached 2,000 T20I runs in 1,024 balls, 140 fewer than the previous record (Suryakumar, 1,164)."
     },
     {
       "id": "card-arshdeep-150-t20i-wickets",
@@ -259,9 +260,10 @@
       "priority": 70,
       "expires": "2026-11-03",
       "suggested_title": "97 off 6 to win… can IND do it? 😳 NZ vs IND last over",
-      "status": "ready",
+      "status": "expired",
       "file": "shorts/ready/thriller-1539435.mp4",
-      "facts_file": "shorts/ready/thriller-1539435.json"
+      "facts_file": "shorts/ready/thriller-1539435.json",
+      "notes": "4 Nov: expired (match 30 Oct, expiry 3 Nov). Also fails the no-way test: IND needed 97 off 6 (lost by 87), not a real last-over thriller."
     },
     {
       "id": "worm-1539436",
@@ -271,9 +273,27 @@
       "priority": 70,
       "expires": "2026-11-05",
       "suggested_title": "New Zealand beat India by 7 wickets 🔥 IND vs NZ 5th T20I",
-      "status": "ready",
+      "status": "parked",
       "file": "shorts/ready/worm-1539436.mp4",
-      "facts_file": "shorts/ready/worm-1539436.json"
+      "facts_file": "shorts/ready/worm-1539436.json",
+      "notes": "PARKED 4 Nov: fails the no-way test. Routine 7-wicket NZ chase (192 in 18 overs), and the match (1 Nov) is too old for a fresh match Short by the next free slot (5-6 Nov)."
+    },
+    {
+      "id": "card-akash-choudhary-11-ball-fifty",
+      "kind": "card",
+      "created": "2026-11-04",
+      "priority": 80,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-akash-choudhary-11-ball-fifty.mp4",
+      "facts_file": "shorts/ready/card-akash-choudhary-11-ball-fifty.json",
+      "suggested_title": "11-ball fifty 🤯 8 sixes in 8 balls: fastest fifty in first-class history",
+      "verified": true,
+      "wow": "A Meghalaya fast bowler hit 8 sixes in 8 balls and a 11-ball fifty, a first-class world record (previous 12 balls).",
+      "sources": [
+        "https://www.wisden.com/series/ranji-trophy-2025-26/cricket-news/eight-sixes-in-eight-balls-fastest-first-class-fifty-indian-quick-akash-choudhary-breaks-world-records-with-whirlwind-ranji-trophy-knock"
+      ],
+      "notes": "4 Nov: all numbers from Wisden (9 Nov 2025): 11-ball fifty v Arunachal Pradesh (Ranji Plate, Surat), 8 consecutive sixes (first ever > 6), 50* off 14; previous fastest list (White 12, van Vuuren 13, Eckersley 14, Bandeep Singh 15) from the article's table. Team chips use short codes (MEG/LEIC/EPB/J&K)."
     }
   ]
 }
