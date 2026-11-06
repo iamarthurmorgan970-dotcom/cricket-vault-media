@@ -302,10 +302,16 @@
       "priority": 75,
       "expires": null,
       "suggested_title": "Philander vs Broad after 19 Tests 🤯 Look at that gap",
-      "notes": "4 Nov: vidIQ outliers (Shorts) still favour X vs Y stat comparisons (Kohli/Gayle/Rohit 5-18x). Expected twist: Philander reached 100 Test wickets in only his 19th Test (one of the fastest ever), Broad (600+ wkts legend) should be far behind after 19 Tests - huge gap. Both retired; Cricsheet counts complete (Philander 64 = official 64; Broad 167 = official 167). Anchor before posting: Philander 100th wkt in 19th Test (Cricinfo/news).",
-      "status": "ready",
+      "notes": "4 Nov: vidIQ outliers (Shorts) still favour X vs Y stat comparisons (Kohli/Gayle/Rohit 5-18x). Expected twist: Philander reached 100 Test wickets in only his 19th Test (one of the fastest ever), Broad (600+ wkts legend) should be far behind after 19 Tests - huge gap. Both retired; Cricsheet counts complete (Philander 64 = official 64; Broad 167 = official 167). Anchor before posting: Philander 100th wkt in 19th Test (Cricinfo/news). 6 Nov: both retired >2y; anchor checked: Philander reached 100 Test wkts in his 19th Test (Sport24, 20 Dec 2013), consistent with 102 wkts through 2013-12-18. Scheduled Sat 7 Nov 21:30 IST.",
+      "status": "scheduled",
       "file": "shorts/ready/compare-philander-vs-broad-tests.mp4",
-      "facts_file": "shorts/ready/compare-philander-vs-broad-tests.json"
+      "facts_file": "shorts/ready/compare-philander-vs-broad-tests.json",
+      "title": "9 five-wicket hauls vs 1 🤯 Philander vs Broad after 19 Tests",
+      "scheduled_for": "2026-11-07T21:30+05:30",
+      "metricool_id": 418479523,
+      "sources": [
+        "https://www.sport24.co.za/Cricket/IndiaInSA/Philander-reaches-100-milestone-20131220"
+      ]
     },
     {
       "id": "compare-voges-vs-kohli-tests",
