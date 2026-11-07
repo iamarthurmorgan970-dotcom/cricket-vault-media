@@ -1,0 +1,44 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Yasir Shah vs Swann after 33 Tests",
+  "subtitle": "First 33 Tests each · 2014–2018 vs 2008–2011",
+  "format": "Test",
+  "unit": "Tests",
+  "count": 33,
+  "metric": "wickets",
+  "hook": [
+    "SHAH vs SWANN",
+    "16 vs 10",
+    "5-WICKET HAULS · FIRST 33 TESTS"
+  ],
+  "hook_stat": "16 vs 10 5-wicket hauls",
+  "data_through": "2018-12-03",
+  "players": [
+    {
+      "cricsheet_name": "Yasir Shah",
+      "label": "Yasir Shah",
+      "first": "2014-10-22",
+      "last": "2018-12-03",
+      "stats": {
+        "Wickets": "202",
+        "Average": "28.3",
+        "Economy": "3.09",
+        "5-wkt hauls": "16"
+      }
+    },
+    {
+      "cricsheet_name": "GP Swann",
+      "label": "Graeme Swann",
+      "first": "2008-12-11",
+      "last": "2011-07-21",
+      "stats": {
+        "Wickets": "142",
+        "Average": "28.1",
+        "Economy": "2.89",
+        "5-wkt hauls": "10"
+      }
+    }
+  ],
+  "leader": "Yasir Shah",
+  "margin": 60
+}
