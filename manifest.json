@@ -323,10 +323,18 @@
       "priority": 72,
       "expires": null,
       "suggested_title": "Voges vs Kohli after 31 Test innings 😳 The forgotten Aussie",
-      "notes": "4 Nov: Kohli comparisons breaking out on vidIQ outliers. Expected twist: Adam Voges (20 Tests, average 61.87, 2nd-best career average after Bradman among 20+ innings) should be well ahead of Kohli's first 31 Test innings. Voges retired 2016, complete (20 = official 20; anchor official 1,485 runs in 31 inns). Kohli Tests complete in Cricsheet (123 = official) but he played Tests until 2025: verify Kohli's figures after 31 innings against an official source before posting.",
-      "status": "ready",
+      "notes": "4 Nov: Kohli comparisons breaking out on vidIQ outliers. Expected twist: Adam Voges (20 Tests, average 61.87, 2nd-best career average after Bradman among 20+ innings) should be well ahead of Kohli's first 31 Test innings. Voges retired 2016, complete (20 = official 20; anchor official 1,485 runs in 31 inns). Kohli Tests complete in Cricsheet (123 = official) but he played Tests until 2025: verify Kohli's figures after 31 innings against an official source before posting. | 8 Nov: VERIFIED Kohli's first 31 Test innings against CricketArchive season-by-season Test batting (WI 2011 5 inns 76; Aus 2011-12 8 inns 300; India 2011-12 2 inns 115; India 2012 3 inns 212 (1 NO); India 2012-13 13 inns 472 (2 NO)) = 31 inns, 3 NO, 1,175 runs, avg 41.96, 4x100, 6x50: matches facts exactly. Aus 2013 series 284 @ 56.80 also matches Sportskeeda. Voges anchor (1,485 in 31 inns) per 4 Nov notes. Scheduled Mon 9 Nov 17:30 IST.",
+      "status": "scheduled",
       "file": "shorts/ready/compare-voges-vs-kohli-tests.mp4",
-      "facts_file": "shorts/ready/compare-voges-vs-kohli-tests.json"
+      "facts_file": "shorts/ready/compare-voges-vs-kohli-tests.json",
+      "title": "61.9 vs 42.0 🤯 Forgotten Aussie Voges vs Kohli after 31 Test innings",
+      "scheduled_for": "2026-11-09T17:30:00+05:30",
+      "metricool_id": 420437886,
+      "verified": true,
+      "sources": [
+        "https://cricketarchive.co.uk/Archive/Players/101/101095/t_Batting_by_Season.html",
+        "https://www.sportskeeda.com/cricket/10-years-of-virat-kohli-year-by-year-in-numbers-ss/3"
+      ]
     },
     {
       "id": "compare-yasir-vs-swann-tests",
