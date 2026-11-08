@@ -1,5 +1,5 @@
 {
-  "built": "2026-10-31",
+  "built": "2026-11-08",
   "players": {
     "A Alexander": {
       "team": "Indonesia",
@@ -46,14 +46,14 @@
     "A Balbirnie": {
       "team": "Ireland",
       "formats": {
-        "ODI": 90,
+        "ODI": 93,
         "MDM": 3,
         "Test": 11,
         "ODM": 1,
         "T20I": 91,
         "IT20": 3
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "A Bhattarai": {
       "team": "Nepal",
@@ -100,9 +100,9 @@
       "team": "Namibia",
       "formats": {
         "T20I": 16,
-        "ODI": 7
+        "ODI": 9
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "A Chaudhary": {
       "team": "Singapore",
@@ -116,9 +116,9 @@
       "team": "Kuwait",
       "formats": {
         "T20I": 14,
-        "ODM": 7
+        "ODM": 9
       },
-      "last": "2026-10-24"
+      "last": "2026-10-28"
     },
     "A Conteh": {
       "team": "Gambia",
@@ -176,9 +176,9 @@
       "team": "Netherlands",
       "formats": {
         "T20I": 30,
-        "ODI": 58
+        "ODI": 61
       },
-      "last": "2026-10-25"
+      "last": "2026-11-02"
     },
     "A Ferguson": {
       "team": "Argentina",
@@ -433,11 +433,11 @@
     "A Nao": {
       "team": "Papua New Guinea",
       "formats": {
-        "ODM": 13,
+        "ODM": 15,
         "ODI": 19,
         "T20I": 24
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "A Nathwani": {
       "team": "Austria",
@@ -651,10 +651,10 @@
     "A Sharma": {
       "team": "United Arab Emirates",
       "formats": {
-        "ODI": 29,
+        "ODI": 30,
         "T20I": 18
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "A Shreshta": {
       "team": "Nigeria",
@@ -713,12 +713,12 @@
       "team": "Papua New Guinea",
       "formats": {
         "MDM": 2,
-        "ODM": 26,
+        "ODM": 29,
         "ODI": 56,
         "T20I": 62,
         "IT20": 13
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "A Venkatesh": {
       "team": "Sweden",
@@ -764,10 +764,10 @@
       "team": "West Indies",
       "formats": {
         "ODI": 11,
-        "Test": 5,
+        "Test": 6,
         "T20I": 6
       },
-      "last": "2026-10-03"
+      "last": "2026-10-28"
     },
     "AA Jasani": {
       "team": "Tanzania",
@@ -846,10 +846,10 @@
       "team": "England",
       "formats": {
         "T20I": 4,
-        "ODI": 19,
+        "ODI": 20,
         "Test": 21
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "AAP Rivero": {
       "team": "Argentina",
@@ -1017,9 +1017,9 @@
       "team": "United Arab Emirates",
       "formats": {
         "T20I": 4,
-        "ODI": 12
+        "ODI": 14
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "AD Poynter": {
       "team": "Ireland",
@@ -1081,9 +1081,9 @@
       "team": "New Zealand",
       "formats": {
         "ODI": 49,
-        "T20I": 56
+        "T20I": 59
       },
-      "last": "2026-10-22"
+      "last": "2026-11-01"
     },
     "AG Cremer": {
       "team": "Zimbabwe",
@@ -1285,11 +1285,11 @@
     "AK Markram": {
       "team": "South Africa",
       "formats": {
-        "Test": 52,
+        "Test": 53,
         "ODI": 82,
         "T20I": 75
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "AK Mohan": {
       "team": "Finland",
@@ -1371,11 +1371,11 @@
     "AM Fernando": {
       "team": "Sri Lanka",
       "formats": {
-        "ODI": 33,
+        "ODI": 36,
         "Test": 27,
         "T20I": 6
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "AM Guruge": {
       "team": "United Arab Emirates",
@@ -1455,10 +1455,10 @@
       "team": "Jersey",
       "formats": {
         "T20I": 21,
-        "ODM": 10,
+        "ODM": 11,
         "ODI": 4
       },
-      "last": "2026-10-25"
+      "last": "2026-10-27"
     },
     "AN Aminou": {
       "team": "Cameroon",
@@ -1558,10 +1558,10 @@
     "AR Bisht": {
       "team": "Oman",
       "formats": {
-        "ODI": 5,
+        "ODI": 8,
         "T20I": 9
       },
-      "last": "2026-05-05"
+      "last": "2026-11-02"
     },
     "AR Caddick": {
       "team": "England",
@@ -1593,11 +1593,11 @@
       "formats": {
         "T20I": 22,
         "IT20": 1,
-        "ODI": 74,
+        "ODI": 75,
         "Test": 10,
         "MDM": 2
       },
-      "last": "2026-10-24"
+      "last": "2026-10-27"
     },
     "AR Naidoo": {
       "team": "Cayman Islands",
@@ -1627,10 +1627,10 @@
       "team": "India",
       "formats": {
         "ODI": 74,
-        "T20I": 107,
+        "T20I": 109,
         "Test": 15
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "AR Patwa": {
       "team": "Tanzania",
@@ -1735,9 +1735,9 @@
       "formats": {
         "ODI": 94,
         "T20I": 42,
-        "Test": 52
+        "Test": 53
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "AT Nidamanuru": {
       "team": "Netherlands",
@@ -1885,9 +1885,9 @@
       "team": "United Arab Emirates",
       "formats": {
         "T20I": 31,
-        "ODI": 46
+        "ODI": 47
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Abbas Afridi": {
       "team": "Pakistan",
@@ -1996,9 +1996,9 @@
       "team": "Denmark",
       "formats": {
         "T20I": 23,
-        "ODM": 7
+        "ODM": 9
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "Abdullah Shafique": {
       "team": "Pakistan",
@@ -2075,9 +2075,9 @@
     "Abhishek Sharma": {
       "team": "India",
       "formats": {
-        "T20I": 66
+        "T20I": 69
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "Abid Ali": {
       "team": "Pakistan",
@@ -2157,9 +2157,9 @@
       "team": "United Arab Emirates",
       "formats": {
         "T20I": 5,
-        "ODI": 12
+        "ODI": 13
       },
-      "last": "2026-10-11"
+      "last": "2026-10-31"
     },
     "Adil Bhatti": {
       "team": "United States of America",
@@ -2261,11 +2261,11 @@
     "Agha Salman": {
       "team": "Pakistan",
       "formats": {
-        "ODI": 53,
+        "ODI": 55,
         "Test": 28,
         "T20I": 48
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Ahmad Khalid Ahmadzai": {
       "team": "Belgium",
@@ -2577,11 +2577,11 @@
     "Ali Zaheer": {
       "team": "Kuwait",
       "formats": {
-        "ODM": 20,
+        "ODM": 23,
         "IT20": 6,
         "T20I": 14
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "Alok Kapali": {
       "team": "Bangladesh",
@@ -2884,9 +2884,9 @@
       "team": "Pakistan",
       "formats": {
         "T20I": 6,
-        "ODI": 6
+        "ODI": 8
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Arafat Sunny": {
       "team": "Bangladesh",
@@ -2932,10 +2932,10 @@
     "Arshdeep Singh": {
       "team": "India",
       "formats": {
-        "T20I": 94,
+        "T20I": 97,
         "ODI": 16
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "Arslan Amjad": {
       "team": "Estonia",
@@ -3341,9 +3341,9 @@
       "formats": {
         "ODI": 120,
         "Test": 21,
-        "T20I": 89
+        "T20I": 91
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "B Kynman": {
       "team": "Jersey",
@@ -3467,9 +3467,9 @@
         "IT20": 4,
         "T20I": 42,
         "ODI": 4,
-        "ODM": 2
+        "ODM": 5
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "B White": {
       "team": "Ireland",
@@ -3510,9 +3510,9 @@
       "formats": {
         "T20I": 80,
         "ODI": 57,
-        "Test": 10
+        "Test": 11
       },
-      "last": "2026-08-02"
+      "last": "2026-10-28"
     },
     "BA Pai": {
       "team": "Gibraltar",
@@ -3655,9 +3655,9 @@
       "formats": {
         "ODM": 3,
         "T20I": 49,
-        "ODI": 55
+        "ODI": 57
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "BG Lister": {
       "team": "New Zealand",
@@ -3737,9 +3737,9 @@
     "BJ Jacobs": {
       "team": "New Zealand",
       "formats": {
-        "T20I": 13
+        "T20I": 16
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "BJ McCarthy": {
       "team": "Ireland",
@@ -3800,19 +3800,19 @@
       "team": "Sri Lanka",
       "formats": {
         "T20I": 105,
-        "ODI": 146,
+        "ODI": 149,
         "Test": 74
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "BM Duckett": {
       "team": "England",
       "formats": {
-        "ODI": 42,
+        "ODI": 43,
         "Test": 49,
         "T20I": 21
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "BM Pecic": {
       "team": "Serbia",
@@ -3827,19 +3827,19 @@
         "MDM": 4,
         "ODM": 31,
         "IT20": 21,
-        "ODI": 74,
+        "ODI": 76,
         "T20I": 83
       },
-      "last": "2026-10-22"
+      "last": "2026-10-30"
     },
     "BM Tickner": {
       "team": "New Zealand",
       "formats": {
-        "T20I": 18,
+        "T20I": 19,
         "ODI": 18,
         "Test": 6
       },
-      "last": "2026-06-25"
+      "last": "2026-11-01"
     },
     "BM Wheeler": {
       "team": "New Zealand",
@@ -3981,10 +3981,10 @@
       "team": "Pakistan",
       "formats": {
         "Test": 66,
-        "ODI": 140,
+        "ODI": 142,
         "T20I": 142
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Babar Hayat": {
       "team": "Hong Kong",
@@ -4031,10 +4031,10 @@
     "Basil Hameed": {
       "team": "United Arab Emirates",
       "formats": {
-        "ODI": 53,
+        "ODI": 54,
         "T20I": 53
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "Basir Ahamad": {
       "team": "Nepal",
@@ -4087,9 +4087,9 @@
       "team": "Kuwait",
       "formats": {
         "T20I": 65,
-        "ODM": 7
+        "ODM": 10
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "Bilal Zalmai": {
       "team": "Austria",
@@ -4119,10 +4119,10 @@
     "Boio Ray": {
       "team": "Papua New Guinea",
       "formats": {
-        "ODM": 6,
+        "ODM": 9,
         "T20I": 9
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "Bosco Tuyizere": {
       "team": "Rwanda",
@@ -4182,18 +4182,26 @@
       "team": "Jersey",
       "formats": {
         "T20I": 30,
-        "ODM": 10
+        "ODM": 13
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "C Campher": {
       "team": "Ireland",
       "formats": {
-        "ODI": 40,
+        "ODI": 43,
         "T20I": 63,
         "Test": 9
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
+    },
+    "C Carmichael": {
+      "team": "Ireland",
+      "formats": {
+        "ODI": 8,
+        "Test": 3
+      },
+      "last": "2026-11-01"
     },
     "C Carter": {
       "team": "Hong Kong",
@@ -4225,9 +4233,9 @@
       "formats": {
         "T20I": 14,
         "ODI": 18,
-        "Test": 1
+        "Test": 2
       },
-      "last": "2026-09-30"
+      "last": "2026-10-27"
     },
     "C De Freitas": {
       "team": "Portugal",
@@ -4276,11 +4284,11 @@
     "C Green": {
       "team": "Australia",
       "formats": {
-        "Test": 39,
+        "Test": 40,
         "ODI": 40,
         "T20I": 27
       },
-      "last": "2026-09-30"
+      "last": "2026-10-27"
     },
     "C Hartmann": {
       "team": "Isle of Man",
@@ -4553,6 +4561,13 @@
         "Test": 29
       },
       "last": "2022-06-02"
+    },
+    "C de Lange": {
+      "team": "Netherlands",
+      "formats": {
+        "ODI": 10
+      },
+      "last": "2026-11-02"
     },
     "CA Ingram": {
       "team": "South Africa",
@@ -4983,9 +4998,9 @@
       "team": "Netherlands",
       "formats": {
         "T20I": 29,
-        "ODI": 17
+        "ODI": 20
       },
-      "last": "2026-10-25"
+      "last": "2026-11-02"
     },
     "CN Greaves": {
       "team": "Scotland",
@@ -5192,9 +5207,9 @@
       "team": "Kuwait",
       "formats": {
         "T20I": 48,
-        "ODM": 7
+        "ODM": 10
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "CV Ranasinghe": {
       "team": "South Korea",
@@ -5206,10 +5221,10 @@
     "CV Varun": {
       "team": "India",
       "formats": {
-        "T20I": 48,
+        "T20I": 49,
         "ODI": 4
       },
-      "last": "2026-07-07"
+      "last": "2026-11-01"
     },
     "CW Coombe": {
       "team": "Namibia",
@@ -5223,12 +5238,12 @@
     "CW Perchard": {
       "team": "Jersey",
       "formats": {
-        "ODM": 40,
+        "ODM": 43,
         "IT20": 10,
         "T20I": 48,
         "ODI": 4
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "CZ Harris": {
       "team": "New Zealand",
@@ -5490,11 +5505,11 @@
     "D Madushanka": {
       "team": "Sri Lanka",
       "formats": {
-        "ODI": 29,
+        "ODI": 32,
         "T20I": 20,
         "Test": 1
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "D Maisuria": {
       "team": "Botswana",
@@ -5787,9 +5802,9 @@
       "team": "Qatar",
       "formats": {
         "T20I": 18,
-        "ODM": 7
+        "ODM": 10
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
     },
     "DAP Darrell": {
       "team": "Bermuda",
@@ -5937,9 +5952,9 @@
     "DG Bedingham": {
       "team": "South Africa",
       "formats": {
-        "Test": 17
+        "Test": 18
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "DG Blampied": {
       "team": "Jersey",
@@ -6039,11 +6054,11 @@
     "DJ Mitchell": {
       "team": "New Zealand",
       "formats": {
-        "T20I": 102,
+        "T20I": 105,
         "Test": 39,
         "ODI": 61
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "DJ Willey": {
       "team": "England",
@@ -6194,11 +6209,11 @@
     "DM Gondaria": {
       "team": "Kenya",
       "formats": {
-        "ODM": 34,
+        "ODM": 36,
         "IT20": 9,
         "T20I": 36
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "DM Nakrani": {
       "team": "Uganda",
@@ -6238,11 +6253,11 @@
     "DN Wellalage": {
       "team": "Sri Lanka",
       "formats": {
-        "ODI": 35,
+        "ODI": 38,
         "Test": 1,
         "T20I": 18
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "DNA Ankrah": {
       "team": "Ghana",
@@ -6454,9 +6469,9 @@
       "team": "Netherlands",
       "formats": {
         "T20I": 14,
-        "ODI": 2
+        "ODI": 4
       },
-      "last": "2026-06-16"
+      "last": "2026-10-31"
     },
     "DT Hondo": {
       "team": "Zimbabwe",
@@ -6684,10 +6699,10 @@
     "E Malinga": {
       "team": "Sri Lanka",
       "formats": {
-        "ODI": 11,
+        "ODI": 13,
         "T20I": 17
       },
-      "last": "2026-10-22"
+      "last": "2026-10-29"
     },
     "E Mathew": {
       "team": "Malta",
@@ -7074,9 +7089,9 @@
       "team": "Kenya",
       "formats": {
         "T20I": 33,
-        "ODM": 6
+        "ODM": 8
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "F Nsubuga": {
       "team": "Uganda",
@@ -7161,10 +7176,10 @@
     "FH Allen": {
       "team": "New Zealand",
       "formats": {
-        "T20I": 61,
+        "T20I": 64,
         "ODI": 22
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "FH Edwards": {
       "team": "West Indies",
@@ -7180,9 +7195,9 @@
       "formats": {
         "ODM": 3,
         "T20I": 41,
-        "ODI": 17
+        "ODI": 19
       },
-      "last": "2026-10-25"
+      "last": "2026-11-02"
     },
     "FJ Mpegna": {
       "team": "Cameroon",
@@ -7217,11 +7232,11 @@
     "Faheem Ashraf": {
       "team": "Pakistan",
       "formats": {
-        "ODI": 46,
+        "ODI": 47,
         "T20I": 80,
         "Test": 17
       },
-      "last": "2026-10-20"
+      "last": "2026-10-31"
     },
     "Faheem Nazir": {
       "team": "Switzerland",
@@ -7279,11 +7294,11 @@
     "Fakhar Zaman": {
       "team": "Pakistan",
       "formats": {
-        "ODI": 90,
+        "ODI": 92,
         "T20I": 117,
         "Test": 3
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Fanyan Mughal": {
       "team": "Malta",
@@ -7404,11 +7419,11 @@
     "G Coetzee": {
       "team": "South Africa",
       "formats": {
-        "Test": 4,
+        "Test": 5,
         "ODI": 15,
         "T20I": 18
       },
-      "last": "2026-09-30"
+      "last": "2026-10-27"
     },
     "G Gambhir": {
       "team": "India",
@@ -7521,9 +7536,9 @@
       "team": "Jersey",
       "formats": {
         "T20I": 4,
-        "ODM": 6
+        "ODM": 8
       },
-      "last": "2026-10-22"
+      "last": "2026-10-30"
     },
     "G Schachat": {
       "team": "Israel",
@@ -7697,11 +7712,11 @@
     "GD Phillips": {
       "team": "New Zealand",
       "formats": {
-        "T20I": 95,
+        "T20I": 98,
         "Test": 19,
         "ODI": 46
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "GDR Eranga": {
       "team": "Canada",
@@ -7738,14 +7753,14 @@
     "GH Dockrell": {
       "team": "Ireland",
       "formats": {
-        "ODI": 100,
+        "ODI": 103,
         "IT20": 10,
         "T20I": 129,
         "MDM": 3,
         "ODM": 3,
         "Test": 1
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "GH O'Brien": {
       "team": "Bermuda",
@@ -8085,12 +8100,12 @@
     "H Carlyon": {
       "team": "Jersey",
       "formats": {
-        "ODM": 25,
+        "ODM": 28,
         "IT20": 4,
         "T20I": 41,
         "ODI": 4
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "H Davids": {
       "team": "South Africa",
@@ -8302,11 +8317,11 @@
     "HAM Shah": {
       "team": "Denmark",
       "formats": {
-        "ODM": 47,
+        "ODM": 49,
         "IT20": 9,
         "T20I": 39
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "HAPW Jayawardene": {
       "team": "Sri Lanka",
@@ -8345,9 +8360,9 @@
       "formats": {
         "T20I": 70,
         "Test": 41,
-        "ODI": 45
+        "ODI": 46
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "HD Rutherford": {
       "team": "New Zealand",
@@ -8596,10 +8611,10 @@
       "team": "Ireland",
       "formats": {
         "T20I": 89,
-        "ODI": 51,
+        "ODI": 54,
         "Test": 9
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "HV Mandhyan": {
       "team": "Hungary",
@@ -8673,9 +8688,9 @@
       "team": "Oman",
       "formats": {
         "T20I": 26,
-        "ODI": 24
+        "ODI": 27
       },
-      "last": "2026-10-19"
+      "last": "2026-11-02"
     },
     "Hammad Saeed": {
       "team": "Saudi Arabia",
@@ -8753,10 +8768,10 @@
       "team": "Pakistan",
       "formats": {
         "T20I": 90,
-        "ODI": 59,
+        "ODI": 61,
         "Test": 1
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Haris Sohail": {
       "team": "Pakistan",
@@ -8822,9 +8837,9 @@
       "formats": {
         "T20I": 25,
         "ODI": 21,
-        "Test": 16
+        "Test": 17
       },
-      "last": "2026-08-22"
+      "last": "2026-10-28"
     },
     "Haseeb Amjad": {
       "team": "Hong Kong",
@@ -8864,9 +8879,9 @@
       "team": "Pakistan",
       "formats": {
         "T20I": 27,
-        "ODI": 7
+        "ODI": 9
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Hassan Rasheed": {
       "team": "Maldives",
@@ -8880,10 +8895,10 @@
     "Hassnain Shah": {
       "team": "Oman",
       "formats": {
-        "ODI": 16,
+        "ODI": 19,
         "T20I": 4
       },
-      "last": "2026-10-19"
+      "last": "2026-11-02"
     },
     "Hayatullah Niazi": {
       "team": "Norway",
@@ -8968,9 +8983,9 @@
       "team": "Qatar",
       "formats": {
         "T20I": 49,
-        "ODM": 19
+        "ODM": 22
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
     },
     "I Master": {
       "team": "Botswana",
@@ -9069,13 +9084,13 @@
     "IA Karim": {
       "team": "Kenya",
       "formats": {
-        "ODM": 45,
+        "ODM": 47,
         "IT20": 8,
         "T20I": 51,
         "MDM": 1,
         "ODI": 3
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "ID Blackwell": {
       "team": "England",
@@ -9360,10 +9375,10 @@
     "Ikramullah Khan": {
       "team": "Qatar",
       "formats": {
-        "ODM": 17,
+        "ODM": 20,
         "T20I": 44
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
     },
     "Ilyas Ahmed": {
       "team": "Kuwait",
@@ -9583,11 +9598,11 @@
     "Ishan Kishan": {
       "team": "India",
       "formats": {
-        "T20I": 64,
+        "T20I": 66,
         "ODI": 28,
         "Test": 2
       },
-      "last": "2026-10-22"
+      "last": "2026-11-01"
     },
     "Ishtiaq Ahmad": {
       "team": "Saudi Arabia",
@@ -9917,9 +9932,9 @@
       "formats": {
         "ODI": 3,
         "T20I": 25,
-        "ODM": 10
+        "ODM": 13
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "J Khadka": {
       "team": "Romania",
@@ -9967,9 +9982,9 @@
       "team": "Sri Lanka",
       "formats": {
         "T20I": 14,
-        "ODI": 37
+        "ODI": 40
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "J Marples": {
       "team": "Gibraltar",
@@ -10122,10 +10137,10 @@
       "formats": {
         "IT20": 4,
         "T20I": 40,
-        "ODM": 19,
+        "ODM": 21,
         "ODI": 4
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "J Theron": {
       "team": "United States of America",
@@ -10209,11 +10224,11 @@
     "JA Duffy": {
       "team": "New Zealand",
       "formats": {
-        "T20I": 48,
+        "T20I": 51,
         "ODI": 24,
         "Test": 4
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "JA Fitzgerald": {
       "team": "Gibraltar",
@@ -10268,18 +10283,18 @@
     "JA Warrican": {
       "team": "West Indies",
       "formats": {
-        "Test": 24
+        "Test": 25
       },
-      "last": "2026-08-02"
+      "last": "2026-10-28"
     },
     "JAD Lawrenson": {
       "team": "Jersey",
       "formats": {
-        "ODM": 19,
+        "ODM": 22,
         "ODI": 4,
         "T20I": 10
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "JAH Marshall": {
       "team": "New Zealand",
@@ -10401,11 +10416,11 @@
     "JD Campbell": {
       "team": "West Indies",
       "formats": {
-        "Test": 29,
+        "Test": 30,
         "ODI": 15,
         "T20I": 2
       },
-      "last": "2026-10-03"
+      "last": "2026-10-28"
     },
     "JD Freyone": {
       "team": "Gibraltar",
@@ -10478,21 +10493,21 @@
     "JE Dunford": {
       "team": "Jersey",
       "formats": {
-        "ODM": 35,
+        "ODM": 38,
         "IT20": 4,
         "T20I": 29,
         "ODI": 4
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "JE Root": {
       "team": "England",
       "formats": {
-        "ODI": 192,
+        "ODI": 193,
         "Test": 169,
         "T20I": 31
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "JE Taylor": {
       "team": "West Indies",
@@ -10668,10 +10683,10 @@
         "MDM": 3,
         "ODM": 27,
         "IT20": 14,
-        "ODI": 64,
+        "ODI": 67,
         "T20I": 76
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "JJ Tucker": {
       "team": "Bermuda",
@@ -10814,10 +10829,10 @@
       "team": "England",
       "formats": {
         "T20I": 9,
-        "ODI": 7,
+        "ODI": 8,
         "Test": 4
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "JM Davison": {
       "team": "Canada",
@@ -10887,10 +10902,10 @@
         "ODM": 17,
         "IT20": 7,
         "MDM": 1,
-        "ODI": 62,
+        "ODI": 65,
         "T20I": 86
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "JN Gillespie": {
       "team": "Australia",
@@ -10907,9 +10922,9 @@
         "IT20": 5,
         "T20I": 63,
         "ODM": 2,
-        "ODI": 59
+        "ODI": 61
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "JN Malan": {
       "team": "South Africa",
@@ -10939,11 +10954,11 @@
     "JNT Seales": {
       "team": "West Indies",
       "formats": {
-        "Test": 30,
+        "Test": 31,
         "ODI": 35,
         "T20I": 8
       },
-      "last": "2026-10-03"
+      "last": "2026-10-28"
     },
     "JNT Vare": {
       "team": "Papua New Guinea",
@@ -11041,19 +11056,19 @@
       "team": "West Indies",
       "formats": {
         "ODI": 25,
-        "Test": 18,
+        "Test": 19,
         "T20I": 1
       },
-      "last": "2026-09-27"
+      "last": "2026-10-28"
     },
     "JP Inglis": {
       "team": "Australia",
       "formats": {
         "T20I": 49,
         "ODI": 41,
-        "Test": 5
+        "Test": 6
       },
-      "last": "2026-09-24"
+      "last": "2026-10-27"
     },
     "JP Kaltapau": {
       "team": "Vanuatu",
@@ -11086,11 +11101,11 @@
     "JR Hazlewood": {
       "team": "Australia",
       "formats": {
-        "Test": 80,
+        "Test": 81,
         "ODI": 97,
         "T20I": 58
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "JR Hopes": {
       "team": "Australia",
@@ -11164,9 +11179,9 @@
       "team": "Namibia",
       "formats": {
         "T20I": 32,
-        "ODI": 26
+        "ODI": 29
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "JT Smuts": {
       "team": "South Africa",
@@ -11212,12 +11227,12 @@
     "JW Jenner": {
       "team": "Jersey",
       "formats": {
-        "ODM": 39,
+        "ODM": 42,
         "IT20": 10,
         "T20I": 49,
         "ODI": 4
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "JWA Taylor": {
       "team": "England",
@@ -11264,10 +11279,10 @@
       "team": "Bangladesh",
       "formats": {
         "T20I": 44,
-        "Test": 6,
+        "Test": 7,
         "ODI": 8
       },
-      "last": "2025-11-27"
+      "last": "2026-10-28"
     },
     "Jakir Patel": {
       "team": "Zambia",
@@ -11345,10 +11360,10 @@
       "formats": {
         "ODM": 36,
         "T20I": 66,
-        "ODI": 72,
+        "ODI": 75,
         "IT20": 8
       },
-      "last": "2026-10-19"
+      "last": "2026-11-02"
     },
     "Javed Maroofkhail": {
       "team": "Norway",
@@ -11385,9 +11400,9 @@
       "formats": {
         "ODM": 12,
         "T20I": 11,
-        "ODI": 28
+        "ODI": 29
       },
-      "last": "2026-10-19"
+      "last": "2026-10-27"
     },
     "Jitin Singh": {
       "team": "Tanzania",
@@ -11617,10 +11632,10 @@
     "K Klein": {
       "team": "Netherlands",
       "formats": {
-        "ODI": 24,
+        "ODI": 25,
         "T20I": 20
       },
-      "last": "2026-07-31"
+      "last": "2026-11-02"
     },
     "K Krishnakumar": {
       "team": "Bulgaria",
@@ -11720,11 +11735,11 @@
     "K Rabada": {
       "team": "South Africa",
       "formats": {
-        "Test": 74,
+        "Test": 75,
         "ODI": 103,
         "T20I": 76
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "K Santokie": {
       "team": "West Indies",
@@ -11754,10 +11769,10 @@
     "K Sonavale": {
       "team": "Oman",
       "formats": {
-        "ODI": 7,
+        "ODI": 8,
         "T20I": 6
       },
-      "last": "2026-10-15"
+      "last": "2026-11-02"
     },
     "K Suttisan": {
       "team": "Thailand",
@@ -11843,9 +11858,9 @@
       "formats": {
         "ODI": 23,
         "Test": 21,
-        "T20I": 32
+        "T20I": 33
       },
-      "last": "2026-06-17"
+      "last": "2026-10-27"
     },
     "KA Maharaj": {
       "team": "South Africa",
@@ -11885,10 +11900,10 @@
     "KAR Hodge": {
       "team": "West Indies",
       "formats": {
-        "Test": 17,
+        "Test": 18,
         "ODI": 4
       },
-      "last": "2026-08-02"
+      "last": "2026-10-28"
     },
     "KB Ahir": {
       "team": "Panama",
@@ -12391,9 +12406,9 @@
       "formats": {
         "T20I": 25,
         "ODI": 16,
-        "ODM": 11
+        "ODM": 14
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "KW Richardson": {
       "team": "Australia",
@@ -12752,9 +12767,9 @@
       "team": "United Arab Emirates",
       "formats": {
         "T20I": 5,
-        "ODI": 10
+        "ODI": 12
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Kim Daeyeon": {
       "team": "South Korea",
@@ -12927,6 +12942,15 @@
       },
       "last": "2026-08-09"
     },
+    "L McCarthy": {
+      "team": "Ireland",
+      "formats": {
+        "ODI": 6,
+        "T20I": 3,
+        "Test": 1
+      },
+      "last": "2026-10-30"
+    },
     "L Monanthane": {
       "team": "Lesotho",
       "formats": {
@@ -12970,12 +12994,12 @@
       "team": "Papua New Guinea",
       "formats": {
         "MDM": 2,
-        "ODM": 15,
+        "ODM": 18,
         "ODI": 40,
         "T20I": 60,
         "IT20": 8
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "L Sipamla": {
       "team": "South Africa",
@@ -12990,18 +13014,18 @@
       "team": "Namibia",
       "formats": {
         "T20I": 18,
-        "ODI": 17
+        "ODI": 20
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "L Tucker": {
       "team": "Ireland",
       "formats": {
         "T20I": 77,
-        "ODI": 55,
+        "ODI": 58,
         "Test": 9
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "L Vincent": {
       "team": "New Zealand",
@@ -13039,9 +13063,9 @@
       "formats": {
         "T20I": 39,
         "Test": 4,
-        "ODI": 13
+        "ODI": 14
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "LA Dunbar": {
       "team": "Serbia",
@@ -13239,12 +13263,12 @@
     "LN Oluoch": {
       "team": "Kenya",
       "formats": {
-        "ODM": 32,
+        "ODM": 33,
         "IT20": 8,
         "T20I": 71,
         "MDM": 1
       },
-      "last": "2026-10-24"
+      "last": "2026-10-28"
     },
     "LN Onyango": {
       "team": "Kenya",
@@ -13374,11 +13398,11 @@
     "Liton Das": {
       "team": "Bangladesh",
       "formats": {
-        "Test": 54,
+        "Test": 55,
         "ODI": 94,
         "T20I": 113
       },
-      "last": "2026-10-03"
+      "last": "2026-10-28"
     },
     "Lokesh Bam": {
       "team": "Nepal",
@@ -13411,10 +13435,10 @@
     "Lucky Ali": {
       "team": "Denmark",
       "formats": {
-        "ODM": 8,
+        "ODM": 10,
         "T20I": 29
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "Luis Hermida": {
       "team": "Mexico",
@@ -13628,18 +13652,18 @@
       "team": "Namibia",
       "formats": {
         "T20I": 14,
-        "ODI": 6
+        "ODI": 7
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "M Jansen": {
       "team": "South Africa",
       "formats": {
-        "Test": 23,
+        "Test": 24,
         "ODI": 33,
         "T20I": 28
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "M Jele": {
       "team": "Eswatini",
@@ -13719,19 +13743,19 @@
     "M Labuschagne": {
       "team": "Australia",
       "formats": {
-        "Test": 67,
+        "Test": 68,
         "ODI": 70,
         "T20I": 1
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "M Levitt": {
       "team": "Netherlands",
       "formats": {
         "T20I": 30,
-        "ODI": 18
+        "ODI": 21
       },
-      "last": "2026-10-25"
+      "last": "2026-11-02"
     },
     "M Louis": {
       "team": "West Indies",
@@ -13915,10 +13939,10 @@
       "team": "Sri Lanka",
       "formats": {
         "T20I": 84,
-        "ODI": 51,
+        "ODI": 52,
         "Test": 2
       },
-      "last": "2026-10-11"
+      "last": "2026-10-31"
     },
     "M Vaik": {
       "team": "Estonia",
@@ -13989,9 +14013,9 @@
       "formats": {
         "ODM": 2,
         "T20I": 29,
-        "ODI": 50
+        "ODI": 51
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "MA Agarwal": {
       "team": "India",
@@ -14081,11 +14105,11 @@
     "MA Starc": {
       "team": "Australia",
       "formats": {
-        "Test": 109,
+        "Test": 110,
         "ODI": 128,
         "T20I": 65
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "MA Suji": {
       "team": "Kenya",
@@ -14123,9 +14147,9 @@
       "team": "Namibia",
       "formats": {
         "T20I": 34,
-        "ODI": 28
+        "ODI": 31
       },
-      "last": "2026-10-07"
+      "last": "2026-11-01"
     },
     "MB Tambe": {
       "team": "Finland",
@@ -14203,10 +14227,10 @@
       "team": "Sri Lanka",
       "formats": {
         "T20I": 132,
-        "ODI": 64,
+        "ODI": 67,
         "Test": 6
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "MD Stoneman": {
       "team": "England",
@@ -14296,9 +14320,9 @@
       "formats": {
         "Test": 10,
         "ODI": 48,
-        "T20I": 48
+        "T20I": 51
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "MG Erasmus": {
       "team": "Namibia",
@@ -14306,10 +14330,10 @@
         "ODM": 27,
         "IT20": 8,
         "MDM": 1,
-        "ODI": 77,
+        "ODI": 80,
         "T20I": 90
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "MG Johnson": {
       "team": "Australia",
@@ -14418,11 +14442,11 @@
     "MJ Humphreys": {
       "team": "Ireland",
       "formats": {
-        "ODI": 6,
+        "ODI": 8,
         "T20I": 20,
         "Test": 5
       },
-      "last": "2026-06-28"
+      "last": "2026-11-01"
     },
     "MJ Leach": {
       "team": "England",
@@ -14502,10 +14526,10 @@
       "team": "New Zealand",
       "formats": {
         "ODI": 127,
-        "T20I": 136,
+        "T20I": 139,
         "Test": 33
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "MJ Swepson": {
       "team": "Australia",
@@ -14625,9 +14649,9 @@
       "team": "Qatar",
       "formats": {
         "T20I": 34,
-        "ODM": 2
+        "ODM": 5
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
     },
     "MM Patel": {
       "team": "India",
@@ -14695,9 +14719,9 @@
       "team": "Kuwait",
       "formats": {
         "T20I": 74,
-        "ODM": 12
+        "ODM": 15
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "MO Jones": {
       "team": "Bermuda",
@@ -14746,9 +14770,9 @@
       "formats": {
         "T20I": 13,
         "ODI": 17,
-        "Test": 3
+        "Test": 4
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "MP Kuhnemann": {
       "team": "Australia",
@@ -14765,10 +14789,10 @@
         "MDM": 2,
         "ODM": 7,
         "T20I": 88,
-        "ODI": 71,
+        "ODI": 74,
         "IT20": 4
       },
-      "last": "2026-10-25"
+      "last": "2026-11-02"
     },
     "MP Stoinis": {
       "team": "Australia",
@@ -14790,9 +14814,9 @@
     "MP Yadav": {
       "team": "India",
       "formats": {
-        "T20I": 11
+        "T20I": 12
       },
-      "last": "2026-10-22"
+      "last": "2026-10-30"
     },
     "MPGT Ketiyage": {
       "team": "Cyprus",
@@ -14960,11 +14984,11 @@
     "MT Renshaw": {
       "team": "Australia",
       "formats": {
-        "Test": 17,
+        "Test": 18,
         "ODI": 15,
         "T20I": 9
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "MTMMJ Ave": {
       "team": "Cook Islands",
@@ -15066,10 +15090,10 @@
     "Maaz Sadaqat": {
       "team": "Pakistan",
       "formats": {
-        "ODI": 6,
+        "ODI": 8,
         "T20I": 5
       },
-      "last": "2026-10-13"
+      "last": "2026-10-31"
     },
     "Mahedi Hasan": {
       "team": "Bangladesh",
@@ -15203,9 +15227,9 @@
       "team": "Kuwait",
       "formats": {
         "T20I": 70,
-        "ODM": 11
+        "ODM": 14
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "Mehboob Ali": {
       "team": "Malta",
@@ -15217,11 +15241,11 @@
     "Mehedi Hasan Miraz": {
       "team": "Bangladesh",
       "formats": {
-        "Test": 58,
+        "Test": 59,
         "ODI": 108,
         "T20I": 31
       },
-      "last": "2026-08-22"
+      "last": "2026-10-28"
     },
     "Mehrab Hossain jnr": {
       "team": "Bangladesh",
@@ -15755,11 +15779,11 @@
     "Mominul Haque": {
       "team": "Bangladesh",
       "formats": {
-        "Test": 78,
+        "Test": 79,
         "ODI": 25,
         "T20I": 6
       },
-      "last": "2026-08-22"
+      "last": "2026-10-28"
     },
     "Mosaddek Hossain": {
       "team": "Bangladesh",
@@ -15824,17 +15848,17 @@
       "team": "United Arab Emirates",
       "formats": {
         "T20I": 12,
-        "ODI": 3
+        "ODI": 5
       },
-      "last": "2026-10-11"
+      "last": "2026-10-31"
     },
     "Muhammad Asim": {
       "team": "Qatar",
       "formats": {
         "T20I": 39,
-        "ODM": 7
+        "ODM": 10
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
     },
     "Muhammad Burhan": {
       "team": "Hungary",
@@ -15955,9 +15979,9 @@
       "team": "United Arab Emirates",
       "formats": {
         "T20I": 14,
-        "ODI": 3
+        "ODI": 5
       },
-      "last": "2026-02-10"
+      "last": "2026-10-31"
     },
     "Muhammad Salman": {
       "team": "Bahrain",
@@ -15977,9 +16001,9 @@
     "Muhammad Shahdad": {
       "team": "United Arab Emirates",
       "formats": {
-        "ODI": 13
+        "ODI": 15
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Muhammad Siddiqui": {
       "team": "Slovenia",
@@ -16064,18 +16088,18 @@
       "team": "Qatar",
       "formats": {
         "IT20": 3,
-        "ODM": 11,
+        "ODM": 14,
         "T20I": 26
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
     },
     "Mujibur Ali": {
       "team": "Oman",
       "formats": {
         "T20I": 3,
-        "ODI": 14
+        "ODI": 17
       },
-      "last": "2026-10-19"
+      "last": "2026-11-02"
     },
     "Mukesh Kumar": {
       "team": "India",
@@ -16127,9 +16151,9 @@
       "team": "Denmark",
       "formats": {
         "T20I": 30,
-        "ODM": 13
+        "ODM": 15
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "Musaddiq Ahmed": {
       "team": "Germany",
@@ -16615,9 +16639,9 @@
       "formats": {
         "Test": 8,
         "ODI": 21,
-        "T20I": 4
+        "T20I": 6
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "NGRP Jayasuriya": {
       "team": "Sri Lanka",
@@ -16741,11 +16765,11 @@
     "NM Lyon": {
       "team": "Australia",
       "formats": {
-        "Test": 144,
+        "Test": 145,
         "ODI": 29,
         "T20I": 2
       },
-      "last": "2026-10-09"
+      "last": "2026-10-27"
     },
     "NM Odhiambo": {
       "team": "Kenya",
@@ -16856,10 +16880,10 @@
     "NRJ Croes": {
       "team": "Netherlands",
       "formats": {
-        "ODI": 28,
+        "ODI": 31,
         "T20I": 21
       },
-      "last": "2026-10-25"
+      "last": "2026-11-02"
     },
     "NRP Scholtz": {
       "team": "Namibia",
@@ -16959,9 +16983,9 @@
       "team": "Oman",
       "formats": {
         "T20I": 10,
-        "ODI": 5
+        "ODI": 6
       },
-      "last": "2026-10-15"
+      "last": "2026-11-02"
     },
     "Naeem Gull": {
       "team": "Swaziland",
@@ -17007,9 +17031,9 @@
       "team": "India",
       "formats": {
         "ODI": 3,
-        "T20I": 7
+        "T20I": 10
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "Namgay Thinley": {
       "team": "Bhutan",
@@ -17032,9 +17056,9 @@
       "formats": {
         "Test": 20,
         "T20I": 36,
-        "ODI": 34
+        "ODI": 36
       },
-      "last": "2026-10-20"
+      "last": "2026-10-31"
     },
     "Nasibullah Arab": {
       "team": "France",
@@ -17159,9 +17183,9 @@
     "Nayeem Hasan": {
       "team": "Bangladesh",
       "formats": {
-        "Test": 13
+        "Test": 14
       },
-      "last": "2025-06-25"
+      "last": "2026-10-28"
     },
     "Nazimuddin": {
       "team": "Bangladesh",
@@ -17184,11 +17208,11 @@
     "Nazmul Hossain Shanto": {
       "team": "Bangladesh",
       "formats": {
-        "Test": 43,
+        "Test": 44,
         "ODI": 59,
         "T20I": 46
       },
-      "last": "2026-10-17"
+      "last": "2026-10-28"
     },
     "Nazmul Islam": {
       "team": "Bangladesh",
@@ -17243,9 +17267,9 @@
       "team": "Kuwait",
       "formats": {
         "T20I": 18,
-        "ODM": 5
+        "ODM": 8
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "Nishat Sakib": {
       "team": "South Korea",
@@ -17259,10 +17283,10 @@
       "team": "India",
       "formats": {
         "Test": 10,
-        "T20I": 8,
+        "T20I": 11,
         "ODI": 6
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "Niv Nagavkar": {
       "team": "Israel",
@@ -17606,10 +17630,10 @@
     "Owais Ahmed": {
       "team": "Qatar",
       "formats": {
-        "ODM": 8,
+        "ODM": 11,
         "T20I": 21
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
     },
     "P Aho": {
       "team": "Nigeria",
@@ -17800,10 +17824,10 @@
     "P Rathnayake": {
       "team": "Sri Lanka",
       "formats": {
-        "ODI": 10,
+        "ODI": 13,
         "T20I": 15
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "P Sarraf": {
       "team": "Nepal",
@@ -17943,10 +17967,10 @@
         "ODM": 16,
         "MDM": 1,
         "T20I": 73,
-        "ODI": 35,
+        "ODI": 36,
         "IT20": 2
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "PADLR Sandakan": {
       "team": "Sri Lanka",
@@ -18044,19 +18068,19 @@
       "team": "Sri Lanka",
       "formats": {
         "T20I": 50,
-        "ODI": 33,
+        "ODI": 36,
         "Test": 18
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "PJ Cummins": {
       "team": "Australia",
       "formats": {
         "ODI": 89,
         "T20I": 55,
-        "Test": 76
+        "Test": 77
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "PJ Forrest": {
       "team": "Australia",
@@ -18236,14 +18260,14 @@
     "PR Stirling": {
       "team": "Ireland",
       "formats": {
-        "ODI": 118,
+        "ODI": 119,
         "IT20": 10,
         "T20I": 134,
         "MDM": 4,
         "Test": 8,
         "ODM": 3
       },
-      "last": "2026-10-24"
+      "last": "2026-10-27"
     },
     "PR Surve": {
       "team": "Indonesia",
@@ -18343,10 +18367,10 @@
       "team": "South Africa",
       "formats": {
         "ODI": 26,
-        "Test": 26,
+        "Test": 27,
         "T20I": 15
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "PWH de Silva": {
       "team": "Sri Lanka",
@@ -18400,10 +18424,10 @@
     "Patrick Nou": {
       "team": "Papua New Guinea",
       "formats": {
-        "ODM": 6,
+        "ODM": 9,
         "T20I": 8
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "Pavandeep Singh": {
       "team": "Malaysia",
@@ -18453,10 +18477,10 @@
     "Prince Yadav": {
       "team": "India",
       "formats": {
-        "T20I": 10,
+        "T20I": 13,
         "ODI": 1
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "Pyae Phyo Wai": {
       "team": "Myanmar",
@@ -18539,10 +18563,10 @@
     "R Chopra": {
       "team": "United Arab Emirates",
       "formats": {
-        "ODI": 26,
+        "ODI": 28,
         "T20I": 38
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "R Clarke": {
       "team": "England",
@@ -18835,9 +18859,9 @@
       "formats": {
         "IT20": 6,
         "T20I": 73,
-        "ODM": 12
+        "ODM": 14
       },
-      "last": "2026-10-24"
+      "last": "2026-10-28"
     },
     "R Sandeep": {
       "team": "Eswatini",
@@ -18905,9 +18929,9 @@
       "formats": {
         "ODM": 2,
         "T20I": 56,
-        "ODI": 62
+        "ODI": 65
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "R Vinay Kumar": {
       "team": "India",
@@ -19056,11 +19080,11 @@
     "RD Rickelton": {
       "team": "South Africa",
       "formats": {
-        "Test": 17,
+        "Test": 18,
         "ODI": 18,
         "T20I": 28
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "RD Shah": {
       "team": "Kenya",
@@ -19278,11 +19302,11 @@
     "RL Chase": {
       "team": "West Indies",
       "formats": {
-        "Test": 60,
+        "Test": 61,
         "ODI": 66,
         "T20I": 65
       },
-      "last": "2026-10-17"
+      "last": "2026-10-28"
     },
     "RL Johnson": {
       "team": "England",
@@ -19456,13 +19480,13 @@
     "RR Patel": {
       "team": "Kenya",
       "formats": {
-        "ODM": 53,
+        "ODM": 55,
         "IT20": 18,
         "T20I": 92,
         "ODI": 11,
         "MDM": 3
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "RR Powar": {
       "team": "India",
@@ -19949,12 +19973,12 @@
       "team": "Papua New Guinea",
       "formats": {
         "MDM": 2,
-        "ODM": 26,
+        "ODM": 29,
         "ODI": 49,
         "T20I": 58,
         "IT20": 4
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "S Bhari": {
       "team": "Nepal",
@@ -20118,10 +20142,10 @@
     "S Gill": {
       "team": "Kenya",
       "formats": {
-        "ODM": 8,
+        "ODM": 10,
         "T20I": 32
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "S Godara": {
       "team": "Cambodia",
@@ -20155,10 +20179,10 @@
     "S Heath": {
       "team": "Denmark",
       "formats": {
-        "ODM": 7,
+        "ODM": 9,
         "T20I": 9
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "S Hook": {
       "team": "Estonia",
@@ -20215,11 +20239,11 @@
     "S Joseph": {
       "team": "West Indies",
       "formats": {
-        "Test": 15,
+        "Test": 16,
         "T20I": 28,
         "ODI": 9
       },
-      "last": "2026-10-17"
+      "last": "2026-10-28"
     },
     "S Kamate": {
       "team": "Mali",
@@ -20482,17 +20506,17 @@
       "team": "Oman",
       "formats": {
         "T20I": 19,
-        "ODI": 16
+        "ODI": 19
       },
-      "last": "2026-10-19"
+      "last": "2026-11-02"
     },
     "S Singh": {
       "team": "Kenya",
       "formats": {
         "T20I": 66,
-        "ODM": 11
+        "ODM": 12
       },
-      "last": "2026-10-25"
+      "last": "2026-10-28"
     },
     "S Smith": {
       "team": "Bermuda",
@@ -20552,11 +20576,11 @@
     "S Thanikaithasan": {
       "team": "Denmark",
       "formats": {
-        "ODM": 19,
+        "ODM": 21,
         "IT20": 1,
         "T20I": 33
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "S Tharanga": {
       "team": "Cyprus",
@@ -20671,10 +20695,10 @@
     "SA Ahmad": {
       "team": "Denmark",
       "formats": {
-        "ODM": 35,
+        "ODM": 37,
         "T20I": 40
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "SA Deitz": {
       "team": "Vanuatu",
@@ -20688,9 +20712,9 @@
       "formats": {
         "ODM": 6,
         "T20I": 84,
-        "ODI": 69
+        "ODI": 71
       },
-      "last": "2026-07-31"
+      "last": "2026-11-02"
     },
     "SA Engelbrecht": {
       "team": "Netherlands",
@@ -20977,9 +21001,10 @@
       "team": "Papua New Guinea",
       "formats": {
         "ODI": 20,
-        "T20I": 18
+        "T20I": 18,
+        "ODM": 3
       },
-      "last": "2024-06-17"
+      "last": "2026-10-31"
     },
     "SI Mahmood": {
       "team": "England",
@@ -21170,10 +21195,10 @@
       "team": "England",
       "formats": {
         "Test": 24,
-        "ODI": 46,
+        "ODI": 47,
         "T20I": 79
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "SM Davies": {
       "team": "England",
@@ -21349,12 +21374,12 @@
     "SO Ngoche": {
       "team": "Kenya",
       "formats": {
-        "ODM": 43,
+        "ODM": 45,
         "IT20": 18,
         "T20I": 97,
         "ODI": 6
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "SO Tikolo": {
       "team": "Kenya",
@@ -21450,10 +21475,10 @@
     "SR Bhudia": {
       "team": "Kenya",
       "formats": {
-        "ODM": 21,
+        "ODM": 23,
         "T20I": 54
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "SR Clark": {
       "team": "Australia",
@@ -21467,9 +21492,9 @@
     "SR Harmer": {
       "team": "South Africa",
       "formats": {
-        "Test": 16
+        "Test": 17
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "SR Mohan": {
       "team": "Seychelles",
@@ -21569,11 +21594,11 @@
     "SS Iyer": {
       "team": "India",
       "formats": {
-        "T20I": 70,
+        "T20I": 73,
         "ODI": 78,
         "Test": 14
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "SS Kang": {
       "team": "United Arab Emirates",
@@ -21626,10 +21651,10 @@
     "SSD Arachchige": {
       "team": "Sri Lanka",
       "formats": {
-        "ODI": 7,
+        "ODI": 10,
         "T20I": 5
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "SSJ Brooks": {
       "team": "West Indies",
@@ -21710,10 +21735,10 @@
     "SV Samson": {
       "team": "India",
       "formats": {
-        "T20I": 75,
+        "T20I": 78,
         "ODI": 16
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "SVE Bharathi": {
       "team": "Germany",
@@ -22137,9 +22162,9 @@
       "team": "Denmark",
       "formats": {
         "T20I": 20,
-        "ODM": 14
+        "ODM": 15
       },
-      "last": "2026-10-24"
+      "last": "2026-10-28"
     },
     "Saud Shakeel": {
       "team": "Pakistan",
@@ -22189,18 +22214,18 @@
     "Shadab Khan": {
       "team": "Pakistan",
       "formats": {
-        "ODI": 69,
+        "ODI": 70,
         "T20I": 120,
         "Test": 6
       },
-      "last": "2026-10-25"
+      "last": "2026-10-27"
     },
     "Shadman Islam": {
       "team": "Bangladesh",
       "formats": {
-        "Test": 29
+        "Test": 30
       },
-      "last": "2026-08-22"
+      "last": "2026-10-28"
     },
     "Shadnan Khan": {
       "team": "Austria",
@@ -22249,9 +22274,9 @@
       "team": "Oman",
       "formats": {
         "T20I": 13,
-        "ODI": 4
+        "ODI": 5
       },
-      "last": "2026-10-19"
+      "last": "2026-10-27"
     },
     "Shahab Alam": {
       "team": "Nepal",
@@ -22291,9 +22316,9 @@
       "formats": {
         "T20I": 99,
         "Test": 34,
-        "ODI": 74
+        "ODI": 76
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Shaheryar Butt": {
       "team": "Belgium",
@@ -22388,9 +22413,17 @@
       "team": "Qatar",
       "formats": {
         "T20I": 28,
-        "ODM": 7
+        "ODM": 10
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
+    },
+    "Shahzeb Afridi": {
+      "team": "Qatar",
+      "formats": {
+        "T20I": 6,
+        "ODM": 5
+      },
+      "last": "2026-10-31"
     },
     "Shaik Basha": {
       "team": "Tanzania",
@@ -22415,9 +22448,9 @@
       "team": "Oman",
       "formats": {
         "T20I": 45,
-        "ODI": 28
+        "ODI": 30
       },
-      "last": "2026-10-19"
+      "last": "2026-11-02"
     },
     "Shakib Al Hasan": {
       "team": "Bangladesh",
@@ -22481,9 +22514,9 @@
       "team": "Netherlands",
       "formats": {
         "T20I": 14,
-        "ODI": 20
+        "ODI": 21
       },
-      "last": "2025-09-03"
+      "last": "2026-11-02"
     },
     "Sharjeel Khan": {
       "team": "Pakistan",
@@ -22552,9 +22585,9 @@
       "team": "Kuwait",
       "formats": {
         "T20I": 46,
-        "ODM": 11
+        "ODM": 14
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "Shivam Sharma": {
       "team": "Canada",
@@ -22583,10 +22616,10 @@
     "Shoaib Khan": {
       "team": "Oman",
       "formats": {
-        "ODI": 43,
+        "ODI": 44,
         "T20I": 40
       },
-      "last": "2026-10-11"
+      "last": "2026-10-31"
     },
     "Shoaib Malik": {
       "team": "Pakistan",
@@ -22608,10 +22641,10 @@
       "team": "Bangladesh",
       "formats": {
         "T20I": 59,
-        "Test": 13,
+        "Test": 14,
         "ODI": 38
       },
-      "last": "2026-10-17"
+      "last": "2026-10-28"
     },
     "Shubham Ranjane": {
       "team": "United States of America",
@@ -22790,9 +22823,9 @@
       "team": "Kenya",
       "formats": {
         "T20I": 7,
-        "ODM": 3
+        "ODM": 5
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Sufiyan Muqeem": {
       "team": "Pakistan",
@@ -22899,9 +22932,9 @@
       "team": "Denmark",
       "formats": {
         "T20I": 37,
-        "ODM": 20
+        "ODM": 22
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "Swann Htet Ko Ko": {
       "team": "Myanmar",
@@ -22969,35 +23002,35 @@
     "T Banton": {
       "team": "England",
       "formats": {
-        "ODI": 13,
+        "ODI": 14,
         "T20I": 43
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "T Bavuma": {
       "team": "South Africa",
       "formats": {
-        "Test": 68,
+        "Test": 69,
         "ODI": 53,
         "T20I": 36
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "T Bharaj": {
       "team": "Denmark",
       "formats": {
-        "ODM": 23,
+        "ODM": 25,
         "IT20": 3,
         "T20I": 37
       },
-      "last": "2026-10-24"
+      "last": "2026-10-30"
     },
     "T Chanderpaul": {
       "team": "West Indies",
       "formats": {
-        "Test": 15
+        "Test": 16
       },
-      "last": "2026-08-02"
+      "last": "2026-10-28"
     },
     "T Duffin": {
       "team": "Zimbabwe",
@@ -23226,10 +23259,10 @@
     "T Suri": {
       "team": "United Arab Emirates",
       "formats": {
-        "ODI": 12,
+        "ODI": 13,
         "T20I": 11
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "T Taibu": {
       "team": "Zimbabwe",
@@ -23305,10 +23338,10 @@
         "ODM": 13,
         "MDM": 1,
         "T20I": 45,
-        "ODI": 13,
+        "ODI": 15,
         "IT20": 4
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "TA Blundell": {
       "team": "New Zealand",
@@ -23469,6 +23502,14 @@
       },
       "last": "2026-06-21"
     },
+    "TH Tector": {
+      "team": "Ireland",
+      "formats": {
+        "T20I": 8,
+        "ODI": 2
+      },
+      "last": "2026-11-01"
+    },
     "TJ Draca": {
       "team": "Italy",
       "formats": {
@@ -23578,10 +23619,10 @@
     "TL Seifert": {
       "team": "New Zealand",
       "formats": {
-        "T20I": 90,
+        "T20I": 93,
         "ODI": 4
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "TLW Cooper": {
       "team": "Netherlands",
@@ -23615,9 +23656,9 @@
       "formats": {
         "ODI": 83,
         "T20I": 52,
-        "Test": 69
+        "Test": 70
       },
-      "last": "2026-10-18"
+      "last": "2026-10-27"
     },
     "TM Macalou": {
       "team": "Mali",
@@ -23667,12 +23708,12 @@
       "team": "Papua New Guinea",
       "formats": {
         "MDM": 1,
-        "ODM": 19,
+        "ODM": 22,
         "ODI": 51,
         "T20I": 57,
         "IT20": 14
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "TP Visee": {
       "team": "Netherlands",
@@ -23785,11 +23826,11 @@
     "Taijul Islam": {
       "team": "Bangladesh",
       "formats": {
-        "Test": 60,
+        "Test": 61,
         "ODI": 17,
         "T20I": 1
       },
-      "last": "2026-08-22"
+      "last": "2026-10-28"
     },
     "Talha Khan": {
       "team": "Germany",
@@ -23859,9 +23900,9 @@
       "formats": {
         "ODI": 35,
         "T20I": 50,
-        "Test": 3
+        "Test": 4
       },
-      "last": "2026-10-17"
+      "last": "2026-10-28"
     },
     "Tanzim Hasan Sakib": {
       "team": "Bangladesh",
@@ -23974,19 +24015,19 @@
     "Tilak Varma": {
       "team": "India",
       "formats": {
-        "T20I": 67,
+        "T20I": 70,
         "ODI": 5
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "Towhid Hridoy": {
       "team": "Bangladesh",
       "formats": {
         "T20I": 63,
         "ODI": 46,
-        "Test": 1
+        "Test": 2
       },
-      "last": "2026-10-17"
+      "last": "2026-10-28"
     },
     "Tshering Tashi": {
       "team": "Bhutan",
@@ -24398,9 +24439,9 @@
       "team": "Oman",
       "formats": {
         "T20I": 22,
-        "ODI": 21
+        "ODI": 23
       },
-      "last": "2026-10-19"
+      "last": "2026-11-02"
     },
     "V Sibanda": {
       "team": "Zimbabwe",
@@ -24418,6 +24459,13 @@
         "T20I": 10
       },
       "last": "2024-11-09"
+    },
+    "V Suryavanshi": {
+      "team": "India",
+      "formats": {
+        "T20I": 10
+      },
+      "last": "2026-10-27"
     },
     "V Vijh": {
       "team": "Luxembourg",
@@ -24631,17 +24679,17 @@
       "team": "Kenya",
       "formats": {
         "T20I": 25,
-        "ODM": 2
+        "ODM": 3
       },
-      "last": "2026-09-17"
+      "last": "2026-10-31"
     },
     "Vraj Patel": {
       "team": "Kenya",
       "formats": {
         "T20I": 58,
-        "ODM": 20
+        "ODM": 22
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "W Barresi": {
       "team": "Netherlands",
@@ -24801,17 +24849,17 @@
       "formats": {
         "T20I": 48,
         "Test": 6,
-        "ODI": 32
+        "ODI": 33
       },
-      "last": "2026-10-25"
+      "last": "2026-10-29"
     },
     "WIA Fernando": {
       "team": "Sri Lanka",
       "formats": {
-        "ODI": 50,
+        "ODI": 53,
         "T20I": 38
       },
-      "last": "2026-10-22"
+      "last": "2026-10-31"
     },
     "WJ Cope": {
       "team": "Luxembourg",
@@ -25004,9 +25052,9 @@
       "team": "United Arab Emirates",
       "formats": {
         "T20I": 85,
-        "ODI": 70
+        "ODI": 72
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "Waseem Yaqoob": {
       "team": "Lesotho",
@@ -25233,9 +25281,9 @@
       "team": "Kuwait",
       "formats": {
         "T20I": 60,
-        "ODM": 11
+        "ODM": 14
       },
-      "last": "2026-10-22"
+      "last": "2026-10-30"
     },
     "Yasir Ali": {
       "team": "Spain",
@@ -25432,9 +25480,9 @@
       "team": "Netherlands",
       "formats": {
         "T20I": 15,
-        "ODI": 18
+        "ODI": 20
       },
-      "last": "2026-10-25"
+      "last": "2026-11-02"
     },
     "ZE Green": {
       "team": "Namibia",
@@ -25442,10 +25490,10 @@
         "MDM": 2,
         "ODM": 13,
         "IT20": 6,
-        "ODI": 64,
+        "ODI": 67,
         "T20I": 83
       },
-      "last": "2026-10-24"
+      "last": "2026-11-01"
     },
     "ZE Surkari": {
       "team": "Canada",
@@ -25469,9 +25517,9 @@
       "team": "Jersey",
       "formats": {
         "T20I": 31,
-        "ODM": 12
+        "ODM": 15
       },
-      "last": "2026-10-25"
+      "last": "2026-10-31"
     },
     "ZR Jaboneke": {
       "team": "Tanzania",
@@ -25629,9 +25677,9 @@
       "team": "Qatar",
       "formats": {
         "T20I": 9,
-        "ODM": 2
+        "ODM": 5
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
     },
     "Zeeshan Khan": {
       "team": "Malta",
@@ -25692,6 +25740,14 @@
       },
       "last": "2014-10-02"
     },
+    "Zikria Islam": {
+      "team": "Oman",
+      "formats": {
+        "T20I": 5,
+        "ODI": 5
+      },
+      "last": "2026-10-29"
+    },
     "Zishan Shah": {
       "team": "Denmark",
       "formats": {
@@ -25727,9 +25783,9 @@
       "team": "Qatar",
       "formats": {
         "T20I": 18,
-        "ODM": 2
+        "ODM": 5
       },
-      "last": "2026-10-24"
+      "last": "2026-10-31"
     },
     "Zuhaib Zubair": {
       "team": "United Arab Emirates",
