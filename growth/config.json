@@ -1,20 +1,25 @@
 {
   "_note": "Read by the daily task (posting time) and rewritten by the weekly review. Times are IST (Asia/Kolkata), 24h.",
-  "updated": "2026-11-03",
+  "updated": "2026-11-08",
   "default_time_ist": "19:30",
   "post_times_ist": {
     "Mon": "17:30",
-    "Tue": "21:30",
-    "Wed": "19:30",
-    "Thu": "19:30",
-    "Fri": "13:00",
-    "Sat": "21:30",
-    "Sun": "13:00"
+    "Tue": "13:00",
+    "Wed": "21:30",
+    "Thu": "17:30",
+    "Fri": "19:30",
+    "Sat": "13:00",
+    "Sun": "21:30"
   },
   "time_test": {
     "status": "testing",
-    "slots": ["13:00", "17:30", "19:30", "21:30"],
-    "why": "13:00 = Indian lunch break; 17:30 = Indian commute + UK lunchtime; 19:30 = Indian prime time (baseline); 21:30 = late Indian evening + UK afternoon. Rotate until each slot has 3+ posts, then lock in the best.",
+    "slots": [
+      "13:00",
+      "17:30",
+      "19:30",
+      "21:30"
+    ],
+    "why": "13:00 = Indian lunch break; 17:30 = Indian commute + UK lunchtime; 19:30 = Indian prime time (baseline); 21:30 = late Indian evening + UK afternoon. 8 Nov: 19:30 already has 5 posts (Sat-Wed), 21:30 has 1 (Sat), 13:00 has 1 (Sun), 17:30 has 1 (Mon 9 Nov, booked). This week's rotation gives the three under-tested slots new weekdays and only one 19:30 day. Lock in once each slot has 3+ posts with 3+ days of data.",
     "decide_by": "views and engaged views in each video's first 48 hours"
   }
 }
