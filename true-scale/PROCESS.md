@@ -27,6 +27,22 @@ scheduled task follows it; so should anyone making an episode by hand.
 - **Same brand**: dark navy maps, amber/cyan/pink/green accents, Poppins font, "TRUE SCALE" corner mark,
   male narrator `am_michael` (Kokoro), original synthesised music (built into make.py).
 
+## Daily cycle (the weekday run)
+
+1. **Analyse** yesterday and the channel so far (true-scale/analytics/<date>.md): public stats from the
+   channel's RSS feed (free: views, likes, publish date per video), plus owner analytics from vidIQ on Mondays
+   and Thursdays (retention, average view duration, subscribers gained) within the credit rule in channel.json.
+   Compare per video: views per day since publish, like rate, retention; by series, title style, thumbnail
+   style, topic (India vs world), length, publish day/time. 3+ videos make a rule; fewer is an early signal.
+   Update learnings.md.
+2. **Choose** today's video using learnings.md plus "virality" checks: search demand and seasonality (e.g. winter
+   treks in Nov-Jan, monsoon places in Jun-Sep), a news hook that makes a topic timely, and what's breaking out
+   for similar channels (free web research). Pick from content_plan.json (reorder or add items as needed) and
+   write why in the analysis.
+3. **Make** it to this standard, applying learnings (title pattern, hook style, thumbnail style).
+4. **Deliver** the analysis summary, the video, thumbnail and upload text (3 titles, description, chapters,
+   tags/keywords, hashtags, suggested publish time).
+
 ## Files
 
 ```
@@ -38,6 +54,9 @@ true-scale/
   engine/india.py      # India states + official boundary, india(), pin(), place(), card(), state_tag()
   episodes/<slug>/     # script.json + scenes.py (+ out/thumbnail.png, out/upload-details.txt)
   content_plan.json    # the queue of upcoming episodes
+  learnings.md         # what's working, rewritten after each analysis
+  analytics/<date>.md  # the daily analysis
+  channel.json         # channel id, RSS feed, vidIQ credit rule
 ```
 
 Episodes 001-004 are working examples of every helper: 001 true-size moves, 002 timelines, 003 myth cards and

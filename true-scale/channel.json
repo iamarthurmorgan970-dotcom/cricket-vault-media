@@ -1,0 +1,9 @@
+{
+ "_note": "Fill channel_id once known (UC...). The weekday run reads public stats from the RSS feed and, twice a week, owner analytics from vidIQ.",
+ "name": "True Scale",
+ "handle": "@Truescalefacts",
+ "channel_id": null,
+ "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=<channel_id>",
+ "vidiq_connected": false,
+ "vidiq_credit_rule": "Use at most one vidIQ call (5 credits) per run, only on Mondays and Thursdays, and only if the balance after the call stays at or above 10 (the cricket channel's Sunday review needs 10)."
+}
