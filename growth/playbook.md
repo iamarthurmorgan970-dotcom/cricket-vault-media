@@ -47,7 +47,11 @@ from the channel's real numbers. Keep it short: rules, the evidence for each rul
   videos went out at 19:30, so there is no time evidence yet. 21:30 (Philander, 7 Nov) and 13:00
   (Akash, 8 Nov) are the first off-baseline posts.
 - Comparison with the new frame-1 hook (Philander 7 Nov, Voges 9 Nov): does it close the gap to cards?
-- Subscribers: 0 so far. See proposals in growth/reports/2026-11-08.md.
+- Subscribers: 0 so far. From 9 Nov every card carries a "Follow for more cricket records" pill
+  (Deepak approved). Compare subs gained before and after.
+- From 9 Nov, comparisons are posted as 6s result cards (`versus`: the twist huge, the full stat table
+  below, all in frame 1). Philander (7 Nov) and Voges (9 Nov) are the last long-format comparisons,
+  so they are the before; Yasir v Swann/Lyon are the first after.
 
 ## History
 

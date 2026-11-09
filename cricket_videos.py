@@ -1802,6 +1802,25 @@ def card_audio(total, seed):
     return np.stack([mix, mix], axis=1)
 
 
+FOLLOW_TEXT = "FOLLOW FOR MORE CRICKET RECORDS"
+
+
+def draw_follow(fig, W, y, text, F):
+    """Small call-to-subscribe pill, visible for the whole loop (no end screen, so loops aren't broken)."""
+    from matplotlib.patches import FancyBboxPatch
+    from matplotlib.transforms import IdentityTransform
+    if not text:
+        return
+    I = IdentityTransform()
+    t = fig.text(W / 2, y, text.upper(), size=30, color=YELLOW, ha="center", va="center", transform=I, **F)
+    w = t.get_window_extent(renderer=fig.canvas.get_renderer()).width
+    if w > W - 200:
+        t.set_size(30 * (W - 200) / w)
+        w = W - 200
+    fig.add_artist(FancyBboxPatch((W / 2 - w / 2 - 34, y - 34), w + 68, 68, boxstyle="round,pad=0,rounding_size=34",
+                                  transform=I, fc="#1a1a19", ec=YELLOW, lw=2.5, zorder=t.get_zorder() - 0.1))
+
+
 def cmd_card(a):
     from matplotlib.patches import FancyBboxPatch
     from matplotlib.transforms import IdentityTransform
@@ -1889,7 +1908,8 @@ def cmd_card(a):
         t2 = fitted(hook, 46, bw - 80, color="#c4521f", ha="center", va="center", **F)
         t2.set_position((W / 2, btop - 168))
     # rows
-    top_y, bottom_y = btop - bh - 40, H * 0.30
+    follow = "" if a.no_follow else (a.follow_text or FOLLOW_TEXT)
+    top_y, bottom_y = btop - bh - 40, H * (0.335 if follow else 0.30)
     n = len(shown)
     gap = 22
     rh = min(190, (top_y - bottom_y - gap * (n - 1)) / n)
@@ -1921,7 +1941,10 @@ def cmd_card(a):
         dt.set_position((bx + 292, cy - 38))
         fig.text(bx + bw - 36, cy - 50, unit_word, transform=I, size=20, color=MUTED,
                  ha="right", va="center", **F)
-    fig.text(W / 2, bottom_y - 36, footnote.strip(), transform=I, size=20, color=MUTED, ha="center", va="center")
+    fig.text(W / 2, bottom_y - (28 if follow else 36), footnote.strip(), transform=I, size=20, color=MUTED,
+             ha="center", va="center")
+    if follow:
+        draw_follow(fig, W, H * 0.291, follow, F)
     draw_footer(fig, L, a.handle, credit=None if a.spec else "Data: cricsheet.org")
 
     out = a.out or f"card_{a.by}_{a.metric}.mp4"
@@ -1952,6 +1975,101 @@ def cmd_card(a):
             v.frame()
     else:
         v.frame(repeat=round(total * FPS))
+    v.close()
+    if not a.no_sound:
+        mux_audio(out, card_audio(total, zlib.crc32(os.path.basename(out).encode())))
+    print(f"Saved {out}  ({total:.0f} s, 1080x1920)")
+
+
+def cmd_versus(a):
+    """6-second result card for a comparison: the twist in giant type and the full stat table, all in frame 1.
+    Every number comes from a compare facts file (--from), so it says exactly what the long version says."""
+    from matplotlib.patches import FancyBboxPatch
+    from matplotlib.transforms import IdentityTransform
+    if a.format != "short":
+        sys.exit("versus is built for Shorts (9:16); leave out --format long.")
+    if not a.source:
+        sys.exit("versus needs --from <compare facts .json>")
+    with open(a.source, encoding="utf-8") as fh:
+        src = json.load(fh)
+    if src.get("kind") != "compare" or len(src.get("players", [])) != 2:
+        sys.exit("--from must be the facts file of a two-player 'compare' video.")
+    pa, pb = src["players"]
+    hook = list(src.get("hook") or [])
+    if a.hook:
+        hook = [h.strip() for h in a.hook.split("|")]
+    if len(hook) != 3:
+        sys.exit('needs a 3-part hook "PLAYER vs PLAYER|BIG LINE|WHAT IT MEASURES" (from the facts or --hook)')
+    title, big, what = (h.upper() for h in hook)
+    keys = [k for k in pa["stats"] if k in pb["stats"]]
+    sub = src.get("subtitle", "")
+
+    L = Layout("short")
+    fig = new_figure(L)
+    font = display_font()
+    F = dict(fontfamily=font) if font else dict(weight="bold")
+    I = IdentityTransform()
+    W, H = L.W, L.H
+    follow = "" if a.no_follow else (a.follow_text or FOLLOW_TEXT)
+
+    def fitted(text, size, maxw, **kw):
+        t = fig.text(0, 0, text, size=size, transform=I, **kw)
+        w = t.get_window_extent(renderer=fig.canvas.get_renderer()).width
+        t.set_size(size * min(1.0, maxw / max(w, 1)))
+        return t
+
+    # headline banner: who vs who, and what the big number measures
+    bx, bw, btop, bh = 60, W - 120, H * 0.935, 230
+    fig.add_artist(FancyBboxPatch((bx, btop - bh), bw, bh, boxstyle="round,pad=0,rounding_size=28",
+                                  transform=I, fc="#f5f4f0", ec="none"))
+    fitted(title, 64, bw - 80, color="#0b0b0b", ha="center", va="center", **F).set_position((W / 2, btop - 74))
+    fitted(what, 40, bw - 80, color="#c4521f", ha="center", va="center", **F).set_position((W / 2, btop - 170))
+    # the twist, huge
+    big_y = btop - bh - 135
+    bt = fitted(big, 170, bw - 40, color=YELLOW, ha="center", va="center", **F)
+    bt.set_position((W / 2, big_y))
+    big_size = bt.get_size()
+    # stat table
+    table_top, bottom_y = big_y - 185, H * (0.335 if follow else 0.30)
+    cols = (bx + bw * 0.25, bx + bw * 0.75)
+    fig.add_artist(FancyBboxPatch((bx, bottom_y), bw, table_top - bottom_y + 40,
+                                  boxstyle="round,pad=0,rounding_size=24", transform=I, fc="#1a1a19",
+                                  ec="#2c2c2a", lw=2))
+    head_y = table_top - 30
+    for x, p, c in zip(cols, (pa, pb), (BLUE, ORANGE)):
+        fitted(p["label"].upper(), 44, bw * 0.46, color=c, ha="center", va="center", **F).set_position((x, head_y))
+    n = len(keys)
+    row_h = (head_y - 60 - (bottom_y + 20)) / max(n, 1)
+    for i, k in enumerate(keys):
+        cy = head_y - 60 - row_h * (i + 0.5)
+        fig.text(W / 2, cy + row_h * 0.30, k.upper(), transform=I, size=20, color=MUTED, ha="center",
+                 va="center", **F)
+        for x, p in zip(cols, (pa, pb)):
+            fitted(str(p["stats"][k]), 64, bw * 0.40, color=INK, ha="center", va="center",
+                   **F).set_position((x, cy - row_h * 0.08))
+        if i:
+            fig.add_artist(plt.Line2D([bx + 40, bx + bw - 40], [cy + row_h / 2] * 2, transform=I,
+                                      color="#2c2c2a", lw=2))
+    fig.text(W / 2, bottom_y - 28, sub, transform=I, size=20, color=MUTED, ha="center", va="center")
+    if follow:
+        draw_follow(fig, W, H * 0.291, follow, F)
+    draw_footer(fig, L, a.handle)
+
+    out = a.out or os.path.splitext(a.source)[0] + "-card.mp4"
+    facts = {**src, "rendered_as": "versus", "on_screen_hook": [title, big, what], "follow_text": follow}
+    write_facts(a, facts)
+    if a.still:
+        png = os.path.splitext(out)[0] + ".png"
+        fig.savefig(png, dpi=100)
+        print(f"Saved {png}")
+        return
+    total = a.seconds or 6.0
+    v = Video(out, fig)
+    # the big number breathes, 3 pulses per loop so the loop is seamless
+    for i in range(round(total * FPS)):
+        u = 0.5 - 0.5 * math.cos(2 * math.pi * 3 * i / (total * FPS))
+        bt.set_size(big_size * (1 + 0.06 * u))
+        v.frame()
     v.close()
     if not a.no_sound:
         mux_audio(out, card_audio(total, zlib.crc32(os.path.basename(out).encode())))
@@ -2349,7 +2467,18 @@ def main():
     cd.add_argument("--full-members", action="store_true", help="only players from the 12 full-member nations")
     cd.add_argument("--spec", help="JSON with verified rows (title, hook, unit, rows[], footnote) instead of the data")
     cd.add_argument("--seconds", type=float, default=6)
+    cd.add_argument("--follow-text", help=f'call-to-subscribe line (default "{FOLLOW_TEXT}")')
+    cd.add_argument("--no-follow", action="store_true", help="leave out the call-to-subscribe line")
     cd.set_defaults(fn=cmd_card)
+
+    vs = sp.add_parser("versus", parents=[filt, vid],
+                       help="6-second result card from a compare facts file: the twist and all the numbers in frame 1")
+    vs.add_argument("--from", dest="source", help="facts .json written by 'compare --facts'")
+    vs.add_argument("--hook", help='override "PLAYER vs PLAYER|BIG LINE|WHAT IT MEASURES"')
+    vs.add_argument("--seconds", type=float, default=6)
+    vs.add_argument("--follow-text", help=f'call-to-subscribe line (default "{FOLLOW_TEXT}")')
+    vs.add_argument("--no-follow", action="store_true", help="leave out the call-to-subscribe line")
+    vs.set_defaults(fn=cmd_versus)
 
     mt = sp.add_parser("matches", parents=[filt], help="list matches and their IDs, newest first")
     mt.add_argument("--last", type=int, default=20)

@@ -130,6 +130,17 @@ def render(kind, source, extra, item_id):
     return (os.path.relpath(out, ROOT), os.path.relpath(facts, ROOT)), ""
 
 
+def versus_card(facts_file, item_id):
+    """6-second result card from a compare's facts: the twist and every number readable in frame 1."""
+    out = os.path.join(READY, f"{item_id}-card.mp4")
+    cmd = [sys.executable, os.path.join(ROOT, "cricket_videos.py"), "versus", "none",
+           "--from", os.path.join(ROOT, facts_file), "--handle", HANDLE, "--out", out]
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode != 0 or not os.path.exists(out):
+        return None, (r.stderr or r.stdout).strip()[-600:]
+    return os.path.relpath(out, ROOT), ""
+
+
 def plan_worms(source, manifest, today, window, max_new):
     seen = {it["id"].split("-", 1)[-1] for it in manifest["items"] if it.get("kind") in ("worm", "thriller")}
     since = (today - dt.timedelta(days=window)).isoformat()
@@ -184,6 +195,13 @@ def plan_queue(source, queue, manifest, today, max_new):
                      expires=None, suggested_title=q.get("suggested_title", ""), notes=q.get("notes", ""))
         if files:
             entry.update(status="ready", file=files[0], facts_file=files[1])
+            if q["kind"] == "compare":
+                card, cerr = versus_card(files[1], q["id"])
+                if card:
+                    # post the 6-second result card; keep the long build-up version as a fallback
+                    entry.update(file=card, long_file=files[0])
+                else:
+                    log(f"  result card failed for {q['id']} (long version kept): {cerr}")
             facts = load(os.path.join(ROOT, files[1]), {})
             if facts.get("on_screen_title"):
                 entry["suggested_title"] = entry["suggested_title"].replace("{N}", str(facts.get("count", "")))
@@ -221,7 +239,7 @@ def expire(manifest, today):
     for it in manifest["items"]:
         if it.get("status") == "ready" and it.get("expires") and it["expires"] < today.isoformat():
             it["status"] = "expired"
-            for k in ("file", "facts_file"):
+            for k in ("file", "facts_file", "long_file"):
                 path = os.path.join(ROOT, it.get(k, "") or "")
                 if it.get(k) and os.path.exists(path):
                     os.remove(path)

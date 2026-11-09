@@ -343,10 +343,11 @@
       "priority": 72,
       "expires": null,
       "suggested_title": "Yasir Shah vs Swann after 33 Tests 🤯 Look at that gap",
-      "notes": "7 Nov: vidIQ skipped (20 credits left, under 30). Expected twist: Yasir Shah reached 200 Test wickets in only 33 Tests (fastest ever, widely reported); Swann (England's best modern spinner) should be far behind after 33 Tests. Both retired (Yasir last Test Jul 2022, Swann 2013); Cricsheet counts match official (Yasir 48, Swann 60). Anchor before posting: Yasir 200th wkt in 33rd Test (Cricinfo/news).",
+      "notes": "7 Nov: vidIQ skipped (20 credits left, under 30). Expected twist: Yasir Shah reached 200 Test wickets in only 33 Tests (fastest ever, widely reported); Swann (England's best modern spinner) should be far behind after 33 Tests. Both retired (Yasir last Test Jul 2022, Swann 2013); Cricsheet counts match official (Yasir 48, Swann 60). Anchor before posting: Yasir 200th wkt in 33rd Test (Cricinfo/news). | 9 Nov: 6s result card rendered (Deepak approved); 'file' is the card, 'long_file' the 17-20s version.",
       "status": "ready",
-      "file": "shorts/ready/compare-yasir-vs-swann-tests.mp4",
-      "facts_file": "shorts/ready/compare-yasir-vs-swann-tests.json"
+      "file": "shorts/ready/compare-yasir-vs-swann-tests-card.mp4",
+      "facts_file": "shorts/ready/compare-yasir-vs-swann-tests.json",
+      "long_file": "shorts/ready/compare-yasir-vs-swann-tests.mp4"
     },
     {
       "id": "compare-yasir-vs-lyon-tests",
@@ -355,10 +356,11 @@
       "priority": 65,
       "expires": null,
       "suggested_title": "Yasir Shah vs Nathan Lyon after 33 Tests 😳 The forgotten spinner",
-      "notes": "7 Nov: Expected twist: Yasir 200 wkts in 33 Tests (fastest ever) vs Lyon (500+ wkt legend) well behind at the same stage. Lyon is ACTIVE (last Test Oct 2026 in data): before posting, confirm Lyon's wickets after 33 Tests against an official source (Cricinfo match-by-match or a milestone report); block if unconfirmed.",
+      "notes": "7 Nov: Expected twist: Yasir 200 wkts in 33 Tests (fastest ever) vs Lyon (500+ wkt legend) well behind at the same stage. Lyon is ACTIVE (last Test Oct 2026 in data): before posting, confirm Lyon's wickets after 33 Tests against an official source (Cricinfo match-by-match or a milestone report); block if unconfirmed. | 9 Nov: 6s result card rendered (Deepak approved); 'file' is the card, 'long_file' the 17-20s version.",
       "status": "ready",
-      "file": "shorts/ready/compare-yasir-vs-lyon-tests.mp4",
-      "facts_file": "shorts/ready/compare-yasir-vs-lyon-tests.json"
+      "file": "shorts/ready/compare-yasir-vs-lyon-tests-card.mp4",
+      "facts_file": "shorts/ready/compare-yasir-vs-lyon-tests.json",
+      "long_file": "shorts/ready/compare-yasir-vs-lyon-tests.mp4"
     }
   ]
 }
