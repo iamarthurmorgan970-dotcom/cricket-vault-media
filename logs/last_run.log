@@ -1,14 +1,12 @@
-started: 2026-11-08 02:22:10 UTC
+started: 2026-11-09 02:26:24 UTC
 
 [notice] A new release of pip is available: 26.2.2 -> 26.3
 [notice] To update, run: pip install --upgrade pip
-total 145856
-drwxr-xr-x  2 runner runner      4096 Nov  8 02:22 .
-drwxrwxrwt 12 root   root        4096 Nov  8 02:22 ..
--rw-r--r--  1 runner runner 149036509 Nov  8 02:22 all.zip
--rw-r--r--  1 runner runner    308676 Nov  8 02:22 recent.zip
-Today 2026-11-08; recent data: recent.zip
-Worm candidates since 2026-11-03: 0
-Players index: 3138 players
-Ready to schedule: 4 ['card-abhishek-fastest-2000-t20i', 'compare-voges-vs-kohli-tests', 'compare-yasir-vs-swann-tests', 'compare-yasir-vs-lyon-tests']
-finished: 2026-11-08 02:23:03 UTC; render step outcome: success
+total 312
+drwxr-xr-x  2 runner runner   4096 Nov  9 02:26 .
+drwxrwxrwt 12 root   root     4096 Nov  9 02:26 ..
+-rw-r--r--  1 runner runner 308676 Nov  9 02:26 recent.zip
+Today 2026-11-09; recent data: recent.zip
+Worm candidates since 2026-11-04: 0
+Ready to schedule: 3 ['card-abhishek-fastest-2000-t20i', 'compare-yasir-vs-swann-tests', 'compare-yasir-vs-lyon-tests']
+finished: 2026-11-09 02:26:36 UTC; render step outcome: success
