@@ -29,12 +29,13 @@ scheduled task follows it; so should anyone making an episode by hand.
 
 ## Daily cycle (the weekday run)
 
-1. **Analyse** yesterday and the channel so far (true-scale/analytics/<date>.md): public stats from the
-   channel's RSS feed (free: views, likes, publish date per video), plus owner analytics from vidIQ on Mondays
-   and Thursdays (retention, average view duration, subscribers gained) within the credit rule in channel.json.
-   Compare per video: views per day since publish, like rate, retention; by series, title style, thumbnail
-   style, topic (India vs world), length, publish day/time. 3+ videos make a rule; fewer is an early signal.
-   Update learnings.md.
+1. **Analyse** the channel so far (true-scale/analytics/<date>.md) from the YouTube Studio numbers Deepak
+   sends as screenshots, recorded in analytics/studio-notes.md (views, impressions, CTR, average view duration,
+   % viewed, subscribers). YouTube blocks automated reading of public stats and vidIQ credits belong to the
+   cricket channel, so these notes are the only data. Compare per video, normalised by age: by series, title
+   style, thumbnail style, topic (India vs world), length, publish day/time. 3+ videos make a rule; fewer is an
+   early signal. When the notes are stale or missing for recent uploads, say so and ask for a screenshot of the
+   specific videos. Update learnings.md.
 2. **Choose** today's video using learnings.md plus "virality" checks: search demand and seasonality (e.g. winter
    treks in Nov-Jan, monsoon places in Jun-Sep), a news hook that makes a topic timely, and what's breaking out
    for similar channels (free web research). Pick from content_plan.json (reorder or add items as needed) and
