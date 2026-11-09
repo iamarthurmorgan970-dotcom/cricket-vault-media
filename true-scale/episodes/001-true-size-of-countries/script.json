@@ -1,0 +1,90 @@
+[
+ {
+  "id": "s01_hook",
+  "text": "Look at this map. You've probably seen it a thousand times. In classrooms, in atlases, on your phone. Now look at Greenland. Up here, it looks about as big as the whole of Africa. Here's the thing. It isn't even close. Africa is fourteen times bigger than Greenland. And Greenland isn't the only country this map is lying about."
+ },
+ {
+  "id": "s02_title",
+  "text": "This is True Scale. Today, we're going to drag the world's countries around the globe, and see how big they really are.",
+  "hold": 1.5
+ },
+ {
+  "id": "s02b_quiz",
+  "text": "But first, a quick test. Which is bigger: Greenland, or India? On the map, Greenland looks about three times the size. Keep your answer in mind. We'll find out in a minute."
+ },
+ {
+  "id": "s03_greenland_v2",
+  "text": "Let's start with Greenland. Watch what happens when we slide it south, down to the equator, right next to Africa. Keep your eye on its size. It shrinks. And shrinks. And keeps on shrinking. By the time it reaches Africa, it's actually a little smaller than just one African country, the Democratic Republic of the Congo. Greenland covers about two point two million square kilometres. Africa covers more than thirty million. Same shape. Completely different story. And remember our quiz? India covers three point three million square kilometres. It's one and a half times the size of Greenland."
+ },
+ {
+  "id": "s03b_saudi",
+  "text": "Here's another way to picture it. Greenland looks like it could swallow the whole Arabian Peninsula. But slide it down on top of Saudi Arabia, and the two are almost exactly the same size. Saudi Arabia covers about two point one five million square kilometres. Greenland, about two point one seven. A near perfect match."
+ },
+ {
+  "id": "s04_why",
+  "text": "So why does the map get it so wrong? Because of a problem that can't be solved. The Earth is a sphere, and you can't flatten a sphere without tearing it or stretching it. Try flattening an orange peel, and you'll see what I mean. Every flat map has to cheat somewhere. In fifteen sixty-nine, a Flemish mapmaker called Gerardus Mercator chose where to cheat. He was making a map for sailors."
+ },
+ {
+  "id": "s05_rhumb",
+  "text": "On Mercator's map, a straight line is a constant compass bearing. Draw a line from Lisbon towards the Caribbean, hold that heading, and you'll get there. For ships crossing oceans, that was priceless. But to keep the angles right, Mercator had to stretch everything more and more, the further it was from the equator."
+ },
+ {
+  "id": "s06_tissot",
+  "text": "Here's how much. Imagine identical circles spread across the globe, each covering exactly the same area. On Mercator's map, the circles at the equator stay the same size. At sixty degrees north, around Oslo, Helsinki and Saint Petersburg, they're four times as big. At eighty degrees, they're thirty-three times as big. And at the poles, the stretch becomes infinite. That's why Mercator maps simply cut off the top and the bottom of the world."
+ },
+ {
+  "id": "s07_russia",
+  "text": "That's bad news for any country far from the equator. Take Russia, the largest country on Earth. On this map, it looks two and a half times bigger than Africa. Now let's drag it down to the equator. It's still big. It's still the biggest country in the world, at seventeen million square kilometres. But Africa is almost twice its size."
+ },
+ {
+  "id": "s08_canada",
+  "text": "Canada gets the same treatment. On the map, it looks half as big again as Africa. Its real size is just under ten million square kilometres. That's about a third of Africa. In fact, Canada and Russia together still wouldn't cover it."
+ },
+ {
+  "id": "s09_africa",
+  "text": "So let's look at Africa properly. It sits right on the equator, so the map barely stretches it, while everything further north gets inflated. That makes Africa look far smaller than it really is. Watch this. Here's the United States. Here's China. And here's India. Together, these three giants cover about twenty-two million square kilometres. Africa still has around eight million to spare. That's almost another whole Europe."
+ },
+ {
+  "id": "s10_india",
+  "text": "Now let's go the other way. India sits close to the tropics, so the map shows it at roughly its real size, which makes it look small next to Europe. But that's not a fair fight, because Europe is being stretched. So let's slide India north, to the same latitude as Europe, where it gets stretched by the same amount. Now we're comparing fairly. India is bigger than Germany, France, Spain, Italy and the United Kingdom put together. It covers three point three million square kilometres."
+ },
+ {
+  "id": "s10b_japan",
+  "text": "Here's a quick one closer to home for Europe. Japan looks like a thin chain of islands, much smaller than Germany. But Japan sits further south, so the map stretches it less. Put it at Germany's latitude and it's actually bigger. Japan covers about three hundred and seventy-eight thousand square kilometres. Germany, about three hundred and fifty-eight thousand."
+ },
+ {
+  "id": "s11_australia",
+  "text": "Australia is another surprise. On a Mercator map, it looks far smaller than the United States. So let's move it north, on top of America. And look at that. Australia is almost exactly the size of the mainland United States. Around seven point seven million square kilometres, against about eight."
+ },
+ {
+  "id": "s11b_brazil",
+  "text": "Brazil is underrated too. It sits mostly south of the equator, so it looks modest next to North America. Let's lift it up, onto the United States. Brazil is bigger than the entire mainland US. Eight and a half million square kilometres."
+ },
+ {
+  "id": "s11c_indonesia",
+  "text": "And then there's Indonesia. On the map, it's a scatter of islands you hardly notice. But lay it across the United States, and from one end to the other, it's wider than America, coast to coast. More than five thousand kilometres of islands."
+ },
+ {
+  "id": "s12_alaska",
+  "text": "Here's one that surprises even Americans. On the map, Alaska looks enormous. Bigger than Mexico, bigger than most of Europe. Let's slide it down, next to Mexico. Alaska is actually smaller. One point seven million square kilometres, against nearly two million for Mexico."
+ },
+ {
+  "id": "s13_antarctica",
+  "text": "And then there's Antarctica. On most Mercator maps, it's either cut off completely or smeared into a giant white strip along the bottom, wider than any continent. In reality, it covers about fourteen million square kilometres. That's smaller than Russia. Seen on a globe from below, it's a roughly round continent, sitting over the South Pole."
+ },
+ {
+  "id": "s14_ranking",
+  "text": "So here's the world at its true scale. Russia, seventeen million square kilometres. Antarctica, fourteen. Canada, China and the United States, all close to ten. Brazil, eight and a half. Australia, seven point seven. India, three point three. And Greenland, the giant of the Mercator map, just two point two. Now put Africa on the same chart. At more than thirty million square kilometres, it towers over every one of them.",
+  "hold": 1.5
+ },
+ {
+  "id": "s15_better",
+  "text": "So if Mercator is this misleading, why do we still use it? Partly habit. And partly because it's genuinely useful. Web maps like Google Maps use a version of it, because when you zoom in on a street, shapes and angles stay correct. But for showing the whole world, there are better choices. In twenty seventeen, Boston's public schools started using the Gall-Peters projection, which keeps every country's area correct. And in twenty eighteen, cartographers released the Equal Earth projection, which keeps areas true and still looks natural. Watch the world snap into its true proportions.",
+  "hold": 3.0
+ },
+ {
+  "id": "s16_outro_v2",
+  "text": "So next time you look at a world map, remember. It isn't a photograph. It's a choice someone made. Greenland is not as big as Africa. Russia is not bigger than Africa. And Africa is far, far bigger than most of us were ever taught. If this changed the way you see the world, subscribe to True Scale, and tell me in the comments which country surprised you the most. There's a lot more of this planet that isn't the size you think.",
+  "hold": 4.0
+ }
+]

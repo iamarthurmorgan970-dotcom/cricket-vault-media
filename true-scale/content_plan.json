@@ -1,0 +1,401 @@
+{
+ "_note": "Content plan for the True Scale YouTube channel (Deepak). The weekday scheduled task makes the first 'planned' item, then marks it 'made' with the date. Deepak may reorder, edit or add items; keep slugs unique.",
+ "channel": "True Scale (@Truescalefacts), faceless long-form (8-10 min) geography/history/travel facts",
+ "cadence": "5 videos a week (Mon-Fri)",
+ "series": {
+  "trek": "Trek vs Trek (India)",
+  "visit": "Why You Should Visit (India, one place per video)",
+  "rock": "India's Monoliths & Rock Wonders",
+  "scale": "India vs the World (true scale)",
+  "hidden": "Places Most Indians Have Never Heard Of (by region)",
+  "global": "True Scale (world)"
+ },
+ "done": [
+  {
+   "slug": "001-true-size-of-countries",
+   "series": "True Scale (world)",
+   "title": "The Map Lied: The True Size of Countries",
+   "status": "made"
+  },
+  {
+   "slug": "002-true-scale-of-history",
+   "series": "True Scale (world)",
+   "title": "The True Scale of History",
+   "status": "made"
+  },
+  {
+   "slug": "003-geography-facts-you-got-wrong",
+   "series": "True Scale (world)",
+   "title": "15 Geography Facts You Got Wrong",
+   "status": "made"
+  },
+  {
+   "slug": "004-india-hidden-wonders",
+   "series": "india-hidden",
+   "title": "India's Hidden Wonders (series opener)",
+   "status": "made"
+  }
+ ],
+ "queue": [
+  {
+   "n": 5,
+   "slug": "005-kedarkantha-vs-brahmatal",
+   "series": "Trek vs Trek (India)",
+   "title": "Kedarkantha vs Brahmatal: Which Is the Best First Snow Trek?",
+   "angle": "Both Uttarakhand winter treks: summit/lake altitudes, distance, days, difficulty rating, best months, views (Brahmatal: Trishul & Nanda Ghunti; Kedarkantha: summit climb), crowd levels, access town and travel time. End with 'pick X if..., pick Y if...'.",
+   "visual_ideas": "peaks_chart for altitudes, India map pins (Sankri, Lohajung), side-by-side bars for days/distance.",
+   "status": "planned"
+  },
+  {
+   "n": 6,
+   "slug": "006-lonar-crater-lake",
+   "series": "Why You Should Visit (India, one place per video)",
+   "title": "Lonar: India's Meteorite Crater Lake",
+   "angle": "Impact crater in basalt (one of very few in basalt on Earth), size/depth, age estimates and the dating debate, alkaline + saline water, 2020 pink event, temples around rim, Ramsar site status, how to get there, best season.",
+   "visual_ideas": "Maharashtra zoom, crater cross-section drawn to scale, timeline for age estimates.",
+   "status": "planned"
+  },
+  {
+   "n": 7,
+   "slug": "007-no-bridge-europe-africa",
+   "series": "True Scale (world)",
+   "title": "Why There's No Bridge Between Europe and Africa",
+   "angle": "Strait of Gibraltar: narrowest width (~14 km), depth, currents, shipping traffic, earthquake risk, past bridge/tunnel proposals (Spain–Morocco tunnel studies), compare to longest bridges/tunnels.",
+   "visual_ideas": "World/regional maps, depth profile chart, bars comparing spans.",
+   "status": "planned"
+  },
+  {
+   "n": 8,
+   "slug": "008-savandurga-madhugiri",
+   "series": "India's Monoliths & Rock Wonders",
+   "title": "Hills Made of One Stone: Savandurga and Madhugiri",
+   "angle": "What a monolith is (geology: granite/gneiss, how they form), Savandurga (1,226 m, twin hills), Madhugiri (often cited as one of Asia's largest monoliths), forts on top, trek difficulty, other Deccan monoliths. Careful with 'largest' claims: say 'often described as'.",
+   "visual_ideas": "Karnataka zoom, peaks_chart vs famous rocks (Uluru 348 m above plain etc.).",
+   "status": "planned"
+  },
+  {
+   "n": 9,
+   "slug": "009-hidden-northeast",
+   "series": "Places Most Indians Have Never Heard Of (by region)",
+   "title": "10 Places in the Northeast Most Indians Have Never Heard Of",
+   "angle": "One place per state where possible: Dzükou Valley, Ziro, Mawlynnong/Dawki river, Majuli, Tawang, Loktak Lake phumdis (Keibul Lamjao, the only floating national park), Gurudongmar Lake, Unakoti rock carvings, Phawngpui, etc. Each: what, where, one verifiable wow fact.",
+   "visual_ideas": "India map with Northeast zoom, pin per place, cards.",
+   "status": "planned"
+  },
+  {
+   "n": 10,
+   "slug": "010-hampta-vs-bhrigu",
+   "series": "Trek vs Trek (India)",
+   "title": "Hampta Pass vs Bhrigu Lake",
+   "angle": "Himachal: crossover from green Kullu to stark Lahaul (Hampta) vs high alpine lake near Manali (Bhrigu); altitudes, days, difficulty, best months, Chandratal add-on.",
+   "visual_ideas": "peaks_chart, Himachal zoom.",
+   "status": "planned"
+  },
+  {
+   "n": 11,
+   "slug": "011-majuli-shrinking-island",
+   "series": "Why You Should Visit (India, one place per video)",
+   "title": "Majuli: The River Island That's Disappearing",
+   "angle": "Guinness 'largest river island' (and the Bananal caveat), area 1790s→today, erosion causes (Brahmaputra floods), satras/Vaishnavism, mask-making, Mising people, how to get there by ferry.",
+   "visual_ideas": "Assam zoom with Brahmaputra, area bars over time.",
+   "status": "planned"
+  },
+  {
+   "n": 12,
+   "slug": "012-why-greenland-is-empty",
+   "series": "True Scale (world)",
+   "title": "Why Nobody Lives in Greenland",
+   "angle": "Ice sheet ~80%, population ~56,000, coastline settlements, true size vs Mercator, climate, no roads between towns, Denmark relationship, what's under the ice.",
+   "visual_ideas": "Mercator vs true size move, Greenland map with towns, bars.",
+   "status": "planned"
+  },
+  {
+   "n": 13,
+   "slug": "013-indian-states-vs-countries",
+   "series": "India vs the World (true scale)",
+   "title": "Every Indian State Compared to a Country",
+   "angle": "Area of each major state vs a country of similar size (use official areas and country areas from the same source family); a few population comparisons too. Verify every pairing.",
+   "visual_ideas": "True-size moves of states over countries (engine.india ST + core mover), bars.",
+   "status": "planned"
+  },
+  {
+   "n": 14,
+   "slug": "014-hidden-deccan",
+   "series": "Places Most Indians Have Never Heard Of (by region)",
+   "title": "Hidden Wonders of the Deccan",
+   "angle": "Gandikota, Belum Caves (one of India's longest show caves), Lepakshi hanging pillar, Hampi, Badami, Yana, Bhedaghat marble rocks (MP), Lonar. One fact each.",
+   "visual_ideas": "Deccan zoom, pins, cards.",
+   "status": "planned"
+  },
+  {
+   "n": 15,
+   "slug": "015-vof-vs-kgl",
+   "series": "Trek vs Trek (India)",
+   "title": "Valley of Flowers vs Kashmir Great Lakes",
+   "angle": "Flower meadows (UNESCO with Nanda Devi) vs a chain of alpine lakes; altitudes, days, best month (July–Aug both), difficulty, permits.",
+   "visual_ideas": "peaks_chart, two-state map.",
+   "status": "planned"
+  },
+  {
+   "n": 16,
+   "slug": "016-gandikota-grand-canyon",
+   "series": "Why You Should Visit (India, one place per video)",
+   "title": "Gandikota: India's Grand Canyon",
+   "angle": "Penna river gorge, Erramala hills, fort history (Kakatiya/Vijayanagara/Qutb Shahi), camping on the rim, compare scale with the actual Grand Canyon (depth/length) honestly.",
+   "visual_ideas": "Andhra zoom, side-by-side depth chart vs Grand Canyon.",
+   "status": "planned"
+  },
+  {
+   "n": 17,
+   "slug": "017-true-size-of-antarctica",
+   "series": "True Scale (world)",
+   "title": "How Big Is Antarctica Really?",
+   "angle": "Mercator distortion, true area 14.2M km², ice thickness, % of world's fresh water in its ice, what's underneath (lakes, mountains), research stations, who claims it.",
+   "visual_ideas": "Globe from below, true-size moves of countries onto Antarctica.",
+   "status": "planned"
+  },
+  {
+   "n": 18,
+   "slug": "018-kailasa-temple",
+   "series": "India's Monoliths & Rock Wonders",
+   "title": "Kailasa: The Temple Carved From One Rock",
+   "angle": "Ellora Cave 16: carved top-down from a single basalt cliff, estimated rock removed, dimensions, 8th century Rashtrakuta, UNESCO Ellora. Compare size with famous buildings.",
+   "visual_ideas": "Size comparison chart, timeline of construction era, Maharashtra pin.",
+   "status": "planned"
+  },
+  {
+   "n": 19,
+   "slug": "019-hidden-himalaya",
+   "series": "Places Most Indians Have Never Heard Of (by region)",
+   "title": "Hidden Himalayan Villages Most Indians Haven't Heard Of",
+   "angle": "Mana (first village), Chitkul, Langza/Komic (Spiti), Turtuk (Ladakh), Tawang outskirts, Dzongri, Gurez valley. Verified one-liners each.",
+   "visual_ideas": "Himalaya zoom, pins.",
+   "status": "planned"
+  },
+  {
+   "n": 20,
+   "slug": "020-sandakphu-vs-goechala",
+   "series": "Trek vs Trek (India)",
+   "title": "Sandakphu vs Goechala: The Best Views of Kangchenjunga",
+   "angle": "Sandakphu (3,636 m, 4 of 5 highest peaks) vs Goechala (Sikkim, close-up of Kangchenjunga); altitude, days, difficulty, permits, season.",
+   "visual_ideas": "peaks_chart, sight lines map like ep 004.",
+   "status": "planned"
+  },
+  {
+   "n": 21,
+   "slug": "021-living-root-bridges",
+   "series": "Why You Should Visit (India, one place per video)",
+   "title": "Meghalaya's Bridges That Grow",
+   "angle": "How root bridges are made, age, double-decker Nongriat, UNESCO tentative listing (2022), Khasi/Jaintia knowledge, Mawsynram/Cherrapunji rainfall, how to visit (steps!).",
+   "visual_ideas": "Meghalaya zoom, rainfall bars vs world cities.",
+   "status": "planned"
+  },
+  {
+   "n": 22,
+   "slug": "022-ships-avoid-south-america",
+   "series": "True Scale (world)",
+   "title": "Why Ships Don't Sail Around South America",
+   "angle": "Drake Passage/Cape Horn conditions, Panama Canal (opened 1914, distance saved, locks), Strait of Magellan, Suez comparison.",
+   "visual_ideas": "World map routes, distance bars.",
+   "status": "planned"
+  },
+  {
+   "n": 23,
+   "slug": "023-up-vs-countries-population",
+   "series": "India vs the World (true scale)",
+   "title": "Uttar Pradesh vs the World: A State Bigger Than Most Countries",
+   "angle": "UP population (latest official census/estimate, cite year) vs countries; area comparison; other states by population vs countries. Be explicit about the year of each figure.",
+   "visual_ideas": "Bars, India map highlight, world highlights.",
+   "status": "planned"
+  },
+  {
+   "n": 24,
+   "slug": "024-hidden-desert-west",
+   "series": "Places Most Indians Have Never Heard Of (by region)",
+   "title": "Hidden Wonders of India's Desert West",
+   "angle": "Rann of Kutch (white desert), Dholavira, Kuldhara abandoned village, Longewala?, Sam dunes vs Thar facts, Mandu? Keep to Rajasthan/Gujarat; one verified fact each.",
+   "visual_ideas": "Rajasthan/Gujarat zoom, pins.",
+   "status": "planned"
+  },
+  {
+   "n": 25,
+   "slug": "025-roopkund-vs-chadar",
+   "series": "Trek vs Trek (India)",
+   "title": "Roopkund vs Chadar: India's Most Legendary Treks",
+   "angle": "Skeleton lake (2019 study) vs frozen Zanskar (Jan–Feb, −30°C, recent closures); altitude, days, difficulty, fitness prep.",
+   "visual_ideas": "peaks_chart, timeline for Roopkund dating.",
+   "status": "planned"
+  },
+  {
+   "n": 26,
+   "slug": "026-ziro-valley",
+   "series": "Why You Should Visit (India, one place per video)",
+   "title": "Ziro Valley: India's Most Unusual Farmers",
+   "angle": "Apatani paddy-cum-fish cultivation, UNESCO tentative list, Ziro music festival, permits (ILP), altitude, best season.",
+   "visual_ideas": "Arunachal zoom, cards.",
+   "status": "planned"
+  },
+  {
+   "n": 27,
+   "slug": "027-true-scale-of-solar-system",
+   "series": "True Scale (world)",
+   "title": "The True Scale of the Solar System",
+   "angle": "If Earth were a marble... distances vs sizes, light travel times, how empty space is. Verify all ratios.",
+   "visual_ideas": "Custom scale bars / timeline engine for distances.",
+   "status": "planned"
+  },
+  {
+   "n": 28,
+   "slug": "028-hampi-boulders",
+   "series": "India's Monoliths & Rock Wonders",
+   "title": "Why Hampi Is Covered in Giant Boulders",
+   "angle": "Granite formation, spheroidal weathering, Vijayanagara capital in that landscape, UNESCO site, best viewpoints.",
+   "visual_ideas": "Karnataka zoom, timeline of rock age vs empire.",
+   "status": "planned"
+  },
+  {
+   "n": 29,
+   "slug": "029-hidden-islands",
+   "series": "Places Most Indians Have Never Heard Of (by region)",
+   "title": "India's Hidden Islands",
+   "angle": "Andaman & Nicobar spread at true scale (compare length to a country), Barren Island (India's only active volcano), Lakshadweep atolls, Majuli, St Mary's Islands (Karnataka basalt columns), Divar. One fact each.",
+   "visual_ideas": "Islands map with true-size overlays.",
+   "status": "planned"
+  },
+  {
+   "n": 30,
+   "slug": "030-kuari-vs-pangarchulla",
+   "series": "Trek vs Trek (India)",
+   "title": "Kuari Pass vs Pangarchulla",
+   "angle": "Uttarakhand: Curzon trail history, Nanda Devi views; Pangarchulla summit challenge; altitudes, days.",
+   "visual_ideas": "peaks_chart.",
+   "status": "planned"
+  },
+  {
+   "n": 31,
+   "slug": "031-spiti-valley",
+   "series": "Why You Should Visit (India, one place per video)",
+   "title": "Spiti: The Cold Desert in the Himalayas",
+   "angle": "Altitude, rain shadow, Key monastery, Langza fossils, Kibber, Chandratal, road access seasons, how to acclimatise.",
+   "visual_ideas": "Himachal zoom, elevation bars.",
+   "status": "planned"
+  },
+  {
+   "n": 32,
+   "slug": "032-biggest-empires-true-size",
+   "series": "True Scale (world)",
+   "title": "History's Biggest Empires at Their True Size",
+   "angle": "British, Mongol, Russian, Qing, Umayyad etc. at peak area (cite sources), compared with modern countries on an equal-area map. Use simple outlines only if reliable; otherwise use bars and regions.",
+   "visual_ideas": "Equal Earth map, bars, timeline.",
+   "status": "planned"
+  },
+  {
+   "n": 33,
+   "slug": "033-northeast-true-scale",
+   "series": "India vs the World (true scale)",
+   "title": "The Northeast at True Scale",
+   "angle": "Eight states area/population vs countries, Siliguri Corridor width, international borders share, biodiversity facts.",
+   "visual_ideas": "India map zoom, true-size moves.",
+   "status": "planned"
+  },
+  {
+   "n": 34,
+   "slug": "034-hidden-south",
+   "series": "Places Most Indians Have Never Heard Of (by region)",
+   "title": "Hidden Wonders of South India",
+   "angle": "Meesapulimala, Kolukkumalai (high tea estate claim—verify), Dhanushkodi, Jatayu rock?, Gokarna?, Agumbe rainforest, Thenmala. One verified fact each.",
+   "visual_ideas": "South India zoom, pins.",
+   "status": "planned"
+  },
+  {
+   "n": 35,
+   "slug": "035-rupin-vs-buran-ghati",
+   "series": "Trek vs Trek (India)",
+   "title": "Rupin Pass vs Buran Ghati",
+   "angle": "Two crossover treks: waterfalls and hanging villages vs snow wall rappel; altitudes, days, difficulty.",
+   "visual_ideas": "peaks_chart.",
+   "status": "planned"
+  },
+  {
+   "n": 36,
+   "slug": "036-rann-of-kutch-dholavira",
+   "series": "Why You Should Visit (India, one place per video)",
+   "title": "The White Desert and a 4,000-Year-Old City",
+   "angle": "Great Rann formation, seasonal flooding, Rann Utsav, flamingos, Dholavira's water system, UNESCO 2021, Kala Dungar.",
+   "visual_ideas": "Gujarat zoom, timeline for Dholavira.",
+   "status": "planned"
+  },
+  {
+   "n": 37,
+   "slug": "037-true-size-of-oceans",
+   "series": "True Scale (world)",
+   "title": "How Big Are the Oceans Really?",
+   "angle": "Area and depth of each ocean, Mariana Trench vs Everest, % explored, true scale comparisons.",
+   "visual_ideas": "Depth chart, bars.",
+   "status": "planned"
+  },
+  {
+   "n": 38,
+   "slug": "038-bhimbetka-rock-shelters",
+   "series": "India's Monoliths & Rock Wonders",
+   "title": "Bhimbetka: India's Oldest Art Gallery",
+   "angle": "UNESCO site, rock shelters, paintings ages (cite ranges), discovery story (V. S. Wakankar), compare with other world rock art dates.",
+   "visual_ideas": "Timeline engine, MP pin.",
+   "status": "planned"
+  },
+  {
+   "n": 39,
+   "slug": "039-ladakh-emptiest-region",
+   "series": "India vs the World (true scale)",
+   "title": "Ladakh: India's Emptiest Region",
+   "angle": "Area vs countries, population density, altitude, cold desert climate, Pangong, Khardung La claims (verify), Indus.",
+   "visual_ideas": "Ladakh zoom (official boundary), bars.",
+   "status": "planned"
+  },
+  {
+   "n": 40,
+   "slug": "040-har-ki-dun-vs-chandrashila",
+   "series": "Trek vs Trek (India)",
+   "title": "Har Ki Dun vs Deoriatal–Chandrashila",
+   "angle": "Valley of gods vs Tungnath/Chandrashila summit views; altitudes; families/beginners.",
+   "visual_ideas": "peaks_chart.",
+   "status": "planned"
+  },
+  {
+   "n": 41,
+   "slug": "041-dzukou-valley",
+   "series": "Why You Should Visit (India, one place per video)",
+   "title": "Dzükou Valley: The Northeast's Secret Meadow",
+   "angle": "Nagaland–Manipur border valley, lilies, altitude, trek from Viswema/Zakhama, best season.",
+   "visual_ideas": "Northeast zoom.",
+   "status": "planned"
+  },
+  {
+   "n": 42,
+   "slug": "042-more-geography-myths",
+   "series": "True Scale (world)",
+   "title": "15 More Geography Facts You Got Wrong",
+   "angle": "New myths only (don't repeat episode 003): e.g., Bermuda Triangle stats, deserts vs sand, Mount Kilimanjaro snow, longest border, etc. Verify each.",
+   "visual_ideas": "engine.extras.myth cards.",
+   "status": "planned"
+  },
+  {
+   "n": 43,
+   "slug": "043-india-coastline-true-scale",
+   "series": "India vs the World (true scale)",
+   "title": "India's Coastline and Islands at True Scale",
+   "angle": "Coastline length (note the 2023 revision ~11,098 km), Andaman–Nicobar span, EEZ size vs land area.",
+   "visual_ideas": "Maps with true-size overlays.",
+   "status": "planned"
+  },
+  {
+   "n": 44,
+   "slug": "044-hidden-central-india",
+   "series": "Places Most Indians Have Never Heard Of (by region)",
+   "title": "Hidden Wonders of Central India",
+   "angle": "Bhedaghat marble rocks, Pachmarhi, Mandu, Orchha, Khajuraho less-known temples, Chitrakote falls ('Niagara of India' claim—phrase carefully).",
+   "visual_ideas": "Central India zoom.",
+   "status": "planned"
+  }
+ ]
+}

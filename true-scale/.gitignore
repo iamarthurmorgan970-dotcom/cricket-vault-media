@@ -1,0 +1,10 @@
+episodes/*/audio/
+episodes/*/video/
+episodes/*/stills/
+episodes/*/check/
+episodes/*/mix.wav
+episodes/*/joined.mp4
+episodes/*/concat.txt
+episodes/*/out/*.mp4
+episodes/*/out/contact-sheet.png
+__pycache__/

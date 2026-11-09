@@ -1,0 +1,90 @@
+[
+ {
+  "id": "s01_hook",
+  "text": "Mount Everest is the tallest mountain on Earth. You can see the Great Wall of China from space. The Sahara is the biggest desert in the world. You've probably heard all of these. Some of them you learned at school. And every single one of them is wrong, or at least, not the whole truth."
+ },
+ {
+  "id": "s02_title",
+  "text": "This is True Scale. Here are fifteen geography facts that most people get wrong. Keep count of how many you believed. Let's start with the big one.",
+  "hold": 1.5
+ },
+ {
+  "id": "m01_everest",
+  "text": "Myth number one. Mount Everest is the tallest mountain on Earth. Everest is the highest. Its peak sits about eight thousand, eight hundred and forty-nine metres above sea level. But tallest is different. Mauna Kea, in Hawaii, starts on the floor of the Pacific Ocean. Measured from its base to its peak, it's more than ten thousand, two hundred metres tall. Most of it is simply hidden underwater.",
+  "hold": 3.2
+ },
+ {
+  "id": "m02_chimborazo",
+  "text": "Myth number two. Everest's summit is the closest point on Earth to space. It isn't, because the Earth isn't a perfect sphere. It bulges at the equator. The distance to the centre of the Earth is about twenty-one kilometres greater at the equator than at the poles. So Mount Chimborazo, in Ecuador, sitting almost on the equator, has a summit more than two kilometres further from the Earth's centre than Everest's.",
+  "hold": 3.2
+ },
+ {
+  "id": "m03_wall",
+  "text": "Myth number three. You can see the Great Wall of China from space. It's one of the most repeated facts in the world, and astronauts keep disappointing us. China's first astronaut, Yang Liwei, said he couldn't see it. NASA says it's questionable whether you can see it with the unaided eye even from low orbit. The wall is very long, but it's narrow, and it's roughly the same colour as the land around it.",
+  "hold": 3.2
+ },
+ {
+  "id": "m04_desert",
+  "text": "Myth number four. The Sahara is the largest desert in the world. A desert isn't defined by heat. It's defined by how little rain or snow falls. By that measure, the largest desert on Earth is Antarctica, at about fourteen million square kilometres. The Sahara, at about nine point two million, is the largest hot desert. Still enormous. Just not number one.",
+  "hold": 3.2
+ },
+ {
+  "id": "m05_nile",
+  "text": "Myth number five. The Nile is definitely the longest river. It's usually listed at about six thousand six hundred and fifty kilometres. But measuring a river is surprisingly hard. Where exactly does it start? Which of its mouths do you count? One Brazilian study measured the Amazon at almost seven thousand kilometres, which would make it longer than the Nile. The honest answer is: it's still disputed.",
+  "hold": 3.2
+ },
+ {
+  "id": "m06_timezones",
+  "text": "Myth number six. Russia has the most time zones. Russia has eleven. So does the United States, if you count its tiny Pacific islands. But the winner is France, with twelve. That's because France isn't just France. It includes islands and territories scattered across the Atlantic, the Indian Ocean and the Pacific, from French Polynesia to New Caledonia, plus French Guiana in South America.",
+  "hold": 3.2
+ },
+ {
+  "id": "m07_northpole",
+  "text": "Myth number seven. The North Pole is on land, just like the South Pole. The South Pole sits on top of Antarctica, a continent. But there's no land at the North Pole at all. It's in the middle of the Arctic Ocean, covered by a crust of floating sea ice that drifts and changes every year.",
+  "hold": 3.2
+ },
+ {
+  "id": "m08_capitals",
+  "text": "Myth number eight. The biggest city is the capital. Very often, it isn't. Australia's capital isn't Sydney, it's Canberra. Turkey's isn't Istanbul, it's Ankara. Brazil's isn't Rio de Janeiro, it's Brasilia. Nigeria's isn't Lagos, it's Abuja. And Canada's isn't Toronto, it's Ottawa. Several of these countries built or chose a new capital, partly as a compromise between rival cities.",
+  "hold": 3.2
+ },
+ {
+  "id": "m09_latitude",
+  "text": "Myth number nine. Europe is roughly level with the United States. It's actually much further north. Rome is further north than New York City. And London is further north than Calgary, in Canada. Europe stays mild largely because of the Gulf Stream and the Atlantic winds, not because it sits further south. It doesn't.",
+  "hold": 3.2
+ },
+ {
+  "id": "m10_reno",
+  "text": "Myth number ten. California is the westernmost part of the mainland United States, so everything in it is further west than Nevada. Not quite. Reno, Nevada, is actually further west than Los Angeles. And here's a similar one. At the Panama Canal, the Pacific entrance is further east than the Atlantic entrance, because the country of Panama curves and runs east to west.",
+  "hold": 3.2
+ },
+ {
+  "id": "m11_greenland",
+  "text": "Myth number eleven. Iceland is icy, and Greenland is green. It's almost the other way around. Glaciers cover only about one tenth of Iceland. Meanwhile, an enormous ice sheet covers about eighty percent of Greenland. The names come from the Viking age, and Greenland's name may have been chosen partly to attract settlers.",
+  "hold": 3.2
+ },
+ {
+  "id": "m12_deadsea",
+  "text": "Myth number twelve. The Dead Sea is a sea. It's actually a salt lake, with no outlet to any ocean. And the same goes for the Caspian Sea. Despite the name, it's an enclosed body of water, and at about three hundred and seventy-one thousand square kilometres, it's the largest lake on Earth. Bigger than Germany.",
+  "hold": 3.2
+ },
+ {
+  "id": "m13_baikal",
+  "text": "Myth number thirteen. The world's biggest lakes hold the most fresh water. Not by area. Lake Baikal, in Siberia, doesn't look huge on a map. But it's the deepest lake on Earth, at more than one thousand six hundred metres. And because it's so deep, it holds about twenty percent of all the unfrozen fresh surface water on the planet.",
+  "hold": 3.2
+ },
+ {
+  "id": "m14_continents",
+  "text": "Myth number fourteen. There are seven continents, and everyone agrees. In much of the English-speaking world, kids learn seven. But in many other countries, students learn six, joining North and South America into one. Others join Europe and Asia into Eurasia. And the five Olympic rings stand for five inhabited continents. How many continents there are depends on where you went to school.",
+  "hold": 3.2
+ },
+ {
+  "id": "m15_hemispheres",
+  "text": "And myth number fifteen. People are spread fairly evenly around the globe. They're not. Roughly ninety percent of the world's population lives in the Northern Hemisphere. Most of the planet's land is north of the equator, and so are the giants: China, India, the United States, Europe. The Southern Hemisphere is mostly ocean.",
+  "hold": 3.2
+ },
+ {
+  "id": "s99_outro",
+  "text": "So, how many did you believe? Tell me your score in the comments. The world is full of facts that sound right, until you look at them at their true scale. If you want more of that, subscribe to True Scale. And I'll see you in the next one."
+ }
+]
