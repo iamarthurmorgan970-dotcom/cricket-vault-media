@@ -1,0 +1,44 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Ryan Harris vs Mitchell Johnson after 27 Tests",
+  "subtitle": "First 27 Tests each · 2010–2015 vs 2007–2009",
+  "format": "Test",
+  "unit": "Tests",
+  "count": 27,
+  "metric": "wickets",
+  "hook": [
+    "HARRIS vs JOHNSON",
+    "5 vs 3",
+    "5-WICKET HAULS · FIRST 27 TESTS"
+  ],
+  "hook_stat": "5 vs 3 5-wicket hauls",
+  "data_through": "2015-01-06",
+  "players": [
+    {
+      "cricsheet_name": "RJ Harris",
+      "label": "Ryan Harris",
+      "first": "2010-03-19",
+      "last": "2015-01-06",
+      "stats": {
+        "Wickets": "113",
+        "Average": "23.5",
+        "Economy": "2.78",
+        "5-wkt hauls": "5"
+      }
+    },
+    {
+      "cricsheet_name": "MG Johnson",
+      "label": "Mitchell Johnson",
+      "first": "2007-11-08",
+      "last": "2009-11-26",
+      "stats": {
+        "Wickets": "118",
+        "Average": "28.8",
+        "Economy": "3.16",
+        "5-wkt hauls": "3"
+      }
+    }
+  ],
+  "leader": "Mitchell Johnson",
+  "margin": 5
+}

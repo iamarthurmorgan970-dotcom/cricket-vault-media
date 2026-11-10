@@ -460,7 +460,7 @@
       "id": "compare-harris-vs-johnson-tests",
       "kind": "compare",
       "priority": 64,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "Test",

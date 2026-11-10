@@ -365,6 +365,19 @@
       "file": "shorts/ready/compare-yasir-vs-lyon-tests-card.mp4",
       "facts_file": "shorts/ready/compare-yasir-vs-lyon-tests.json",
       "long_file": "shorts/ready/compare-yasir-vs-lyon-tests.mp4"
+    },
+    {
+      "id": "compare-harris-vs-johnson-tests",
+      "kind": "compare",
+      "created": "2026-11-10",
+      "priority": 64,
+      "expires": null,
+      "suggested_title": "Ryan Harris vs Mitchell Johnson after 27 Tests 😳 The forgotten Aussie quick",
+      "notes": "10 Nov: vidIQ skipped (10 credits left, under 30). Expected twist: Harris's whole 27-Test career was 113 wkts @ 23.52 (lower than any Aussie quick of his era); Johnson at the same stage should average near 30. Both retired (Harris 2015, Johnson 2015); Cricsheet counts match official (27 and 73 Tests). Park if the average gap is under ~5. Only one idea queued today: cricsheet.org is not reachable from the session, and most other retired pacers checked (Asif, Gul, Bond, Steyn, Mendis, Hussey) are incomplete in Cricsheet.",
+      "status": "ready",
+      "file": "shorts/ready/compare-harris-vs-johnson-tests-card.mp4",
+      "facts_file": "shorts/ready/compare-harris-vs-johnson-tests.json",
+      "long_file": "shorts/ready/compare-harris-vs-johnson-tests.mp4"
     }
   ]
 }

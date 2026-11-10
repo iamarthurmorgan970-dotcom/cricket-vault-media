@@ -1,12 +1,14 @@
-started: 2026-11-10 02:23:38 UTC
+started: 2026-11-10 03:09:12 UTC
 
 [notice] A new release of pip is available: 26.2.2 -> 26.3
 [notice] To update, run: pip install --upgrade pip
-total 312
-drwxr-xr-x  2 runner runner   4096 Nov 10 02:23 .
-drwxrwxrwt 13 root   root     4096 Nov 10 02:23 ..
--rw-r--r--  1 runner runner 308676 Nov 10 02:23 recent.zip
+total 145856
+drwxr-xr-x  2 runner runner      4096 Nov 10 03:09 .
+drwxrwxrwt 12 root   root        4096 Nov 10 03:09 ..
+-rw-r--r--  1 runner runner 149036509 Nov 10 03:09 all.zip
+-rw-r--r--  1 runner runner    308676 Nov 10 03:09 recent.zip
 Today 2026-11-10; recent data: recent.zip
 Worm candidates since 2026-11-05: 0
-Ready to schedule: 3 ['card-abhishek-fastest-2000-t20i', 'compare-yasir-vs-swann-tests', 'compare-yasir-vs-lyon-tests']
-finished: 2026-11-10 02:23:53 UTC; render step outcome: success
+  rendered queued compare-harris-vs-johnson-tests
+Ready to schedule: 3 ['compare-yasir-vs-swann-tests', 'compare-yasir-vs-lyon-tests', 'compare-harris-vs-johnson-tests']
+finished: 2026-11-10 03:10:39 UTC; render step outcome: success
