@@ -103,7 +103,7 @@
       "created": "2026-10-31",
       "priority": 70,
       "expires": null,
-      "status": "ready",
+      "status": "scheduled",
       "file": "shorts/ready/card-abhishek-fastest-2000-t20i.mp4",
       "facts_file": "shorts/ready/card-abhishek-fastest-2000-t20i.json",
       "suggested_title": "Abhishek Sharma: fastest to 2,000 T20I runs 🔥 1,024 balls",
@@ -111,7 +111,11 @@
       "sources": [
         "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-3rd-t20i-2026-abhishek-sharma-fastest-2000-runs-record"
       ],
-      "wow": "Abhishek reached 2,000 T20I runs in 1,024 balls, 140 fewer than the previous record (Suryakumar, 1,164)."
+      "wow": "Abhishek reached 2,000 T20I runs in 1,024 balls, 140 fewer than the previous record (Suryakumar, 1,164).",
+      "title": "1,024 balls to 2,000 T20I runs 🤯 Abhishek Sharma smashes the all-time record",
+      "scheduled_for": "2026-11-11T21:30:00+05:30",
+      "metricool_id": 422672933,
+      "notes": "10 Nov: scheduled for Wed 11 Nov 21:30 IST (verified card, record card preferred per playbook; last post was a compare)."
     },
     {
       "id": "card-arshdeep-150-t20i-wickets",

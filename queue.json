@@ -455,6 +455,38 @@
       ],
       "suggested_title": "Yasir Shah vs Nathan Lyon after {N} Tests 😳 The forgotten spinner",
       "notes": "7 Nov: Expected twist: Yasir 200 wkts in 33 Tests (fastest ever) vs Lyon (500+ wkt legend) well behind at the same stage. Lyon is ACTIVE (last Test Oct 2026 in data): before posting, confirm Lyon's wickets after 33 Tests against an official source (Cricinfo match-by-match or a milestone report); block if unconfirmed."
+    },
+    {
+      "id": "compare-harris-vs-johnson-tests",
+      "kind": "compare",
+      "priority": 64,
+      "status": "queued",
+      "args": [
+        "--match-type",
+        "Test",
+        "--team-type",
+        "international",
+        "--gender",
+        "male",
+        "--metric",
+        "wickets",
+        "--per",
+        "match",
+        "--a",
+        "RJ Harris",
+        "--b",
+        "MG Johnson",
+        "--label-a",
+        "Ryan Harris",
+        "--label-b",
+        "Mitchell Johnson",
+        "--innings",
+        "27",
+        "--title",
+        "Ryan Harris vs Mitchell Johnson after {N} Tests"
+      ],
+      "suggested_title": "Ryan Harris vs Mitchell Johnson after {N} Tests 😳 The forgotten Aussie quick",
+      "notes": "10 Nov: vidIQ skipped (10 credits left, under 30). Expected twist: Harris's whole 27-Test career was 113 wkts @ 23.52 (lower than any Aussie quick of his era); Johnson at the same stage should average near 30. Both retired (Harris 2015, Johnson 2015); Cricsheet counts match official (27 and 73 Tests). Park if the average gap is under ~5. Only one idea queued today: cricsheet.org is not reachable from the session, and most other retired pacers checked (Asif, Gul, Bond, Steyn, Mendis, Hussey) are incomplete in Cricsheet."
     }
   ]
 }
