@@ -14,17 +14,20 @@ weaker is an "early signal". Keep it under ~50 lines.
 
 ## Current rules
 
-- (none yet: the channel is new. First uploads: 001 true size, 002 history scale, 003 geography myths,
-  004 India hidden wonders.)
+- (none yet: no Studio numbers recorded for any video, so nothing is proven on this channel.)
 
 ## Early signals
 
-- (none yet)
+- (none yet: waiting for the first Studio screenshots; see analytics/2026-11-10.md for which ones.)
 
 ## Being tested
 
 - Mix of series (treks, places, rocks, true scale, hidden places, world) to find which one the audience wants.
+- 005 is the first "X vs Y" decision video (search-intent title, published in season). Compare its search
+  traffic share and CTR with 001-004 once numbers arrive.
+- Seasonal timing: trek comparisons published 4-8 weeks before their season (winter treks in Nov).
+- Hook style: a single verified number contrast in the first sentence (005) vs a list of wonders (004).
 
 ## History
 
-- 10 Nov 2026: started tracking.
+- 10 Nov 2026: started tracking. No Studio data yet; chose 005 Kedarkantha vs Brahmatal for winter-trek season.
