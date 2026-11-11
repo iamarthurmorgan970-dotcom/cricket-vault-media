@@ -1,0 +1,15 @@
+{
+ "title": "Most times one bowler got the same batter out in Tests",
+ "hook": "Mike Atherton is 3 of the top 4",
+ "unit": "TIMES",
+ "format": "Test",
+ "as_of": "2026-11-11",
+ "rows": [
+  {"rank": 1, "player": "Glenn McGrath", "team": "AUS", "value": "19", "detail": "DISMISSED MIKE ATHERTON", "highlight": true},
+  {"rank": 2, "player": "Alec Bedser", "team": "ENG", "value": "18", "detail": "DISMISSED ARTHUR MORRIS"},
+  {"rank": 3, "player": "Curtly Ambrose", "team": "WI", "value": "17", "detail": "DISMISSED MIKE ATHERTON"},
+  {"rank": 3, "player": "Courtney Walsh", "team": "WI", "value": "17", "detail": "DISMISSED MIKE ATHERTON"},
+  {"rank": 3, "player": "Stuart Broad", "team": "ENG", "value": "17", "detail": "DISMISSED DAVID WARNER"}
+ ],
+ "footnote": "Source: Wisden, Jul 2023; HowSTAT"
+}

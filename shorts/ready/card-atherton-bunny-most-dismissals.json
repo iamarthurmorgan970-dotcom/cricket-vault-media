@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "MOST TIMES ONE BOWLER GOT THE SAME BATTER OUT IN TESTS",
+  "hook": "MIKE ATHERTON IS 3 OF THE TOP 4",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "Test",
+  "data_through": "2026-11-11",
+  "highlight": "Glenn McGrath",
+  "footnote": "Source: Wisden, Jul 2023; HowSTAT",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Glenn McGrath",
+      "display": "Glenn McGrath",
+      "team": "AUS",
+      "value": "19",
+      "detail": "DISMISSED MIKE ATHERTON",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Alec Bedser",
+      "display": "Alec Bedser",
+      "team": "ENG",
+      "value": "18",
+      "detail": "DISMISSED ARTHUR MORRIS",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Curtly Ambrose",
+      "display": "Curtly Ambrose",
+      "team": "WI",
+      "value": "17",
+      "detail": "DISMISSED MIKE ATHERTON",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Courtney Walsh",
+      "display": "Courtney Walsh",
+      "team": "WI",
+      "value": "17",
+      "detail": "DISMISSED MIKE ATHERTON",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Stuart Broad",
+      "display": "Stuart Broad",
+      "team": "ENG",
+      "value": "17",
+      "detail": "DISMISSED DAVID WARNER",
+      "in_progress": false
+    }
+  ]
+}
