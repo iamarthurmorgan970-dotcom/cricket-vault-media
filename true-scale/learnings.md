@@ -26,8 +26,12 @@ weaker is an "early signal". Keep it under ~50 lines.
 - 005 is the first "X vs Y" decision video (search-intent title, published in season). Compare its search
   traffic share and CTR with 001-004 once numbers arrive.
 - Seasonal timing: trek comparisons published 4-8 weeks before their season (winter treks in Nov).
-- Hook style: a single verified number contrast in the first sentence (005) vs a list of wonders (004).
+- Hook style: a single verified number contrast in the first sentence (005, 012) vs a list of wonders (004).
+- News-hook timing: 012 Greenland made a week after a big news event (parliament vote, 3 Nov 2026). Compare its
+  first-48h views with the evergreen world videos 001-003.
+- India reference points in world videos (012: "two-thirds of India", "half the Narendra Modi Stadium").
 
 ## History
 
+- 11 Nov 2026: still no Studio data; chose 012 Greenland for the news hook (security deal ratified 3 Nov).
 - 10 Nov 2026: started tracking. No Studio data yet; chose 005 Kedarkantha vs Brahmatal for winter-trek season.

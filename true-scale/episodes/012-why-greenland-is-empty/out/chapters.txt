@@ -1,0 +1,17 @@
+0:00 s01_hook
+0:27 s02_title
+0:33 s03_news
+1:10 s04_size
+1:43 s05_ice
+2:11 s06_thick
+2:41 s07_volume
+3:09 s08_cold
+3:36 s09_coast
+4:07 s10_roads
+4:44 s11_first
+5:16 s12_norse
+5:45 s13_denmark
+6:12 s14_money
+6:48 s15_why_now
+7:25 s16_recap
+7:55 s17_outro

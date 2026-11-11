@@ -49,6 +49,18 @@
    "length": "8:22"
   },
   {
+   "n": 12,
+   "slug": "012-why-greenland-is-empty",
+   "series": "True Scale (world)",
+   "title": "Why Nobody Lives in Greenland",
+   "angle": "Ice sheet ~80%, population ~56,000, coastline settlements, true size vs Mercator, climate, no roads between towns, Denmark relationship, what's under the ice.",
+   "visual_ideas": "Mercator vs true size move, Greenland map with towns, bars.",
+   "status": "made",
+   "made_on": "2026-11-11",
+   "length": "8:12",
+   "note": "Moved up for the news hook: Greenland parliament ratified the US-Denmark security deal on 3 Nov 2026."
+  },
+  {
    "n": 6,
    "slug": "006-lonar-crater-lake",
    "series": "Why You Should Visit (India, one place per video)",
@@ -100,15 +112,6 @@
    "title": "Majuli: The River Island That's Disappearing",
    "angle": "Guinness 'largest river island' (and the Bananal caveat), area 1790s→today, erosion causes (Brahmaputra floods), satras/Vaishnavism, mask-making, Mising people, how to get there by ferry.",
    "visual_ideas": "Assam zoom with Brahmaputra, area bars over time.",
-   "status": "planned"
-  },
-  {
-   "n": 12,
-   "slug": "012-why-greenland-is-empty",
-   "series": "True Scale (world)",
-   "title": "Why Nobody Lives in Greenland",
-   "angle": "Ice sheet ~80%, population ~56,000, coastline settlements, true size vs Mercator, climate, no roads between towns, Denmark relationship, what's under the ice.",
-   "visual_ideas": "Mercator vs true size move, Greenland map with towns, bars.",
    "status": "planned"
   },
   {
