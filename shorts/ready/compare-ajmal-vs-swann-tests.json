@@ -1,0 +1,44 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Saeed Ajmal vs Swann after 35 Tests",
+  "subtitle": "First 35 Tests each · 2009–2014 vs 2008–2011",
+  "format": "Test",
+  "unit": "Tests",
+  "count": 35,
+  "metric": "wickets",
+  "hook": [
+    "AJMAL vs SWANN",
+    "178 vs 144",
+    "WICKETS · FIRST 35 TESTS"
+  ],
+  "hook_stat": "178 vs 144 wickets",
+  "data_through": "2014-08-14",
+  "players": [
+    {
+      "cricsheet_name": "Saeed Ajmal",
+      "label": "Saeed Ajmal",
+      "first": "2009-07-04",
+      "last": "2014-08-14",
+      "stats": {
+        "Wickets": "178",
+        "Average": "28.1",
+        "Economy": "2.59",
+        "5-wkt hauls": "10"
+      }
+    },
+    {
+      "cricsheet_name": "GP Swann",
+      "label": "Graeme Swann",
+      "first": "2008-12-11",
+      "last": "2011-08-10",
+      "stats": {
+        "Wickets": "144",
+        "Average": "29.2",
+        "Economy": "2.97",
+        "5-wkt hauls": "10"
+      }
+    }
+  ],
+  "leader": "Saeed Ajmal",
+  "margin": 34
+}

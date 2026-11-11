@@ -1,12 +1,15 @@
-started: 2026-11-11 02:20:11 UTC
+started: 2026-11-11 03:10:00 UTC
 
 [notice] A new release of pip is available: 26.2.2 -> 26.3
 [notice] To update, run: pip install --upgrade pip
-total 312
-drwxr-xr-x  2 runner runner   4096 Nov 11 02:20 .
-drwxrwxrwt 12 root   root     4096 Nov 11 02:20 ..
--rw-r--r--  1 runner runner 308676 Nov 11 02:20 recent.zip
+total 145856
+drwxr-xr-x  2 runner runner      4096 Nov 11 03:10 .
+drwxrwxrwt 12 root   root        4096 Nov 11 03:10 ..
+-rw-r--r--  1 runner runner 149036509 Nov 11 03:10 all.zip
+-rw-r--r--  1 runner runner    308676 Nov 11 03:10 recent.zip
 Today 2026-11-11; recent data: recent.zip
 Worm candidates since 2026-11-06: 0
-Ready to schedule: 3 ['compare-yasir-vs-swann-tests', 'compare-yasir-vs-lyon-tests', 'compare-harris-vs-johnson-tests']
-finished: 2026-11-11 02:20:22 UTC; render step outcome: success
+  rendered queued compare-philander-vs-morkel-tests
+  rendered queued compare-ajmal-vs-swann-tests
+Ready to schedule: 5 ['compare-yasir-vs-swann-tests', 'compare-yasir-vs-lyon-tests', 'card-atherton-bunny-most-dismissals', 'compare-philander-vs-morkel-tests', 'compare-ajmal-vs-swann-tests']
+finished: 2026-11-11 03:11:58 UTC; render step outcome: success

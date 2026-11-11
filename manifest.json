@@ -397,6 +397,32 @@
         "https://howstat.com/cricket/Statistics/Bowling/BowlingMisc2.asp",
         "https://www.mykhel.com/cricket/most-times-a-batter-has-got-out-to-same-bowler-warner-joins-biggest-test-bunny-atherton-in-list-221274.html"
       ]
+    },
+    {
+      "id": "compare-philander-vs-morkel-tests",
+      "kind": "compare",
+      "created": "2026-11-11",
+      "priority": 70,
+      "expires": null,
+      "suggested_title": "Philander vs Morkel after 64 Tests 🤯 Same team, huge gap",
+      "notes": "11 Nov: vidIQ skipped (0 credits). Expected twist: Philander's whole 64-Test career averaged about 22 with many more five-fors; teammate Morkel (same SA attack) should average near 30 after 64 Tests. Both retired; Cricsheet counts match official (64 and 86 Tests). Park if the average gap is under 5 or five-for gap is small.",
+      "status": "ready",
+      "file": "shorts/ready/compare-philander-vs-morkel-tests-card.mp4",
+      "facts_file": "shorts/ready/compare-philander-vs-morkel-tests.json",
+      "long_file": "shorts/ready/compare-philander-vs-morkel-tests.mp4"
+    },
+    {
+      "id": "compare-ajmal-vs-swann-tests",
+      "kind": "compare",
+      "created": "2026-11-11",
+      "priority": 62,
+      "expires": null,
+      "suggested_title": "Saeed Ajmal vs Swann after 35 Tests 😳 The forgotten off-spinner",
+      "notes": "11 Nov: Expected twist: Ajmal's whole 35-Test career (about 178 wkts) vs Swann, the era's celebrated off-spinner, who had 142 after 33 Tests per our Yasir facts, so roughly 25+ wickets behind. Both retired; Cricsheet counts match official (35 and 60 Tests). Park if the wicket gap is under 20. Do not post in the same week as the Yasir vs Swann video.",
+      "status": "ready",
+      "file": "shorts/ready/compare-ajmal-vs-swann-tests-card.mp4",
+      "facts_file": "shorts/ready/compare-ajmal-vs-swann-tests.json",
+      "long_file": "shorts/ready/compare-ajmal-vs-swann-tests.mp4"
     }
   ]
 }

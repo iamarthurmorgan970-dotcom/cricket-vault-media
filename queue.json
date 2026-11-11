@@ -492,7 +492,7 @@
       "id": "compare-philander-vs-morkel-tests",
       "kind": "compare",
       "priority": 70,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "Test",
@@ -524,7 +524,7 @@
       "id": "compare-ajmal-vs-swann-tests",
       "kind": "compare",
       "priority": 62,
-      "status": "queued",
+      "status": "rendered",
       "args": [
         "--match-type",
         "Test",

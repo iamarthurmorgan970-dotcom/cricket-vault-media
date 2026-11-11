@@ -1,0 +1,44 @@
+{
+  "kind": "compare",
+  "on_screen_title": "Philander vs Morkel after 64 Tests",
+  "subtitle": "First 64 Tests each · 2011–2020 vs 2006–2015",
+  "format": "Test",
+  "unit": "Tests",
+  "count": 64,
+  "metric": "wickets",
+  "hook": [
+    "PHILANDER vs MORKEL",
+    "13 vs 6",
+    "5-WICKET HAULS · FIRST 64 TESTS"
+  ],
+  "hook_stat": "13 vs 6 5-wicket hauls",
+  "data_through": "2020-01-24",
+  "players": [
+    {
+      "cricsheet_name": "VD Philander",
+      "label": "Vernon Philander",
+      "first": "2011-11-09",
+      "last": "2020-01-24",
+      "stats": {
+        "Wickets": "224",
+        "Average": "22.3",
+        "Economy": "2.63",
+        "5-wkt hauls": "13"
+      }
+    },
+    {
+      "cricsheet_name": "M Morkel",
+      "label": "Morne Morkel",
+      "first": "2006-12-26",
+      "last": "2015-07-30",
+      "stats": {
+        "Wickets": "218",
+        "Average": "29.7",
+        "Economy": "3.16",
+        "5-wkt hauls": "6"
+      }
+    }
+  ],
+  "leader": "Vernon Philander",
+  "margin": 6
+}
