@@ -29,9 +29,13 @@ weaker is an "early signal". Keep it under ~50 lines.
 - Hook style: a single verified number contrast in the first sentence (005, 012) vs a list of wonders (004).
 - News-hook timing: 012 Greenland made a week after a big news event (parliament vote, 3 Nov 2026). Compare its
   first-48h views with the evergreen world videos 001-003.
+- First single-place India video (006 Lonar): place + live controversy (rising lake, submerged temples), and a
+  debate comment prompt ("pump it or leave it?"). Compare comments per 1,000 views with the "which would you
+  pick?" prompts in 004/005.
 - India reference points in world videos (012: "two-thirds of India", "half the Narendra Modi Stadium").
 
 ## History
 
+- 12 Nov 2026: still no Studio data (3rd run); chose 006 Lonar for India-place balance, the rising-lake story and Oct-Mar season.
 - 11 Nov 2026: still no Studio data; chose 012 Greenland for the news hook (security deal ratified 3 Nov).
 - 10 Nov 2026: started tracking. No Studio data yet; chose 005 Kedarkantha vs Brahmatal for winter-trek season.
