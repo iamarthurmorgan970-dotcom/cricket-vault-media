@@ -385,18 +385,21 @@
       "created": "2026-11-11",
       "priority": 80,
       "expires": null,
-      "status": "ready",
+      "status": "scheduled",
       "file": "shorts/ready/card-atherton-bunny-most-dismissals.mp4",
       "facts_file": "shorts/ready/card-atherton-bunny-most-dismissals.json",
       "suggested_title": "19 times! McGrath owned Atherton 🤯 Most times one bowler got the same batter out in Tests",
       "verified": true,
       "wow": "Mike Atherton is the victim in 3 of the top 4 bowler-v-batter pairs in Test history (McGrath 19, Ambrose 17, Walsh 17).",
-      "notes": "11 Nov: all-time record, all players retired (Broad and Warner retired, so 17 is final). List identical in Wisden (Jul 2023), MyKhel (Jul 2023) and HowSTAT (current).",
+      "notes": "11 Nov: all-time record, all players retired (Broad and Warner retired, so 17 is final). List identical in Wisden (Jul 2023), MyKhel (Jul 2023) and HowSTAT (current). | 13 Nov: scheduled Fri 13 Nov 19:30 IST (verified record card; playbook prefers record cards; passes no-way test).",
       "sources": [
         "https://wisden.com/series-stories/ashes-2023/watch-stuart-broad-continues-hold-over-david-warner-dismisses-him-for-17th-time-in-test-cricket-ashes-2023",
         "https://howstat.com/cricket/Statistics/Bowling/BowlingMisc2.asp",
         "https://www.mykhel.com/cricket/most-times-a-batter-has-got-out-to-same-bowler-warner-joins-biggest-test-bunny-atherton-in-list-221274.html"
-      ]
+      ],
+      "title": "19 times! McGrath owned Atherton 🤯 Most times one bowler got the same batter out in Tests",
+      "scheduled_for": "2026-11-13T19:30:00+05:30",
+      "metricool_id": 426491783
     },
     {
       "id": "compare-philander-vs-morkel-tests",
