@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "LOWEST TOTALS EVER IN MEN'S T20IS",
+  "hook": "NIGERIA MADE 271. IVORY COAST: 7 ALL OUT",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "T20I",
+  "data_through": "2026-11-13",
+  "highlight": "Ivory Coast",
+  "footnote": "Source: Wisden, 25 Nov 2024",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Ivory Coast",
+      "display": "Ivory Coast",
+      "team": "CIV",
+      "value": "7",
+      "detail": "V NIGERIA · LAGOS 2024 · 7.3 OVERS",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Isle of Man",
+      "display": "Isle of Man",
+      "team": "IOM",
+      "value": "10",
+      "detail": "V SPAIN · 2023",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Mongolia",
+      "display": "Mongolia",
+      "team": "MGL",
+      "value": "10",
+      "detail": "V SINGAPORE · 2024",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Mongolia",
+      "display": "Mongolia",
+      "team": "MGL",
+      "value": "12",
+      "detail": "V JAPAN · 2024",
+      "in_progress": false
+    },
+    {
+      "rank": 5,
+      "player": "Mongolia",
+      "display": "Mongolia",
+      "team": "MGL",
+      "value": "17",
+      "detail": "V HONG KONG · 2024",
+      "in_progress": false
+    }
+  ]
+}

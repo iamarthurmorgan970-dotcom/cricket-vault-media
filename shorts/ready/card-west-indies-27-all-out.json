@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "LOWEST TOTALS IN TEST HISTORY",
+  "hook": "WEST INDIES: 27 ALL OUT IN 2025",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "Test",
+  "data_through": "2026-11-13",
+  "highlight": "West Indies",
+  "footnote": "Source: Wisden, 15 Jul 2025",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "New Zealand",
+      "display": "New Zealand",
+      "team": "NZ",
+      "value": "26",
+      "detail": "V ENGLAND · AUCKLAND 1954/55",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "West Indies",
+      "display": "West Indies",
+      "team": "WI",
+      "value": "27",
+      "detail": "V AUSTRALIA · KINGSTON 2025",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "South Africa",
+      "display": "South Africa",
+      "team": "SA",
+      "value": "30",
+      "detail": "V ENGLAND · PORT ELIZABETH 1895/96",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "South Africa",
+      "display": "South Africa",
+      "team": "SA",
+      "value": "30",
+      "detail": "V ENGLAND · BIRMINGHAM 1924",
+      "in_progress": false
+    },
+    {
+      "rank": 5,
+      "player": "South Africa",
+      "display": "South Africa",
+      "team": "SA",
+      "value": "35",
+      "detail": "V ENGLAND · CAPE TOWN 1898/99",
+      "in_progress": false
+    }
+  ]
+}

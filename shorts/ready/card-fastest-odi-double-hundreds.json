@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "FASTEST DOUBLE HUNDREDS IN ODI HISTORY",
+  "hook": "THE RECORD FELL TWICE IN 2026",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "ODI",
+  "data_through": "2026-11-13",
+  "highlight": "Harry Brook",
+  "footnote": "Source: CricTracker, 22 Oct 2026",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Harry Brook",
+      "display": "Harry Brook",
+      "team": "ENG",
+      "value": "114",
+      "detail": "V SRI LANKA · RAWALPINDI · OCT 2026",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Shubman Gill",
+      "display": "Shubman Gill",
+      "team": "IND",
+      "value": "117",
+      "detail": "V WEST INDIES · GUWAHATI · SEP 2026",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Ishan Kishan",
+      "display": "Ishan Kishan",
+      "team": "IND",
+      "value": "126",
+      "detail": "V BANGLADESH · 2022",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Glenn Maxwell",
+      "display": "Glenn Maxwell",
+      "team": "AUS",
+      "value": "128",
+      "detail": "V AFGHANISTAN · 2023",
+      "in_progress": false
+    },
+    {
+      "rank": 5,
+      "player": "Pathum Nissanka",
+      "display": "Pathum Nissanka",
+      "team": "SL",
+      "value": "136",
+      "detail": "V AFGHANISTAN · 2024",
+      "in_progress": false
+    }
+  ]
+}

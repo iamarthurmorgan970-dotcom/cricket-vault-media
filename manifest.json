@@ -347,8 +347,8 @@
       "priority": 72,
       "expires": null,
       "suggested_title": "Yasir Shah vs Swann after 33 Tests 🤯 Look at that gap",
-      "notes": "7 Nov: vidIQ skipped (20 credits left, under 30). Expected twist: Yasir Shah reached 200 Test wickets in only 33 Tests (fastest ever, widely reported); Swann (England's best modern spinner) should be far behind after 33 Tests. Both retired (Yasir last Test Jul 2022, Swann 2013); Cricsheet counts match official (Yasir 48, Swann 60). Anchor before posting: Yasir 200th wkt in 33rd Test (Cricinfo/news). | 9 Nov: 6s result card rendered (Deepak approved); 'file' is the card, 'long_file' the 17-20s version.",
-      "status": "ready",
+      "notes": "7 Nov: vidIQ skipped (20 credits left, under 30). Expected twist: Yasir Shah reached 200 Test wickets in only 33 Tests (fastest ever, widely reported); Swann (England's best modern spinner) should be far behind after 33 Tests. Both retired (Yasir last Test Jul 2022, Swann 2013); Cricsheet counts match official (Yasir 48, Swann 60). Anchor before posting: Yasir 200th wkt in 33rd Test (Cricinfo/news). | 9 Nov: 6s result card rendered (Deepak approved); 'file' is the card, 'long_file' the 17-20s version. | 13 Nov: PARKED at Deepak's request (wants more intriguing facts than player comparisons). Replaced by 4 record cards; set back to ready to reuse.",
+      "status": "parked",
       "file": "shorts/ready/compare-yasir-vs-swann-tests-card.mp4",
       "facts_file": "shorts/ready/compare-yasir-vs-swann-tests.json",
       "long_file": "shorts/ready/compare-yasir-vs-swann-tests.mp4"
@@ -360,8 +360,8 @@
       "priority": 65,
       "expires": null,
       "suggested_title": "Yasir Shah vs Nathan Lyon after 33 Tests 😳 The forgotten spinner",
-      "notes": "7 Nov: Expected twist: Yasir 200 wkts in 33 Tests (fastest ever) vs Lyon (500+ wkt legend) well behind at the same stage. Lyon is ACTIVE (last Test Oct 2026 in data): before posting, confirm Lyon's wickets after 33 Tests against an official source (Cricinfo match-by-match or a milestone report); block if unconfirmed. | 9 Nov: 6s result card rendered (Deepak approved); 'file' is the card, 'long_file' the 17-20s version.",
-      "status": "ready",
+      "notes": "7 Nov: Expected twist: Yasir 200 wkts in 33 Tests (fastest ever) vs Lyon (500+ wkt legend) well behind at the same stage. Lyon is ACTIVE (last Test Oct 2026 in data): before posting, confirm Lyon's wickets after 33 Tests against an official source (Cricinfo match-by-match or a milestone report); block if unconfirmed. | 9 Nov: 6s result card rendered (Deepak approved); 'file' is the card, 'long_file' the 17-20s version. | 13 Nov: PARKED at Deepak's request (wants more intriguing facts than player comparisons). Replaced by 4 record cards; set back to ready to reuse.",
+      "status": "parked",
       "file": "shorts/ready/compare-yasir-vs-lyon-tests-card.mp4",
       "facts_file": "shorts/ready/compare-yasir-vs-lyon-tests.json",
       "long_file": "shorts/ready/compare-yasir-vs-lyon-tests.mp4"
@@ -408,8 +408,8 @@
       "priority": 70,
       "expires": null,
       "suggested_title": "Philander vs Morkel after 64 Tests 🤯 Same team, huge gap",
-      "notes": "11 Nov: vidIQ skipped (0 credits). Expected twist: Philander's whole 64-Test career averaged about 22 with many more five-fors; teammate Morkel (same SA attack) should average near 30 after 64 Tests. Both retired; Cricsheet counts match official (64 and 86 Tests). Park if the average gap is under 5 or five-for gap is small.",
-      "status": "ready",
+      "notes": "11 Nov: vidIQ skipped (0 credits). Expected twist: Philander's whole 64-Test career averaged about 22 with many more five-fors; teammate Morkel (same SA attack) should average near 30 after 64 Tests. Both retired; Cricsheet counts match official (64 and 86 Tests). Park if the average gap is under 5 or five-for gap is small. | 13 Nov: PARKED at Deepak's request (wants more intriguing facts than player comparisons). Replaced by 4 record cards; set back to ready to reuse.",
+      "status": "parked",
       "file": "shorts/ready/compare-philander-vs-morkel-tests-card.mp4",
       "facts_file": "shorts/ready/compare-philander-vs-morkel-tests.json",
       "long_file": "shorts/ready/compare-philander-vs-morkel-tests.mp4"
@@ -421,11 +421,84 @@
       "priority": 62,
       "expires": null,
       "suggested_title": "Saeed Ajmal vs Swann after 35 Tests 😳 The forgotten off-spinner",
-      "notes": "11 Nov: Expected twist: Ajmal's whole 35-Test career (about 178 wkts) vs Swann, the era's celebrated off-spinner, who had 142 after 33 Tests per our Yasir facts, so roughly 25+ wickets behind. Both retired; Cricsheet counts match official (35 and 60 Tests). Park if the wicket gap is under 20. Do not post in the same week as the Yasir vs Swann video.",
-      "status": "ready",
+      "notes": "11 Nov: Expected twist: Ajmal's whole 35-Test career (about 178 wkts) vs Swann, the era's celebrated off-spinner, who had 142 after 33 Tests per our Yasir facts, so roughly 25+ wickets behind. Both retired; Cricsheet counts match official (35 and 60 Tests). Park if the wicket gap is under 20. Do not post in the same week as the Yasir vs Swann video. | 13 Nov: PARKED at Deepak's request (wants more intriguing facts than player comparisons). Replaced by 4 record cards; set back to ready to reuse.",
+      "status": "parked",
       "file": "shorts/ready/compare-ajmal-vs-swann-tests-card.mp4",
       "facts_file": "shorts/ready/compare-ajmal-vs-swann-tests.json",
       "long_file": "shorts/ready/compare-ajmal-vs-swann-tests.mp4"
+    },
+    {
+      "id": "card-ivory-coast-7-all-out",
+      "kind": "card",
+      "created": "2026-11-13",
+      "priority": 75,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-ivory-coast-7-all-out.mp4",
+      "facts_file": "shorts/ready/card-ivory-coast-7-all-out.json",
+      "suggested_title": "7 all out 🤯 Lowest total in T20I history: Nigeria made 271, Ivory Coast 7",
+      "verified": true,
+      "wow": "Nigeria scored 271/4, then bowled Ivory Coast out for 7 in 7.3 overs: the lowest total in men's T20I history.",
+      "notes": "13 Nov (Deepak asked for more intriguing facts): Wisden list (25 Nov 2024): CIV 7 v Nigeria (Lagos, 24 Nov 2024, 7.3 ov, Nigeria 271-4), IOM 10 v Spain 2023, Mongolia 10 v Singapore 2024, 12 v Japan 2024, 17 v Hong Kong 2024. ESPNcricinfo 2026 T20I lowest totals shows nothing lower this year.",
+      "sources": [
+        "https://www.wisden.com/cricket-news/lowest-totals-in-t20-cricket-full-list-ivory-coast-breaks-mens-record-bowled-out-for-7-in-t20-wc-qualifier",
+        "https://www.espncricinfo.com/records/year/team-lowest-innings-totals/2026-2026/twenty20-internationals-3"
+      ]
+    },
+    {
+      "id": "card-laker-19-wickets-one-test",
+      "kind": "card",
+      "created": "2026-11-13",
+      "priority": 80,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-laker-19-wickets-one-test.mp4",
+      "facts_file": "shorts/ready/card-laker-19-wickets-one-test.json",
+      "suggested_title": "19 wickets in ONE Test 🤯 Jim Laker took 19 of 20, his partner got 1",
+      "verified": true,
+      "wow": "Jim Laker took 19 of the 20 Australian wickets at Old Trafford in 1956 (9/37 and 10/53); Tony Lock took the other one. Hirwani and Massie took 16 on Test debut.",
+      "notes": "13 Nov (Deepak asked for more intriguing facts): Rows from Scroll.in table (15+ wkts in a Test): Laker 19/90, Barnes 17/159, Hirwani 16/136, Massie 16/137, Murali 16/220; Lock 1 wkt in match per Scroll and ESPNcricinfo (1/106). Debut for Hirwani/Massie confirmed by Wisden (Jul 2024). All retired: list is final unless a new record.",
+      "sources": [
+        "https://scroll.in/field/969044/pause-rewind-play-jim-laker-and-the-cricketing-record-that-is-unlikely-to-be-ever-broken",
+        "https://www.espncricinfo.com/columns/content/story/254395.html",
+        "https://wisden.com/series/west-indies-in-england-2024/cricket-news/best-match-figures-on-test-debut-where-does-gus-atkinsons-12-106-rank"
+      ]
+    },
+    {
+      "id": "card-west-indies-27-all-out",
+      "kind": "card",
+      "created": "2026-11-13",
+      "priority": 75,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-west-indies-27-all-out.mp4",
+      "facts_file": "shorts/ready/card-west-indies-27-all-out.json",
+      "suggested_title": "27 all out 🤯 West Indies were 26/9: one run off the lowest Test total ever",
+      "verified": true,
+      "wow": "In 2025 West Indies were bowled out for 27 by Australia at Kingston, the 2nd-lowest Test total ever and the lowest in 70 years. Starc took 6 for 9; Boland's hat-trick left them 26/9.",
+      "notes": "13 Nov (Deepak asked for more intriguing facts): Wisden full list (15 Jul 2025): NZ 26 (1954/55), WI 27 (2025), SA 30 x2, SA 35. Starc 6-9, Boland hat-trick to 26-9, Greaves 11 only double figure. Also Khel Now list (Jul 2025) agrees. Note: '26/9' and 'lowest in 70 years' (ft.lk headline) are for the caption only.",
+      "sources": [
+        "https://www.wisden.com/series/west-indies-vs-australia-m-2025/cricket-news/lowest-totals-in-test-history-full-list-west-indies-narrowly-avoid-equalling-world-record",
+        "https://khelnow.com/cricket/lowest-team-totals-test-cricket-202507"
+      ]
+    },
+    {
+      "id": "card-fastest-odi-double-hundreds",
+      "kind": "card",
+      "created": "2026-11-13",
+      "priority": 80,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-fastest-odi-double-hundreds.mp4",
+      "facts_file": "shorts/ready/card-fastest-odi-double-hundreds.json",
+      "suggested_title": "114 balls 🤯 Harry Brook breaks Gill's ODI double-hundred record 3 weeks after he set it",
+      "verified": true,
+      "wow": "Shubman Gill set the fastest ODI double hundred (117 balls) on 30 Sep 2026; Harry Brook broke it with 114 balls on 22 Oct 2026. The record fell twice in one season.",
+      "notes": "13 Nov (Deepak asked for more intriguing facts): CricTracker (22 Oct 2026) list: Brook 114, Gill 117, Kishan 126, Maxwell 128, Nissanka 136. Gill 117 balls on 30 Sep 2026 confirmed by Outlook India. Brook is active: re-check no faster 200 since 22 Oct before posting.",
+      "sources": [
+        "https://www.crictracker.com/cricket-news/harry-brook-scores-first-odi-double-century-by-an-england-batter-breaks-fastest-200-record-7162/",
+        "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-2nd-odi-shubman-gill-records-list-double-century-guwahati"
+      ]
     }
   ]
 }

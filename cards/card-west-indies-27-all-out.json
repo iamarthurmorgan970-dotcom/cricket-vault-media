@@ -1,0 +1,46 @@
+{
+ "title": "Lowest totals in Test history",
+ "hook": "West Indies: 27 all out in 2025",
+ "unit": "RUNS",
+ "format": "Test",
+ "as_of": "2026-11-13",
+ "rows": [
+  {
+   "rank": 1,
+   "player": "New Zealand",
+   "team": "NZ",
+   "value": "26",
+   "detail": "V ENGLAND · AUCKLAND 1954/55"
+  },
+  {
+   "rank": 2,
+   "player": "West Indies",
+   "team": "WI",
+   "value": "27",
+   "detail": "V AUSTRALIA · KINGSTON 2025",
+   "highlight": true
+  },
+  {
+   "rank": 3,
+   "player": "South Africa",
+   "team": "SA",
+   "value": "30",
+   "detail": "V ENGLAND · PORT ELIZABETH 1895/96"
+  },
+  {
+   "rank": 3,
+   "player": "South Africa",
+   "team": "SA",
+   "value": "30",
+   "detail": "V ENGLAND · BIRMINGHAM 1924"
+  },
+  {
+   "rank": 5,
+   "player": "South Africa",
+   "team": "SA",
+   "value": "35",
+   "detail": "V ENGLAND · CAPE TOWN 1898/99"
+  }
+ ],
+ "footnote": "Source: Wisden, 15 Jul 2025"
+}

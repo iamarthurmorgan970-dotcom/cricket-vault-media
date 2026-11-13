@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "MOST WICKETS IN ONE TEST MATCH",
+  "hook": "JIM LAKER TOOK 19 OF THE 20 WICKETS",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "Test",
+  "data_through": "2026-11-13",
+  "highlight": "Jim Laker",
+  "footnote": "Source: Scroll.in; Wisden; ESPNcricinfo",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Jim Laker",
+      "display": "Jim Laker",
+      "team": "ENG",
+      "value": "19",
+      "detail": "19/90 V AUSTRALIA · 1956",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Sydney Barnes",
+      "display": "Sydney Barnes",
+      "team": "ENG",
+      "value": "17",
+      "detail": "17/159 V SOUTH AFRICA · 1913",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Narendra Hirwani",
+      "display": "Narendra Hirwani",
+      "team": "IND",
+      "value": "16",
+      "detail": "16/136 ON TEST DEBUT · 1988",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Bob Massie",
+      "display": "Bob Massie",
+      "team": "AUS",
+      "value": "16",
+      "detail": "16/137 ON TEST DEBUT · 1972",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Muttiah Muralitharan",
+      "display": "Muttiah Muralitharan",
+      "team": "SL",
+      "value": "16",
+      "detail": "16/220 V ENGLAND · 1998",
+      "in_progress": false
+    }
+  ]
+}

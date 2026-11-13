@@ -1,0 +1,46 @@
+{
+ "title": "Fastest double hundreds in ODI history",
+ "hook": "The record fell twice in 2026",
+ "unit": "BALLS",
+ "format": "ODI",
+ "as_of": "2026-11-13",
+ "rows": [
+  {
+   "rank": 1,
+   "player": "Harry Brook",
+   "team": "ENG",
+   "value": "114",
+   "detail": "V SRI LANKA · RAWALPINDI · OCT 2026",
+   "highlight": true
+  },
+  {
+   "rank": 2,
+   "player": "Shubman Gill",
+   "team": "IND",
+   "value": "117",
+   "detail": "V WEST INDIES · GUWAHATI · SEP 2026"
+  },
+  {
+   "rank": 3,
+   "player": "Ishan Kishan",
+   "team": "IND",
+   "value": "126",
+   "detail": "V BANGLADESH · 2022"
+  },
+  {
+   "rank": 4,
+   "player": "Glenn Maxwell",
+   "team": "AUS",
+   "value": "128",
+   "detail": "V AFGHANISTAN · 2023"
+  },
+  {
+   "rank": 5,
+   "player": "Pathum Nissanka",
+   "team": "SL",
+   "value": "136",
+   "detail": "V AFGHANISTAN · 2024"
+  }
+ ],
+ "footnote": "Source: CricTracker, 22 Oct 2026"
+}

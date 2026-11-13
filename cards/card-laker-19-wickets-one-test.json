@@ -1,0 +1,46 @@
+{
+ "title": "Most wickets in one Test match",
+ "hook": "Jim Laker took 19 of the 20 wickets",
+ "unit": "WICKETS",
+ "format": "Test",
+ "as_of": "2026-11-13",
+ "rows": [
+  {
+   "rank": 1,
+   "player": "Jim Laker",
+   "team": "ENG",
+   "value": "19",
+   "detail": "19/90 V AUSTRALIA · 1956",
+   "highlight": true
+  },
+  {
+   "rank": 2,
+   "player": "Sydney Barnes",
+   "team": "ENG",
+   "value": "17",
+   "detail": "17/159 V SOUTH AFRICA · 1913"
+  },
+  {
+   "rank": 3,
+   "player": "Narendra Hirwani",
+   "team": "IND",
+   "value": "16",
+   "detail": "16/136 ON TEST DEBUT · 1988"
+  },
+  {
+   "rank": 3,
+   "player": "Bob Massie",
+   "team": "AUS",
+   "value": "16",
+   "detail": "16/137 ON TEST DEBUT · 1972"
+  },
+  {
+   "rank": 3,
+   "player": "Muttiah Muralitharan",
+   "team": "SL",
+   "value": "16",
+   "detail": "16/220 V ENGLAND · 1998"
+  }
+ ],
+ "footnote": "Source: Scroll.in; Wisden; ESPNcricinfo"
+}

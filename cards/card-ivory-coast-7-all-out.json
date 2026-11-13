@@ -1,0 +1,46 @@
+{
+ "title": "Lowest totals ever in men's T20Is",
+ "hook": "Nigeria made 271. Ivory Coast: 7 all out",
+ "unit": "RUNS",
+ "format": "T20I",
+ "as_of": "2026-11-13",
+ "rows": [
+  {
+   "rank": 1,
+   "player": "Ivory Coast",
+   "team": "CIV",
+   "value": "7",
+   "detail": "V NIGERIA · LAGOS 2024 · 7.3 OVERS",
+   "highlight": true
+  },
+  {
+   "rank": 2,
+   "player": "Isle of Man",
+   "team": "IOM",
+   "value": "10",
+   "detail": "V SPAIN · 2023"
+  },
+  {
+   "rank": 2,
+   "player": "Mongolia",
+   "team": "MGL",
+   "value": "10",
+   "detail": "V SINGAPORE · 2024"
+  },
+  {
+   "rank": 4,
+   "player": "Mongolia",
+   "team": "MGL",
+   "value": "12",
+   "detail": "V JAPAN · 2024"
+  },
+  {
+   "rank": 5,
+   "player": "Mongolia",
+   "team": "MGL",
+   "value": "17",
+   "detail": "V HONG KONG · 2024"
+  }
+ ],
+ "footnote": "Source: Wisden, 25 Nov 2024"
+}
