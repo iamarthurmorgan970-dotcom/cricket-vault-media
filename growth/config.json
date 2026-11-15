@@ -1,13 +1,13 @@
 {
   "_note": "Read by the daily task (posting time) and rewritten by the weekly review. Times are IST (Asia/Kolkata), 24h.",
-  "updated": "2026-11-08",
+  "updated": "2026-11-15",
   "default_time_ist": "19:30",
   "post_times_ist": {
     "Mon": "17:30",
     "Tue": "13:00",
-    "Wed": "21:30",
+    "Wed": "13:00",
     "Thu": "17:30",
-    "Fri": "19:30",
+    "Fri": "17:30",
     "Sat": "13:00",
     "Sun": "21:30"
   },
@@ -19,7 +19,7 @@
       "19:30",
       "21:30"
     ],
-    "why": "13:00 = Indian lunch break; 17:30 = Indian commute + UK lunchtime; 19:30 = Indian prime time (baseline); 21:30 = late Indian evening + UK afternoon. 8 Nov: 19:30 already has 5 posts (Sat-Wed), 21:30 has 1 (Sat), 13:00 has 1 (Sun), 17:30 has 1 (Mon 9 Nov, booked). This week's rotation gives the three under-tested slots new weekdays and only one 19:30 day. Lock in once each slot has 3+ posts with 3+ days of data.",
+    "why": "13:00 = Indian lunch break; 17:30 = Indian commute + UK lunchtime; 19:30 = Indian prime time (baseline); 21:30 = late Indian evening + UK afternoon. 15 Nov: posts so far per slot: 19:30 = 6 (31 Oct-4 Nov, 13 Nov), 21:30 = 3 (7, 11, 15 Nov), 13:00 = 1 (8 Nov), 17:30 = 1 (9 Nov). Last week's rotation put 13:00/17:30 on days the every-other-day pace skipped (10, 12, 14 Nov), so they got no new posts. This rotation gives 13:00 and 17:30 six of seven weekdays, so whichever days get a post, both slots fill. 19:30 has enough posts; 21:30 keeps Sunday. Per-video stayed rate is needed to judge slots and was unavailable this week (0 vidIQ credits until 30 Nov). Lock in once each slot has 3+ posts with 3+ days of per-video data.",
     "decide_by": "views and engaged views in each video's first 48 hours"
   }
 }
