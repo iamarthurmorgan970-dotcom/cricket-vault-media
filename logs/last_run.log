@@ -1,9 +1,11 @@
-started: 2026-11-15 02:22:15 UTC
-total 312
-drwxr-xr-x  2 runner runner   4096 Nov 15 02:22 .
-drwxrwxrwt 13 root   root     4096 Nov 15 02:22 ..
--rw-r--r--  1 runner runner 308676 Nov 15 02:22 recent.zip
-Today 2026-11-15; recent data: recent.zip
-Worm candidates since 2026-11-10: 0
-Ready to schedule: 4 ['card-ivory-coast-7-all-out', 'card-laker-19-wickets-one-test', 'card-west-indies-27-all-out', 'card-fastest-odi-double-hundreds']
-finished: 2026-11-15 02:22:30 UTC; render step outcome: success
+started: 2026-11-16 02:34:34 UTC
+total 145856
+drwxr-xr-x  2 runner runner      4096 Nov 16 02:34 .
+drwxrwxrwt 12 root   root        4096 Nov 16 02:34 ..
+-rw-r--r--  1 runner runner 149036509 Nov 16 02:34 all.zip
+-rw-r--r--  1 runner runner    308676 Nov 16 02:34 recent.zip
+Today 2026-11-16; recent data: recent.zip
+Worm candidates since 2026-11-11: 0
+Players index: 3138 players
+Ready to schedule: 3 ['card-ivory-coast-7-all-out', 'card-west-indies-27-all-out', 'card-fastest-odi-double-hundreds']
+finished: 2026-11-16 02:35:05 UTC; render step outcome: success
