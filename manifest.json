@@ -433,17 +433,20 @@
       "created": "2026-11-13",
       "priority": 75,
       "expires": null,
-      "status": "ready",
+      "status": "scheduled",
       "file": "shorts/ready/card-ivory-coast-7-all-out.mp4",
       "facts_file": "shorts/ready/card-ivory-coast-7-all-out.json",
       "suggested_title": "7 all out 🤯 Lowest total in T20I history: Nigeria made 271, Ivory Coast 7",
       "verified": true,
       "wow": "Nigeria scored 271/4, then bowled Ivory Coast out for 7 in 7.3 overs: the lowest total in men's T20I history.",
-      "notes": "13 Nov (Deepak asked for more intriguing facts): Wisden list (25 Nov 2024): CIV 7 v Nigeria (Lagos, 24 Nov 2024, 7.3 ov, Nigeria 271-4), IOM 10 v Spain 2023, Mongolia 10 v Singapore 2024, 12 v Japan 2024, 17 v Hong Kong 2024. ESPNcricinfo 2026 T20I lowest totals shows nothing lower this year.",
+      "notes": "13 Nov (Deepak asked for more intriguing facts): Wisden list (25 Nov 2024): CIV 7 v Nigeria (Lagos, 24 Nov 2024, 7.3 ov, Nigeria 271-4), IOM 10 v Spain 2023, Mongolia 10 v Singapore 2024, 12 v Japan 2024, 17 v Hong Kong 2024. ESPNcricinfo 2026 T20I lowest totals shows nothing lower this year. 16 Nov: re-checked still the lowest men's T20I total (Patrika, 18 Dec 2025 calls it the record); frame 1 reads cleanly.",
       "sources": [
         "https://www.wisden.com/cricket-news/lowest-totals-in-t20-cricket-full-list-ivory-coast-breaks-mens-record-bowled-out-for-7-in-t20-wc-qualifier",
         "https://www.espncricinfo.com/records/year/team-lowest-innings-totals/2026-2026/twenty20-internationals-3"
-      ]
+      ],
+      "title": "7 all out 🤯 Lowest total in T20I history: Nigeria made 271, Ivory Coast 7",
+      "scheduled_for": "2026-11-17T13:00:00+05:30",
+      "metricool_id": 429534147
     },
     {
       "id": "card-laker-19-wickets-one-test",
