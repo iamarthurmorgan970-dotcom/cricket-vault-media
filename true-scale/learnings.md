@@ -18,7 +18,7 @@ weaker is an "early signal". Keep it under ~50 lines.
 
 ## Early signals
 
-- (none yet: waiting for the first Studio screenshots; see analytics/2026-11-10.md for which ones.)
+- (none yet: waiting for the first Studio screenshots; see analytics/2026-11-16.md for which ones.)
 
 ## Being tested
 
@@ -32,10 +32,15 @@ weaker is an "early signal". Keep it under ~50 lines.
 - First single-place India video (006 Lonar): place + live controversy (rising lake, submerged temples), and a
   debate comment prompt ("pump it or leave it?"). Compare comments per 1,000 views with the "which would you
   pick?" prompts in 004/005.
+- Festival-season hook (036 Rann of Kutch): published while Rann Utsav is open and a week before the first
+  full-moon window (23-25 Nov). Compare its search-traffic share with 006 Lonar (same series, softer hook).
+- Two India place videos in a row (006, 036): if place videos beat treks (005) and world videos once numbers
+  arrive, give the "Why You Should Visit" series more slots.
 - India reference points in world videos (012: "two-thirds of India", "half the Narendra Modi Stadium").
 
 ## History
 
+- 16 Nov 2026: still no Studio data (4th run; no run recorded on 13 Nov); chose 036 Rann of Kutch for the open Rann Utsav season, the late-Nov full moon and the July 2026 "oldest signboard" news.
 - 12 Nov 2026: still no Studio data (3rd run); chose 006 Lonar for India-place balance, the rising-lake story and Oct-Mar season.
 - 11 Nov 2026: still no Studio data; chose 012 Greenland for the news hook (security deal ratified 3 Nov).
 - 10 Nov 2026: started tracking. No Studio data yet; chose 005 Kedarkantha vs Brahmatal for winter-trek season.

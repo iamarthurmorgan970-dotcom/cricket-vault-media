@@ -73,11 +73,23 @@
    "note": "Hook: rising lake has submerged temples (HC PIL Jan 2026; pumping plan Mar 2026); Oct-Mar season."
   },
   {
+   "n": 36,
+   "slug": "036-rann-of-kutch-dholavira",
+   "series": "Why You Should Visit (India, one place per video)",
+   "title": "The Rann of Kutch: India's White Desert and a 5,000-Year-Old City",
+   "angle": "Great Rann formation, seasonal flooding, Rann Utsav, flamingos, Dholavira's water system, UNESCO 2021, Kala Dungar.",
+   "visual_ideas": "Gujarat zoom, timeline for Dholavira.",
+   "status": "made",
+   "made_on": "2026-11-16",
+   "note": "Moved up for season: Rann Utsav 2026-27 runs 1 Nov 2026-7 Mar 2027; first full moon window 23-25 Nov; Dholavira 'oldest signboard' (Ministry of Culture, Jul 2026). Title changed from 4,000 to 5,000 years (UNESCO: c. 3000 BCE).",
+   "length": "9:27"
+  },
+  {
    "n": 7,
    "slug": "007-no-bridge-europe-africa",
    "series": "True Scale (world)",
    "title": "Why There's No Bridge Between Europe and Africa",
-   "angle": "Strait of Gibraltar: narrowest width (~14 km), depth, currents, shipping traffic, earthquake risk, past bridge/tunnel proposals (Spain–Morocco tunnel studies), compare to longest bridges/tunnels.",
+   "angle": "Strait of Gibraltar: narrowest width (~14 km), depth, currents, shipping traffic, earthquake risk, past bridge/tunnel proposals (Spain\u2013Morocco tunnel studies), compare to longest bridges/tunnels.",
    "visual_ideas": "World/regional maps, depth profile chart, bars comparing spans.",
    "status": "planned"
   },
@@ -95,7 +107,7 @@
    "slug": "009-hidden-northeast",
    "series": "Places Most Indians Have Never Heard Of (by region)",
    "title": "10 Places in the Northeast Most Indians Have Never Heard Of",
-   "angle": "One place per state where possible: Dzükou Valley, Ziro, Mawlynnong/Dawki river, Majuli, Tawang, Loktak Lake phumdis (Keibul Lamjao, the only floating national park), Gurudongmar Lake, Unakoti rock carvings, Phawngpui, etc. Each: what, where, one verifiable wow fact.",
+   "angle": "One place per state where possible: Dz\u00fckou Valley, Ziro, Mawlynnong/Dawki river, Majuli, Tawang, Loktak Lake phumdis (Keibul Lamjao, the only floating national park), Gurudongmar Lake, Unakoti rock carvings, Phawngpui, etc. Each: what, where, one verifiable wow fact.",
    "visual_ideas": "India map with Northeast zoom, pin per place, cards.",
    "status": "planned"
   },
@@ -113,7 +125,7 @@
    "slug": "011-majuli-shrinking-island",
    "series": "Why You Should Visit (India, one place per video)",
    "title": "Majuli: The River Island That's Disappearing",
-   "angle": "Guinness 'largest river island' (and the Bananal caveat), area 1790s→today, erosion causes (Brahmaputra floods), satras/Vaishnavism, mask-making, Mising people, how to get there by ferry.",
+   "angle": "Guinness 'largest river island' (and the Bananal caveat), area 1790s\u2192today, erosion causes (Brahmaputra floods), satras/Vaishnavism, mask-making, Mising people, how to get there by ferry.",
    "visual_ideas": "Assam zoom with Brahmaputra, area bars over time.",
    "status": "planned"
   },
@@ -140,7 +152,7 @@
    "slug": "015-vof-vs-kgl",
    "series": "Trek vs Trek (India)",
    "title": "Valley of Flowers vs Kashmir Great Lakes",
-   "angle": "Flower meadows (UNESCO with Nanda Devi) vs a chain of alpine lakes; altitudes, days, best month (July–Aug both), difficulty, permits.",
+   "angle": "Flower meadows (UNESCO with Nanda Devi) vs a chain of alpine lakes; altitudes, days, best month (July\u2013Aug both), difficulty, permits.",
    "visual_ideas": "peaks_chart, two-state map.",
    "status": "planned"
   },
@@ -158,7 +170,7 @@
    "slug": "017-true-size-of-antarctica",
    "series": "True Scale (world)",
    "title": "How Big Is Antarctica Really?",
-   "angle": "Mercator distortion, true area 14.2M km², ice thickness, % of world's fresh water in its ice, what's underneath (lakes, mountains), research stations, who claims it.",
+   "angle": "Mercator distortion, true area 14.2M km\u00b2, ice thickness, % of world's fresh water in its ice, what's underneath (lakes, mountains), research stations, who claims it.",
    "visual_ideas": "Globe from below, true-size moves of countries onto Antarctica.",
    "status": "planned"
   },
@@ -230,7 +242,7 @@
    "slug": "025-roopkund-vs-chadar",
    "series": "Trek vs Trek (India)",
    "title": "Roopkund vs Chadar: India's Most Legendary Treks",
-   "angle": "Skeleton lake (2019 study) vs frozen Zanskar (Jan–Feb, −30°C, recent closures); altitude, days, difficulty, fitness prep.",
+   "angle": "Skeleton lake (2019 study) vs frozen Zanskar (Jan\u2013Feb, \u221230\u00b0C, recent closures); altitude, days, difficulty, fitness prep.",
    "visual_ideas": "peaks_chart, timeline for Roopkund dating.",
    "status": "planned"
   },
@@ -311,7 +323,7 @@
    "slug": "034-hidden-south",
    "series": "Places Most Indians Have Never Heard Of (by region)",
    "title": "Hidden Wonders of South India",
-   "angle": "Meesapulimala, Kolukkumalai (high tea estate claim—verify), Dhanushkodi, Jatayu rock?, Gokarna?, Agumbe rainforest, Thenmala. One verified fact each.",
+   "angle": "Meesapulimala, Kolukkumalai (high tea estate claim\u2014verify), Dhanushkodi, Jatayu rock?, Gokarna?, Agumbe rainforest, Thenmala. One verified fact each.",
    "visual_ideas": "South India zoom, pins.",
    "status": "planned"
   },
@@ -322,15 +334,6 @@
    "title": "Rupin Pass vs Buran Ghati",
    "angle": "Two crossover treks: waterfalls and hanging villages vs snow wall rappel; altitudes, days, difficulty.",
    "visual_ideas": "peaks_chart.",
-   "status": "planned"
-  },
-  {
-   "n": 36,
-   "slug": "036-rann-of-kutch-dholavira",
-   "series": "Why You Should Visit (India, one place per video)",
-   "title": "The White Desert and a 4,000-Year-Old City",
-   "angle": "Great Rann formation, seasonal flooding, Rann Utsav, flamingos, Dholavira's water system, UNESCO 2021, Kala Dungar.",
-   "visual_ideas": "Gujarat zoom, timeline for Dholavira.",
    "status": "planned"
   },
   {
@@ -364,7 +367,7 @@
    "n": 40,
    "slug": "040-har-ki-dun-vs-chandrashila",
    "series": "Trek vs Trek (India)",
-   "title": "Har Ki Dun vs Deoriatal–Chandrashila",
+   "title": "Har Ki Dun vs Deoriatal\u2013Chandrashila",
    "angle": "Valley of gods vs Tungnath/Chandrashila summit views; altitudes; families/beginners.",
    "visual_ideas": "peaks_chart.",
    "status": "planned"
@@ -373,8 +376,8 @@
    "n": 41,
    "slug": "041-dzukou-valley",
    "series": "Why You Should Visit (India, one place per video)",
-   "title": "Dzükou Valley: The Northeast's Secret Meadow",
-   "angle": "Nagaland–Manipur border valley, lilies, altitude, trek from Viswema/Zakhama, best season.",
+   "title": "Dz\u00fckou Valley: The Northeast's Secret Meadow",
+   "angle": "Nagaland\u2013Manipur border valley, lilies, altitude, trek from Viswema/Zakhama, best season.",
    "visual_ideas": "Northeast zoom.",
    "status": "planned"
   },
@@ -392,7 +395,7 @@
    "slug": "043-india-coastline-true-scale",
    "series": "India vs the World (true scale)",
    "title": "India's Coastline and Islands at True Scale",
-   "angle": "Coastline length (note the 2023 revision ~11,098 km), Andaman–Nicobar span, EEZ size vs land area.",
+   "angle": "Coastline length (note the 2023 revision ~11,098 km), Andaman\u2013Nicobar span, EEZ size vs land area.",
    "visual_ideas": "Maps with true-size overlays.",
    "status": "planned"
   },
@@ -401,7 +404,7 @@
    "slug": "044-hidden-central-india",
    "series": "Places Most Indians Have Never Heard Of (by region)",
    "title": "Hidden Wonders of Central India",
-   "angle": "Bhedaghat marble rocks, Pachmarhi, Mandu, Orchha, Khajuraho less-known temples, Chitrakote falls ('Niagara of India' claim—phrase carefully).",
+   "angle": "Bhedaghat marble rocks, Pachmarhi, Mandu, Orchha, Khajuraho less-known temples, Chitrakote falls ('Niagara of India' claim\u2014phrase carefully).",
    "visual_ideas": "Central India zoom.",
    "status": "planned"
   }
