@@ -18,7 +18,7 @@ weaker is an "early signal". Keep it under ~50 lines.
 
 ## Early signals
 
-- (none yet: waiting for the first Studio screenshots; see analytics/2026-11-16.md for which ones.)
+- (none yet: waiting for the first Studio screenshots; see analytics/2026-11-17.md for which ones.)
 
 ## Being tested
 
@@ -36,10 +36,14 @@ weaker is an "early signal". Keep it under ~50 lines.
   full-moon window (23-25 Nov). Compare its search-traffic share with 006 Lonar (same series, softer hook).
 - Two India place videos in a row (006, 036): if place videos beat treks (005) and world videos once numbers
   arrive, give the "Why You Should Visit" series more slots.
-- India reference points in world videos (012: "two-thirds of India", "half the Narendra Modi Stadium").
+- India reference points in world videos (012: "two-thirds of India", "half the Narendra Modi Stadium"; 007: "the gap
+  is shorter than Atal Setu's sea section").
+- World "why" question with a slow-burn news hook (007 Gibraltar tunnel, Morocco's 2027 study budget reported 5 Nov):
+  compare its search share and CTR with 012 (sharp news hook) and 001-003 (pure evergreen).
 
 ## History
 
+- 17 Nov 2026: still no Studio data (5th run); chose 007 No bridge Europe-Africa to rebalance after two India place videos, with the Nov 2026 tunnel-funding news.
 - 16 Nov 2026: still no Studio data (4th run; no run recorded on 13 Nov); chose 036 Rann of Kutch for the open Rann Utsav season, the late-Nov full moon and the July 2026 "oldest signboard" news.
 - 12 Nov 2026: still no Studio data (3rd run); chose 006 Lonar for India-place balance, the rising-lake story and Oct-Mar season.
 - 11 Nov 2026: still no Studio data; chose 012 Greenland for the news hook (security deal ratified 3 Nov).
