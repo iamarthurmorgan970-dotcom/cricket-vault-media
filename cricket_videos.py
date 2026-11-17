@@ -1832,7 +1832,11 @@ def cmd_card(a):
         # verified mode: every number comes from the spec (taken from a cited source)
         with open(a.spec, encoding="utf-8") as fh:
             spec = json.load(fh)
-        shown = [dict(rank=r.get("rank", i + 1), player=r["player"], team=r.get("team", ""),
+        if not 3 <= len(spec["rows"]) <= 5:
+            # Deepak, 16 Nov 2026: cards show 3-5 rows (2-row cards left half the first frame empty)
+            sys.exit(f"card spec needs 3-5 rows, got {len(spec['rows'])}: add verified next-best entries "
+                     "from the source, or pick another fact.")
+        shown =[dict(rank=r.get("rank", i + 1), player=r["player"], team=r.get("team", ""),
                       value=r["value"], sub=r.get("detail", ""), star=False)
                  for i, r in enumerate(spec["rows"])]
         hl = next((r["player"] for r in spec["rows"] if r.get("highlight")), None)

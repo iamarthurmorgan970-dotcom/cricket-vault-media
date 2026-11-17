@@ -19,16 +19,14 @@ from the channel's real numbers. Keep it short: rules, the evidence for each rul
   Evidence (3 videos): the three 17-20s build-up videos kept only 12-13% of feed viewers; the two
   cards that show the finished ranking at once kept 21% and 30%. Note: Philander and Voges (7, 9 Nov)
   still open on a big "9 vs 1" / "61.9 vs 42.0" over an empty chart; the 6s `versus` card replaces this.
-- **Gap days cost views.** Days with no new Short get almost nothing: 6 Nov 37 views, 10 Nov 46,
-  vs 200-1,067 on most days a new Short went out (Metricool daily channel views). The every-other-day
-  pace since 9 Nov is the likeliest reason views fell this week. Changing the pace is a daily-task
-  change: proposed to Deepak in report 15 Nov; until he approves, keep the current pace.
+- **Post one Short every day** (Deepak, 16 Nov). Gap days get almost nothing: 6 Nov 37 views,
+  10 Nov 46, vs 200-1,067 on most days a new Short went out. Metricool posts up to 20 a month; on
+  days over that, the daily task sends Deepak the video and upload text and he uploads it himself.
 - **Record cards over comparisons.** Comparisons are parked (Deepak, 13 Nov). Evidence (early, 2 cards
   vs 3 others): cards 23% stayed and 100-200% viewed; build-up comparisons 13% and 53-77%.
-- **Fill the card: a full top-5 list, not two rows.** Early signal (4 cards, views only): the two
-  5-row cards were our biggest days (Rabada 1,118 views; Akash's launch day 515 channel views); the
-  two 2-row cards were small (Arshdeep 322; Abhishek's first two days 126 channel views in total).
-  A 2-row card leaves half the screen black in frame 1.
+- **Cards show 3-5 rows, never 2** (Deepak, 16 Nov; cricket_videos.py refuses other counts). Early
+  signal (4 cards, views only): the two 5-row cards were our biggest days (Rabada 1,118 views; Akash's
+  launch day 515); the two 2-row cards were small (Arshdeep 322; Abhishek about 126 in two days).
 - **The number in the hook must be small and instantly felt.** "11 balls", "19 of 20 wickets", "7 all
   out" beat "1,024 balls" or "13,808 balls", which the viewer has to think about. Early signal (Abhishek).
 - **Short and loopable wins.** 6-second cards were watched 1-2 times over (Rabada 200%, Arshdeep 101%).
@@ -61,3 +59,4 @@ from the channel's real numbers. Keep it short: rules, the evidence for each rul
   overall (cards 23%, others 13%). Added "records over comparisons" and "short and loopable"; rotated times.
 - 15 Nov 2026: no vidIQ credits, so no per-video stayed rate. Channel views 1,197 for 7-12 Nov vs 3,122 for
   31 Oct-6 Nov; first 7 subscribers. Added "post every day", "full top-5 list", "small felt number"; rotated 13:00/17:30.
+- 16 Nov 2026: Deepak approved daily posting (manual upload once Metricool's 20/month is used) and 3-5 row cards.
