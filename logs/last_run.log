@@ -1,9 +1,9 @@
-started: 2026-11-17 12:01:55 UTC
+started: 2026-11-18 02:30:03 UTC
 total 312
-drwxr-xr-x  2 runner runner   4096 Nov 17 12:02 .
-drwxrwxrwt 12 root   root     4096 Nov 17 12:02 ..
--rw-r--r--  1 runner runner 308676 Nov 17 12:02 recent.zip
-Today 2026-11-17; recent data: recent.zip
-Worm candidates since 2026-11-12: 0
+drwxr-xr-x  2 runner runner   4096 Nov 18 02:30 .
+drwxrwxrwt 12 root   root     4096 Nov 18 02:30 ..
+-rw-r--r--  1 runner runner 308676 Nov 18 02:30 recent.zip
+Today 2026-11-18; recent data: recent.zip
+Worm candidates since 2026-11-13: 0
 Ready to schedule: 2 ['card-west-indies-27-all-out', 'card-fastest-odi-double-hundreds']
-finished: 2026-11-17 12:02:09 UTC; render step outcome: success
+finished: 2026-11-18 02:30:18 UTC; render step outcome: success
