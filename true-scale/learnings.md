@@ -18,7 +18,7 @@ weaker is an "early signal". Keep it under ~50 lines.
 
 ## Early signals
 
-- (none yet: waiting for the first Studio screenshots; see analytics/2026-11-17.md for which ones.)
+- (none yet: waiting for the first Studio screenshots; see analytics/2026-11-18.md for which ones.)
 
 ## Being tested
 
@@ -40,9 +40,12 @@ weaker is an "early signal". Keep it under ~50 lines.
   is shorter than Atal Setu's sea section").
 - World "why" question with a slow-burn news hook (007 Gibraltar tunnel, Morocco's 2027 study budget reported 5 Nov):
   compare its search share and CTR with 012 (sharp news hook) and 001-003 (pure evergreen).
+- First "Monoliths & Rock Wonders" video (018 Kailasa): evergreen mystery topic, no news hook, one huge number in the
+  hook (200,000 tonnes), "how big really" comparisons. If it beats the place videos, give the series more slots.
 
 ## History
 
+- 18 Nov 2026: still no Studio data (6th run); chose 018 Kailasa to give the untested Monoliths & Rock Wonders series its strongest first test, in Ellora's Oct-Mar season.
 - 17 Nov 2026: still no Studio data (5th run); chose 007 No bridge Europe-Africa to rebalance after two India place videos, with the Nov 2026 tunnel-funding news.
 - 16 Nov 2026: still no Studio data (4th run; no run recorded on 13 Nov); chose 036 Rann of Kutch for the open Rann Utsav season, the late-Nov full moon and the July 2026 "oldest signboard" news.
 - 12 Nov 2026: still no Studio data (3rd run); chose 006 Lonar for India-place balance, the rising-lake story and Oct-Mar season.
