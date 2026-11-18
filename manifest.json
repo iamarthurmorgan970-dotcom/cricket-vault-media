@@ -500,7 +500,7 @@
    "suggested_title": "114 balls 🤯 Harry Brook breaks Gill's ODI double-hundred record 3 weeks after he set it",
    "verified": true,
    "wow": "Shubman Gill set the fastest ODI double hundred (117 balls) on 30 Sep 2026; Harry Brook broke it with 114 balls on 22 Oct 2026. The record fell twice in one season.",
-   "notes": "13 Nov (Deepak asked for more intriguing facts): CricTracker (22 Oct 2026) list: Brook 114, Gill 117, Kishan 126, Maxwell 128, Nissanka 136. Gill 117 balls on 30 Sep 2026 confirmed by Outlook India. Brook is active: re-check no faster 200 since 22 Oct before posting.",
+   "notes": "13 Nov (Deepak asked for more intriguing facts): CricTracker (22 Oct 2026) list: Brook 114, Gill 117, Kishan 126, Maxwell 128, Nissanka 136. Gill 117 balls on 30 Sep 2026 confirmed by Outlook India. Brook is active: re-check no faster 200 since 22 Oct before posting. 18 Nov: searches show no faster ODI 200 since 22 Oct; still the record.",
    "sources": [
     "https://www.crictracker.com/cricket-news/harry-brook-scores-first-odi-double-century-by-an-england-batter-breaks-fastest-200-record-7162/",
     "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-2nd-odi-shubman-gill-records-list-double-century-guwahati"
@@ -512,7 +512,7 @@
    "created": "2026-11-18",
    "priority": 80,
    "expires": null,
-   "status": "ready",
+   "status": "scheduled",
    "file": "shorts/ready/card-highest-odi-chases-sl-430.mp4",
    "facts_file": "shorts/ready/card-highest-odi-chases-sl-430.json",
    "suggested_title": "430 chased 🤯 Brook hit the fastest ODI 200 ever and England STILL lost",
@@ -522,7 +522,10 @@
    "sources": [
     "https://businessupturn.com/sports/cricket/highest-successful-run-chases-in-odi-history-full-list/",
     "https://www.chaseyoursport.com/cricket/sri-lanka-second-highest-odi-chase/13699"
-   ]
+   ],
+   "title": "430 chased 🤯 Brook hit the fastest ODI 200 ever and England STILL lost",
+   "scheduled_for": "2026-11-18T13:00+05:30",
+   "metricool_id": 432319619
   }
  ]
 }
