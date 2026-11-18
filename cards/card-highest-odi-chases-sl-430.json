@@ -1,0 +1,15 @@
+{
+ "title": "Biggest successful run chases in ODI history",
+ "hook": "Brook hit the fastest 200 ever. England still lost",
+ "unit": "RUNS",
+ "format": "ODI",
+ "as_of": "2026-11-18",
+ "rows": [
+  {"rank": 1, "player": "South Africa", "team": "SA", "value": "435", "detail": "438/9 V AUSTRALIA · JOHANNESBURG 2006"},
+  {"rank": 2, "player": "Sri Lanka", "team": "SL", "value": "430", "detail": "430/8 V ENGLAND (429/4) · RAWALPINDI 2026", "highlight": true},
+  {"rank": 3, "player": "India", "team": "IND", "value": "406", "detail": "406/2 V WEST INDIES · GUWAHATI 2026"},
+  {"rank": 4, "player": "South Africa", "team": "SA", "value": "372", "detail": "372/6 V AUSTRALIA · DURBAN 2016"},
+  {"rank": 5, "player": "Netherlands", "team": "NED", "value": "370", "detail": "374/6 V SCOTLAND · DUNDEE 2025"}
+ ],
+ "footnote": "Target chased. Source: Business Upturn, 22 Oct 2026"
+}

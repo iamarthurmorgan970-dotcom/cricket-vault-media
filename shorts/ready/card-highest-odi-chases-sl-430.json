@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "BIGGEST SUCCESSFUL RUN CHASES IN ODI HISTORY",
+  "hook": "BROOK HIT THE FASTEST 200 EVER. ENGLAND STILL LOST",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "ODI",
+  "data_through": "2026-11-18",
+  "highlight": "Sri Lanka",
+  "footnote": "Target chased. Source: Business Upturn, 22 Oct 2026",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "South Africa",
+      "display": "South Africa",
+      "team": "SA",
+      "value": "435",
+      "detail": "438/9 V AUSTRALIA · JOHANNESBURG 2006",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Sri Lanka",
+      "display": "Sri Lanka",
+      "team": "SL",
+      "value": "430",
+      "detail": "430/8 V ENGLAND (429/4) · RAWALPINDI 2026",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "India",
+      "display": "India",
+      "team": "IND",
+      "value": "406",
+      "detail": "406/2 V WEST INDIES · GUWAHATI 2026",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "South Africa",
+      "display": "South Africa",
+      "team": "SA",
+      "value": "372",
+      "detail": "372/6 V AUSTRALIA · DURBAN 2016",
+      "in_progress": false
+    },
+    {
+      "rank": 5,
+      "player": "Netherlands",
+      "display": "Netherlands",
+      "team": "NED",
+      "value": "370",
+      "detail": "374/6 V SCOTLAND · DUNDEE 2025",
+      "in_progress": false
+    }
+  ]
+}
