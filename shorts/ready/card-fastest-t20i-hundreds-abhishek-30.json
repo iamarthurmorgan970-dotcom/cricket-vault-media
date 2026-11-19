@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "FASTEST HUNDREDS IN T20I HISTORY",
+  "hook": "ONLY 2 MEN HAVE EVER BEEN FASTER",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "T20I",
+  "data_through": "2026-11-19",
+  "highlight": "Abhishek Sharma",
+  "footnote": "Source: Khel Now, 29 Oct 2026",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Sahil Chauhan",
+      "display": "Sahil Chauhan",
+      "team": "EST",
+      "value": "27",
+      "detail": "V CYPRUS · 2024",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Muhammad Fahad",
+      "display": "Muhammad Fahad",
+      "team": "TUR",
+      "value": "29",
+      "detail": "V BULGARIA · 2025",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Abhishek Sharma",
+      "display": "Abhishek Sharma",
+      "team": "IND",
+      "value": "30",
+      "detail": "V AFGHANISTAN · SEP 2026",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Finn Allen",
+      "display": "Finn Allen",
+      "team": "NZ",
+      "value": "33",
+      "detail": "V SOUTH AFRICA · 2026",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Sikandar Raza",
+      "display": "Sikandar Raza",
+      "team": "ZIM",
+      "value": "33",
+      "detail": "V GAMBIA · 2024",
+      "in_progress": false
+    }
+  ]
+}

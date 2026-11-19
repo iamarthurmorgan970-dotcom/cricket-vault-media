@@ -1,0 +1,15 @@
+{
+ "title": "Fastest hundreds in T20I history",
+ "hook": "Only 2 men have ever been faster",
+ "unit": "BALLS",
+ "format": "T20I",
+ "as_of": "2026-11-19",
+ "rows": [
+  {"rank": 1, "player": "Sahil Chauhan", "team": "EST", "value": "27", "detail": "V CYPRUS · 2024"},
+  {"rank": 2, "player": "Muhammad Fahad", "team": "TUR", "value": "29", "detail": "V BULGARIA · 2025"},
+  {"rank": 3, "player": "Abhishek Sharma", "team": "IND", "value": "30", "detail": "V AFGHANISTAN · SEP 2026", "highlight": true},
+  {"rank": 4, "player": "Finn Allen", "team": "NZ", "value": "33", "detail": "V SOUTH AFRICA · 2026"},
+  {"rank": 4, "player": "Sikandar Raza", "team": "ZIM", "value": "33", "detail": "V GAMBIA · 2024"}
+ ],
+ "footnote": "Source: Khel Now, 29 Oct 2026"
+}
