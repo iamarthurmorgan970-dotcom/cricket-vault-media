@@ -1,0 +1,16 @@
+0:00 s01_hook
+0:28 s02_title
+0:35 s03_mercator
+1:18 s04_area
+1:47 s05_fit
+2:13 s06_ice
+3:01 s07_water
+3:30 s08_vostok
+4:02 s09_cold
+4:34 s10_desert
+5:06 s11_sea_ice
+5:49 s12_people
+6:20 s13_india
+6:49 s14_owner
+7:30 s15_recap
+7:54 s16_outro

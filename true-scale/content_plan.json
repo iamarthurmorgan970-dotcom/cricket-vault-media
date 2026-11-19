@@ -174,7 +174,10 @@
    "title": "How Big Is Antarctica Really?",
    "angle": "Mercator distortion, true area 14.2M km\u00b2, ice thickness, % of world's fresh water in its ice, what's underneath (lakes, mountains), research stations, who claims it.",
    "visual_ideas": "Globe from below, true-size moves of countries onto Antarctica.",
-   "status": "planned"
+   "status": "made",
+   "made_on": "2026-11-19",
+   "length": "8:14",
+   "note": "News hook: 2026 Antarctic sea-ice peak (17.59M km\u00b2, 14 Sep) third lowest; record daily lows in Oct (NSIDC)."
   },
   {
    "n": 18,

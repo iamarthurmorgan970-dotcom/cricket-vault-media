@@ -23,6 +23,7 @@ FILES = {"countries50.geojson": NE + "ne_50m_admin_0_countries.geojson",
          "admin0_10m_ind.geojson": NE + "ne_10m_admin_0_countries_ind.geojson",
          "ne_50m_rivers_lake_centerlines.geojson": NE + "ne_50m_rivers_lake_centerlines.geojson",
          "ne_50m_lakes.geojson": NE + "ne_50m_lakes.geojson",
+         "ne_50m_antarctic_ice_shelves_polys.geojson": NE + "ne_50m_antarctic_ice_shelves_polys.geojson",
          "kokoro-v1.0.onnx": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
          "voices-v1.0.bin": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin"}
 VOICE = os.environ.get("TS_VOICE", "am_michael")

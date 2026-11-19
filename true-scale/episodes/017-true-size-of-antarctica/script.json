@@ -1,0 +1,80 @@
+[
+ {
+  "id": "s01_hook",
+  "text": "On most maps, Antarctica is a thin white smear along the bottom edge. In reality, it's bigger than India and Australia put together, with room left over for almost another India. Its ice holds about seventy percent of all the fresh water on Earth. And this year, the frozen ocean around it reached one of the smallest winter peaks ever recorded. So how big is Antarctica, really?"
+ },
+ {
+  "id": "s02_title",
+  "text": "This is True Scale. How big is Antarctica, really?",
+  "hold": 1.5
+ },
+ {
+  "id": "s03_mercator",
+  "text": "First, blame the map. In fifteen sixty-nine, the mapmaker Gerardus Mercator drew a world map for sailors. It keeps shapes and directions correct, but it stretches everything more and more as you move away from the equator. Near the poles, that stretching grows without limit. So on a Mercator map, the bottom edge is usually just cut off, and what's left of Antarctica becomes a white band smeared across the entire width of the world. Now look at the same place from below, on a globe. The band disappears, and the real shape appears: a huge, roughly round continent, sitting almost on top of the South Pole."
+ },
+ {
+  "id": "s04_area",
+  "text": "Its real area is about fourteen point two million square kilometres. That makes it the fifth largest of the seven continents. It's about forty percent bigger than Europe, and almost double the size of Australia. For Indian viewers, here's the simplest comparison of all: India covers about three point two nine million square kilometres. Antarctica is more than four times bigger.",
+  "hold": 1.0
+ },
+ {
+  "id": "s05_fit",
+  "text": "Let's actually test it. Take India, at its true size and shape, and place it on the ice. Now add Australia, the sixth largest country on Earth. Together, they cover most of the continent, but not all of it. Add up the numbers, and the land still left uncovered is about three point two million square kilometres. That's almost exactly one more India.",
+  "hold": 1.0
+ },
+ {
+  "id": "s06_ice",
+  "text": "Now the strangest part. Almost all of that land is buried under a single sheet of ice. According to Bedmap three, the most detailed survey of the ice so far, it's about one point nine kilometres thick on average. The tallest building on Earth, the Burj Khalifa, is eight hundred and twenty eight metres tall. So the average Antarctic ice is more than two Burj Khalifas thick, across almost an entire continent. At its thickest point, in a deep canyon in East Antarctica, the ice is about four thousand seven hundred and fifty seven metres thick. Stack five Burj Khalifas on top of each other, and you still wouldn't reach the bottom.",
+  "hold": 0.8
+ },
+ {
+  "id": "s07_water",
+  "text": "Add it all up, and the ice sheet holds about twenty seven million cubic kilometres of ice. That is about seventy percent of all the fresh water on the planet. If every bit of it melted, scientists estimate the world's oceans would rise by about fifty eight metres. That's higher than a fifteen storey building. It isn't a forecast. It's a measure of how much water is locked up on this one continent.",
+  "hold": 1.2
+ },
+ {
+  "id": "s08_vostok",
+  "text": "And under all that ice, there are lakes. The biggest is Lake Vostok. It's about two hundred and fifty kilometres long and up to fifty kilometres wide, and its surface lies about four kilometres below the top of the ice. Its existence was confirmed from space in nineteen ninety three. Scientists think its water may have been cut off from the outside world for around fifteen million years. In February twenty twelve, a Russian drilling team finally broke through to its surface.",
+  "hold": 0.8
+ },
+ {
+  "id": "s09_cold",
+  "text": "Antarctica is also the coldest place on Earth. The lowest temperature ever recorded by a weather station is minus eighty nine point two degrees Celsius, at Russia's Vostok Station, on the twenty first of July, nineteen eighty three. Satellites have since found even colder spots. On the high East Antarctic Plateau, more than three and a half kilometres above sea level, small hollows in the snow can drop to about minus ninety eight degrees.",
+  "hold": 1.0
+ },
+ {
+  "id": "s10_desert",
+  "text": "And here's the surprise. All that ice sits on a desert. A desert is defined by how little falls from the sky, not by heat. Averaged over the whole continent, Antarctica gets only about one hundred and fifty millimetres of precipitation a year. Deep inland, it's less than fifty. The snow piles up over thousands of years simply because it almost never melts. That's why Antarctica is called the coldest, driest and windiest continent on Earth.",
+  "hold": 1.0
+ },
+ {
+  "id": "s11_sea_ice",
+  "text": "But the ice doesn't stop at the coast. Every winter, the ocean around Antarctica freezes, and that floating sea ice grows bigger than the continent itself. This year, on the fourteenth of September, it reached its winter peak: about seventeen point five nine million square kilometres. That sounds enormous, but it was the third lowest winter maximum since satellite records began in the late nineteen seventies. The record low was in twenty twenty three. And in early October, the US National Snow and Ice Data Center reported the ice dropping to record lows for the time of year.",
+  "hold": 0.8
+ },
+ {
+  "id": "s12_people",
+  "text": "So who actually lives there? Nobody, permanently. In summer, about five thousand people, almost all scientists and support staff, live at more than seventy research stations. In winter, that drops to around a thousand. Tourists come too, mostly on ships during the southern summer. According to the tour operators' association, about one hundred and eighteen thousand people visited in the twenty twenty four to twenty five season.",
+  "hold": 1.0
+ },
+ {
+  "id": "s13_india",
+  "text": "India is there too. The first Indian expedition reached Antarctica in nineteen eighty one. Two years later, India built its first base, Dakshin Gangotri. It was later half buried by ice, and retired in nineteen ninety. Today India runs two research stations: Maitri, set up in nineteen eighty nine, and Bharati, opened in twenty twelve, on a different stretch of the coast, far to the east.",
+  "hold": 1.2
+ },
+ {
+  "id": "s14_owner",
+  "text": "So who owns it? Seven countries claim slices of Antarctica: Argentina, Australia, Chile, France, New Zealand, Norway and the United Kingdom. Australia's claim alone covers about forty two percent of the continent, and the claims of Argentina, Chile and the UK overlap. But under the Antarctic Treaty, signed in nineteen fifty nine, all of it is set aside for peace and science. No military activity, no new claims. Fifty eight countries are now parties to the treaty. India joined in nineteen eighty three.",
+  "hold": 1.0
+ },
+ {
+  "id": "s15_recap",
+  "text": "So here is Antarctica at its true scale. More than four Indias of land. Ice almost two kilometres thick on average. Seventy percent of the world's fresh water. A hidden lake two hundred and fifty kilometres long. And around it, a frozen ocean that this year grew less than in almost any year on record.",
+  "hold": 1.5
+ },
+ {
+  "id": "s16_outro",
+  "text": "Next time a map shows it as a white smear at the bottom, you'll know what's really there. Which fact surprised you most: the size, the ice, or the cold? Tell me in the comments, and subscribe to True Scale for more of the world at its real size.",
+  "hold": 1.5
+ }
+]

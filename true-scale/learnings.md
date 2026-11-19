@@ -18,7 +18,7 @@ weaker is an "early signal". Keep it under ~50 lines.
 
 ## Early signals
 
-- (none yet: waiting for the first Studio screenshots; see analytics/2026-11-18.md for which ones.)
+- (none yet: waiting for the first Studio screenshots; see analytics/2026-11-19.md for which ones.)
 
 ## Being tested
 
@@ -42,9 +42,13 @@ weaker is an "early signal". Keep it under ~50 lines.
   compare its search share and CTR with 012 (sharp news hook) and 001-003 (pure evergreen).
 - First "Monoliths & Rock Wonders" video (018 Kailasa): evergreen mystery topic, no news hook, one huge number in the
   hook (200,000 tonnes), "how big really" comparisons. If it beats the place videos, give the series more slots.
+- Back to the namesake "how big is X really" format (017 Antarctica): Mercator-vs-globe reveal, India and Australia
+  dropped on at true size, "4× INDIA" thumbnail, science-news hook (2026 sea-ice peak 3rd lowest). Compare its CTR
+  with 001 (pure true-size) and 012 (true size + politics news).
 
 ## History
 
+- 19 Nov 2026: still no Studio data (7th run); chose 017 Antarctica to rebalance toward world/true-size, with the Sep-Oct 2026 sea-ice lows as the hook.
 - 18 Nov 2026: still no Studio data (6th run); chose 018 Kailasa to give the untested Monoliths & Rock Wonders series its strongest first test, in Ellora's Oct-Mar season.
 - 17 Nov 2026: still no Studio data (5th run); chose 007 No bridge Europe-Africa to rebalance after two India place videos, with the Nov 2026 tunnel-funding news.
 - 16 Nov 2026: still no Studio data (4th run; no run recorded on 13 Nov); chose 036 Rann of Kutch for the open Rann Utsav season, the late-Nov full moon and the July 2026 "oldest signboard" news.
