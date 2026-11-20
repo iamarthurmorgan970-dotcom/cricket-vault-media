@@ -1,0 +1,14 @@
+{
+ "title": "Fastest fifty in List A history",
+ "hook": "He was 15 years old",
+ "unit": "BALLS",
+ "format": "List A",
+ "as_of": "2026-06-21",
+ "rows": [
+  {"rank": 1, "player": "Vaibhav Sooryavanshi", "team": "IND", "value": "11", "detail": "v SRI LANKA A · DAMBULLA · 2026", "highlight": true},
+  {"rank": 2, "player": "Kaushalya Weeraratne", "team": "RCC", "value": "12", "detail": "v KURUNEGALA YOUTH · 2005/06"},
+  {"rank": 3, "player": "Thisara Perera", "team": "ARMY", "value": "13", "detail": "v BLOOMFIELD · 2020/21"},
+  {"rank": 4, "player": "Rory Kleinveldt", "team": "WP", "value": "14", "detail": "v KWAZULU-NATAL · 2010/11"}
+ ],
+ "footnote": "Source: Wisden, 21 Jun 2026"
+}

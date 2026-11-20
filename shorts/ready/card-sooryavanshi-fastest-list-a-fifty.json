@@ -1,0 +1,51 @@
+{
+  "kind": "card",
+  "on_screen_title": "FASTEST FIFTY IN LIST A HISTORY",
+  "hook": "HE WAS 15 YEARS OLD",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "List A",
+  "data_through": "2026-06-21",
+  "highlight": "Vaibhav Sooryavanshi",
+  "footnote": "Source: Wisden, 21 Jun 2026",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Vaibhav Sooryavanshi",
+      "display": "Vaibhav Sooryavanshi",
+      "team": "IND",
+      "value": "11",
+      "detail": "v SRI LANKA A · DAMBULLA · 2026",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Kaushalya Weeraratne",
+      "display": "Kaushalya Weeraratne",
+      "team": "RCC",
+      "value": "12",
+      "detail": "v KURUNEGALA YOUTH · 2005/06",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Thisara Perera",
+      "display": "Thisara Perera",
+      "team": "ARMY",
+      "value": "13",
+      "detail": "v BLOOMFIELD · 2020/21",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Rory Kleinveldt",
+      "display": "Rory Kleinveldt",
+      "team": "WP",
+      "value": "14",
+      "detail": "v KWAZULU-NATAL · 2010/11",
+      "in_progress": false
+    }
+  ]
+}

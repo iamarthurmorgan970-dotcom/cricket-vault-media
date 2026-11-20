@@ -536,17 +536,39 @@
       "created": "2026-11-19",
       "priority": 80,
       "expires": null,
-      "status": "ready",
+      "status": "scheduled",
       "file": "shorts/ready/card-fastest-t20i-hundreds-abhishek-30.mp4",
       "facts_file": "shorts/ready/card-fastest-t20i-hundreds-abhishek-30.json",
       "suggested_title": "30 balls 🤯 Only 2 men in history have hit a faster T20I hundred than Abhishek Sharma",
       "verified": true,
       "wow": "Abhishek Sharma's 30-ball hundred v Afghanistan (17 Sep 2026) is the fastest ever by a full-member batter; only Estonia's Sahil Chauhan (27) and Turkey's Muhammad Fahad (29) have been quicker.",
-      "notes": "19 Nov: top 5 from Khel Now (published 27 Oct, updated 29 Oct 2026): Chauhan 27 (EST v Cyprus 2024), Fahad 29 (TUR v Bulgaria 2025), Abhishek 30 (IND v Afg, 17 Sep 2026), Allen 33 (NZ v SA, T20 WC 2026 semi), Raza 33 (ZIM v Gambia 2024). Abhishek 30 balls confirmed by Wisden (18 Sep 2026); Chauhan 27/Fahad 29/Raza 33 also in adda247 and Gulf News lists. Searches on 19 Nov found no faster T20I hundred since. Abhishek and Allen are active: re-check before posting if more than a week passes.",
+      "notes": "19 Nov: top 5 from Khel Now (published 27 Oct, updated 29 Oct 2026): Chauhan 27 (EST v Cyprus 2024), Fahad 29 (TUR v Bulgaria 2025), Abhishek 30 (IND v Afg, 17 Sep 2026), Allen 33 (NZ v SA, T20 WC 2026 semi), Raza 33 (ZIM v Gambia 2024). Abhishek 30 balls confirmed by Wisden (18 Sep 2026); Chauhan 27/Fahad 29/Raza 33 also in adda247 and Gulf News lists. Searches on 19 Nov found no faster T20I hundred since. Abhishek and Allen are active: re-check before posting if more than a week passes. 20 Nov: searches found no faster T20I hundred since 19 Nov (Finn Allen's Feb 2026 record was fastest to 5,000 T20 runs, not a hundred); scheduled.",
       "sources": [
         "https://khelnow.com/cricket/top-10-fastest-centuries-100-in-t20i-cricket",
         "https://www.wisden.com/series/india-vs-afghanistan-m-2026/cricket-news/108-off-34-india-opener-abhishek-sharma-slams-fastest-t20i-ton-for-full-member-batters",
         "https://currentaffairs.adda247.com/fastest-hundred-in-t20-internationals-2005-2026/"
+      ],
+      "title": "30 balls 🤯 Only 2 men in history have hit a faster T20I hundred than Abhishek Sharma",
+      "scheduled_for": "2026-11-20T17:30+05:30",
+      "metricool_id": 435072756,
+      "via": "metricool"
+    },
+    {
+      "id": "card-sooryavanshi-fastest-list-a-fifty",
+      "kind": "card",
+      "created": "2026-11-20",
+      "priority": 80,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-sooryavanshi-fastest-list-a-fifty.mp4",
+      "facts_file": "shorts/ready/card-sooryavanshi-fastest-list-a-fifty.json",
+      "suggested_title": "11 balls 🤯 A 15-year-old hit the fastest fifty in List A history",
+      "verified": true,
+      "wow": "Vaibhav Sooryavanshi, aged 15, hit an 11-ball fifty for India A v Sri Lanka A (Dambulla, Jun 2026), the fastest in List A history, breaking a 20-year-old record; he made 94 off 29.",
+      "notes": "20 Nov: Wisden (21 Jun 2026, Sankalp Srivastava) full list: Sooryavanshi 11 (India A v SL A, Dambulla, 2026), Weeraratne 12 (Ragama CC v Kurunegala Youth CC, 2005/06), Thisara Perera 13 (SL Army v Bloomfield, 2020/21), Kleinveldt 14 (Western Province v KZN, 2010/11); four tied on 15 so list stops at 4 rows. ARY News (22 Jun 2026) confirms 11 balls, age 15, 94 off 29 (10x4, 8x6), List A. Caption facts: 94 off 29; tri-series final; one six short of equalling Fraser-McGurk's 29-ball List A hundred (Wisden). Previous 11-ball fifty post was Akash Choudhary (first-class, 8 Nov): different format, but space them.",
+      "sources": [
+        "https://www.wisden.com/cricket-news/fastest-list-a-fifties-full-list-vaibhav-sooryavanshi-breaks-another-world-record-falls-just-short-of-quickest-ton",
+        "https://arynews.tv/sooryavanshi-15-hits-record-breaking-11-ball-fifty"
       ]
     }
   ]
