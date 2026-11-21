@@ -577,7 +577,7 @@
       "created": "2026-11-21",
       "priority": 80,
       "expires": null,
-      "status": "ready",
+      "status": "scheduled",
       "file": "shorts/ready/card-yeshey-8-for-7-best-t20i-figures.mp4",
       "facts_file": "shorts/ready/card-yeshey-8-for-7-best-t20i-figures.json",
       "suggested_title": "8 for 7 🤯 Bhutan's Sonam Yeshey took the first 8-wicket haul in T20 history",
@@ -589,7 +589,11 @@
         "https://www.icc-cricket.com/news/bhutan-s-soman-yeshey-sets-new-t20i-bowling-record",
         "https://www.icc-cricket.com/news/bahrain-pacer-etches-name-in-history-books-with-record-spell",
         "https://www.outlookindia.com/sports/cricket/who-is-sonam-yeshey-bhutan-spinner-t20i-eight-wicket-haul"
-      ]
+      ],
+      "title": "8 for 7 🤯 Bhutan's Sonam Yeshey took the first 8-wicket haul in T20 history",
+      "scheduled_for": "2026-11-21T13:00+05:30",
+      "metricool_id": 436335920,
+      "via": "metricool"
     }
   ]
 }
