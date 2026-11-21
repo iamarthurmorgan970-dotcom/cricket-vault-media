@@ -1,0 +1,15 @@
+{
+ "title": "Best bowling figures in men's T20Is",
+ "hook": "8 wickets in 4 overs: a first in ANY T20",
+ "unit": "WICKETS",
+ "format": "T20I",
+ "as_of": "2025-12-29",
+ "rows": [
+  {"rank": 1, "player": "Sonam Yeshey", "team": "BHU", "value": "8", "detail": "8/7 V MYANMAR · 2025", "highlight": true},
+  {"rank": 2, "player": "Syazrul Idrus", "team": "MAS", "value": "7", "detail": "7/8 V CHINA · 2023"},
+  {"rank": 3, "player": "Ali Dawood", "team": "BHR", "value": "7", "detail": "7/19 V BHUTAN · 2025"},
+  {"rank": 4, "player": "Harsha Bharadwaj", "team": "SIN", "value": "6", "detail": "6/3 V MONGOLIA · 2024"},
+  {"rank": 5, "player": "Peter Aho", "team": "NGA", "value": "6", "detail": "6/5 V SIERRA LEONE · 2021"}
+ ],
+ "footnote": "Source: ESPNcricinfo, 29 Dec 2025; ICC, 12 Dec 2025"
+}

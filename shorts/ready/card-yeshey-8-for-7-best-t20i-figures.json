@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "BEST BOWLING FIGURES IN MEN'S T20IS",
+  "hook": "8 WICKETS IN 4 OVERS: A FIRST IN ANY T20",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "T20I",
+  "data_through": "2025-12-29",
+  "highlight": "Sonam Yeshey",
+  "footnote": "Source: ESPNcricinfo, 29 Dec 2025; ICC, 12 Dec 2025",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Sonam Yeshey",
+      "display": "Sonam Yeshey",
+      "team": "BHU",
+      "value": "8",
+      "detail": "8/7 V MYANMAR · 2025",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Syazrul Idrus",
+      "display": "Syazrul Idrus",
+      "team": "MAS",
+      "value": "7",
+      "detail": "7/8 V CHINA · 2023",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Ali Dawood",
+      "display": "Ali Dawood",
+      "team": "BHR",
+      "value": "7",
+      "detail": "7/19 V BHUTAN · 2025",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Harsha Bharadwaj",
+      "display": "Harsha Bharadwaj",
+      "team": "SIN",
+      "value": "6",
+      "detail": "6/3 V MONGOLIA · 2024",
+      "in_progress": false
+    },
+    {
+      "rank": 5,
+      "player": "Peter Aho",
+      "display": "Peter Aho",
+      "team": "NGA",
+      "value": "6",
+      "detail": "6/5 V SIERRA LEONE · 2021",
+      "in_progress": false
+    }
+  ]
+}

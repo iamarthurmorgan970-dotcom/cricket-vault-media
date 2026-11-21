@@ -570,6 +570,26 @@
         "https://www.wisden.com/cricket-news/fastest-list-a-fifties-full-list-vaibhav-sooryavanshi-breaks-another-world-record-falls-just-short-of-quickest-ton",
         "https://arynews.tv/sooryavanshi-15-hits-record-breaking-11-ball-fifty"
       ]
+    },
+    {
+      "id": "card-yeshey-8-for-7-best-t20i-figures",
+      "kind": "card",
+      "created": "2026-11-21",
+      "priority": 80,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-yeshey-8-for-7-best-t20i-figures.mp4",
+      "facts_file": "shorts/ready/card-yeshey-8-for-7-best-t20i-figures.json",
+      "suggested_title": "8 for 7 🤯 Bhutan's Sonam Yeshey took the first 8-wicket haul in T20 history",
+      "verified": true,
+      "wow": "Bhutan spinner Sonam Yeshey took 8 for 7 in 4 overs v Myanmar (26 Dec 2025): the first eight-wicket haul in any T20 match, international or otherwise. Myanmar were bowled out for 45 chasing 127/9.",
+      "notes": "21 Nov: ESPNcricinfo (29 Dec 2025): 8/7 from 4 overs, 3rd T20I v Myanmar at Gelephu Mindfulness City, Myanmar 45 all out chasing Bhutan's 127/9; first 8-wicket haul in any T20; only previous men's T20I 7-fors were Idrus 7/8 (MAS v China 2023) and Dawood 7/19 (BHR v Bhutan 2025). Ranks 4-5 from ICC table 'Best bowling figures in an innings in T20Is' (12 Dec 2025): Bharadwaj 6/3 v Mongolia 2024, Aho 6/5 v Sierra Leone 2021 (Chahar 6/7 is 6th). Date 26 Dec 2025 from Outlook India. Searches on 21 Nov found no better men's T20I figures in 2026.",
+      "sources": [
+        "https://www.espncricinfo.com/ci/content/story/1517457.html",
+        "https://www.icc-cricket.com/news/bhutan-s-soman-yeshey-sets-new-t20i-bowling-record",
+        "https://www.icc-cricket.com/news/bahrain-pacer-etches-name-in-history-books-with-record-spell",
+        "https://www.outlookindia.com/sports/cricket/who-is-sonam-yeshey-bhutan-spinner-t20i-eight-wicket-haul"
+      ]
     }
   ]
 }
