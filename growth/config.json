@@ -1,15 +1,15 @@
 {
   "_note": "Read by the daily task (posting time) and rewritten by the weekly review. Times are IST (Asia/Kolkata), 24h.",
-  "updated": "2026-11-15",
+  "updated": "2026-11-22",
   "default_time_ist": "19:30",
   "post_times_ist": {
-    "Mon": "17:30",
-    "Tue": "13:00",
-    "Wed": "13:00",
-    "Thu": "17:30",
-    "Fri": "17:30",
-    "Sat": "13:00",
-    "Sun": "21:30"
+    "Mon": "19:30",
+    "Tue": "21:30",
+    "Wed": "17:30",
+    "Thu": "13:00",
+    "Fri": "19:30",
+    "Sat": "17:30",
+    "Sun": "13:00"
   },
   "time_test": {
     "status": "testing",
@@ -19,7 +19,7 @@
       "19:30",
       "21:30"
     ],
-    "why": "13:00 = Indian lunch break; 17:30 = Indian commute + UK lunchtime; 19:30 = Indian prime time (baseline); 21:30 = late Indian evening + UK afternoon. 15 Nov: posts so far per slot: 19:30 = 6 (31 Oct-4 Nov, 13 Nov), 21:30 = 3 (7, 11, 15 Nov), 13:00 = 1 (8 Nov), 17:30 = 1 (9 Nov). Last week's rotation put 13:00/17:30 on days the every-other-day pace skipped (10, 12, 14 Nov), so they got no new posts. This rotation gives 13:00 and 17:30 six of seven weekdays, so whichever days get a post, both slots fill. 19:30 has enough posts; 21:30 keeps Sunday. Per-video stayed rate is needed to judge slots and was unavailable this week (0 vidIQ credits until 30 Nov). Lock in once each slot has 3+ posts with 3+ days of per-video data.",
+    "why": "13:00 = Indian lunch break; 17:30 = Indian commute + UK lunchtime; 19:30 = Indian prime time (baseline); 21:30 = late Indian evening + UK afternoon. 22 Nov: posts per slot: 13:00 = 4 (Sun 8, Tue 17, Wed 18, Sat 21 Nov), 17:30 = 3 (Mon 9, Thu 19, Fri 20 Nov), 19:30 = 6 (31 Oct-4 Nov, Fri 13 Nov), 21:30 = 4 (Sat 7, Wed 11, Sun 15, Sun 22 Nov). Every slot now has 3+ posts, but there is no per-video data to compare them (0 vidIQ credits until 30 Nov; Metricool data stops at 14 Nov), so the slot can't be locked yet. 19:30's posts are mostly from the comparison era, so this rotation gives it two card-era days (Mon, Fri) and moves every slot onto weekdays it hasn't had: 13:00 Thu/Sun, 17:30 Wed/Sat, 19:30 Mon/Fri, 21:30 Tue. Lock in once per-video stayed rate and 48h views are available for 3+ posts per slot.",
     "decide_by": "views and engaged views in each video's first 48 hours"
   }
 }
