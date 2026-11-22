@@ -1,0 +1,14 @@
+{
+ "title": "Most runs off one over in Tests",
+ "hook": "Bumrah took 35 off one Broad over",
+ "unit": "RUNS",
+ "format": "Test",
+ "as_of": "2026-11-22",
+ "rows": [
+  {"rank": 1, "player": "Jasprit Bumrah", "team": "India", "value": "35", "detail": "OFF BROAD · EDGBASTON 2022", "highlight": true},
+  {"rank": 2, "player": "Brian Lara", "team": "West Indies", "value": "28", "detail": "OFF PETERSON · JOHANNESBURG 2003/04"},
+  {"rank": 2, "player": "George Bailey", "team": "Australia", "value": "28", "detail": "OFF ANDERSON · PERTH 2013/14"},
+  {"rank": 2, "player": "Keshav Maharaj", "team": "South Africa", "value": "28", "detail": "OFF ROOT · PORT ELIZABETH 2019/20"}
+ ],
+ "footnote": "Source: ESPNcricinfo records; Wisden, 2 Jul 2022"
+}
