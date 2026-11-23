@@ -1,0 +1,15 @@
+{
+ "title": "Fastest fifty in Test history",
+ "hook": "21 BALLS. IN A TEST.",
+ "unit": "BALLS",
+ "format": "Test",
+ "as_of": "2026-11-23",
+ "rows": [
+  {"rank": 1, "player": "Misbah-ul-Haq", "team": "PAK", "value": "21", "detail": "v AUSTRALIA · ABU DHABI · 2014", "highlight": true},
+  {"rank": 2, "player": "David Warner", "team": "AUS", "value": "23", "detail": "v PAKISTAN · SYDNEY · 2017"},
+  {"rank": 3, "player": "Jacques Kallis", "team": "SA", "value": "24", "detail": "v ZIMBABWE · CAPE TOWN · 2005"},
+  {"rank": 3, "player": "Ben Stokes", "team": "ENG", "value": "24", "detail": "v WEST INDIES · BIRMINGHAM · 2024"},
+  {"rank": 5, "player": "Shane Shillingford", "team": "WI", "value": "25", "detail": "v NEW ZEALAND · KINGSTON · 2014"}
+ ],
+ "footnote": "Source: ESPNcricinfo records; Wisden, 28 Jul 2024"
+}
