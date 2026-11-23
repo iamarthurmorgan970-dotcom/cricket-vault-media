@@ -138,7 +138,10 @@
    "title": "Every Indian State Compared to a Country",
    "angle": "Area of each major state vs a country of similar size (use official areas and country areas from the same source family); a few population comparisons too. Verify every pairing.",
    "visual_ideas": "True-size moves of states over countries (engine.india ST + core mover), bars.",
-   "status": "planned"
+   "status": "made",
+   "made_on": "2026-11-23",
+   "length": "9:00",
+   "note": "Area only (28 states, no UTs); population left for 023."
   },
   {
    "n": 14,

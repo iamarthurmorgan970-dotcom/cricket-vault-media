@@ -48,9 +48,13 @@ weaker is an "early signal". Keep it under ~50 lines.
 - India place told through the true-scale lens (016 Gandikota): nickname-as-question title ("India's Grand Canyon?"),
   the real Grand Canyon laid on the map from Gandikota, and an honest twist. Compare its CTR and search share with
   the plain place videos 006 Lonar and 036 Rann of Kutch.
+- First "India vs the World (true scale)" video (013 states vs countries): countdown #1-#28 with every country slid
+  onto its state at true size, a personal comment prompt ("your state + its twin"). If it beats the place and trek
+  videos on CTR and comments, give the series (023 UP population, 033 Northeast, 039 Ladakh, 043 coastline) more slots.
 
 ## History
 
+- 23 Nov 2026: still no Studio data (9th run); chose 013 Indian states vs countries to open the untested India-vs-World series (evergreen, every viewer has a state).
 - 20 Nov 2026: still no Studio data (8th run); chose 016 Gandikota for India-place balance, the Oct-Feb season and a nickname people already search, tested at true scale.
 - 19 Nov 2026: still no Studio data (7th run); chose 017 Antarctica to rebalance toward world/true-size, with the Sep-Oct 2026 sea-ice lows as the hook.
 - 18 Nov 2026: still no Studio data (6th run); chose 018 Kailasa to give the untested Monoliths & Rock Wonders series its strongest first test, in Ellora's Oct-Mar season.
