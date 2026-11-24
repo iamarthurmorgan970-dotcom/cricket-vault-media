@@ -1,0 +1,15 @@
+{
+ "title": "Wicket bursts in men's T20Is",
+ "hook": "5 wickets in ONE over: a T20I first",
+ "unit": "WICKETS",
+ "format": "T20I",
+ "as_of": "2025-12-23",
+ "rows": [
+  {"rank": 1, "player": "Gede Priandana", "team": "INA", "value": "5", "detail": "IN ONE OVER · V CAMBODIA · 2025", "highlight": true},
+  {"rank": 2, "player": "Lasith Malinga", "team": "SL", "value": "4", "detail": "IN 4 BALLS · V NZ · 2019"},
+  {"rank": 2, "player": "Rashid Khan", "team": "AFG", "value": "4", "detail": "IN 4 BALLS · V IRELAND · 2019"},
+  {"rank": 2, "player": "Curtis Campher", "team": "IRE", "value": "4", "detail": "IN 4 BALLS · V NETHERLANDS · 2021"},
+  {"rank": 2, "player": "Jason Holder", "team": "WI", "value": "4", "detail": "IN 4 BALLS · V ENGLAND · 2022"}
+ ],
+ "footnote": "Source: ESPNcricinfo, 23 Dec 2025 & T20I records"
+}

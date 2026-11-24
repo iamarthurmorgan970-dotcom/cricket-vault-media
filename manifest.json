@@ -639,6 +639,26 @@
         "https://www.espncricinfo.com/records/fastest-fifties-by-balls-faced-284096",
         "https://www.wisden.com/cricket-news/fastest-test-fifties-list-of-batters-with"
       ]
+    },
+    {
+      "id": "card-priandana-5-wickets-one-over",
+      "kind": "card",
+      "created": "2026-11-24",
+      "priority": 80,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-priandana-5-wickets-one-over.mp4",
+      "facts_file": "shorts/ready/card-priandana-5-wickets-one-over.json",
+      "suggested_title": "5 wickets in ONE over 🤯 A T20I first, and it wasn't Malinga or Rashid Khan",
+      "verified": true,
+      "wow": "Indonesia's Gede Priandana took 5 wickets in one over (1-0-1-5, incl. a hat-trick) v Cambodia, 23 Dec 2025: the first in a men's T20I. Malinga, Rashid, Campher and Holder 'only' got 4 in 4 balls.",
+      "notes": "24 Nov: ESPNcricinfo (23 Dec 2025): Priandana first to take five wickets in an over in a T20I (where fall-of-wickets data available); 1-0-1-5 v Cambodia, Bali; Cambodia 106/5 -> 107 all out, lost by 60. GWR confirms first in T20Is, figures 1-0-1-5. ESPNcricinfo T20I 'four wickets in four balls' table: Rashid (v Ire, Dehradun 2019), Malinga (v NZ, Pallekele 2019), Campher (v Ned, Abu Dhabi 2021), Holder (v Eng, Bridgetown 2022), plus Waseem Yaqoob 2024, Fennell 2024, Loftie-Eaton 2025 (7 total, matches Wisden 22 Nov 2026 table). Card shows the 4 best-known; rows ranked #2 as ties. Search 24 Nov found no later 5-in-an-over T20I. Venues dropped from details so they don't collide with the WICKETS label.",
+      "sources": [
+        "https://africa.espn.com/cricket/story/_/id/47396586/record-indonesia-gede-priandana-becomes-first-pick-five-wickets-in-t20s",
+        "https://www.guinnessworldrecords.com/world-records/781883-most-wickets-taken-in-an-over-in-a-t20-international-male",
+        "https://www.espncricinfo.com/records/four-wickets-in-four-balls-1199858",
+        "https://www.wisden.com/series/syed-mushtaq-ali-trophy-2026/cricket-news/t20-debutant-seamer-jamshed-alam-takes-four-wickets-in-four-balls-in-indian-domestic-cricket"
+      ]
     }
   ]
 }
