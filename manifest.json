@@ -634,7 +634,7 @@
       "suggested_title": "21 balls 🤯 The fastest fifty in Test history came from Misbah-ul-Haq, not Warner or Stokes",
       "verified": true,
       "wow": "A 21-ball fifty in a TEST: Misbah-ul-Haq (Pakistan v Australia, Abu Dhabi 2014) is faster than Warner (23), Kallis and Stokes (24).",
-      "notes": "23 Nov: ESPNcricinfo 'Fastest fifties (by balls faced) in Tests' (where known): Misbah 21 (v Aus, Abu Dhabi 2014), Warner 23 (v Pak, Sydney 2017), Kallis 24 (v Zim, Cape Town 2005), Stokes 24 (v WI, Birmingham 2024), Shillingford 25 (v NZ, Kingston 2014); next three tied at 26. Wisden (28 Jul 2024) top 5 identical (gives Shillingford venue as Jamaica). Stokes is active: re-check no sub-25-ball Test fifty since before posting.",
+      "notes": "23 Nov: ESPNcricinfo 'Fastest fifties (by balls faced) in Tests' (where known): Misbah 21 (v Aus, Abu Dhabi 2014), Warner 23 (v Pak, Sydney 2017), Kallis 24 (v Zim, Cape Town 2005), Stokes 24 (v WI, Birmingham 2024), Shillingford 25 (v NZ, Kingston 2014); next three tied at 26. Wisden (28 Jul 2024) top 5 identical (gives Shillingford venue as Jamaica). Stokes is active: re-check no sub-25-ball Test fifty since before posting. 24 Nov: search shows no faster Test fifty since; held a day so it doesn't follow the 23 Nov 11-ball fifty.",
       "sources": [
         "https://www.espncricinfo.com/records/fastest-fifties-by-balls-faced-284096",
         "https://www.wisden.com/cricket-news/fastest-test-fifties-list-of-batters-with"
@@ -646,7 +646,7 @@
       "created": "2026-11-24",
       "priority": 80,
       "expires": null,
-      "status": "ready",
+      "status": "scheduled",
       "file": "shorts/ready/card-priandana-5-wickets-one-over.mp4",
       "facts_file": "shorts/ready/card-priandana-5-wickets-one-over.json",
       "suggested_title": "5 wickets in ONE over 🤯 A T20I first, and it wasn't Malinga or Rashid Khan",
@@ -658,7 +658,11 @@
         "https://www.guinnessworldrecords.com/world-records/781883-most-wickets-taken-in-an-over-in-a-t20-international-male",
         "https://www.espncricinfo.com/records/four-wickets-in-four-balls-1199858",
         "https://www.wisden.com/series/syed-mushtaq-ali-trophy-2026/cricket-news/t20-debutant-seamer-jamshed-alam-takes-four-wickets-in-four-balls-in-indian-domestic-cricket"
-      ]
+      ],
+      "title": "5 wickets in ONE over 🤯 A T20I first, and it wasn't Malinga or Rashid Khan",
+      "scheduled_for": "2026-11-24T21:30+05:30",
+      "metricool_id": 439751080,
+      "via": "metricool"
     }
   ]
 }
