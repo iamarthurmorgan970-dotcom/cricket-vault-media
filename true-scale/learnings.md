@@ -22,38 +22,23 @@ weaker is an "early signal". Keep it under ~50 lines.
 
 ## Being tested
 
-- Mix of series (treks, places, rocks, true scale, hidden places, world) to find which one the audience wants.
-- 005 is the first "X vs Y" decision video (search-intent title, published in season). Compare its search
-  traffic share and CTR with 001-004 once numbers arrive.
-- Seasonal timing: trek comparisons published 4-8 weeks before their season (winter treks in Nov).
-- Hook style: a single verified number contrast in the first sentence (005, 012) vs a list of wonders (004).
-- News-hook timing: 012 Greenland made a week after a big news event (parliament vote, 3 Nov 2026). Compare its
-  first-48h views with the evergreen world videos 001-003.
-- First single-place India video (006 Lonar): place + live controversy (rising lake, submerged temples), and a
-  debate comment prompt ("pump it or leave it?"). Compare comments per 1,000 views with the "which would you
-  pick?" prompts in 004/005.
-- Festival-season hook (036 Rann of Kutch): published while Rann Utsav is open and a week before the first
-  full-moon window (23-25 Nov). Compare its search-traffic share with 006 Lonar (same series, softer hook).
-- Two India place videos in a row (006, 036): if place videos beat treks (005) and world videos once numbers
-  arrive, give the "Why You Should Visit" series more slots.
-- India reference points in world videos (012: "two-thirds of India", "half the Narendra Modi Stadium"; 007: "the gap
-  is shorter than Atal Setu's sea section").
-- World "why" question with a slow-burn news hook (007 Gibraltar tunnel, Morocco's 2027 study budget reported 5 Nov):
-  compare its search share and CTR with 012 (sharp news hook) and 001-003 (pure evergreen).
-- First "Monoliths & Rock Wonders" video (018 Kailasa): evergreen mystery topic, no news hook, one huge number in the
-  hook (200,000 tonnes), "how big really" comparisons. If it beats the place videos, give the series more slots.
-- Back to the namesake "how big is X really" format (017 Antarctica): Mercator-vs-globe reveal, India and Australia
-  dropped on at true size, "4× INDIA" thumbnail, science-news hook (2026 sea-ice peak 3rd lowest). Compare its CTR
-  with 001 (pure true-size) and 012 (true size + politics news).
-- India place told through the true-scale lens (016 Gandikota): nickname-as-question title ("India's Grand Canyon?"),
-  the real Grand Canyon laid on the map from Gandikota, and an honest twist. Compare its CTR and search share with
-  the plain place videos 006 Lonar and 036 Rann of Kutch.
-- First "India vs the World (true scale)" video (013 states vs countries): countdown #1-#28 with every country slid
-  onto its state at true size, a personal comment prompt ("your state + its twin"). If it beats the place and trek
-  videos on CTR and comments, give the series (023 UP population, 033 Northeast, 039 Ladakh, 043 coastline) more slots.
+- Series mix (treks, places, rocks, true scale, India vs World, world) to find which one the audience wants.
+- Format: "X vs Y" decision video (005) vs single place (006, 036, 016) vs data countdown (013) vs world "why" (007, 012).
+- Timing: in-season publishing (005 winter treks, 036 Rann Utsav, 016/028 Oct-Feb sites) and news hooks a week or
+  two after the event (012 Greenland vote, 007 tunnel budget, 017 sea-ice lows, 028 ASI finds at Hampi).
+- Hooks: one verified number contrast in the first sentence (005, 012, 018) vs a list of wonders (004) vs a visual
+  curiosity question (028 "nobody dropped them").
+- Titles/thumbnails: nickname-as-question (016 "India's Grand Canyon?"), "how big really" (017 "4× INDIA"),
+  question thumbnail (028 "WHO PILED THESE?"). Compare CTR once numbers arrive.
+- India reference points in world videos (012: "two-thirds of India"; 007: Atal Setu).
+- Comment prompts: "which would you pick?" (004/005) vs debate (006 "pump it or leave it?", 028 "legend or geology?")
+  vs personal (013 "your state + its twin"). Compare comments per 1,000 views.
+- Rock Wonders series now has two different formats (018 number hook, 028 geology "why"); India vs World has one
+  (013). Give a series more slots only when its videos beat the channel's median CTR and views/day.
 
 ## History
 
+- 24 Nov 2026: still no Studio data (10th run); chose 028 Hampi boulders for peak season, the 14 Nov ASI temple finds and a second Rock Wonders test.
 - 23 Nov 2026: still no Studio data (9th run); chose 013 Indian states vs countries to open the untested India-vs-World series (evergreen, every viewer has a state).
 - 20 Nov 2026: still no Studio data (8th run); chose 016 Gandikota for India-place balance, the Oct-Feb season and a nickname people already search, tested at true scale.
 - 19 Nov 2026: still no Studio data (7th run); chose 017 Antarctica to rebalance toward world/true-size, with the Sep-Oct 2026 sea-ice lows as the hook.

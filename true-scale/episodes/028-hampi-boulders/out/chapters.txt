@@ -1,0 +1,17 @@
+0:00 s01_hook
+0:39 s02_title
+0:44 s03_where
+1:12 s04_legend
+1:42 s05_granite
+2:19 s06_weathering
+2:51 s07_exposed
+3:28 s08_scale
+3:59 s09_empire
+4:28 s10_bigcity
+5:01 s11_temples
+5:31 s12_fall
+6:02 s13_unesco
+6:33 s14_news
+7:05 s15_visit
+7:36 s16_caveat
+8:00 s17_outro
