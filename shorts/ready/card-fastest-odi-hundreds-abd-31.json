@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "FASTEST HUNDRED IN ODI HISTORY",
+  "hook": "100 OFF 31 BALLS",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "ODI",
+  "data_through": "2026-11-25",
+  "highlight": "AB de Villiers",
+  "footnote": "Source: Howstat ODI records; WION, 2 Jan 2026",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "AB de Villiers",
+      "display": "AB de Villiers",
+      "team": "SA",
+      "value": "31",
+      "detail": "v WEST INDIES · JOHANNESBURG · 2015",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Corey Anderson",
+      "display": "Corey Anderson",
+      "team": "NZ",
+      "value": "36",
+      "detail": "v WEST INDIES · QUEENSTOWN · 2014",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Shahid Afridi",
+      "display": "Shahid Afridi",
+      "team": "PAK",
+      "value": "37",
+      "detail": "v SRI LANKA · NAIROBI · 1996",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Glenn Maxwell",
+      "display": "Glenn Maxwell",
+      "team": "AUS",
+      "value": "40",
+      "detail": "v NETHERLANDS · DELHI · 2023",
+      "in_progress": false
+    },
+    {
+      "rank": 5,
+      "player": "Asif Khan",
+      "display": "Asif Khan",
+      "team": "UAE",
+      "value": "41",
+      "detail": "v NEPAL · KIRTIPUR · 2023",
+      "in_progress": false
+    }
+  ]
+}

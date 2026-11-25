@@ -628,17 +628,21 @@
       "created": "2026-11-23",
       "priority": 80,
       "expires": null,
-      "status": "ready",
+      "status": "scheduled",
       "file": "shorts/ready/card-fastest-test-fifties-misbah-21.mp4",
       "facts_file": "shorts/ready/card-fastest-test-fifties-misbah-21.json",
       "suggested_title": "21 balls 🤯 The fastest fifty in Test history came from Misbah-ul-Haq, not Warner or Stokes",
       "verified": true,
       "wow": "A 21-ball fifty in a TEST: Misbah-ul-Haq (Pakistan v Australia, Abu Dhabi 2014) is faster than Warner (23), Kallis and Stokes (24).",
-      "notes": "23 Nov: ESPNcricinfo 'Fastest fifties (by balls faced) in Tests' (where known): Misbah 21 (v Aus, Abu Dhabi 2014), Warner 23 (v Pak, Sydney 2017), Kallis 24 (v Zim, Cape Town 2005), Stokes 24 (v WI, Birmingham 2024), Shillingford 25 (v NZ, Kingston 2014); next three tied at 26. Wisden (28 Jul 2024) top 5 identical (gives Shillingford venue as Jamaica). Stokes is active: re-check no sub-25-ball Test fifty since before posting. 24 Nov: search shows no faster Test fifty since; held a day so it doesn't follow the 23 Nov 11-ball fifty.",
+      "notes": "23 Nov: ESPNcricinfo 'Fastest fifties (by balls faced) in Tests' (where known): Misbah 21 (v Aus, Abu Dhabi 2014), Warner 23 (v Pak, Sydney 2017), Kallis 24 (v Zim, Cape Town 2005), Stokes 24 (v WI, Birmingham 2024), Shillingford 25 (v NZ, Kingston 2014); next three tied at 26. Wisden (28 Jul 2024) top 5 identical (gives Shillingford venue as Jamaica). Stokes is active: re-check no sub-25-ball Test fifty since before posting. 24 Nov: search shows no faster Test fifty since; held a day so it doesn't follow the 23 Nov 11-ball fifty. 25 Nov: search again shows no faster Test fifty than 21 balls; scheduled.",
       "sources": [
         "https://www.espncricinfo.com/records/fastest-fifties-by-balls-faced-284096",
         "https://www.wisden.com/cricket-news/fastest-test-fifties-list-of-batters-with"
-      ]
+      ],
+      "title": "21 balls 🤯 The fastest fifty in Test history came from Misbah-ul-Haq, not Warner or Stokes",
+      "scheduled_for": "2026-11-25T17:30+05:30",
+      "metricool_id": 441197954,
+      "via": "metricool"
     },
     {
       "id": "card-priandana-5-wickets-one-over",
@@ -663,6 +667,25 @@
       "scheduled_for": "2026-11-24T21:30+05:30",
       "metricool_id": 439751080,
       "via": "metricool"
+    },
+    {
+      "id": "card-fastest-odi-hundreds-abd-31",
+      "kind": "card",
+      "created": "2026-11-25",
+      "priority": 80,
+      "expires": null,
+      "status": "ready",
+      "file": "shorts/ready/card-fastest-odi-hundreds-abd-31.mp4",
+      "facts_file": "shorts/ready/card-fastest-odi-hundreds-abd-31.json",
+      "suggested_title": "31 balls 🤯 AB de Villiers' ODI hundred is still the fastest ever, 11 years on",
+      "verified": true,
+      "wow": "A 31-ball ODI hundred (de Villiers v WI, 2015) has stood for over a decade; next best is 36 (Anderson) and Maxwell's World Cup blitz needed 40.",
+      "notes": "25 Nov: Howstat 'Fastest 100 ODI' table: de Villiers 31 (v WI, Wanderers, 18/01/2015), Anderson 36 (v WI, Queenstown, 01/01/2014), Afridi 37 (v SL, Gymkhana Club Ground [Nairobi], 04/10/1996), Maxwell 40 (v Ned, Arun Jaitley Stadium [Delhi], 25/10/2023), Asif Khan 41 (v Nep, Tribhuvan University Intl Ground [Kirtipur], 16/03/2023); 6th Boucher 44. WION (2 Jan 2026) and NewsX (1 Sep 2025) top 5 identical; NewsX gives Johannesburg and Nairobi. Howstat shows no 2025-26 entry under 47 balls. Maxwell and Asif Khan are active: re-check no sub-41-ball ODI hundred before posting.",
+      "sources": [
+        "https://howstat.com/Cricket/Statistics/Batting/BattingFastest100_ODI.asp",
+        "https://www.wionews.com/photos/from-ab-de-villiers-to-shahid-afridi-5-batters-to-score-fastest-odi-hundred-corey-anderson-glenn-maxwell-asif-khan-1767353116502",
+        "https://www.newsx.com/sports/top-5-fastest-centuries-in-odi-history-ab-de-villiers-corey-anderson-shahid-afridi-glenn-maxwell-asif-khan-56049"
+      ]
     }
   ]
 }

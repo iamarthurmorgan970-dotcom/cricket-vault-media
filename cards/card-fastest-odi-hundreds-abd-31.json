@@ -1,0 +1,15 @@
+{
+ "title": "Fastest hundred in ODI history",
+ "hook": "100 OFF 31 BALLS",
+ "unit": "BALLS",
+ "format": "ODI",
+ "as_of": "2026-11-25",
+ "rows": [
+  {"rank": 1, "player": "AB de Villiers", "team": "SA", "value": "31", "detail": "v WEST INDIES · JOHANNESBURG · 2015", "highlight": true},
+  {"rank": 2, "player": "Corey Anderson", "team": "NZ", "value": "36", "detail": "v WEST INDIES · QUEENSTOWN · 2014"},
+  {"rank": 3, "player": "Shahid Afridi", "team": "PAK", "value": "37", "detail": "v SRI LANKA · NAIROBI · 1996"},
+  {"rank": 4, "player": "Glenn Maxwell", "team": "AUS", "value": "40", "detail": "v NETHERLANDS · DELHI · 2023"},
+  {"rank": 5, "player": "Asif Khan", "team": "UAE", "value": "41", "detail": "v NEPAL · KIRTIPUR · 2023"}
+ ],
+ "footnote": "Source: Howstat ODI records; WION, 2 Jan 2026"
+}
