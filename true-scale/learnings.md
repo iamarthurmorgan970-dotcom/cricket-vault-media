@@ -33,11 +33,14 @@ weaker is an "early signal". Keep it under ~50 lines.
 - India reference points in world videos (012: "two-thirds of India"; 007: Atal Setu).
 - Comment prompts: "which would you pick?" (004/005) vs debate (006 "pump it or leave it?", 028 "legend or geology?")
   vs personal (013 "your state + its twin"). Compare comments per 1,000 views.
+- World "why" with a route/distance contrast and a live news beat (022 South America: 13,000 vs 5,200 miles;
+  Panama's Nov 2026 slot increase). Compare with 007 (same format, Gibraltar) once both have numbers.
 - Rock Wonders series now has two different formats (018 number hook, 028 geology "why"); India vs World has one
   (013). Give a series more slots only when its videos beat the channel's median CTR and views/day.
 
 ## History
 
+- 25 Nov 2026: still no Studio data (11th run); chose 022 Why ships don't sail around South America to rebalance after three India videos, with Panama's Nov 2026 capacity news and the Antarctic cruise season.
 - 24 Nov 2026: still no Studio data (10th run); chose 028 Hampi boulders for peak season, the 14 Nov ASI temple finds and a second Rock Wonders test.
 - 23 Nov 2026: still no Studio data (9th run); chose 013 Indian states vs countries to open the untested India-vs-World series (evergreen, every viewer has a state).
 - 20 Nov 2026: still no Studio data (8th run); chose 016 Gandikota for India-place balance, the Oct-Feb season and a nickname people already search, tested at true scale.

@@ -1,0 +1,17 @@
+0:00 s01_hook
+0:36 s02_title
+0:41 s03_wall
+1:07 s04_horn
+1:42 s05_drake
+2:22 s06_storms
+2:54 s07_bounty
+3:15 s08_clippers
+3:45 s09_magellan
+4:31 s10_dig
+5:01 s11_locks
+5:42 s12_distance
+6:12 s13_bigger
+6:51 s14_drought
+7:38 s15_today
+8:12 s16_who
+8:37 s17_outro
