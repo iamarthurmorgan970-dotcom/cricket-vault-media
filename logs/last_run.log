@@ -1,11 +1,9 @@
-started: 2026-11-24 02:32:28 UTC
-total 145856
-drwxr-xr-x  2 runner runner      4096 Nov 24 02:32 .
-drwxrwxrwt 12 root   root        4096 Nov 24 02:32 ..
--rw-r--r--  1 runner runner 149036509 Nov 24 02:32 all.zip
--rw-r--r--  1 runner runner    308676 Nov 24 02:32 recent.zip
-Today 2026-11-24; recent data: recent.zip
-Worm candidates since 2026-11-19: 0
-Players index: 3138 players
+started: 2026-11-25 02:34:44 UTC
+total 312
+drwxr-xr-x  2 runner runner   4096 Nov 25 02:34 .
+drwxrwxrwt 12 root   root     4096 Nov 25 02:34 ..
+-rw-r--r--  1 runner runner 308676 Nov 25 02:34 recent.zip
+Today 2026-11-25; recent data: recent.zip
+Worm candidates since 2026-11-20: 0
 Ready to schedule: 2 ['card-fastest-odi-double-hundreds', 'card-fastest-test-fifties-misbah-21']
-finished: 2026-11-24 02:33:14 UTC; render step outcome: success
+finished: 2026-11-25 02:34:58 UTC; render step outcome: success
