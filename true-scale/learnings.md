@@ -35,11 +35,15 @@ weaker is an "early signal". Keep it under ~50 lines.
   vs personal (013 "your state + its twin"). Compare comments per 1,000 views.
 - World "why" with a route/distance contrast and a live news beat (022 South America: 13,000 vs 5,200 miles;
   Panama's Nov 2026 slot increase). Compare with 007 (same format, Gibraltar) once both have numbers.
+- "How it's made" India place with a universal-curiosity title that doesn't need the place name (021 root bridges:
+  "THIS BRIDGE IS ALIVE" thumbnail) vs place-name-first titles (006, 016, 036). Compare CTR and non-India views.
+- Publish timing: suggested a weekend-morning slot for 021 (Sat 10-11 AM IST) vs the usual weekday 6-7 PM.
 - Rock Wonders series now has two different formats (018 number hook, 028 geology "why"); India vs World has one
   (013). Give a series more slots only when its videos beat the channel's median CTR and views/day.
 
 ## History
 
+- 26 Nov 2026: still no Studio data (12th run); chose 021 Meghalaya's living root bridges: broad-curiosity India place, UNESCO nomination under evaluation (2026-27 cycle), Oct-Mar season, and balance after 022 (world).
 - 25 Nov 2026: still no Studio data (11th run); chose 022 Why ships don't sail around South America to rebalance after three India videos, with Panama's Nov 2026 capacity news and the Antarctic cruise season.
 - 24 Nov 2026: still no Studio data (10th run); chose 028 Hampi boulders for peak season, the 14 Nov ASI temple finds and a second Rock Wonders test.
 - 23 Nov 2026: still no Studio data (9th run); chose 013 Indian states vs countries to open the untested India-vs-World series (evergreen, every viewer has a state).
