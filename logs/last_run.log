@@ -1,9 +1,10 @@
-started: 2026-11-25 02:34:44 UTC
-total 312
-drwxr-xr-x  2 runner runner   4096 Nov 25 02:34 .
-drwxrwxrwt 12 root   root     4096 Nov 25 02:34 ..
--rw-r--r--  1 runner runner 308676 Nov 25 02:34 recent.zip
-Today 2026-11-25; recent data: recent.zip
-Worm candidates since 2026-11-20: 0
-Ready to schedule: 2 ['card-fastest-odi-double-hundreds', 'card-fastest-test-fifties-misbah-21']
-finished: 2026-11-25 02:34:58 UTC; render step outcome: success
+started: 2026-11-26 02:33:51 UTC
+total 600
+drwxr-xr-x  2 runner runner   4096 Nov 26 02:34 .
+drwxrwxrwt 12 root   root     4096 Nov 26 02:34 ..
+-rw-r--r--  1 runner runner 604174 Nov 26 02:34 recent.zip
+Today 2026-11-26; recent data: recent.zip
+Worm candidates since 2026-11-21: 1
+  rendered thriller-1528706 (60): 11 off 6 to win… can AUS do it? 😳 ENG vs AUS last over
+Ready to schedule: 3 ['card-fastest-odi-double-hundreds', 'card-fastest-odi-hundreds-abd-31', 'thriller-1528706']
+finished: 2026-11-26 02:34:22 UTC; render step outcome: success

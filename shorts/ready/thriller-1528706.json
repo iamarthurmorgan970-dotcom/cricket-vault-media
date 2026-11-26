@@ -1,0 +1,112 @@
+{
+  "kind": "thriller",
+  "date": "2026-11-21",
+  "event": "England tour of Australia",
+  "match_number": 1,
+  "format": "T20I",
+  "match_type": "T20",
+  "team_type": "international",
+  "gender": "male",
+  "venue": "Melbourne Cricket Ground",
+  "city": "Melbourne",
+  "teams": [
+    "England",
+    "Australia"
+  ],
+  "result": "Australia won by 3 wickets",
+  "outcome": {
+    "winner": "Australia",
+    "by": {
+      "wickets": 3
+    }
+  },
+  "player_of_match": [
+    "Nikhil Chaudhary"
+  ],
+  "super_over": false,
+  "innings": [
+    {
+      "team": "England",
+      "runs": 187,
+      "wickets": 9,
+      "legal_balls": 120,
+      "overs": "20",
+      "declared": false,
+      "top_batters": [
+        {
+          "name": "HC Brook",
+          "runs": 65,
+          "balls": 28
+        },
+        {
+          "name": "T Banton",
+          "runs": 39,
+          "balls": 22
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "Nikhil Chaudhary",
+          "wickets": 2,
+          "conceded": 21
+        },
+        {
+          "name": "J Edwards",
+          "wickets": 2,
+          "conceded": 27
+        }
+      ]
+    },
+    {
+      "team": "Australia",
+      "runs": 191,
+      "wickets": 7,
+      "legal_balls": 119,
+      "overs": "19.5",
+      "declared": false,
+      "top_batters": [
+        {
+          "name": "Nikhil Chaudhary",
+          "runs": 66,
+          "balls": 38
+        },
+        {
+          "name": "MR Marsh",
+          "runs": 37,
+          "balls": 32
+        }
+      ],
+      "top_bowlers": [
+        {
+          "name": "WG Jacks",
+          "wickets": 2,
+          "conceded": 29
+        },
+        {
+          "name": "HT Crocombe",
+          "wickets": 1,
+          "conceded": 20
+        }
+      ]
+    }
+  ],
+  "chase": {
+    "target": 188,
+    "target_balls": 120,
+    "final_over_reached": true,
+    "needed_in_final_over": 11,
+    "chased": true,
+    "balls_to_spare": 1
+  },
+  "match_id": "1528706",
+  "on_screen_title": "AUS NEED 11 OFF 6",
+  "final_over": [
+    "6",
+    "2",
+    "0",
+    "2",
+    "4"
+  ],
+  "before_final_over": "177/7",
+  "top_bowler_wickets_before_final_over": 2
+}

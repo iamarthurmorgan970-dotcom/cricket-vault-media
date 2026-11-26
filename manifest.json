@@ -686,6 +686,18 @@
         "https://www.wionews.com/photos/from-ab-de-villiers-to-shahid-afridi-5-batters-to-score-fastest-odi-hundred-corey-anderson-glenn-maxwell-asif-khan-1767353116502",
         "https://www.newsx.com/sports/top-5-fastest-centuries-in-odi-history-ab-de-villiers-corey-anderson-shahid-afridi-glenn-maxwell-asif-khan-56049"
       ]
+    },
+    {
+      "id": "thriller-1528706",
+      "kind": "thriller",
+      "created": "2026-11-26",
+      "match_date": "2026-11-21",
+      "priority": 60,
+      "expires": "2026-11-25",
+      "suggested_title": "11 off 6 to win… can AUS do it? 😳 ENG vs AUS last over",
+      "status": "ready",
+      "file": "shorts/ready/thriller-1528706.mp4",
+      "facts_file": "shorts/ready/thriller-1528706.json"
     }
   ]
 }
