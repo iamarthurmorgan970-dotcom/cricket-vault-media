@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "FASTEST DOUBLE HUNDRED IN LIST A HISTORY",
+  "hook": "51 BALLS QUICKER THAN THE OLD RECORD",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "List A",
+  "data_through": "2026-11-25",
+  "highlight": "Vaibhav Sooryavanshi",
+  "footnote": "Source: CREX, 25 Nov 2026; ICC, 24 Nov 2026",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Vaibhav Sooryavanshi",
+      "display": "Vaibhav Sooryavanshi",
+      "team": "IND A",
+      "value": "52",
+      "detail": "v UAE · DOHA · 2026 · AGED 15",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Chad Bowes",
+      "display": "Chad Bowes",
+      "team": "CANT",
+      "value": "103",
+      "detail": "v OTAGO · 2024",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Travis Head",
+      "display": "Travis Head",
+      "team": "SA",
+      "value": "114",
+      "detail": "v QUEENSLAND · 2021",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Narayan Jagadeesan",
+      "display": "Narayan Jagadeesan",
+      "team": "TN",
+      "value": "114",
+      "detail": "v ARUNACHAL PRADESH · 2022",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Harry Brook",
+      "display": "Harry Brook",
+      "team": "ENG",
+      "value": "114",
+      "detail": "v SRI LANKA · 2026",
+      "in_progress": false
+    }
+  ]
+}
