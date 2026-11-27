@@ -37,12 +37,15 @@ weaker is an "early signal". Keep it under ~50 lines.
   Panama's Nov 2026 slot increase). Compare with 007 (same format, Gibraltar) once both have numbers.
 - "How it's made" India place with a universal-curiosity title that doesn't need the place name (021 root bridges:
   "THIS BRIDGE IS ALIVE" thumbnail) vs place-name-first titles (006, 016, 036). Compare CTR and non-India views.
+- Like-for-like "how big really" pair: 017 Antarctica vs 037 Oceans (both world true size, number-contrast hook,
+  thumbnail with one huge claim: "EVEREST SINKS HERE"). Compare CTR and % viewed once both have numbers.
 - Publish timing: suggested a weekend-morning slot for 021 (Sat 10-11 AM IST) vs the usual weekday 6-7 PM.
 - Rock Wonders series now has two different formats (018 number hook, 028 geology "why"); India vs World has one
   (013). Give a series more slots only when its videos beat the channel's median CTR and views/day.
 
 ## History
 
+- 27 Nov 2026: still no Studio data (13th run); chose 037 How big are the oceans, really? for India/world balance after 021, the channel's core true-size format (pairs with 017), and 2026 beats (28.7% mapped, High Seas Treaty in force).
 - 26 Nov 2026: still no Studio data (12th run); chose 021 Meghalaya's living root bridges: broad-curiosity India place, UNESCO nomination under evaluation (2026-27 cycle), Oct-Mar season, and balance after 022 (world).
 - 25 Nov 2026: still no Studio data (11th run); chose 022 Why ships don't sail around South America to rebalance after three India videos, with Panama's Nov 2026 capacity news and the Antarctic cruise season.
 - 24 Nov 2026: still no Studio data (10th run); chose 028 Hampi boulders for peak season, the 14 Nov ASI temple finds and a second Rock Wonders test.

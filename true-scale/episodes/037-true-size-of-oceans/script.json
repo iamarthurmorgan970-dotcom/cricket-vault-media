@@ -1,0 +1,92 @@
+[
+ {
+  "id": "s01_hook",
+  "text": "Take Mount Everest, the highest mountain on Earth, and drop it into the deepest part of the ocean. Its summit would still be about two kilometres under water. That's how deep the sea goes. And more than seventy percent of the ocean floor still hasn't been mapped. Today, we put all five oceans at true scale: how big they are, how deep they go, and how little of them we've actually seen.",
+  "hold": 1.0
+ },
+ {
+  "id": "s02_title",
+  "text": "How big are the oceans, really?",
+  "hold": 1.5
+ },
+ {
+  "id": "s03_planet",
+  "text": "Start with the whole planet. By Britannica's figures, seventy point eight percent of Earth's surface lies below sea level. Only twenty-nine point two percent is land. And the water isn't spread evenly. The ocean covers about sixty-one percent of the Northern Hemisphere, but about eighty-one percent of the Southern Hemisphere. Turn the globe to face the Pacific, and you see almost nothing but water.",
+  "hold": 3.0
+ },
+ {
+  "id": "s04_total",
+  "text": "Add it all up, and the world ocean covers about three hundred and sixty-two million square kilometres. It holds roughly one point three billion cubic kilometres of water. That's about ninety-seven percent of all the water on Earth's surface. Ice holds about two percent. Groundwater, lakes, rivers and the air share what's left.",
+  "hold": 3.0
+ },
+ {
+  "id": "s05_five",
+  "text": "Count five oceans, and they are wildly different sizes. The Pacific: about one hundred and sixty-nine million square kilometres. The Atlantic: eighty-five million. The Indian Ocean: seventy-one million. The Southern Ocean, the water around Antarctica south of sixty degrees: twenty-two million. And the Arctic: about sixteen million. Remember, though, it is all one connected body of water. The lines between the oceans are borders that people drew.",
+  "hold": 3.5
+ },
+ {
+  "id": "s06_pacific",
+  "text": "The Pacific alone is almost half of all the ocean on Earth, about forty-seven percent. Here is what that means. All of Earth's land, every continent and every island, adds up to roughly one hundred and forty-nine million square kilometres. The Pacific is bigger than all of it. In area, you could fit every piece of land on the planet inside the Pacific, and still have about twenty million square kilometres to spare.",
+  "hold": 3.0
+ },
+ {
+  "id": "s07_drop",
+  "text": "Let's test that with real shapes. Here is India, at its true size, moved into the middle of the Pacific. Watch how much blue is left around it. Now add Australia. Then China. Then the United States. Four of the biggest countries on Earth, side by side, and most of the Pacific is still empty water.",
+  "hold": 4.5
+ },
+ {
+  "id": "s08_volume",
+  "text": "But area is only half the story. The Pacific is also the deepest ocean on average, at about three thousand nine hundred and seventy metres. So it holds about six hundred and seventy million cubic kilometres of water. The Atlantic holds about three hundred and ten million, and the Indian Ocean about two hundred and sixty-four million. The Pacific holds more than twice as much water as the Atlantic.",
+  "hold": 3.0
+ },
+ {
+  "id": "s09_poles",
+  "text": "The two polar oceans are much smaller. The Southern Ocean, counted here as everything south of sixty degrees south, covers about twenty-two million square kilometres. The Arctic is the smallest, at about sixteen million. It's also by far the shallowest. Its average depth is only about one thousand two hundred metres, roughly a third of the world average.",
+  "hold": 2.5
+ },
+ {
+  "id": "s10_depth",
+  "text": "So how deep is the ocean on average? About three thousand seven hundred metres. That's around two fifths of the height of Everest, as an average, almost everywhere. Sources differ a little here. One oceanography textbook puts the average closer to three thousand eight hundred metres, depending on how the basins are measured. Either way, the typical seafloor is a long way down.",
+  "hold": 3.0
+ },
+ {
+  "id": "s11_trench",
+  "text": "And then there are the trenches. The deepest place we know of is the Challenger Deep, in the Mariana Trench in the western Pacific. Estimates of its depth range from about ten thousand nine hundred to just over eleven thousand metres. Britannica gives eleven thousand and thirty-four metres.",
+  "hold": 2.5
+ },
+ {
+  "id": "s12_everest",
+  "text": "Now bring in Everest, about eight thousand eight hundred and fifty metres tall. Stand it on the floor of the trench, and its summit stops about two kilometres below the waves. Even the lowest estimate of the trench leaves more than two thousand metres of water above the highest point on land.",
+  "hold": 3.5
+ },
+ {
+  "id": "s13_mapped",
+  "text": "Here is what surprises most people. In April twenty twenty-six, the Seabed twenty thirty project announced that only twenty-eight point seven percent of the world's ocean floor has been mapped. That's about one hundred and four million square kilometres. Almost five million square kilometres were added in a single year. At that pace, mapping the rest would take roughly fifty more years.",
+  "hold": 3.0
+ },
+ {
+  "id": "s14_seen",
+  "text": "And mapping is not the same as seeing. Figures reported by Scientific American put it this way: less than zero point zero zero one percent of the seafloor has ever been directly seen by scientists. We have sonar outlines of more than a quarter of the floor, and our own eyes on almost none of it.",
+  "hold": 2.5
+ },
+ {
+  "id": "s15_species",
+  "text": "So the ocean keeps surprising us. In one recent year, the Ocean Census Alliance announced one thousand one hundred and twenty-one new species, from thirteen expeditions and nine workshops. Seven hundred and twenty-eight of them came from specimens already sitting in museum collections. On average, more than thirteen years pass between collecting an animal and formally describing it. And in October, researchers announced fifty-seven new species from a single deep canyon off Argentina, more than three and a half kilometres deep.",
+  "hold": 3.0
+ },
+ {
+  "id": "s16_highseas",
+  "text": "Who owns all this water? Mostly, no one. Roughly two thirds of the ocean lies outside any single country's jurisdiction. These are the high seas. Less than one percent of the high seas is covered by marine protected areas. That's why the High Seas Treaty matters. It came into force on the seventeenth of January, twenty twenty-six, and its first conference of the parties is due within a year of that date.",
+  "hold": 2.5
+ },
+ {
+  "id": "s17_recap",
+  "text": "So, at true scale: one ocean, the Pacific, bigger than all the land on Earth. An average depth of about three point seven kilometres. A trench that swallows Everest with two kilometres to spare. And a seafloor we've mapped less than a third of, and seen with our own eyes almost none.",
+  "hold": 3.0
+ },
+ {
+  "id": "s18_outro",
+  "text": "Which fact surprised you most: the Pacific beating all the land, Everest vanishing in the trench, or how little we've mapped? Tell me in the comments. And subscribe to True Scale, for more of the world at its real size.",
+  "hold": 2.0
+ }
+]

@@ -1,0 +1,60 @@
+TRUE SCALE 037: How Big Are the Oceans, Really?   (length 8:14)
+
+TITLE OPTIONS (best first)
+1. How Big Are the Oceans, Really?
+2. Everest Would Vanish Here: The Oceans at True Scale
+3. The Pacific Is Bigger Than All the Land on Earth
+
+THUMBNAIL: out/thumbnail.png ("EVEREST / SINKS HERE / 2 KM TO SPARE", Everest standing in the trench)
+
+DESCRIPTION
+Drop Mount Everest into the deepest part of the ocean and its summit would still be about two kilometres under water.
+
+We put all five oceans at true scale on equal-area maps: how big each one really is, how much water they hold, how deep they go, why the Pacific is bigger than all the land on Earth combined, and how little of the seafloor anyone has mapped, or seen. Plus the 2026 news: Seabed 2030's latest mapping figure, new deep-sea species, and the High Seas Treaty coming into force.
+
+Which fact surprised you most: the Pacific beating all the land, Everest vanishing in the trench, or how little we've mapped? Tell me in the comments.
+
+Subscribe to True Scale for more of the world at its real size.
+
+CHAPTERS
+0:00 Everest under the sea
+0:27 How big are the oceans, really?
+0:32 How much of Earth is ocean
+1:03 All the water on Earth
+1:30 The five oceans by size
+2:05 The Pacific vs all the land on Earth
+2:37 Big countries dropped in the Pacific
+3:05 How much water each ocean holds
+3:36 The polar oceans
+4:05 How deep is the ocean on average?
+4:34 The Challenger Deep
+4:58 Everest in the trench
+5:23 Only 28.7% of the seafloor is mapped
+5:52 Mapped is not seen
+6:18 Still finding new species
+6:59 Who owns the ocean? The High Seas Treaty
+7:31 The oceans at true scale
+7:55 Your turn
+
+SOURCES
+- Britannica, "Ocean: Major subdivisions of the oceans" (areas, volumes, average depths from NOAA / Eakins & Sharman 2010; Mariana Trench 11,034 m; Everest 8,850 m; 70.8% of surface below sea level): https://www.britannica.com/science/ocean/Major-subdivisions-of-the-oceans
+- Webb, Introduction to Oceanography, 1.1 Overview of the Oceans (71% ocean; hemisphere shares; 97% of surface water; mean depth about 3,800 m; Challenger Deep): https://rwu.pressbooks.pub/webboceanography/chapter/1-1-overview-of-the-oceans/ and https://geo.libretexts.org/Bookshelves/Oceanography/Introduction_to_Oceanography_(Webb)/01%3A_Introduction_to_the_Oceans/1.01%3A_Overview_of_the_Oceans
+- IHO / Seabed 2030, 28 Apr 2026 (28.7% mapped, about 104 million km², almost 5 million km² added in a year): https://iho.int/en/global-seabed-mapping-reaches-new-milestone-as-five-million-square-kilometres-added-in-a-year
+- Scientific American, "Ocean census reveals more than 1,100 new species": https://www.scientificamerican.com/article/ocean-census-reveals-more-than-1-100-new-species/
+- BBC Wildlife / Discover Wildlife, 3 Oct 2026 (57 new species, Mar del Plata Canyon): https://www.discoverwildlife.com/animal-facts/marine-animals/deep-sea-species-discovery-workshop-argentina
+- WRI, High Seas Treaty explainer (about two thirds of the ocean beyond national jurisdiction; under 1% of high seas protected): https://www.wri.org/insights/high-seas-treaty-explainer
+- European Commission, 16 Jan 2026 (treaty in force 17 Jan 2026; first COP within a year): https://oceans-and-fisheries.ec.europa.eu/news/high-seas-treaty-enters-force-milestone-ocean-conservation-2026-01-16_en
+- Maps: Natural Earth (India shown with its official boundary). Ocean colours are a simplified classification; pins are approximate. Derived figures (land area from the 29.2% share, Pacific share, years to finish mapping) are calculated from the sources above.
+
+TAGS / KEYWORDS
+how big are the oceans, ocean size comparison, true size of the oceans, pacific ocean size, pacific ocean bigger than all land, mariana trench, challenger deep, everest in mariana trench, how deep is the ocean, average ocean depth, five oceans of the world, seafloor mapping, seabed 2030, high seas treaty, new deep sea species, ocean facts, geography facts, equal area map, true scale, world map true size
+
+HASHTAGS
+#Oceans #MarianaTrench #Geography #TrueScale #PacificOcean
+
+SUGGESTED PUBLISH TIME
+Sunday 29 Nov 2026, 10:00-11:00 AM IST if 021 (root bridges) goes up Saturday morning as suggested yesterday; otherwise Friday 27 Nov, 6:00-7:00 PM IST. (No audience-time data yet.)
+
+CATEGORY: Education
+MADE FOR KIDS: No
+Altered or synthetic content: narration is AI voice; all visuals are maps/charts (no realistic people or events).
