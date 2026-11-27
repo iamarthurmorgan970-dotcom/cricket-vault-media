@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "FASTEST HUNDRED IN TEST HISTORY",
+  "hook": "54 BALLS. IN HIS LAST TEST.",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "Test",
+  "data_through": "2026-11-27",
+  "highlight": "Brendon McCullum",
+  "footnote": "Source: ESPNcricinfo records; Howstat",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Brendon McCullum",
+      "display": "Brendon McCullum",
+      "team": "NZ",
+      "value": "54",
+      "detail": "v AUSTRALIA · CHRISTCHURCH · 2016",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Viv Richards",
+      "display": "Viv Richards",
+      "team": "WI",
+      "value": "56",
+      "detail": "v ENGLAND · ST JOHN'S · 1986",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Misbah-ul-Haq",
+      "display": "Misbah-ul-Haq",
+      "team": "PAK",
+      "value": "56",
+      "detail": "v AUSTRALIA · ABU DHABI · 2014",
+      "in_progress": false
+    },
+    {
+      "rank": 4,
+      "player": "Adam Gilchrist",
+      "display": "Adam Gilchrist",
+      "team": "AUS",
+      "value": "57",
+      "detail": "v ENGLAND · PERTH · 2006",
+      "in_progress": false
+    },
+    {
+      "rank": 5,
+      "player": "Jack Gregory",
+      "display": "Jack Gregory",
+      "team": "AUS",
+      "value": "67",
+      "detail": "v SOUTH AFRICA · JOHANNESBURG · 1921",
+      "in_progress": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "title": "Fastest hundred in Test history",
+ "hook": "54 BALLS. IN HIS LAST TEST.",
+ "unit": "BALLS",
+ "format": "Test",
+ "as_of": "2026-11-27",
+ "rows": [
+  {"rank": 1, "player": "Brendon McCullum", "team": "NZ", "value": "54", "detail": "v AUSTRALIA · CHRISTCHURCH · 2016", "highlight": true},
+  {"rank": 2, "player": "Viv Richards", "team": "WI", "value": "56", "detail": "v ENGLAND · ST JOHN'S · 1986"},
+  {"rank": 2, "player": "Misbah-ul-Haq", "team": "PAK", "value": "56", "detail": "v AUSTRALIA · ABU DHABI · 2014"},
+  {"rank": 4, "player": "Adam Gilchrist", "team": "AUS", "value": "57", "detail": "v ENGLAND · PERTH · 2006"},
+  {"rank": 5, "player": "Jack Gregory", "team": "AUS", "value": "67", "detail": "v SOUTH AFRICA · JOHANNESBURG · 1921"}
+ ],
+ "footnote": "Source: ESPNcricinfo records; Howstat"
+}

@@ -674,18 +674,22 @@
    "created": "2026-11-25",
    "priority": 80,
    "expires": null,
-   "status": "ready",
+   "status": "scheduled",
    "file": "shorts/ready/card-fastest-odi-hundreds-abd-31.mp4",
    "facts_file": "shorts/ready/card-fastest-odi-hundreds-abd-31.json",
    "suggested_title": "31 balls 🤯 AB de Villiers' ODI hundred is still the fastest ever, 11 years on",
    "verified": true,
    "wow": "A 31-ball ODI hundred (de Villiers v WI, 2015) has stood for over a decade; next best is 36 (Anderson) and Maxwell's World Cup blitz needed 40.",
-   "notes": "25 Nov: Howstat 'Fastest 100 ODI' table: de Villiers 31 (v WI, Wanderers, 18/01/2015), Anderson 36 (v WI, Queenstown, 01/01/2014), Afridi 37 (v SL, Gymkhana Club Ground [Nairobi], 04/10/1996), Maxwell 40 (v Ned, Arun Jaitley Stadium [Delhi], 25/10/2023), Asif Khan 41 (v Nep, Tribhuvan University Intl Ground [Kirtipur], 16/03/2023); 6th Boucher 44. WION (2 Jan 2026) and NewsX (1 Sep 2025) top 5 identical; NewsX gives Johannesburg and Nairobi. Howstat shows no 2025-26 entry under 47 balls. Maxwell and Asif Khan are active: re-check no sub-41-ball ODI hundred before posting.",
+   "notes": "25 Nov: Howstat 'Fastest 100 ODI' table: de Villiers 31 (v WI, Wanderers, 18/01/2015), Anderson 36 (v WI, Queenstown, 01/01/2014), Afridi 37 (v SL, Gymkhana Club Ground [Nairobi], 04/10/1996), Maxwell 40 (v Ned, Arun Jaitley Stadium [Delhi], 25/10/2023), Asif Khan 41 (v Nep, Tribhuvan University Intl Ground [Kirtipur], 16/03/2023); 6th Boucher 44. WION (2 Jan 2026) and NewsX (1 Sep 2025) top 5 identical; NewsX gives Johannesburg and Nairobi. Howstat shows no 2025-26 entry under 47 balls. Maxwell and Asif Khan are active: re-check no sub-41-ball ODI hundred before posting. 27 Nov: search shows no faster ODI hundred since (CricTracker web story: record unbroken after 11 years); top 5 unchanged. Scheduled via manual upload (Metricool 20/20 Nov used).",
    "sources": [
     "https://howstat.com/Cricket/Statistics/Batting/BattingFastest100_ODI.asp",
     "https://www.wionews.com/photos/from-ab-de-villiers-to-shahid-afridi-5-batters-to-score-fastest-odi-hundred-corey-anderson-glenn-maxwell-asif-khan-1767353116502",
-    "https://www.newsx.com/sports/top-5-fastest-centuries-in-odi-history-ab-de-villiers-corey-anderson-shahid-afridi-glenn-maxwell-asif-khan-56049"
-   ]
+    "https://www.newsx.com/sports/top-5-fastest-centuries-in-odi-history-ab-de-villiers-corey-anderson-shahid-afridi-glenn-maxwell-asif-khan-56049",
+    "https://www.crictracker.com/web-stories/abd-record-unbroken-after-11-years"
+   ],
+   "title": "31 balls 🤯 AB de Villiers' ODI hundred is still the fastest ever, 11 years on",
+   "scheduled_for": "2026-11-27T19:30+05:30",
+   "via": "manual"
   },
   {
    "id": "thriller-1528706",
@@ -724,6 +728,25 @@
    "scheduled_for": "2026-11-26T13:00+05:30",
    "metricool_id": 442600265,
    "via": "metricool"
+  },
+  {
+   "id": "card-fastest-test-hundreds-mccullum-54",
+   "kind": "card",
+   "created": "2026-11-27",
+   "priority": 80,
+   "expires": null,
+   "status": "ready",
+   "file": "shorts/ready/card-fastest-test-hundreds-mccullum-54.mp4",
+   "facts_file": "shorts/ready/card-fastest-test-hundreds-mccullum-54.json",
+   "suggested_title": "54 balls 🤯 The fastest hundred in Test history came in Brendon McCullum's LAST Test",
+   "verified": true,
+   "wow": "Brendon McCullum hit the fastest Test hundred ever (54 balls v Australia, Christchurch, Feb 2016) in his final international match; Viv Richards and Misbah needed 56.",
+   "notes": "27 Nov: ESPNcricinfo 'Fastest hundreds (by balls faced) in Tests': McCullum 54 (NZ v Aus, Christchurch 2015/16), Richards 56 (WI v Eng, St John's 1985/86), Misbah 56 (Pak v Aus, Abu Dhabi 2014/15), Gilchrist 57 (Aus v Eng, Perth 2006/07), Gregory 67 (Aus v SA, Johannesburg 1921/22); 6th Chanderpaul/Warner/Head 69. Howstat top 5 identical with dates (McCullum 20/02/2016, Richards 11/04/1986, Misbah 30/10/2014, Gilchrist 14/12/2006, Gregory 12/11/1921). 'Last Test': cricket.com.au 'reaches triple figures from just 54 balls in his final international match'. All top 5 retired. Misbah also tops the Test-fifty card (posted 25 Nov): space it out.",
+   "sources": [
+    "https://www.espncricinfo.com/records/fastest-hundreds-by-balls-faced-210170",
+    "https://howstat.com/cricket/Statistics/Batting/BattingFastest100.asp",
+    "https://www.cricket.com.au/news/3276415"
+   ]
   }
  ]
 }
