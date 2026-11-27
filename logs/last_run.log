@@ -1,10 +1,7 @@
-started: 2026-11-26 02:33:51 UTC
-total 600
-drwxr-xr-x  2 runner runner   4096 Nov 26 02:34 .
-drwxrwxrwt 12 root   root     4096 Nov 26 02:34 ..
--rw-r--r--  1 runner runner 604174 Nov 26 02:34 recent.zip
-Today 2026-11-26; recent data: recent.zip
-Worm candidates since 2026-11-21: 1
-  rendered thriller-1528706 (60): 11 off 6 to win… can AUS do it? 😳 ENG vs AUS last over
-Ready to schedule: 3 ['card-fastest-odi-double-hundreds', 'card-fastest-odi-hundreds-abd-31', 'thriller-1528706']
-finished: 2026-11-26 02:34:22 UTC; render step outcome: success
+started: 2026-11-27 02:33:14 UTC
+total 20
+drwxr-xr-x  2 runner runner  4096 Nov 27 02:33 .
+drwxrwxrwt 12 root   root    4096 Nov 27 02:33 ..
+-rw-r--r--  1 runner runner 12138 Nov 27 02:33 recent.zip
+No usable Cricsheet data was downloaded.
+finished: 2026-11-27 02:33:25 UTC; render step outcome: failure
