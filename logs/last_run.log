@@ -1,7 +1,7 @@
-started: 2026-11-27 02:33:14 UTC
+started: 2026-11-28 02:29:48 UTC
 total 20
-drwxr-xr-x  2 runner runner  4096 Nov 27 02:33 .
-drwxrwxrwt 12 root   root    4096 Nov 27 02:33 ..
--rw-r--r--  1 runner runner 12138 Nov 27 02:33 recent.zip
+drwxr-xr-x  2 runner runner  4096 Nov 28 02:29 .
+drwxrwxrwt 13 root   root    4096 Nov 28 02:29 ..
+-rw-r--r--  1 runner runner 12087 Nov 28 02:29 recent.zip
 No usable Cricsheet data was downloaded.
-finished: 2026-11-27 02:33:25 UTC; render step outcome: failure
+finished: 2026-11-28 02:29:59 UTC; render step outcome: failure
