@@ -1,0 +1,60 @@
+{
+  "kind": "card",
+  "on_screen_title": "FASTEST FIFTY IN T20I HISTORY",
+  "hook": "9 BALLS. YUVRAJ NEEDED 12.",
+  "by": null,
+  "metric": null,
+  "milestone": null,
+  "format": "T20I",
+  "data_through": "2026-11-28",
+  "highlight": "Dipendra Singh Airee",
+  "footnote": "Source: Howstat T20I fastest fifties; Wisden",
+  "verified_spec": true,
+  "rows": [
+    {
+      "rank": 1,
+      "player": "Dipendra Singh Airee",
+      "display": "Dipendra Singh Airee",
+      "team": "NEP",
+      "value": "9",
+      "detail": "v MONGOLIA · HANGZHOU · 2023",
+      "in_progress": false
+    },
+    {
+      "rank": 2,
+      "player": "Yuvraj Singh",
+      "display": "Yuvraj Singh",
+      "team": "IND",
+      "value": "12",
+      "detail": "v ENGLAND · DURBAN · 2007",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Mirza Ahsan",
+      "display": "Mirza Ahsan",
+      "team": "AUT",
+      "value": "13",
+      "detail": "v LUXEMBOURG · ILFOV · 2019",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Tadiwanashe Marumani",
+      "display": "Tadiwanashe Marumani",
+      "team": "ZIM",
+      "value": "13",
+      "detail": "v GAMBIA · NAIROBI · 2024",
+      "in_progress": false
+    },
+    {
+      "rank": 3,
+      "player": "Muhammad Fahad",
+      "display": "Muhammad Fahad",
+      "team": "TUR",
+      "value": "13",
+      "detail": "v BULGARIA · SOFIA · 2025",
+      "in_progress": false
+    }
+  ]
+}

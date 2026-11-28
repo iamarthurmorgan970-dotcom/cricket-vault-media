@@ -1,0 +1,15 @@
+{
+ "title": "Fastest fifty in T20I history",
+ "hook": "9 BALLS. YUVRAJ NEEDED 12.",
+ "unit": "BALLS",
+ "format": "T20I",
+ "as_of": "2026-11-28",
+ "rows": [
+  {"rank": 1, "player": "Dipendra Singh Airee", "team": "NEP", "value": "9", "detail": "v MONGOLIA · HANGZHOU · 2023", "highlight": true},
+  {"rank": 2, "player": "Yuvraj Singh", "team": "IND", "value": "12", "detail": "v ENGLAND · DURBAN · 2007"},
+  {"rank": 3, "player": "Mirza Ahsan", "team": "AUT", "value": "13", "detail": "v LUXEMBOURG · ILFOV · 2019"},
+  {"rank": 3, "player": "Tadiwanashe Marumani", "team": "ZIM", "value": "13", "detail": "v GAMBIA · NAIROBI · 2024"},
+  {"rank": 3, "player": "Muhammad Fahad", "team": "TUR", "value": "13", "detail": "v BULGARIA · SOFIA · 2025"}
+ ],
+ "footnote": "Source: Howstat T20I fastest fifties; Wisden"
+}

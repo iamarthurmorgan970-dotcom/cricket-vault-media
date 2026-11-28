@@ -747,6 +747,28 @@
     "https://howstat.com/cricket/Statistics/Batting/BattingFastest100.asp",
     "https://www.cricket.com.au/news/3276415"
    ]
+  },
+  {
+   "id": "card-fastest-t20i-fifties-airee-9",
+   "kind": "card",
+   "created": "2026-11-28",
+   "priority": 80,
+   "expires": null,
+   "status": "scheduled",
+   "file": "shorts/ready/card-fastest-t20i-fifties-airee-9.mp4",
+   "facts_file": "shorts/ready/card-fastest-t20i-fifties-airee-9.json",
+   "suggested_title": "9 balls 🤯 The fastest T20I fifty ever beat Yuvraj's 12, and it came from Nepal",
+   "verified": true,
+   "wow": "Nepal's Dipendra Singh Airee hit a 9-ball T20I fifty (v Mongolia, 2023), beating Yuvraj Singh's legendary 12-ball record by 3 balls.",
+   "notes": "28 Nov: Howstat 'T20 Internationals - Fastest Fifties (Balls Faced)' top 5: Airee 9 (Nep v Mongolia, 27/09/2023), Yuvraj 12 (Ind v Eng, Kingsmead 19/09/2007), Mirza Ahsan 13 (Aut v Lux, Moara Vlasiei 31/08/2019), T Marumani 13 (Zim v Gambia, Ruaraka 23/10/2024), Muhammad Fahad 13 (Tur v Bul, Vassil Levski NSA 12/07/2025). Wisden (Feb 2025) list agrees on top 3 (Airee 9, Yuvraj 12, Mirza Ahsan 13). Searches show no faster T20I fifty since. Third 'fastest fifty' card in a week (Sooryavanshi 23 Nov, Misbah 25 Nov): chosen for the smallest number + Yuvraj twist. Manual upload (Metricool 20/20 Nov).",
+   "sources": [
+    "https://howstat.com/cricket/statistics/Batting/BattingFastest50_T20.asp",
+    "https://wisden.com/series/india-vs-england-m-2025/cricket-news/fastest-mens-t20i-fifties-full-list-abhishek-sharma-breaks-indian-opening-record-ind-vs-eng",
+    "https://en.wikipedia.org/wiki/Dipendra_Singh_Airee"
+   ],
+   "title": "9 balls 🤯 The fastest T20I fifty ever beat Yuvraj's 12, and it came from Nepal",
+   "scheduled_for": "2026-11-28T17:30+05:30",
+   "via": "manual"
   }
  ]
 }
